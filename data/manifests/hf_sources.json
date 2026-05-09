@@ -10,31 +10,31 @@
       "status": "gated_public"
     },
     {
-      "notes": "Best current ASR/TTS speech source because it has train/dev/test splits.",
-      "release_policy": "duplicate_to_new_canonical_repo",
+      "notes": "Processed train/dev/test derivative created from Orpheus; excluded from canonical release after audio quality review.",
+      "release_policy": "reference_only_do_not_publish_as_canonical",
       "repo_id": "JosueG/adja-tts-mms-ready",
       "repo_type": "dataset",
       "revision_at_release": "6cd68acc139c2a032367f25f6292d4ccfa19ea4e",
-      "role": "speech_source_for_duplication",
+      "role": "speech_derivative_not_release_source",
       "status": "private_source"
     },
     {
-      "notes": "Earlier speech dataset source used by existing model cards.",
-      "release_policy": "reference_only_do_not_mutate",
+      "notes": "Canonical upstream Adja speech source: 1,597 text/audio rows at 48 kHz.",
+      "release_policy": "duplicate_to_new_canonical_repo",
       "repo_id": "JosueG/adja-tts-orpheus",
       "repo_type": "dataset",
-      "revision_at_release": "not_captured",
-      "role": "speech_provenance",
+      "revision_at_release": "5b77536822c3cb173d83214204f59d6df6c12529",
+      "role": "canonical_speech_source_for_duplication",
       "status": "private_source"
     }
   ],
-  "generated_at": "2026-05-09T15:02:38.979124+00:00",
+  "generated_at": "2026-05-09T15:15:20.059892+00:00",
   "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
   "local_source_repos": [
     {
       "path_hint": "neurosymbolic-ai-paper-experiments",
       "release_policy": "copy_publishable_subset_only",
-      "revision_at_release": "63c4ce98572512d3e84ff1704950a740337ee169",
+      "revision_at_release": "a94b5be770c6808acaf779516c5d6eba1abc11a2",
       "role": "mt_experiment_workspace"
     },
     {
@@ -106,11 +106,12 @@
       "status": "private_results_dump"
     }
   ],
-  "source_revision": "63c4ce98572512d3e84ff1704950a740337ee169",
+  "source_revision": "a94b5be770c6808acaf779516c5d6eba1abc11a2",
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
-    "dataset_bundle": "JosueG/cs-thesis-may-2026-data",
     "hf_collection": "JosueG/cs-thesis-may-2026",
+    "retired_dataset": "JosueG/cs-thesis-may-2026-data",
+    "speech_dataset": "JosueG/adja-speech-asr-tts",
     "tts_results": "JosueG/cs-thesis-may-2026-tts-results"
   }
 }

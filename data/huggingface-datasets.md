@@ -7,15 +7,15 @@
 This is the existing canonical French-Adja parallel corpus. It remains unchanged
 by this release.
 
-## Canonical Thesis Dataset Bundle
+## Canonical Adja Speech Dataset
 
-Target repo: `JosueG/cs-thesis-may-2026-data`
+Target repo: `JosueG/adja-speech-asr-tts`
 
-Planned components:
+Current component:
 
-- `text/french-adja-parallel-corpus/`: README/reference to the existing MT corpus.
-- `text/french-adja-parallel-corpus-part2/`: reserved for additional translated MT data.
-- `speech/adja-asr-tts/`: duplicated speech dataset from `JosueG/adja-tts-mms-ready`.
+- `adja_speech_orpheus_48khz`: duplicated speech dataset from `JosueG/adja-tts-orpheus`.
 - `manifests/`: source revisions, checksums, row counts, schemas, and access policy.
 
-The source repos are read-only inputs.
+The source repos are read-only inputs. The retired `JosueG/cs-thesis-may-2026-data`
+dataset was created from `JosueG/adja-tts-mms-ready` and is not the canonical
+speech release.

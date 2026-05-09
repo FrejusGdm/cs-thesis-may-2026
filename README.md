@@ -1,12 +1,16 @@
 # CS Thesis May 2026
 
-Curated public release for the French-Adja machine translation and Adja speech
-experiments supporting the May 2026 CS thesis.
+This repository is the public artifact trail for two years of work on Adja
+language technology: grammar-guided French-Adja machine translation, speech
+recognition, text-to-speech, and speech-to-text-to-speech experiments. It is
+part research archive, part reproducibility bundle, and part map of the many
+failed, partial, and useful paths that led to the May 2026 CS thesis.
 
-This repository is a clean release surface generated from the private research
-workspace. It contains publishable code, reproducibility documentation, result
-summaries, data manifests, and model indexes. Large datasets and model weights
-live on Hugging Face.
+The goal is not to pretend the work was linear. The goal is to make the real
+artifact inspectable: the datasets, training scripts, evaluation reports,
+model links, pipeline attempts, hard lessons, and cleanup decisions that turn a
+private research workspace into something other people can audit and build on.
+Large datasets and model weights live on Hugging Face.
 
 ## Layout
 
@@ -16,10 +20,21 @@ live on Hugging Face.
 - `results/`: thesis-facing MT, ASR, TTS, and S2TT result summaries plus result-repo consolidation notes.
 - `docs/`: reproducibility, ethics, data access, and experiment-framework documentation.
 
+## Why This Exists
+
+Adja is a low-resource Gbe language with very little public NLP or speech
+infrastructure. This release collects the thesis-facing artifacts behind a
+larger question: how much useful language technology can be built when the
+available data is small, locally assembled, and uneven, but carefully designed?
+
+The repository therefore includes polished pieces and rough edges. Some folders
+show the final thesis path. Others show negative results, infrastructure notes,
+and model attempts that explain why the final choices were made.
+
 ## Canonical Artifact Policy
 
 Existing Hugging Face repos are treated as immutable inputs. This release does
 not rename, move, delete, make public, or edit any existing repo used by active
 training runs. New canonical artifacts are created by duplication or export.
 
-Generated from private workspace revision `63c4ce98572512d3e84ff1704950a740337ee169` at `2026-05-09T15:02:38.979124+00:00`.
+Generated from private workspace revision `a94b5be770c6808acaf779516c5d6eba1abc11a2` at `2026-05-09T15:15:20.059892+00:00`.

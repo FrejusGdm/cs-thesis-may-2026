@@ -11,12 +11,14 @@ repository.
 
 ## Thesis Speech Dataset
 
-The release speech dataset should be duplicated into a new canonical thesis
-dataset repo from `JosueG/adja-tts-mms-ready`. The source repo is read-only for
-this release.
+The release speech dataset is `JosueG/adja-speech-asr-tts`, duplicated from
+the Orpheus source repo `JosueG/adja-tts-orpheus`. The source repo is read-only
+for this release.
 
 The speech component should be described as an Adja ASR dataset that is also
-usable for TTS because it contains paired text/audio and a small speaker set.
+usable for TTS because it contains paired text/audio. The `adja-tts-mms-ready`
+repo is a processed train/dev/test derivative and is documented as provenance,
+not as the canonical public source, after audio quality review.
 
 ## Future MT Additions
 

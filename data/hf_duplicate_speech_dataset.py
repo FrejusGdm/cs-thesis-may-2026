@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Duplicate the Adja speech dataset into the canonical thesis dataset repo.
+"""Duplicate the Orpheus Adja speech dataset into the canonical public repo.
 
 Default mode is dry-run. Pass --apply to create/upload.
 
-This script reads from JosueG/adja-tts-mms-ready and writes only to a new target
-repo. It never mutates the source repo.
+This script reads from JosueG/adja-tts-orpheus and writes only to a new target
+repo. It never mutates the source repo or the processed MMS-ready derivative.
 """
 
 from __future__ import annotations
@@ -17,8 +17,8 @@ from datasets import load_dataset
 from huggingface_hub import HfApi, create_repo
 
 
-SOURCE_REPO = "JosueG/adja-tts-mms-ready"
-DEFAULT_TARGET_REPO = "JosueG/cs-thesis-may-2026-data"
+SOURCE_REPO = "JosueG/adja-tts-orpheus"
+DEFAULT_TARGET_REPO = "JosueG/adja-speech-asr-tts"
 
 
 def main() -> None:
@@ -47,7 +47,10 @@ def main() -> None:
         "duplicated_at": datetime.now(timezone.utc).isoformat(),
         "splits": {split: int(len(part)) for split, part in ds.items()},
         "schema": {split: list(part.features.keys()) for split, part in ds.items()},
-        "policy": "source repo is read-only; target repo is the canonical thesis duplicate",
+        "audio_note": "Orpheus source audio is stored as 48 kHz arrays and is pushed without resampling.",
+        "excluded_derivative_repo": "JosueG/adja-tts-mms-ready",
+        "excluded_derivative_reason": "processed derivative had bad/noisy Hugging Face playback during release review",
+        "policy": "source repo is read-only; target repo is the canonical public Adja speech duplicate",
     }
     print(manifest)
 
@@ -60,8 +63,8 @@ def main() -> None:
     # Store speech as a config name so future text components can coexist.
     ds.push_to_hub(
         args.target_repo,
-        config_name="speech_adja_asr_tts",
-        commit_message="Add duplicated Adja ASR/TTS speech dataset component",
+        config_name="adja_speech_orpheus_48khz",
+        commit_message="Add Orpheus Adja speech dataset component",
     )
 
     tmp = Path("hf_release_manifest_speech_adja_asr_tts.json")
@@ -75,14 +78,14 @@ def main() -> None:
     )
     tmp.unlink(missing_ok=True)
 
-    card = Path("data/hf_cards/cs-thesis-may-2026-data.README.md")
+    card = Path("data/hf_cards/adja-speech-asr-tts.README.md")
     if card.exists():
         api.upload_file(
             path_or_fileobj=str(card),
             path_in_repo="README.md",
             repo_id=args.target_repo,
             repo_type="dataset",
-            commit_message="Add canonical thesis dataset card",
+            commit_message="Add Adja speech dataset card",
         )
 
 
