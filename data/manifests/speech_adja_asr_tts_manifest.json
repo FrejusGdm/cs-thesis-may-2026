@@ -1,0 +1,31 @@
+{
+  "component": "speech/adja-asr-tts",
+  "hf_config_name": "speech_adja_asr_tts",
+  "policy": "source repo is read-only; target repo is the canonical thesis duplicate",
+  "schema": {
+    "dev": [
+      "text",
+      "audio",
+      "speaker_id"
+    ],
+    "test": [
+      "text",
+      "audio",
+      "speaker_id"
+    ],
+    "train": [
+      "text",
+      "audio",
+      "speaker_id"
+    ]
+  },
+  "source_repo": "JosueG/adja-tts-mms-ready",
+  "source_revision": "6cd68acc139c2a032367f25f6292d4ccfa19ea4e",
+  "splits": {
+    "dev": 160,
+    "test": 160,
+    "train": 1277
+  },
+  "target_repo": "JosueG/cs-thesis-may-2026-data",
+  "target_revision_after_manifest_upload": "e57140df7fa58b5a44212c8404b5ab1909afeb91"
+}

@@ -34,11 +34,14 @@ def main() -> None:
     print(f"Target repo: {args.target_repo}")
     print(f"Visibility on create: {'private' if args.private else 'public'}")
 
+    api = HfApi()
+    source_info = api.repo_info(repo_id=args.source_repo, repo_type="dataset")
     ds = load_dataset(args.source_repo)
     print(ds)
 
     manifest = {
         "source_repo": args.source_repo,
+        "source_revision": source_info.sha,
         "target_repo": args.target_repo,
         "component": "speech/adja-asr-tts",
         "duplicated_at": datetime.now(timezone.utc).isoformat(),
@@ -52,7 +55,6 @@ def main() -> None:
         print("Dry run only. Re-run with --apply after README/card review.")
         return
 
-    api = HfApi()
     create_repo(args.target_repo, repo_type="dataset", private=args.private, exist_ok=True)
 
     # Store speech as a config name so future text components can coexist.

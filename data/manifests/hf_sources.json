@@ -5,6 +5,7 @@
       "release_policy": "reference_only_do_not_mutate",
       "repo_id": "JosueG/french-adja-parallel-corpus",
       "repo_type": "dataset",
+      "revision_at_release": "27bb3dac051661ececb122e72b06008f1aba0e03",
       "role": "canonical_mt_existing",
       "status": "gated_public"
     },
@@ -13,6 +14,7 @@
       "release_policy": "duplicate_to_new_canonical_repo",
       "repo_id": "JosueG/adja-tts-mms-ready",
       "repo_type": "dataset",
+      "revision_at_release": "6cd68acc139c2a032367f25f6292d4ccfa19ea4e",
       "role": "speech_source_for_duplication",
       "status": "private_source"
     },
@@ -21,6 +23,7 @@
       "release_policy": "reference_only_do_not_mutate",
       "repo_id": "JosueG/adja-tts-orpheus",
       "repo_type": "dataset",
+      "revision_at_release": "not_captured",
       "role": "speech_provenance",
       "status": "private_source"
     }
@@ -93,6 +96,7 @@
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
     "dataset_bundle": "JosueG/cs-thesis-may-2026-data",
+    "dataset_bundle_revision_after_manifest_upload": "e57140df7fa58b5a44212c8404b5ab1909afeb91",
     "hf_collection": "JosueG/cs-thesis-may-2026",
     "tts_results": "JosueG/cs-thesis-may-2026-tts-results"
   }
