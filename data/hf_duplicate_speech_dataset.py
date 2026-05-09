@@ -73,6 +73,16 @@ def main() -> None:
     )
     tmp.unlink(missing_ok=True)
 
+    card = Path("data/hf_cards/cs-thesis-may-2026-data.README.md")
+    if card.exists():
+        api.upload_file(
+            path_or_fileobj=str(card),
+            path_in_repo="README.md",
+            repo_id=args.target_repo,
+            repo_type="dataset",
+            commit_message="Add canonical thesis dataset card",
+        )
+
 
 if __name__ == "__main__":
     main()
