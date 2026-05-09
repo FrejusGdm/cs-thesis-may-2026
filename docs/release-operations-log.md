@@ -34,3 +34,19 @@ artifacts.
 When an artifact is public-facing, prefer clear task-specific names over thesis
 bundle names. The GitHub repo can be the broad thesis archive; datasets should
 say what they actually are.
+
+## 2026-05-09: Lightweight Model And Results Cleanup
+
+- Prepared thesis-final model cards for the two NLLB MT models, C4v2 XLS-R
+  ASR, E4v4 Whisper-Ewe ASR, and Spark T3 TTS.
+- Selected the two NLLB repos and Spark T3 repo for public visibility.
+- Kept ASR repos public and improved their cards instead of creating duplicate
+  model repos.
+- Added `results/thesis-results-map.md` as the public navigation layer for
+  best models, experiment archive, datasets, result dumps, checkpoints, and
+  generated audio.
+- Added an Orpheus audio audit helper to export WAV examples and diagnose
+  whether MMS-ready noise came from resampling, dtype/range interpretation,
+  codec reconstruction, or dataset materialization.
+- Created Hugging Face collection:
+  `JosueG/cs-thesis-may-2026-69ff55e45e0d5b0eb7fa4344`.

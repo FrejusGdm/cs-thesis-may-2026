@@ -28,13 +28,13 @@
       "status": "private_source"
     }
   ],
-  "generated_at": "2026-05-09T15:18:38.237972+00:00",
+  "generated_at": "2026-05-09T15:44:10.898918+00:00",
   "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
   "local_source_repos": [
     {
       "path_hint": "neurosymbolic-ai-paper-experiments",
       "release_policy": "copy_publishable_subset_only",
-      "revision_at_release": "95d2f3ace8b0b7d85e2e88e81b269e71fdfb5fb1",
+      "revision_at_release": "eb84dbbe5483d35481ece2edf553fbc59a105474",
       "role": "mt_experiment_workspace"
     },
     {
@@ -44,36 +44,63 @@
       "role": "speech_and_pipeline_workspace"
     }
   ],
+  "model_card_repos": [
+    "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42",
+    "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42",
+    "JosueG/wav2vec2-xlsr-adja-c4v2",
+    "JosueG/whisper-ewe-adja-e4v4",
+    "JosueG/spark-tts-adja-t3"
+  ],
+  "model_repos_to_make_public": [
+    "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42",
+    "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42",
+    "JosueG/spark-tts-adja-t3"
+  ],
   "models": [
     {
+      "base_model": "facebook/nllb-200-distilled-600M",
+      "headline_result": "Seed-42 NLLB-600M French-to-Adja thesis-final checkpoint; module/full-corpus runs reach about 21-22 BLEU and 29 chrF on the held-out MT evaluation.",
       "notes": "French to Adja NLLB-600M candidate release model.",
       "repo_id": "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42",
-      "status": "candidate_final_private",
-      "task": "machine_translation"
+      "status": "thesis_final_publish_public",
+      "task": "machine_translation",
+      "training_dataset": "French-Adja thesis corpus lineage; public reference: JosueG/french-adja-parallel-corpus"
     },
     {
+      "base_model": "facebook/nllb-200-distilled-600M",
+      "headline_result": "Seed-42 NLLB-600M Adja-to-French thesis-final checkpoint used for reverse MT and speech-pipeline translation.",
       "notes": "Adja to French NLLB-600M candidate release model.",
       "repo_id": "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42",
-      "status": "candidate_final_private",
-      "task": "machine_translation"
+      "status": "thesis_final_publish_public",
+      "task": "machine_translation",
+      "training_dataset": "French-Adja thesis corpus lineage; public reference: JosueG/french-adja-parallel-corpus"
     },
     {
+      "base_model": "facebook/wav2vec2-xls-r-300m",
+      "headline_result": "Best deployable Adja ASR surface: C4v2 greedy CER 25.05%; C4v2 + character LM normalized CER 22.67%, normalized WER 70.76%.",
       "notes": "Wav2Vec2 XLS-R Adja CTC ASR model.",
       "repo_id": "JosueG/wav2vec2-xlsr-adja-c4v2",
-      "status": "public_candidate",
-      "task": "asr_stt"
+      "status": "public_thesis_final",
+      "task": "asr_stt",
+      "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
     },
     {
+      "base_model": "openai/whisper-small lineage fine-tuned on Ewe before Adja transfer",
+      "headline_result": "Deployable Whisper-Ewe-to-Adja reproduction: best dev CER 37.18%, WER 83.61%; useful as a complementary ASR judge with hallucination caveats.",
       "notes": "Whisper Ewe to Adja ASR transfer model.",
       "repo_id": "JosueG/whisper-ewe-adja-e4v4",
-      "status": "public_candidate",
-      "task": "asr_stt"
+      "status": "public_thesis_final",
+      "task": "asr_stt",
+      "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
     },
     {
+      "base_model": "unsloth/Spark-TTS-0.5B lineage",
+      "headline_result": "Best thesis TTS family: Spark T3 produced intelligible Adja; canonical T3 reverse-CER 36.14% with C4v2 and 28.92% with E4v4.",
       "notes": "Spark TTS Adja candidate release model.",
       "repo_id": "JosueG/spark-tts-adja-t3",
-      "status": "candidate_final_private",
-      "task": "tts"
+      "status": "thesis_final_publish_public",
+      "task": "tts",
+      "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
     }
   ],
   "results": [
@@ -106,10 +133,12 @@
       "status": "private_results_dump"
     }
   ],
-  "source_revision": "95d2f3ace8b0b7d85e2e88e81b269e71fdfb5fb1",
+  "source_revision": "eb84dbbe5483d35481ece2edf553fbc59a105474",
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
-    "hf_collection": "JosueG/cs-thesis-may-2026",
+    "hf_collection_actual_slug": "JosueG/cs-thesis-may-2026-69ff55e45e0d5b0eb7fa4344",
+    "hf_collection_slug_hint": "JosueG/cs-thesis-may-2026",
+    "hf_collection_title": "CS Thesis May 2026",
     "retired_dataset": "JosueG/cs-thesis-may-2026-data",
     "speech_dataset": "JosueG/adja-speech-asr-tts",
     "tts_results": "JosueG/cs-thesis-may-2026-tts-results"

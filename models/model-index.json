@@ -1,32 +1,47 @@
 [
   {
+    "base_model": "facebook/nllb-200-distilled-600M",
+    "headline_result": "Seed-42 NLLB-600M French-to-Adja thesis-final checkpoint; module/full-corpus runs reach about 21-22 BLEU and 29 chrF on the held-out MT evaluation.",
     "notes": "French to Adja NLLB-600M candidate release model.",
     "repo_id": "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42",
-    "status": "candidate_final_private",
-    "task": "machine_translation"
+    "status": "thesis_final_publish_public",
+    "task": "machine_translation",
+    "training_dataset": "French-Adja thesis corpus lineage; public reference: JosueG/french-adja-parallel-corpus"
   },
   {
+    "base_model": "facebook/nllb-200-distilled-600M",
+    "headline_result": "Seed-42 NLLB-600M Adja-to-French thesis-final checkpoint used for reverse MT and speech-pipeline translation.",
     "notes": "Adja to French NLLB-600M candidate release model.",
     "repo_id": "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42",
-    "status": "candidate_final_private",
-    "task": "machine_translation"
+    "status": "thesis_final_publish_public",
+    "task": "machine_translation",
+    "training_dataset": "French-Adja thesis corpus lineage; public reference: JosueG/french-adja-parallel-corpus"
   },
   {
+    "base_model": "facebook/wav2vec2-xls-r-300m",
+    "headline_result": "Best deployable Adja ASR surface: C4v2 greedy CER 25.05%; C4v2 + character LM normalized CER 22.67%, normalized WER 70.76%.",
     "notes": "Wav2Vec2 XLS-R Adja CTC ASR model.",
     "repo_id": "JosueG/wav2vec2-xlsr-adja-c4v2",
-    "status": "public_candidate",
-    "task": "asr_stt"
+    "status": "public_thesis_final",
+    "task": "asr_stt",
+    "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
   },
   {
+    "base_model": "openai/whisper-small lineage fine-tuned on Ewe before Adja transfer",
+    "headline_result": "Deployable Whisper-Ewe-to-Adja reproduction: best dev CER 37.18%, WER 83.61%; useful as a complementary ASR judge with hallucination caveats.",
     "notes": "Whisper Ewe to Adja ASR transfer model.",
     "repo_id": "JosueG/whisper-ewe-adja-e4v4",
-    "status": "public_candidate",
-    "task": "asr_stt"
+    "status": "public_thesis_final",
+    "task": "asr_stt",
+    "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
   },
   {
+    "base_model": "unsloth/Spark-TTS-0.5B lineage",
+    "headline_result": "Best thesis TTS family: Spark T3 produced intelligible Adja; canonical T3 reverse-CER 36.14% with C4v2 and 28.92% with E4v4.",
     "notes": "Spark TTS Adja candidate release model.",
     "repo_id": "JosueG/spark-tts-adja-t3",
-    "status": "candidate_final_private",
-    "task": "tts"
+    "status": "thesis_final_publish_public",
+    "task": "tts",
+    "training_dataset": "JosueG/adja-speech-asr-tts / Orpheus Adja speech lineage"
   }
 ]

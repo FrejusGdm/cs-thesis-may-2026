@@ -1,10 +1,26 @@
 # Hugging Face Results Map
 
+This pass does not create new result repos or copy checkpoints. It makes the
+best model artifacts public, improves public cards, and adds a single map for
+where results live.
+
+## Public Best Artifacts
+
+- MT forward: `JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42`
+- MT reverse: `JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42`
+- ASR primary: `JosueG/wav2vec2-xlsr-adja-c4v2`
+- ASR complementary: `JosueG/whisper-ewe-adja-e4v4`
+- TTS primary: `JosueG/spark-tts-adja-t3`
+
 ## Current Source Repos
 
-- `JosueG/adja-asr-results`: ASR result/checkpoint dump, currently private.
-- `JosueG/adja-tts-results`: TTS result/checkpoint/audio dump, exists in both model and dataset forms.
-- `JosueG/adja-mt-results-private`: MT result/checkpoint dump, currently private.
+- `JosueG/adja-asr-results`: ASR result/checkpoint dump, private provenance.
+- `JosueG/adja-tts-results`: TTS result/checkpoint/audio dump, private provenance
+  in both model and dataset forms.
+- `JosueG/adja-mt-results-private`: MT result/checkpoint dump, private
+  provenance.
+- `JosueG/adja-tts-checkpoints`: TTS checkpoint provenance.
+- `JosueG/qwen3-adja-results`: Qwen ASR/MT experimental provenance.
 
 ## Planned Canonical Result Repos
 
@@ -23,3 +39,6 @@ Recommended structure for each canonical result repo:
 - `predictions/`: selected predictions or decode samples safe for release.
 - `artifacts/`: small non-sensitive generated examples.
 - `manifests/`: source repo IDs, revisions, checksums, export date.
+
+Until those exports exist, use `results/thesis-results-map.md` in this GitHub
+release as the public navigation layer.
