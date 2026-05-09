@@ -32,7 +32,13 @@ The component is useful for ASR because each row pairs Adja text with speech,
 and useful for TTS because the same pairs can train or evaluate speech
 synthesis models.
 
-Splits:
+Release split policy:
+
+- No new train/dev/test split is created for the public dataset.
+- The full Orpheus corpus is published as the single Hugging Face `train`
+  partition because that is the source dataset shape.
+
+HF partition:
 
 - `train`: 1,597 rows
 

@@ -4,7 +4,11 @@
   "excluded_derivative_reason": "processed derivative sounded incorrect in Hugging Face playback review",
   "excluded_derivative_repo": "JosueG/adja-tts-mms-ready",
   "hf_config_name": "adja_speech_orpheus_48khz",
+  "hf_splits": {
+    "train": 1597
+  },
   "policy": "source repo is read-only; target repo is the canonical public Adja speech duplicate",
+  "release_split_policy": "no new train/dev/test split; keep the full Orpheus corpus as the single Hugging Face train partition",
   "schema": {
     "train": [
       "text",
@@ -13,9 +17,6 @@
   },
   "source_repo": "JosueG/adja-tts-orpheus",
   "source_revision": "5b77536822c3cb173d83214204f59d6df6c12529",
-  "splits": {
-    "train": 1597
-  },
   "target_repo": "JosueG/adja-speech-asr-tts",
   "target_revision_after_publish": "db4da3824020752eb9ee62d80f0d8d483785e414"
 }

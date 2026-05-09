@@ -37,4 +37,4 @@ Existing Hugging Face repos are treated as immutable inputs. This release does
 not rename, move, delete, make public, or edit any existing repo used by active
 training runs. New canonical artifacts are created by duplication or export.
 
-Generated from private workspace revision `a94b5be770c6808acaf779516c5d6eba1abc11a2` at `2026-05-09T15:15:20.059892+00:00`.
+Generated from private workspace revision `95d2f3ace8b0b7d85e2e88e81b269e71fdfb5fb1` at `2026-05-09T15:18:38.237972+00:00`.

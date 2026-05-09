@@ -25,8 +25,9 @@ artifacts.
   `db4da3824020752eb9ee62d80f0d8d483785e414`.
 - Replacement source: `JosueG/adja-tts-orpheus` at revision
   `5b77536822c3cb173d83214204f59d6df6c12529`.
-- Replacement dataset keeps the Orpheus source representation: train split,
-  1,597 rows, `text` and `audio`, 48 kHz source audio arrays.
+- Replacement dataset keeps the Orpheus source representation: one unsplit
+  1,597-row corpus exposed as the single Hugging Face `train` partition,
+  with `text`, `audio`, and 48 kHz source audio arrays.
 
 ## Standing Rule
 

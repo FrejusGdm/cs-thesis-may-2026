@@ -19,7 +19,7 @@
       "status": "private_source"
     },
     {
-      "notes": "Canonical upstream Adja speech source: 1,597 text/audio rows at 48 kHz.",
+      "notes": "Canonical upstream Adja speech source: one unsplit 1,597-row text/audio corpus at 48 kHz.",
       "release_policy": "duplicate_to_new_canonical_repo",
       "repo_id": "JosueG/adja-tts-orpheus",
       "repo_type": "dataset",
@@ -28,13 +28,13 @@
       "status": "private_source"
     }
   ],
-  "generated_at": "2026-05-09T15:15:20.059892+00:00",
+  "generated_at": "2026-05-09T15:18:38.237972+00:00",
   "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
   "local_source_repos": [
     {
       "path_hint": "neurosymbolic-ai-paper-experiments",
       "release_policy": "copy_publishable_subset_only",
-      "revision_at_release": "a94b5be770c6808acaf779516c5d6eba1abc11a2",
+      "revision_at_release": "95d2f3ace8b0b7d85e2e88e81b269e71fdfb5fb1",
       "role": "mt_experiment_workspace"
     },
     {
@@ -106,7 +106,7 @@
       "status": "private_results_dump"
     }
   ],
-  "source_revision": "a94b5be770c6808acaf779516c5d6eba1abc11a2",
+  "source_revision": "95d2f3ace8b0b7d85e2e88e81b269e71fdfb5fb1",
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
     "hf_collection": "JosueG/cs-thesis-may-2026",
