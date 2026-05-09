@@ -1,0 +1,28 @@
+# Experiment 4: Cross-Verb Generalization
+# Inherits from base_config.yaml
+
+experiment:
+  name: exp4_cross_verb_generalization
+  description: >
+    Train on one run's verbs, test on the other's.
+    Tests whether structural templates transfer across lexical content.
+
+conditions:
+  - name: RUN1_TRAIN_RUN2_TEST
+    data:
+      train_source: structured_run1  # ~1,982 sentences, 10 verbs
+      test_source: structured_run2   # Use Run-2 as additional test set
+    run1_verbs: [manger, boire, voir, aller, venir, faire, avoir, prendre, donner, vouloir]
+    run2_verbs: [aimer, acheter, chercher, trouver, parler, savoir, mettre, laisser, apporter, montrer]
+
+  - name: RUN2_TRAIN_RUN1_TEST
+    data:
+      train_source: structured_run2  # ~2,284 sentences, 10 verbs
+      test_source: structured_run1
+
+  - name: COMBINED_HELDOUT
+    data:
+      train_source: structured_combined_90pct  # 90% of combined
+      test_source: structured_combined_10pct   # 10% held out, balanced across runs
+
+seeds: [42, 123, 456, 789, 1024]

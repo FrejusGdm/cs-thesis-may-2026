@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, data, models, or results, please cite the thesis/paper."
+title: "CS Thesis May 2026: French-Adja MT and Adja Speech Experiments"
+authors:
+  - family-names: "Godeme"
+    given-names: "Josue"
+year: 2026
+license: MIT
+repository-code: "https://github.com/FrejusGdm/cs-thesis-may-2026"

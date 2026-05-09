@@ -1,0 +1,2314 @@
+============================================================
+MODULE1_BASE (480 sentences)
+============================================================
+
+1. j'aime le riz
+2. j'aime le pain
+3. j'aime le poisson
+4. j'aime la viande
+5. j'aime mon ami
+6. j'aime ma famille
+7. tu aimes le riz
+8. tu aimes le pain
+9. tu aimes le poisson
+10. tu aimes la viande
+11. tu aimes mon ami
+12. tu aimes ma famille
+13. il aime le riz
+14. il aime le pain
+15. il aime le poisson
+16. il aime la viande
+17. il aime mon ami
+18. il aime ma famille
+19. elle aime le riz
+20. elle aime le pain
+21. elle aime le poisson
+22. elle aime la viande
+23. elle aime mon ami
+24. elle aime ma famille
+25. nous aimons le riz
+26. nous aimons le pain
+27. nous aimons le poisson
+28. nous aimons la viande
+29. nous aimons mon ami
+30. nous aimons ma famille
+31. vous aimez le riz
+32. vous aimez le pain
+33. vous aimez le poisson
+34. vous aimez la viande
+35. vous aimez mon ami
+36. vous aimez ma famille
+37. ils aiment le riz
+38. ils aiment le pain
+39. ils aiment le poisson
+40. ils aiment la viande
+41. ils aiment mon ami
+42. ils aiment ma famille
+43. elles aiment le riz
+44. elles aiment le pain
+45. elles aiment le poisson
+46. elles aiment la viande
+47. elles aiment mon ami
+48. elles aiment ma famille
+49. j'achète du riz
+50. j'achète du pain
+51. j'achète du poisson
+52. j'achète de la viande
+53. j'achète des fruits
+54. j'achète un livre
+55. tu achètes du riz
+56. tu achètes du pain
+57. tu achètes du poisson
+58. tu achètes de la viande
+59. tu achètes des fruits
+60. tu achètes un livre
+61. il achète du riz
+62. il achète du pain
+63. il achète du poisson
+64. il achète de la viande
+65. il achète des fruits
+66. il achète un livre
+67. elle achète du riz
+68. elle achète du pain
+69. elle achète du poisson
+70. elle achète de la viande
+71. elle achète des fruits
+72. elle achète un livre
+73. nous achetons du riz
+74. nous achetons du pain
+75. nous achetons du poisson
+76. nous achetons de la viande
+77. nous achetons des fruits
+78. nous achetons un livre
+79. vous achetez du riz
+80. vous achetez du pain
+81. vous achetez du poisson
+82. vous achetez de la viande
+83. vous achetez des fruits
+84. vous achetez un livre
+85. ils achètent du riz
+86. ils achètent du pain
+87. ils achètent du poisson
+88. ils achètent de la viande
+89. ils achètent des fruits
+90. ils achètent un livre
+91. elles achètent du riz
+92. elles achètent du pain
+93. elles achètent du poisson
+94. elles achètent de la viande
+95. elles achètent des fruits
+96. elles achètent un livre
+97. je cherche mon ami
+98. je cherche le livre
+99. je cherche le stylo
+100. je cherche le travail
+101. je cherche mon père
+102. je cherche l'enfant
+103. tu cherches mon ami
+104. tu cherches le livre
+105. tu cherches le stylo
+106. tu cherches le travail
+107. tu cherches mon père
+108. tu cherches l'enfant
+109. il cherche mon ami
+110. il cherche le livre
+111. il cherche le stylo
+112. il cherche le travail
+113. il cherche mon père
+114. il cherche l'enfant
+115. elle cherche mon ami
+116. elle cherche le livre
+117. elle cherche le stylo
+118. elle cherche le travail
+119. elle cherche mon père
+120. elle cherche l'enfant
+121. nous cherchons mon ami
+122. nous cherchons le livre
+123. nous cherchons le stylo
+124. nous cherchons le travail
+125. nous cherchons mon père
+126. nous cherchons l'enfant
+127. vous cherchez mon ami
+128. vous cherchez le livre
+129. vous cherchez le stylo
+130. vous cherchez le travail
+131. vous cherchez mon père
+132. vous cherchez l'enfant
+133. ils cherchent mon ami
+134. ils cherchent le livre
+135. ils cherchent le stylo
+136. ils cherchent le travail
+137. ils cherchent mon père
+138. ils cherchent l'enfant
+139. elles cherchent mon ami
+140. elles cherchent le livre
+141. elles cherchent le stylo
+142. elles cherchent le travail
+143. elles cherchent mon père
+144. elles cherchent l'enfant
+145. je trouve le livre
+146. je trouve le stylo
+147. je trouve mon ami
+148. je trouve le travail
+149. je trouve de l'argent
+150. je trouve la maison
+151. tu trouves le livre
+152. tu trouves le stylo
+153. tu trouves mon ami
+154. tu trouves le travail
+155. tu trouves de l'argent
+156. tu trouves la maison
+157. il trouve le livre
+158. il trouve le stylo
+159. il trouve mon ami
+160. il trouve le travail
+161. il trouve de l'argent
+162. il trouve la maison
+163. elle trouve le livre
+164. elle trouve le stylo
+165. elle trouve mon ami
+166. elle trouve le travail
+167. elle trouve de l'argent
+168. elle trouve la maison
+169. nous trouvons le livre
+170. nous trouvons le stylo
+171. nous trouvons mon ami
+172. nous trouvons le travail
+173. nous trouvons de l'argent
+174. nous trouvons la maison
+175. vous trouvez le livre
+176. vous trouvez le stylo
+177. vous trouvez mon ami
+178. vous trouvez le travail
+179. vous trouvez de l'argent
+180. vous trouvez la maison
+181. ils trouvent le livre
+182. ils trouvent le stylo
+183. ils trouvent mon ami
+184. ils trouvent le travail
+185. ils trouvent de l'argent
+186. ils trouvent la maison
+187. elles trouvent le livre
+188. elles trouvent le stylo
+189. elles trouvent mon ami
+190. elles trouvent le travail
+191. elles trouvent de l'argent
+192. elles trouvent la maison
+193. je parle français
+194. je parle adja
+195. je parle anglais
+196. je parle avec mon ami
+197. je parle avec le professeur
+198. je parle avec ma mère
+199. tu parles français
+200. tu parles adja
+201. tu parles anglais
+202. tu parles avec mon ami
+203. tu parles avec le professeur
+204. tu parles avec ma mère
+205. il parle français
+206. il parle adja
+207. il parle anglais
+208. il parle avec mon ami
+209. il parle avec le professeur
+210. il parle avec ma mère
+211. elle parle français
+212. elle parle adja
+213. elle parle anglais
+214. elle parle avec mon ami
+215. elle parle avec le professeur
+216. elle parle avec ma mère
+217. nous parlons français
+218. nous parlons adja
+219. nous parlons anglais
+220. nous parlons avec mon ami
+221. nous parlons avec le professeur
+222. nous parlons avec ma mère
+223. vous parlez français
+224. vous parlez adja
+225. vous parlez anglais
+226. vous parlez avec mon ami
+227. vous parlez avec le professeur
+228. vous parlez avec ma mère
+229. ils parlent français
+230. ils parlent adja
+231. ils parlent anglais
+232. ils parlent avec mon ami
+233. ils parlent avec le professeur
+234. ils parlent avec ma mère
+235. elles parlent français
+236. elles parlent adja
+237. elles parlent anglais
+238. elles parlent avec mon ami
+239. elles parlent avec le professeur
+240. elles parlent avec ma mère
+241. je sais la vérité
+242. je sais la réponse
+243. je sais le chemin
+244. je sais lire
+245. je sais écrire
+246. je sais parler français
+247. tu sais la vérité
+248. tu sais la réponse
+249. tu sais le chemin
+250. tu sais lire
+251. tu sais écrire
+252. tu sais parler français
+253. il sait la vérité
+254. il sait la réponse
+255. il sait le chemin
+256. il sait lire
+257. il sait écrire
+258. il sait parler français
+259. elle sait la vérité
+260. elle sait la réponse
+261. elle sait le chemin
+262. elle sait lire
+263. elle sait écrire
+264. elle sait parler français
+265. nous savons la vérité
+266. nous savons la réponse
+267. nous savons le chemin
+268. nous savons lire
+269. nous savons écrire
+270. nous savons parler français
+271. vous savez la vérité
+272. vous savez la réponse
+273. vous savez le chemin
+274. vous savez lire
+275. vous savez écrire
+276. vous savez parler français
+277. ils savent la vérité
+278. ils savent la réponse
+279. ils savent le chemin
+280. ils savent lire
+281. ils savent écrire
+282. ils savent parler français
+283. elles savent la vérité
+284. elles savent la réponse
+285. elles savent le chemin
+286. elles savent lire
+287. elles savent écrire
+288. elles savent parler français
+289. je mets le livre sur la table
+290. je mets le pain dans le sac
+291. je mets l'eau dans le verre
+292. je mets le stylo dans le sac
+293. je mets les vêtements dans la maison
+294. je mets le cadeau sur la table
+295. tu mets le livre sur la table
+296. tu mets le pain dans le sac
+297. tu mets l'eau dans le verre
+298. tu mets le stylo dans le sac
+299. tu mets les vêtements dans la maison
+300. tu mets le cadeau sur la table
+301. il met le livre sur la table
+302. il met le pain dans le sac
+303. il met l'eau dans le verre
+304. il met le stylo dans le sac
+305. il met les vêtements dans la maison
+306. il met le cadeau sur la table
+307. elle met le livre sur la table
+308. elle met le pain dans le sac
+309. elle met l'eau dans le verre
+310. elle met le stylo dans le sac
+311. elle met les vêtements dans la maison
+312. elle met le cadeau sur la table
+313. nous mettons le livre sur la table
+314. nous mettons le pain dans le sac
+315. nous mettons l'eau dans le verre
+316. nous mettons le stylo dans le sac
+317. nous mettons les vêtements dans la maison
+318. nous mettons le cadeau sur la table
+319. vous mettez le livre sur la table
+320. vous mettez le pain dans le sac
+321. vous mettez l'eau dans le verre
+322. vous mettez le stylo dans le sac
+323. vous mettez les vêtements dans la maison
+324. vous mettez le cadeau sur la table
+325. ils mettent le livre sur la table
+326. ils mettent le pain dans le sac
+327. ils mettent l'eau dans le verre
+328. ils mettent le stylo dans le sac
+329. ils mettent les vêtements dans la maison
+330. ils mettent le cadeau sur la table
+331. elles mettent le livre sur la table
+332. elles mettent le pain dans le sac
+333. elles mettent l'eau dans le verre
+334. elles mettent le stylo dans le sac
+335. elles mettent les vêtements dans la maison
+336. elles mettent le cadeau sur la table
+337. je laisse le livre
+338. je laisse mon ami
+339. je laisse l'enfant à la maison
+340. je laisse le sac
+341. je laisse le travail
+342. je laisse la maison
+343. tu laisses le livre
+344. tu laisses mon ami
+345. tu laisses l'enfant à la maison
+346. tu laisses le sac
+347. tu laisses le travail
+348. tu laisses la maison
+349. il laisse le livre
+350. il laisse mon ami
+351. il laisse l'enfant à la maison
+352. il laisse le sac
+353. il laisse le travail
+354. il laisse la maison
+355. elle laisse le livre
+356. elle laisse mon ami
+357. elle laisse l'enfant à la maison
+358. elle laisse le sac
+359. elle laisse le travail
+360. elle laisse la maison
+361. nous laissons le livre
+362. nous laissons mon ami
+363. nous laissons l'enfant à la maison
+364. nous laissons le sac
+365. nous laissons le travail
+366. nous laissons la maison
+367. vous laissez le livre
+368. vous laissez mon ami
+369. vous laissez l'enfant à la maison
+370. vous laissez le sac
+371. vous laissez le travail
+372. vous laissez la maison
+373. ils laissent le livre
+374. ils laissent mon ami
+375. ils laissent l'enfant à la maison
+376. ils laissent le sac
+377. ils laissent le travail
+378. ils laissent la maison
+379. elles laissent le livre
+380. elles laissent mon ami
+381. elles laissent l'enfant à la maison
+382. elles laissent le sac
+383. elles laissent le travail
+384. elles laissent la maison
+385. j'apporte le livre
+386. j'apporte de l'eau
+387. j'apporte du pain
+388. j'apporte le cadeau
+389. j'apporte les fruits
+390. j'apporte le travail
+391. tu apportes le livre
+392. tu apportes de l'eau
+393. tu apportes du pain
+394. tu apportes le cadeau
+395. tu apportes les fruits
+396. tu apportes le travail
+397. il apporte le livre
+398. il apporte de l'eau
+399. il apporte du pain
+400. il apporte le cadeau
+401. il apporte les fruits
+402. il apporte le travail
+403. elle apporte le livre
+404. elle apporte de l'eau
+405. elle apporte du pain
+406. elle apporte le cadeau
+407. elle apporte les fruits
+408. elle apporte le travail
+409. nous apportons le livre
+410. nous apportons de l'eau
+411. nous apportons du pain
+412. nous apportons le cadeau
+413. nous apportons les fruits
+414. nous apportons le travail
+415. vous apportez le livre
+416. vous apportez de l'eau
+417. vous apportez du pain
+418. vous apportez le cadeau
+419. vous apportez les fruits
+420. vous apportez le travail
+421. ils apportent le livre
+422. ils apportent de l'eau
+423. ils apportent du pain
+424. ils apportent le cadeau
+425. ils apportent les fruits
+426. ils apportent le travail
+427. elles apportent le livre
+428. elles apportent de l'eau
+429. elles apportent du pain
+430. elles apportent le cadeau
+431. elles apportent les fruits
+432. elles apportent le travail
+433. je montre le livre
+434. je montre la maison
+435. je montre le chemin
+436. je montre mon ami
+437. je montre le travail
+438. je montre le cadeau
+439. tu montres le livre
+440. tu montres la maison
+441. tu montres le chemin
+442. tu montres mon ami
+443. tu montres le travail
+444. tu montres le cadeau
+445. il montre le livre
+446. il montre la maison
+447. il montre le chemin
+448. il montre mon ami
+449. il montre le travail
+450. il montre le cadeau
+451. elle montre le livre
+452. elle montre la maison
+453. elle montre le chemin
+454. elle montre mon ami
+455. elle montre le travail
+456. elle montre le cadeau
+457. nous montrons le livre
+458. nous montrons la maison
+459. nous montrons le chemin
+460. nous montrons mon ami
+461. nous montrons le travail
+462. nous montrons le cadeau
+463. vous montrez le livre
+464. vous montrez la maison
+465. vous montrez le chemin
+466. vous montrez mon ami
+467. vous montrez le travail
+468. vous montrez le cadeau
+469. ils montrent le livre
+470. ils montrent la maison
+471. ils montrent le chemin
+472. ils montrent mon ami
+473. ils montrent le travail
+474. ils montrent le cadeau
+475. elles montrent le livre
+476. elles montrent la maison
+477. elles montrent le chemin
+478. elles montrent mon ami
+479. elles montrent le travail
+480. elles montrent le cadeau
+
+
+============================================================
+MODULE2_NEGATION (480 sentences)
+============================================================
+
+481. je n'aime pas le riz
+482. je n'aime pas le pain
+483. je n'aime pas le poisson
+484. je n'aime pas la viande
+485. je n'aime pas mon ami
+486. je n'aime pas ma famille
+487. tu n'aimes pas le riz
+488. tu n'aimes pas le pain
+489. tu n'aimes pas le poisson
+490. tu n'aimes pas la viande
+491. tu n'aimes pas mon ami
+492. tu n'aimes pas ma famille
+493. il n'aime pas le riz
+494. il n'aime pas le pain
+495. il n'aime pas le poisson
+496. il n'aime pas la viande
+497. il n'aime pas mon ami
+498. il n'aime pas ma famille
+499. elle n'aime pas le riz
+500. elle n'aime pas le pain
+501. elle n'aime pas le poisson
+502. elle n'aime pas la viande
+503. elle n'aime pas mon ami
+504. elle n'aime pas ma famille
+505. nous n'aimons pas le riz
+506. nous n'aimons pas le pain
+507. nous n'aimons pas le poisson
+508. nous n'aimons pas la viande
+509. nous n'aimons pas mon ami
+510. nous n'aimons pas ma famille
+511. vous n'aimez pas le riz
+512. vous n'aimez pas le pain
+513. vous n'aimez pas le poisson
+514. vous n'aimez pas la viande
+515. vous n'aimez pas mon ami
+516. vous n'aimez pas ma famille
+517. ils n'aiment pas le riz
+518. ils n'aiment pas le pain
+519. ils n'aiment pas le poisson
+520. ils n'aiment pas la viande
+521. ils n'aiment pas mon ami
+522. ils n'aiment pas ma famille
+523. elles n'aiment pas le riz
+524. elles n'aiment pas le pain
+525. elles n'aiment pas le poisson
+526. elles n'aiment pas la viande
+527. elles n'aiment pas mon ami
+528. elles n'aiment pas ma famille
+529. je n'achète pas du riz
+530. je n'achète pas du pain
+531. je n'achète pas du poisson
+532. je n'achète pas de la viande
+533. je n'achète pas des fruits
+534. je n'achète pas un livre
+535. tu n'achètes pas du riz
+536. tu n'achètes pas du pain
+537. tu n'achètes pas du poisson
+538. tu n'achètes pas de la viande
+539. tu n'achètes pas des fruits
+540. tu n'achètes pas un livre
+541. il n'achète pas du riz
+542. il n'achète pas du pain
+543. il n'achète pas du poisson
+544. il n'achète pas de la viande
+545. il n'achète pas des fruits
+546. il n'achète pas un livre
+547. elle n'achète pas du riz
+548. elle n'achète pas du pain
+549. elle n'achète pas du poisson
+550. elle n'achète pas de la viande
+551. elle n'achète pas des fruits
+552. elle n'achète pas un livre
+553. nous n'achetons pas du riz
+554. nous n'achetons pas du pain
+555. nous n'achetons pas du poisson
+556. nous n'achetons pas de la viande
+557. nous n'achetons pas des fruits
+558. nous n'achetons pas un livre
+559. vous n'achetez pas du riz
+560. vous n'achetez pas du pain
+561. vous n'achetez pas du poisson
+562. vous n'achetez pas de la viande
+563. vous n'achetez pas des fruits
+564. vous n'achetez pas un livre
+565. ils n'achètent pas du riz
+566. ils n'achètent pas du pain
+567. ils n'achètent pas du poisson
+568. ils n'achètent pas de la viande
+569. ils n'achètent pas des fruits
+570. ils n'achètent pas un livre
+571. elles n'achètent pas du riz
+572. elles n'achètent pas du pain
+573. elles n'achètent pas du poisson
+574. elles n'achètent pas de la viande
+575. elles n'achètent pas des fruits
+576. elles n'achètent pas un livre
+577. je ne cherche pas mon ami
+578. je ne cherche pas le livre
+579. je ne cherche pas le stylo
+580. je ne cherche pas le travail
+581. je ne cherche pas mon père
+582. je ne cherche pas l'enfant
+583. tu ne cherches pas mon ami
+584. tu ne cherches pas le livre
+585. tu ne cherches pas le stylo
+586. tu ne cherches pas le travail
+587. tu ne cherches pas mon père
+588. tu ne cherches pas l'enfant
+589. il ne cherche pas mon ami
+590. il ne cherche pas le livre
+591. il ne cherche pas le stylo
+592. il ne cherche pas le travail
+593. il ne cherche pas mon père
+594. il ne cherche pas l'enfant
+595. elle ne cherche pas mon ami
+596. elle ne cherche pas le livre
+597. elle ne cherche pas le stylo
+598. elle ne cherche pas le travail
+599. elle ne cherche pas mon père
+600. elle ne cherche pas l'enfant
+601. nous ne cherchons pas mon ami
+602. nous ne cherchons pas le livre
+603. nous ne cherchons pas le stylo
+604. nous ne cherchons pas le travail
+605. nous ne cherchons pas mon père
+606. nous ne cherchons pas l'enfant
+607. vous ne cherchez pas mon ami
+608. vous ne cherchez pas le livre
+609. vous ne cherchez pas le stylo
+610. vous ne cherchez pas le travail
+611. vous ne cherchez pas mon père
+612. vous ne cherchez pas l'enfant
+613. ils ne cherchent pas mon ami
+614. ils ne cherchent pas le livre
+615. ils ne cherchent pas le stylo
+616. ils ne cherchent pas le travail
+617. ils ne cherchent pas mon père
+618. ils ne cherchent pas l'enfant
+619. elles ne cherchent pas mon ami
+620. elles ne cherchent pas le livre
+621. elles ne cherchent pas le stylo
+622. elles ne cherchent pas le travail
+623. elles ne cherchent pas mon père
+624. elles ne cherchent pas l'enfant
+625. je ne trouve pas le livre
+626. je ne trouve pas le stylo
+627. je ne trouve pas mon ami
+628. je ne trouve pas le travail
+629. je ne trouve pas de l'argent
+630. je ne trouve pas la maison
+631. tu ne trouves pas le livre
+632. tu ne trouves pas le stylo
+633. tu ne trouves pas mon ami
+634. tu ne trouves pas le travail
+635. tu ne trouves pas de l'argent
+636. tu ne trouves pas la maison
+637. il ne trouve pas le livre
+638. il ne trouve pas le stylo
+639. il ne trouve pas mon ami
+640. il ne trouve pas le travail
+641. il ne trouve pas de l'argent
+642. il ne trouve pas la maison
+643. elle ne trouve pas le livre
+644. elle ne trouve pas le stylo
+645. elle ne trouve pas mon ami
+646. elle ne trouve pas le travail
+647. elle ne trouve pas de l'argent
+648. elle ne trouve pas la maison
+649. nous ne trouvons pas le livre
+650. nous ne trouvons pas le stylo
+651. nous ne trouvons pas mon ami
+652. nous ne trouvons pas le travail
+653. nous ne trouvons pas de l'argent
+654. nous ne trouvons pas la maison
+655. vous ne trouvez pas le livre
+656. vous ne trouvez pas le stylo
+657. vous ne trouvez pas mon ami
+658. vous ne trouvez pas le travail
+659. vous ne trouvez pas de l'argent
+660. vous ne trouvez pas la maison
+661. ils ne trouvent pas le livre
+662. ils ne trouvent pas le stylo
+663. ils ne trouvent pas mon ami
+664. ils ne trouvent pas le travail
+665. ils ne trouvent pas de l'argent
+666. ils ne trouvent pas la maison
+667. elles ne trouvent pas le livre
+668. elles ne trouvent pas le stylo
+669. elles ne trouvent pas mon ami
+670. elles ne trouvent pas le travail
+671. elles ne trouvent pas de l'argent
+672. elles ne trouvent pas la maison
+673. je ne parle pas français
+674. je ne parle pas adja
+675. je ne parle pas anglais
+676. je ne parle pas avec mon ami
+677. je ne parle pas avec le professeur
+678. je ne parle pas avec ma mère
+679. tu ne parles pas français
+680. tu ne parles pas adja
+681. tu ne parles pas anglais
+682. tu ne parles pas avec mon ami
+683. tu ne parles pas avec le professeur
+684. tu ne parles pas avec ma mère
+685. il ne parle pas français
+686. il ne parle pas adja
+687. il ne parle pas anglais
+688. il ne parle pas avec mon ami
+689. il ne parle pas avec le professeur
+690. il ne parle pas avec ma mère
+691. elle ne parle pas français
+692. elle ne parle pas adja
+693. elle ne parle pas anglais
+694. elle ne parle pas avec mon ami
+695. elle ne parle pas avec le professeur
+696. elle ne parle pas avec ma mère
+697. nous ne parlons pas français
+698. nous ne parlons pas adja
+699. nous ne parlons pas anglais
+700. nous ne parlons pas avec mon ami
+701. nous ne parlons pas avec le professeur
+702. nous ne parlons pas avec ma mère
+703. vous ne parlez pas français
+704. vous ne parlez pas adja
+705. vous ne parlez pas anglais
+706. vous ne parlez pas avec mon ami
+707. vous ne parlez pas avec le professeur
+708. vous ne parlez pas avec ma mère
+709. ils ne parlent pas français
+710. ils ne parlent pas adja
+711. ils ne parlent pas anglais
+712. ils ne parlent pas avec mon ami
+713. ils ne parlent pas avec le professeur
+714. ils ne parlent pas avec ma mère
+715. elles ne parlent pas français
+716. elles ne parlent pas adja
+717. elles ne parlent pas anglais
+718. elles ne parlent pas avec mon ami
+719. elles ne parlent pas avec le professeur
+720. elles ne parlent pas avec ma mère
+721. je ne sais pas la vérité
+722. je ne sais pas la réponse
+723. je ne sais pas le chemin
+724. je ne sais pas lire
+725. je ne sais pas écrire
+726. je ne sais pas parler français
+727. tu ne sais pas la vérité
+728. tu ne sais pas la réponse
+729. tu ne sais pas le chemin
+730. tu ne sais pas lire
+731. tu ne sais pas écrire
+732. tu ne sais pas parler français
+733. il ne sait pas la vérité
+734. il ne sait pas la réponse
+735. il ne sait pas le chemin
+736. il ne sait pas lire
+737. il ne sait pas écrire
+738. il ne sait pas parler français
+739. elle ne sait pas la vérité
+740. elle ne sait pas la réponse
+741. elle ne sait pas le chemin
+742. elle ne sait pas lire
+743. elle ne sait pas écrire
+744. elle ne sait pas parler français
+745. nous ne savons pas la vérité
+746. nous ne savons pas la réponse
+747. nous ne savons pas le chemin
+748. nous ne savons pas lire
+749. nous ne savons pas écrire
+750. nous ne savons pas parler français
+751. vous ne savez pas la vérité
+752. vous ne savez pas la réponse
+753. vous ne savez pas le chemin
+754. vous ne savez pas lire
+755. vous ne savez pas écrire
+756. vous ne savez pas parler français
+757. ils ne savent pas la vérité
+758. ils ne savent pas la réponse
+759. ils ne savent pas le chemin
+760. ils ne savent pas lire
+761. ils ne savent pas écrire
+762. ils ne savent pas parler français
+763. elles ne savent pas la vérité
+764. elles ne savent pas la réponse
+765. elles ne savent pas le chemin
+766. elles ne savent pas lire
+767. elles ne savent pas écrire
+768. elles ne savent pas parler français
+769. je ne mets pas le livre sur la table
+770. je ne mets pas le pain dans le sac
+771. je ne mets pas l'eau dans le verre
+772. je ne mets pas le stylo dans le sac
+773. je ne mets pas les vêtements dans la maison
+774. je ne mets pas le cadeau sur la table
+775. tu ne mets pas le livre sur la table
+776. tu ne mets pas le pain dans le sac
+777. tu ne mets pas l'eau dans le verre
+778. tu ne mets pas le stylo dans le sac
+779. tu ne mets pas les vêtements dans la maison
+780. tu ne mets pas le cadeau sur la table
+781. il ne met pas le livre sur la table
+782. il ne met pas le pain dans le sac
+783. il ne met pas l'eau dans le verre
+784. il ne met pas le stylo dans le sac
+785. il ne met pas les vêtements dans la maison
+786. il ne met pas le cadeau sur la table
+787. elle ne met pas le livre sur la table
+788. elle ne met pas le pain dans le sac
+789. elle ne met pas l'eau dans le verre
+790. elle ne met pas le stylo dans le sac
+791. elle ne met pas les vêtements dans la maison
+792. elle ne met pas le cadeau sur la table
+793. nous ne mettons pas le livre sur la table
+794. nous ne mettons pas le pain dans le sac
+795. nous ne mettons pas l'eau dans le verre
+796. nous ne mettons pas le stylo dans le sac
+797. nous ne mettons pas les vêtements dans la maison
+798. nous ne mettons pas le cadeau sur la table
+799. vous ne mettez pas le livre sur la table
+800. vous ne mettez pas le pain dans le sac
+801. vous ne mettez pas l'eau dans le verre
+802. vous ne mettez pas le stylo dans le sac
+803. vous ne mettez pas les vêtements dans la maison
+804. vous ne mettez pas le cadeau sur la table
+805. ils ne mettent pas le livre sur la table
+806. ils ne mettent pas le pain dans le sac
+807. ils ne mettent pas l'eau dans le verre
+808. ils ne mettent pas le stylo dans le sac
+809. ils ne mettent pas les vêtements dans la maison
+810. ils ne mettent pas le cadeau sur la table
+811. elles ne mettent pas le livre sur la table
+812. elles ne mettent pas le pain dans le sac
+813. elles ne mettent pas l'eau dans le verre
+814. elles ne mettent pas le stylo dans le sac
+815. elles ne mettent pas les vêtements dans la maison
+816. elles ne mettent pas le cadeau sur la table
+817. je ne laisse pas le livre
+818. je ne laisse pas mon ami
+819. je ne laisse pas l'enfant à la maison
+820. je ne laisse pas le sac
+821. je ne laisse pas le travail
+822. je ne laisse pas la maison
+823. tu ne laisses pas le livre
+824. tu ne laisses pas mon ami
+825. tu ne laisses pas l'enfant à la maison
+826. tu ne laisses pas le sac
+827. tu ne laisses pas le travail
+828. tu ne laisses pas la maison
+829. il ne laisse pas le livre
+830. il ne laisse pas mon ami
+831. il ne laisse pas l'enfant à la maison
+832. il ne laisse pas le sac
+833. il ne laisse pas le travail
+834. il ne laisse pas la maison
+835. elle ne laisse pas le livre
+836. elle ne laisse pas mon ami
+837. elle ne laisse pas l'enfant à la maison
+838. elle ne laisse pas le sac
+839. elle ne laisse pas le travail
+840. elle ne laisse pas la maison
+841. nous ne laissons pas le livre
+842. nous ne laissons pas mon ami
+843. nous ne laissons pas l'enfant à la maison
+844. nous ne laissons pas le sac
+845. nous ne laissons pas le travail
+846. nous ne laissons pas la maison
+847. vous ne laissez pas le livre
+848. vous ne laissez pas mon ami
+849. vous ne laissez pas l'enfant à la maison
+850. vous ne laissez pas le sac
+851. vous ne laissez pas le travail
+852. vous ne laissez pas la maison
+853. ils ne laissent pas le livre
+854. ils ne laissent pas mon ami
+855. ils ne laissent pas l'enfant à la maison
+856. ils ne laissent pas le sac
+857. ils ne laissent pas le travail
+858. ils ne laissent pas la maison
+859. elles ne laissent pas le livre
+860. elles ne laissent pas mon ami
+861. elles ne laissent pas l'enfant à la maison
+862. elles ne laissent pas le sac
+863. elles ne laissent pas le travail
+864. elles ne laissent pas la maison
+865. je n'apporte pas le livre
+866. je n'apporte pas de l'eau
+867. je n'apporte pas du pain
+868. je n'apporte pas le cadeau
+869. je n'apporte pas les fruits
+870. je n'apporte pas le travail
+871. tu n'apportes pas le livre
+872. tu n'apportes pas de l'eau
+873. tu n'apportes pas du pain
+874. tu n'apportes pas le cadeau
+875. tu n'apportes pas les fruits
+876. tu n'apportes pas le travail
+877. il n'apporte pas le livre
+878. il n'apporte pas de l'eau
+879. il n'apporte pas du pain
+880. il n'apporte pas le cadeau
+881. il n'apporte pas les fruits
+882. il n'apporte pas le travail
+883. elle n'apporte pas le livre
+884. elle n'apporte pas de l'eau
+885. elle n'apporte pas du pain
+886. elle n'apporte pas le cadeau
+887. elle n'apporte pas les fruits
+888. elle n'apporte pas le travail
+889. nous n'apportons pas le livre
+890. nous n'apportons pas de l'eau
+891. nous n'apportons pas du pain
+892. nous n'apportons pas le cadeau
+893. nous n'apportons pas les fruits
+894. nous n'apportons pas le travail
+895. vous n'apportez pas le livre
+896. vous n'apportez pas de l'eau
+897. vous n'apportez pas du pain
+898. vous n'apportez pas le cadeau
+899. vous n'apportez pas les fruits
+900. vous n'apportez pas le travail
+901. ils n'apportent pas le livre
+902. ils n'apportent pas de l'eau
+903. ils n'apportent pas du pain
+904. ils n'apportent pas le cadeau
+905. ils n'apportent pas les fruits
+906. ils n'apportent pas le travail
+907. elles n'apportent pas le livre
+908. elles n'apportent pas de l'eau
+909. elles n'apportent pas du pain
+910. elles n'apportent pas le cadeau
+911. elles n'apportent pas les fruits
+912. elles n'apportent pas le travail
+913. je ne montre pas le livre
+914. je ne montre pas la maison
+915. je ne montre pas le chemin
+916. je ne montre pas mon ami
+917. je ne montre pas le travail
+918. je ne montre pas le cadeau
+919. tu ne montres pas le livre
+920. tu ne montres pas la maison
+921. tu ne montres pas le chemin
+922. tu ne montres pas mon ami
+923. tu ne montres pas le travail
+924. tu ne montres pas le cadeau
+925. il ne montre pas le livre
+926. il ne montre pas la maison
+927. il ne montre pas le chemin
+928. il ne montre pas mon ami
+929. il ne montre pas le travail
+930. il ne montre pas le cadeau
+931. elle ne montre pas le livre
+932. elle ne montre pas la maison
+933. elle ne montre pas le chemin
+934. elle ne montre pas mon ami
+935. elle ne montre pas le travail
+936. elle ne montre pas le cadeau
+937. nous ne montrons pas le livre
+938. nous ne montrons pas la maison
+939. nous ne montrons pas le chemin
+940. nous ne montrons pas mon ami
+941. nous ne montrons pas le travail
+942. nous ne montrons pas le cadeau
+943. vous ne montrez pas le livre
+944. vous ne montrez pas la maison
+945. vous ne montrez pas le chemin
+946. vous ne montrez pas mon ami
+947. vous ne montrez pas le travail
+948. vous ne montrez pas le cadeau
+949. ils ne montrent pas le livre
+950. ils ne montrent pas la maison
+951. ils ne montrent pas le chemin
+952. ils ne montrent pas mon ami
+953. ils ne montrent pas le travail
+954. ils ne montrent pas le cadeau
+955. elles ne montrent pas le livre
+956. elles ne montrent pas la maison
+957. elles ne montrent pas le chemin
+958. elles ne montrent pas mon ami
+959. elles ne montrent pas le travail
+960. elles ne montrent pas le cadeau
+
+
+============================================================
+MODULE3_PAST (480 sentences)
+============================================================
+
+961. j'ai aimé le riz
+962. j'ai aimé le pain
+963. j'ai aimé le poisson
+964. j'ai aimé la viande
+965. j'ai aimé mon ami
+966. j'ai aimé ma famille
+967. tu as aimé le riz
+968. tu as aimé le pain
+969. tu as aimé le poisson
+970. tu as aimé la viande
+971. tu as aimé mon ami
+972. tu as aimé ma famille
+973. il a aimé le riz
+974. il a aimé le pain
+975. il a aimé le poisson
+976. il a aimé la viande
+977. il a aimé mon ami
+978. il a aimé ma famille
+979. elle a aimé le riz
+980. elle a aimé le pain
+981. elle a aimé le poisson
+982. elle a aimé la viande
+983. elle a aimé mon ami
+984. elle a aimé ma famille
+985. nous avons aimé le riz
+986. nous avons aimé le pain
+987. nous avons aimé le poisson
+988. nous avons aimé la viande
+989. nous avons aimé mon ami
+990. nous avons aimé ma famille
+991. vous avez aimé le riz
+992. vous avez aimé le pain
+993. vous avez aimé le poisson
+994. vous avez aimé la viande
+995. vous avez aimé mon ami
+996. vous avez aimé ma famille
+997. ils ont aimé le riz
+998. ils ont aimé le pain
+999. ils ont aimé le poisson
+1000. ils ont aimé la viande
+1001. ils ont aimé mon ami
+1002. ils ont aimé ma famille
+1003. elles ont aimé le riz
+1004. elles ont aimé le pain
+1005. elles ont aimé le poisson
+1006. elles ont aimé la viande
+1007. elles ont aimé mon ami
+1008. elles ont aimé ma famille
+1009. j'ai acheté du riz
+1010. j'ai acheté du pain
+1011. j'ai acheté du poisson
+1012. j'ai acheté de la viande
+1013. j'ai acheté des fruits
+1014. j'ai acheté un livre
+1015. tu as acheté du riz
+1016. tu as acheté du pain
+1017. tu as acheté du poisson
+1018. tu as acheté de la viande
+1019. tu as acheté des fruits
+1020. tu as acheté un livre
+1021. il a acheté du riz
+1022. il a acheté du pain
+1023. il a acheté du poisson
+1024. il a acheté de la viande
+1025. il a acheté des fruits
+1026. il a acheté un livre
+1027. elle a acheté du riz
+1028. elle a acheté du pain
+1029. elle a acheté du poisson
+1030. elle a acheté de la viande
+1031. elle a acheté des fruits
+1032. elle a acheté un livre
+1033. nous avons acheté du riz
+1034. nous avons acheté du pain
+1035. nous avons acheté du poisson
+1036. nous avons acheté de la viande
+1037. nous avons acheté des fruits
+1038. nous avons acheté un livre
+1039. vous avez acheté du riz
+1040. vous avez acheté du pain
+1041. vous avez acheté du poisson
+1042. vous avez acheté de la viande
+1043. vous avez acheté des fruits
+1044. vous avez acheté un livre
+1045. ils ont acheté du riz
+1046. ils ont acheté du pain
+1047. ils ont acheté du poisson
+1048. ils ont acheté de la viande
+1049. ils ont acheté des fruits
+1050. ils ont acheté un livre
+1051. elles ont acheté du riz
+1052. elles ont acheté du pain
+1053. elles ont acheté du poisson
+1054. elles ont acheté de la viande
+1055. elles ont acheté des fruits
+1056. elles ont acheté un livre
+1057. j'ai cherché mon ami
+1058. j'ai cherché le livre
+1059. j'ai cherché le stylo
+1060. j'ai cherché le travail
+1061. j'ai cherché mon père
+1062. j'ai cherché l'enfant
+1063. tu as cherché mon ami
+1064. tu as cherché le livre
+1065. tu as cherché le stylo
+1066. tu as cherché le travail
+1067. tu as cherché mon père
+1068. tu as cherché l'enfant
+1069. il a cherché mon ami
+1070. il a cherché le livre
+1071. il a cherché le stylo
+1072. il a cherché le travail
+1073. il a cherché mon père
+1074. il a cherché l'enfant
+1075. elle a cherché mon ami
+1076. elle a cherché le livre
+1077. elle a cherché le stylo
+1078. elle a cherché le travail
+1079. elle a cherché mon père
+1080. elle a cherché l'enfant
+1081. nous avons cherché mon ami
+1082. nous avons cherché le livre
+1083. nous avons cherché le stylo
+1084. nous avons cherché le travail
+1085. nous avons cherché mon père
+1086. nous avons cherché l'enfant
+1087. vous avez cherché mon ami
+1088. vous avez cherché le livre
+1089. vous avez cherché le stylo
+1090. vous avez cherché le travail
+1091. vous avez cherché mon père
+1092. vous avez cherché l'enfant
+1093. ils ont cherché mon ami
+1094. ils ont cherché le livre
+1095. ils ont cherché le stylo
+1096. ils ont cherché le travail
+1097. ils ont cherché mon père
+1098. ils ont cherché l'enfant
+1099. elles ont cherché mon ami
+1100. elles ont cherché le livre
+1101. elles ont cherché le stylo
+1102. elles ont cherché le travail
+1103. elles ont cherché mon père
+1104. elles ont cherché l'enfant
+1105. j'ai trouvé le livre
+1106. j'ai trouvé le stylo
+1107. j'ai trouvé mon ami
+1108. j'ai trouvé le travail
+1109. j'ai trouvé de l'argent
+1110. j'ai trouvé la maison
+1111. tu as trouvé le livre
+1112. tu as trouvé le stylo
+1113. tu as trouvé mon ami
+1114. tu as trouvé le travail
+1115. tu as trouvé de l'argent
+1116. tu as trouvé la maison
+1117. il a trouvé le livre
+1118. il a trouvé le stylo
+1119. il a trouvé mon ami
+1120. il a trouvé le travail
+1121. il a trouvé de l'argent
+1122. il a trouvé la maison
+1123. elle a trouvé le livre
+1124. elle a trouvé le stylo
+1125. elle a trouvé mon ami
+1126. elle a trouvé le travail
+1127. elle a trouvé de l'argent
+1128. elle a trouvé la maison
+1129. nous avons trouvé le livre
+1130. nous avons trouvé le stylo
+1131. nous avons trouvé mon ami
+1132. nous avons trouvé le travail
+1133. nous avons trouvé de l'argent
+1134. nous avons trouvé la maison
+1135. vous avez trouvé le livre
+1136. vous avez trouvé le stylo
+1137. vous avez trouvé mon ami
+1138. vous avez trouvé le travail
+1139. vous avez trouvé de l'argent
+1140. vous avez trouvé la maison
+1141. ils ont trouvé le livre
+1142. ils ont trouvé le stylo
+1143. ils ont trouvé mon ami
+1144. ils ont trouvé le travail
+1145. ils ont trouvé de l'argent
+1146. ils ont trouvé la maison
+1147. elles ont trouvé le livre
+1148. elles ont trouvé le stylo
+1149. elles ont trouvé mon ami
+1150. elles ont trouvé le travail
+1151. elles ont trouvé de l'argent
+1152. elles ont trouvé la maison
+1153. j'ai parlé français
+1154. j'ai parlé adja
+1155. j'ai parlé anglais
+1156. j'ai parlé avec mon ami
+1157. j'ai parlé avec le professeur
+1158. j'ai parlé avec ma mère
+1159. tu as parlé français
+1160. tu as parlé adja
+1161. tu as parlé anglais
+1162. tu as parlé avec mon ami
+1163. tu as parlé avec le professeur
+1164. tu as parlé avec ma mère
+1165. il a parlé français
+1166. il a parlé adja
+1167. il a parlé anglais
+1168. il a parlé avec mon ami
+1169. il a parlé avec le professeur
+1170. il a parlé avec ma mère
+1171. elle a parlé français
+1172. elle a parlé adja
+1173. elle a parlé anglais
+1174. elle a parlé avec mon ami
+1175. elle a parlé avec le professeur
+1176. elle a parlé avec ma mère
+1177. nous avons parlé français
+1178. nous avons parlé adja
+1179. nous avons parlé anglais
+1180. nous avons parlé avec mon ami
+1181. nous avons parlé avec le professeur
+1182. nous avons parlé avec ma mère
+1183. vous avez parlé français
+1184. vous avez parlé adja
+1185. vous avez parlé anglais
+1186. vous avez parlé avec mon ami
+1187. vous avez parlé avec le professeur
+1188. vous avez parlé avec ma mère
+1189. ils ont parlé français
+1190. ils ont parlé adja
+1191. ils ont parlé anglais
+1192. ils ont parlé avec mon ami
+1193. ils ont parlé avec le professeur
+1194. ils ont parlé avec ma mère
+1195. elles ont parlé français
+1196. elles ont parlé adja
+1197. elles ont parlé anglais
+1198. elles ont parlé avec mon ami
+1199. elles ont parlé avec le professeur
+1200. elles ont parlé avec ma mère
+1201. j'ai su la vérité
+1202. j'ai su la réponse
+1203. j'ai su le chemin
+1204. j'ai su lire
+1205. j'ai su écrire
+1206. j'ai su parler français
+1207. tu as su la vérité
+1208. tu as su la réponse
+1209. tu as su le chemin
+1210. tu as su lire
+1211. tu as su écrire
+1212. tu as su parler français
+1213. il a su la vérité
+1214. il a su la réponse
+1215. il a su le chemin
+1216. il a su lire
+1217. il a su écrire
+1218. il a su parler français
+1219. elle a su la vérité
+1220. elle a su la réponse
+1221. elle a su le chemin
+1222. elle a su lire
+1223. elle a su écrire
+1224. elle a su parler français
+1225. nous avons su la vérité
+1226. nous avons su la réponse
+1227. nous avons su le chemin
+1228. nous avons su lire
+1229. nous avons su écrire
+1230. nous avons su parler français
+1231. vous avez su la vérité
+1232. vous avez su la réponse
+1233. vous avez su le chemin
+1234. vous avez su lire
+1235. vous avez su écrire
+1236. vous avez su parler français
+1237. ils ont su la vérité
+1238. ils ont su la réponse
+1239. ils ont su le chemin
+1240. ils ont su lire
+1241. ils ont su écrire
+1242. ils ont su parler français
+1243. elles ont su la vérité
+1244. elles ont su la réponse
+1245. elles ont su le chemin
+1246. elles ont su lire
+1247. elles ont su écrire
+1248. elles ont su parler français
+1249. j'ai mis le livre sur la table
+1250. j'ai mis le pain dans le sac
+1251. j'ai mis l'eau dans le verre
+1252. j'ai mis le stylo dans le sac
+1253. j'ai mis les vêtements dans la maison
+1254. j'ai mis le cadeau sur la table
+1255. tu as mis le livre sur la table
+1256. tu as mis le pain dans le sac
+1257. tu as mis l'eau dans le verre
+1258. tu as mis le stylo dans le sac
+1259. tu as mis les vêtements dans la maison
+1260. tu as mis le cadeau sur la table
+1261. il a mis le livre sur la table
+1262. il a mis le pain dans le sac
+1263. il a mis l'eau dans le verre
+1264. il a mis le stylo dans le sac
+1265. il a mis les vêtements dans la maison
+1266. il a mis le cadeau sur la table
+1267. elle a mis le livre sur la table
+1268. elle a mis le pain dans le sac
+1269. elle a mis l'eau dans le verre
+1270. elle a mis le stylo dans le sac
+1271. elle a mis les vêtements dans la maison
+1272. elle a mis le cadeau sur la table
+1273. nous avons mis le livre sur la table
+1274. nous avons mis le pain dans le sac
+1275. nous avons mis l'eau dans le verre
+1276. nous avons mis le stylo dans le sac
+1277. nous avons mis les vêtements dans la maison
+1278. nous avons mis le cadeau sur la table
+1279. vous avez mis le livre sur la table
+1280. vous avez mis le pain dans le sac
+1281. vous avez mis l'eau dans le verre
+1282. vous avez mis le stylo dans le sac
+1283. vous avez mis les vêtements dans la maison
+1284. vous avez mis le cadeau sur la table
+1285. ils ont mis le livre sur la table
+1286. ils ont mis le pain dans le sac
+1287. ils ont mis l'eau dans le verre
+1288. ils ont mis le stylo dans le sac
+1289. ils ont mis les vêtements dans la maison
+1290. ils ont mis le cadeau sur la table
+1291. elles ont mis le livre sur la table
+1292. elles ont mis le pain dans le sac
+1293. elles ont mis l'eau dans le verre
+1294. elles ont mis le stylo dans le sac
+1295. elles ont mis les vêtements dans la maison
+1296. elles ont mis le cadeau sur la table
+1297. j'ai laissé le livre
+1298. j'ai laissé mon ami
+1299. j'ai laissé l'enfant à la maison
+1300. j'ai laissé le sac
+1301. j'ai laissé le travail
+1302. j'ai laissé la maison
+1303. tu as laissé le livre
+1304. tu as laissé mon ami
+1305. tu as laissé l'enfant à la maison
+1306. tu as laissé le sac
+1307. tu as laissé le travail
+1308. tu as laissé la maison
+1309. il a laissé le livre
+1310. il a laissé mon ami
+1311. il a laissé l'enfant à la maison
+1312. il a laissé le sac
+1313. il a laissé le travail
+1314. il a laissé la maison
+1315. elle a laissé le livre
+1316. elle a laissé mon ami
+1317. elle a laissé l'enfant à la maison
+1318. elle a laissé le sac
+1319. elle a laissé le travail
+1320. elle a laissé la maison
+1321. nous avons laissé le livre
+1322. nous avons laissé mon ami
+1323. nous avons laissé l'enfant à la maison
+1324. nous avons laissé le sac
+1325. nous avons laissé le travail
+1326. nous avons laissé la maison
+1327. vous avez laissé le livre
+1328. vous avez laissé mon ami
+1329. vous avez laissé l'enfant à la maison
+1330. vous avez laissé le sac
+1331. vous avez laissé le travail
+1332. vous avez laissé la maison
+1333. ils ont laissé le livre
+1334. ils ont laissé mon ami
+1335. ils ont laissé l'enfant à la maison
+1336. ils ont laissé le sac
+1337. ils ont laissé le travail
+1338. ils ont laissé la maison
+1339. elles ont laissé le livre
+1340. elles ont laissé mon ami
+1341. elles ont laissé l'enfant à la maison
+1342. elles ont laissé le sac
+1343. elles ont laissé le travail
+1344. elles ont laissé la maison
+1345. j'ai apporté le livre
+1346. j'ai apporté de l'eau
+1347. j'ai apporté du pain
+1348. j'ai apporté le cadeau
+1349. j'ai apporté les fruits
+1350. j'ai apporté le travail
+1351. tu as apporté le livre
+1352. tu as apporté de l'eau
+1353. tu as apporté du pain
+1354. tu as apporté le cadeau
+1355. tu as apporté les fruits
+1356. tu as apporté le travail
+1357. il a apporté le livre
+1358. il a apporté de l'eau
+1359. il a apporté du pain
+1360. il a apporté le cadeau
+1361. il a apporté les fruits
+1362. il a apporté le travail
+1363. elle a apporté le livre
+1364. elle a apporté de l'eau
+1365. elle a apporté du pain
+1366. elle a apporté le cadeau
+1367. elle a apporté les fruits
+1368. elle a apporté le travail
+1369. nous avons apporté le livre
+1370. nous avons apporté de l'eau
+1371. nous avons apporté du pain
+1372. nous avons apporté le cadeau
+1373. nous avons apporté les fruits
+1374. nous avons apporté le travail
+1375. vous avez apporté le livre
+1376. vous avez apporté de l'eau
+1377. vous avez apporté du pain
+1378. vous avez apporté le cadeau
+1379. vous avez apporté les fruits
+1380. vous avez apporté le travail
+1381. ils ont apporté le livre
+1382. ils ont apporté de l'eau
+1383. ils ont apporté du pain
+1384. ils ont apporté le cadeau
+1385. ils ont apporté les fruits
+1386. ils ont apporté le travail
+1387. elles ont apporté le livre
+1388. elles ont apporté de l'eau
+1389. elles ont apporté du pain
+1390. elles ont apporté le cadeau
+1391. elles ont apporté les fruits
+1392. elles ont apporté le travail
+1393. j'ai montré le livre
+1394. j'ai montré la maison
+1395. j'ai montré le chemin
+1396. j'ai montré mon ami
+1397. j'ai montré le travail
+1398. j'ai montré le cadeau
+1399. tu as montré le livre
+1400. tu as montré la maison
+1401. tu as montré le chemin
+1402. tu as montré mon ami
+1403. tu as montré le travail
+1404. tu as montré le cadeau
+1405. il a montré le livre
+1406. il a montré la maison
+1407. il a montré le chemin
+1408. il a montré mon ami
+1409. il a montré le travail
+1410. il a montré le cadeau
+1411. elle a montré le livre
+1412. elle a montré la maison
+1413. elle a montré le chemin
+1414. elle a montré mon ami
+1415. elle a montré le travail
+1416. elle a montré le cadeau
+1417. nous avons montré le livre
+1418. nous avons montré la maison
+1419. nous avons montré le chemin
+1420. nous avons montré mon ami
+1421. nous avons montré le travail
+1422. nous avons montré le cadeau
+1423. vous avez montré le livre
+1424. vous avez montré la maison
+1425. vous avez montré le chemin
+1426. vous avez montré mon ami
+1427. vous avez montré le travail
+1428. vous avez montré le cadeau
+1429. ils ont montré le livre
+1430. ils ont montré la maison
+1431. ils ont montré le chemin
+1432. ils ont montré mon ami
+1433. ils ont montré le travail
+1434. ils ont montré le cadeau
+1435. elles ont montré le livre
+1436. elles ont montré la maison
+1437. elles ont montré le chemin
+1438. elles ont montré mon ami
+1439. elles ont montré le travail
+1440. elles ont montré le cadeau
+
+
+============================================================
+MODULE4_FUTURE (480 sentences)
+============================================================
+
+1441. je vais aimer le riz
+1442. je vais aimer le pain
+1443. je vais aimer le poisson
+1444. je vais aimer la viande
+1445. je vais aimer mon ami
+1446. je vais aimer ma famille
+1447. tu vas aimer le riz
+1448. tu vas aimer le pain
+1449. tu vas aimer le poisson
+1450. tu vas aimer la viande
+1451. tu vas aimer mon ami
+1452. tu vas aimer ma famille
+1453. il va aimer le riz
+1454. il va aimer le pain
+1455. il va aimer le poisson
+1456. il va aimer la viande
+1457. il va aimer mon ami
+1458. il va aimer ma famille
+1459. elle va aimer le riz
+1460. elle va aimer le pain
+1461. elle va aimer le poisson
+1462. elle va aimer la viande
+1463. elle va aimer mon ami
+1464. elle va aimer ma famille
+1465. nous allons aimer le riz
+1466. nous allons aimer le pain
+1467. nous allons aimer le poisson
+1468. nous allons aimer la viande
+1469. nous allons aimer mon ami
+1470. nous allons aimer ma famille
+1471. vous allez aimer le riz
+1472. vous allez aimer le pain
+1473. vous allez aimer le poisson
+1474. vous allez aimer la viande
+1475. vous allez aimer mon ami
+1476. vous allez aimer ma famille
+1477. ils vont aimer le riz
+1478. ils vont aimer le pain
+1479. ils vont aimer le poisson
+1480. ils vont aimer la viande
+1481. ils vont aimer mon ami
+1482. ils vont aimer ma famille
+1483. elles vont aimer le riz
+1484. elles vont aimer le pain
+1485. elles vont aimer le poisson
+1486. elles vont aimer la viande
+1487. elles vont aimer mon ami
+1488. elles vont aimer ma famille
+1489. je vais acheter du riz
+1490. je vais acheter du pain
+1491. je vais acheter du poisson
+1492. je vais acheter de la viande
+1493. je vais acheter des fruits
+1494. je vais acheter un livre
+1495. tu vas acheter du riz
+1496. tu vas acheter du pain
+1497. tu vas acheter du poisson
+1498. tu vas acheter de la viande
+1499. tu vas acheter des fruits
+1500. tu vas acheter un livre
+1501. il va acheter du riz
+1502. il va acheter du pain
+1503. il va acheter du poisson
+1504. il va acheter de la viande
+1505. il va acheter des fruits
+1506. il va acheter un livre
+1507. elle va acheter du riz
+1508. elle va acheter du pain
+1509. elle va acheter du poisson
+1510. elle va acheter de la viande
+1511. elle va acheter des fruits
+1512. elle va acheter un livre
+1513. nous allons acheter du riz
+1514. nous allons acheter du pain
+1515. nous allons acheter du poisson
+1516. nous allons acheter de la viande
+1517. nous allons acheter des fruits
+1518. nous allons acheter un livre
+1519. vous allez acheter du riz
+1520. vous allez acheter du pain
+1521. vous allez acheter du poisson
+1522. vous allez acheter de la viande
+1523. vous allez acheter des fruits
+1524. vous allez acheter un livre
+1525. ils vont acheter du riz
+1526. ils vont acheter du pain
+1527. ils vont acheter du poisson
+1528. ils vont acheter de la viande
+1529. ils vont acheter des fruits
+1530. ils vont acheter un livre
+1531. elles vont acheter du riz
+1532. elles vont acheter du pain
+1533. elles vont acheter du poisson
+1534. elles vont acheter de la viande
+1535. elles vont acheter des fruits
+1536. elles vont acheter un livre
+1537. je vais chercher mon ami
+1538. je vais chercher le livre
+1539. je vais chercher le stylo
+1540. je vais chercher le travail
+1541. je vais chercher mon père
+1542. je vais chercher l'enfant
+1543. tu vas chercher mon ami
+1544. tu vas chercher le livre
+1545. tu vas chercher le stylo
+1546. tu vas chercher le travail
+1547. tu vas chercher mon père
+1548. tu vas chercher l'enfant
+1549. il va chercher mon ami
+1550. il va chercher le livre
+1551. il va chercher le stylo
+1552. il va chercher le travail
+1553. il va chercher mon père
+1554. il va chercher l'enfant
+1555. elle va chercher mon ami
+1556. elle va chercher le livre
+1557. elle va chercher le stylo
+1558. elle va chercher le travail
+1559. elle va chercher mon père
+1560. elle va chercher l'enfant
+1561. nous allons chercher mon ami
+1562. nous allons chercher le livre
+1563. nous allons chercher le stylo
+1564. nous allons chercher le travail
+1565. nous allons chercher mon père
+1566. nous allons chercher l'enfant
+1567. vous allez chercher mon ami
+1568. vous allez chercher le livre
+1569. vous allez chercher le stylo
+1570. vous allez chercher le travail
+1571. vous allez chercher mon père
+1572. vous allez chercher l'enfant
+1573. ils vont chercher mon ami
+1574. ils vont chercher le livre
+1575. ils vont chercher le stylo
+1576. ils vont chercher le travail
+1577. ils vont chercher mon père
+1578. ils vont chercher l'enfant
+1579. elles vont chercher mon ami
+1580. elles vont chercher le livre
+1581. elles vont chercher le stylo
+1582. elles vont chercher le travail
+1583. elles vont chercher mon père
+1584. elles vont chercher l'enfant
+1585. je vais trouver le livre
+1586. je vais trouver le stylo
+1587. je vais trouver mon ami
+1588. je vais trouver le travail
+1589. je vais trouver de l'argent
+1590. je vais trouver la maison
+1591. tu vas trouver le livre
+1592. tu vas trouver le stylo
+1593. tu vas trouver mon ami
+1594. tu vas trouver le travail
+1595. tu vas trouver de l'argent
+1596. tu vas trouver la maison
+1597. il va trouver le livre
+1598. il va trouver le stylo
+1599. il va trouver mon ami
+1600. il va trouver le travail
+1601. il va trouver de l'argent
+1602. il va trouver la maison
+1603. elle va trouver le livre
+1604. elle va trouver le stylo
+1605. elle va trouver mon ami
+1606. elle va trouver le travail
+1607. elle va trouver de l'argent
+1608. elle va trouver la maison
+1609. nous allons trouver le livre
+1610. nous allons trouver le stylo
+1611. nous allons trouver mon ami
+1612. nous allons trouver le travail
+1613. nous allons trouver de l'argent
+1614. nous allons trouver la maison
+1615. vous allez trouver le livre
+1616. vous allez trouver le stylo
+1617. vous allez trouver mon ami
+1618. vous allez trouver le travail
+1619. vous allez trouver de l'argent
+1620. vous allez trouver la maison
+1621. ils vont trouver le livre
+1622. ils vont trouver le stylo
+1623. ils vont trouver mon ami
+1624. ils vont trouver le travail
+1625. ils vont trouver de l'argent
+1626. ils vont trouver la maison
+1627. elles vont trouver le livre
+1628. elles vont trouver le stylo
+1629. elles vont trouver mon ami
+1630. elles vont trouver le travail
+1631. elles vont trouver de l'argent
+1632. elles vont trouver la maison
+1633. je vais parler français
+1634. je vais parler adja
+1635. je vais parler anglais
+1636. je vais parler avec mon ami
+1637. je vais parler avec le professeur
+1638. je vais parler avec ma mère
+1639. tu vas parler français
+1640. tu vas parler adja
+1641. tu vas parler anglais
+1642. tu vas parler avec mon ami
+1643. tu vas parler avec le professeur
+1644. tu vas parler avec ma mère
+1645. il va parler français
+1646. il va parler adja
+1647. il va parler anglais
+1648. il va parler avec mon ami
+1649. il va parler avec le professeur
+1650. il va parler avec ma mère
+1651. elle va parler français
+1652. elle va parler adja
+1653. elle va parler anglais
+1654. elle va parler avec mon ami
+1655. elle va parler avec le professeur
+1656. elle va parler avec ma mère
+1657. nous allons parler français
+1658. nous allons parler adja
+1659. nous allons parler anglais
+1660. nous allons parler avec mon ami
+1661. nous allons parler avec le professeur
+1662. nous allons parler avec ma mère
+1663. vous allez parler français
+1664. vous allez parler adja
+1665. vous allez parler anglais
+1666. vous allez parler avec mon ami
+1667. vous allez parler avec le professeur
+1668. vous allez parler avec ma mère
+1669. ils vont parler français
+1670. ils vont parler adja
+1671. ils vont parler anglais
+1672. ils vont parler avec mon ami
+1673. ils vont parler avec le professeur
+1674. ils vont parler avec ma mère
+1675. elles vont parler français
+1676. elles vont parler adja
+1677. elles vont parler anglais
+1678. elles vont parler avec mon ami
+1679. elles vont parler avec le professeur
+1680. elles vont parler avec ma mère
+1681. je vais savoir la vérité
+1682. je vais savoir la réponse
+1683. je vais savoir le chemin
+1684. je vais savoir lire
+1685. je vais savoir écrire
+1686. je vais savoir parler français
+1687. tu vas savoir la vérité
+1688. tu vas savoir la réponse
+1689. tu vas savoir le chemin
+1690. tu vas savoir lire
+1691. tu vas savoir écrire
+1692. tu vas savoir parler français
+1693. il va savoir la vérité
+1694. il va savoir la réponse
+1695. il va savoir le chemin
+1696. il va savoir lire
+1697. il va savoir écrire
+1698. il va savoir parler français
+1699. elle va savoir la vérité
+1700. elle va savoir la réponse
+1701. elle va savoir le chemin
+1702. elle va savoir lire
+1703. elle va savoir écrire
+1704. elle va savoir parler français
+1705. nous allons savoir la vérité
+1706. nous allons savoir la réponse
+1707. nous allons savoir le chemin
+1708. nous allons savoir lire
+1709. nous allons savoir écrire
+1710. nous allons savoir parler français
+1711. vous allez savoir la vérité
+1712. vous allez savoir la réponse
+1713. vous allez savoir le chemin
+1714. vous allez savoir lire
+1715. vous allez savoir écrire
+1716. vous allez savoir parler français
+1717. ils vont savoir la vérité
+1718. ils vont savoir la réponse
+1719. ils vont savoir le chemin
+1720. ils vont savoir lire
+1721. ils vont savoir écrire
+1722. ils vont savoir parler français
+1723. elles vont savoir la vérité
+1724. elles vont savoir la réponse
+1725. elles vont savoir le chemin
+1726. elles vont savoir lire
+1727. elles vont savoir écrire
+1728. elles vont savoir parler français
+1729. je vais mettre le livre sur la table
+1730. je vais mettre le pain dans le sac
+1731. je vais mettre l'eau dans le verre
+1732. je vais mettre le stylo dans le sac
+1733. je vais mettre les vêtements dans la maison
+1734. je vais mettre le cadeau sur la table
+1735. tu vas mettre le livre sur la table
+1736. tu vas mettre le pain dans le sac
+1737. tu vas mettre l'eau dans le verre
+1738. tu vas mettre le stylo dans le sac
+1739. tu vas mettre les vêtements dans la maison
+1740. tu vas mettre le cadeau sur la table
+1741. il va mettre le livre sur la table
+1742. il va mettre le pain dans le sac
+1743. il va mettre l'eau dans le verre
+1744. il va mettre le stylo dans le sac
+1745. il va mettre les vêtements dans la maison
+1746. il va mettre le cadeau sur la table
+1747. elle va mettre le livre sur la table
+1748. elle va mettre le pain dans le sac
+1749. elle va mettre l'eau dans le verre
+1750. elle va mettre le stylo dans le sac
+1751. elle va mettre les vêtements dans la maison
+1752. elle va mettre le cadeau sur la table
+1753. nous allons mettre le livre sur la table
+1754. nous allons mettre le pain dans le sac
+1755. nous allons mettre l'eau dans le verre
+1756. nous allons mettre le stylo dans le sac
+1757. nous allons mettre les vêtements dans la maison
+1758. nous allons mettre le cadeau sur la table
+1759. vous allez mettre le livre sur la table
+1760. vous allez mettre le pain dans le sac
+1761. vous allez mettre l'eau dans le verre
+1762. vous allez mettre le stylo dans le sac
+1763. vous allez mettre les vêtements dans la maison
+1764. vous allez mettre le cadeau sur la table
+1765. ils vont mettre le livre sur la table
+1766. ils vont mettre le pain dans le sac
+1767. ils vont mettre l'eau dans le verre
+1768. ils vont mettre le stylo dans le sac
+1769. ils vont mettre les vêtements dans la maison
+1770. ils vont mettre le cadeau sur la table
+1771. elles vont mettre le livre sur la table
+1772. elles vont mettre le pain dans le sac
+1773. elles vont mettre l'eau dans le verre
+1774. elles vont mettre le stylo dans le sac
+1775. elles vont mettre les vêtements dans la maison
+1776. elles vont mettre le cadeau sur la table
+1777. je vais laisser le livre
+1778. je vais laisser mon ami
+1779. je vais laisser l'enfant à la maison
+1780. je vais laisser le sac
+1781. je vais laisser le travail
+1782. je vais laisser la maison
+1783. tu vas laisser le livre
+1784. tu vas laisser mon ami
+1785. tu vas laisser l'enfant à la maison
+1786. tu vas laisser le sac
+1787. tu vas laisser le travail
+1788. tu vas laisser la maison
+1789. il va laisser le livre
+1790. il va laisser mon ami
+1791. il va laisser l'enfant à la maison
+1792. il va laisser le sac
+1793. il va laisser le travail
+1794. il va laisser la maison
+1795. elle va laisser le livre
+1796. elle va laisser mon ami
+1797. elle va laisser l'enfant à la maison
+1798. elle va laisser le sac
+1799. elle va laisser le travail
+1800. elle va laisser la maison
+1801. nous allons laisser le livre
+1802. nous allons laisser mon ami
+1803. nous allons laisser l'enfant à la maison
+1804. nous allons laisser le sac
+1805. nous allons laisser le travail
+1806. nous allons laisser la maison
+1807. vous allez laisser le livre
+1808. vous allez laisser mon ami
+1809. vous allez laisser l'enfant à la maison
+1810. vous allez laisser le sac
+1811. vous allez laisser le travail
+1812. vous allez laisser la maison
+1813. ils vont laisser le livre
+1814. ils vont laisser mon ami
+1815. ils vont laisser l'enfant à la maison
+1816. ils vont laisser le sac
+1817. ils vont laisser le travail
+1818. ils vont laisser la maison
+1819. elles vont laisser le livre
+1820. elles vont laisser mon ami
+1821. elles vont laisser l'enfant à la maison
+1822. elles vont laisser le sac
+1823. elles vont laisser le travail
+1824. elles vont laisser la maison
+1825. je vais apporter le livre
+1826. je vais apporter de l'eau
+1827. je vais apporter du pain
+1828. je vais apporter le cadeau
+1829. je vais apporter les fruits
+1830. je vais apporter le travail
+1831. tu vas apporter le livre
+1832. tu vas apporter de l'eau
+1833. tu vas apporter du pain
+1834. tu vas apporter le cadeau
+1835. tu vas apporter les fruits
+1836. tu vas apporter le travail
+1837. il va apporter le livre
+1838. il va apporter de l'eau
+1839. il va apporter du pain
+1840. il va apporter le cadeau
+1841. il va apporter les fruits
+1842. il va apporter le travail
+1843. elle va apporter le livre
+1844. elle va apporter de l'eau
+1845. elle va apporter du pain
+1846. elle va apporter le cadeau
+1847. elle va apporter les fruits
+1848. elle va apporter le travail
+1849. nous allons apporter le livre
+1850. nous allons apporter de l'eau
+1851. nous allons apporter du pain
+1852. nous allons apporter le cadeau
+1853. nous allons apporter les fruits
+1854. nous allons apporter le travail
+1855. vous allez apporter le livre
+1856. vous allez apporter de l'eau
+1857. vous allez apporter du pain
+1858. vous allez apporter le cadeau
+1859. vous allez apporter les fruits
+1860. vous allez apporter le travail
+1861. ils vont apporter le livre
+1862. ils vont apporter de l'eau
+1863. ils vont apporter du pain
+1864. ils vont apporter le cadeau
+1865. ils vont apporter les fruits
+1866. ils vont apporter le travail
+1867. elles vont apporter le livre
+1868. elles vont apporter de l'eau
+1869. elles vont apporter du pain
+1870. elles vont apporter le cadeau
+1871. elles vont apporter les fruits
+1872. elles vont apporter le travail
+1873. je vais montrer le livre
+1874. je vais montrer la maison
+1875. je vais montrer le chemin
+1876. je vais montrer mon ami
+1877. je vais montrer le travail
+1878. je vais montrer le cadeau
+1879. tu vas montrer le livre
+1880. tu vas montrer la maison
+1881. tu vas montrer le chemin
+1882. tu vas montrer mon ami
+1883. tu vas montrer le travail
+1884. tu vas montrer le cadeau
+1885. il va montrer le livre
+1886. il va montrer la maison
+1887. il va montrer le chemin
+1888. il va montrer mon ami
+1889. il va montrer le travail
+1890. il va montrer le cadeau
+1891. elle va montrer le livre
+1892. elle va montrer la maison
+1893. elle va montrer le chemin
+1894. elle va montrer mon ami
+1895. elle va montrer le travail
+1896. elle va montrer le cadeau
+1897. nous allons montrer le livre
+1898. nous allons montrer la maison
+1899. nous allons montrer le chemin
+1900. nous allons montrer mon ami
+1901. nous allons montrer le travail
+1902. nous allons montrer le cadeau
+1903. vous allez montrer le livre
+1904. vous allez montrer la maison
+1905. vous allez montrer le chemin
+1906. vous allez montrer mon ami
+1907. vous allez montrer le travail
+1908. vous allez montrer le cadeau
+1909. ils vont montrer le livre
+1910. ils vont montrer la maison
+1911. ils vont montrer le chemin
+1912. ils vont montrer mon ami
+1913. ils vont montrer le travail
+1914. ils vont montrer le cadeau
+1915. elles vont montrer le livre
+1916. elles vont montrer la maison
+1917. elles vont montrer le chemin
+1918. elles vont montrer mon ami
+1919. elles vont montrer le travail
+1920. elles vont montrer le cadeau
+
+
+============================================================
+MODULE5_QUESTIONS (364 sentences)
+============================================================
+
+1921. Est-ce que j'aime le riz ?
+1922. Est-ce que j'aime le pain ?
+1923. Est-ce que j'aime le poisson ?
+1924. Est-ce que j'aime la viande ?
+1925. Est-ce que j'aime mon ami ?
+1926. Est-ce que j'aime ma famille ?
+1927. Est-ce que tu aimes le riz ?
+1928. Est-ce que tu aimes le pain ?
+1929. Est-ce que tu aimes le poisson ?
+1930. Est-ce que tu aimes la viande ?
+1931. Est-ce que tu aimes mon ami ?
+1932. Est-ce que tu aimes ma famille ?
+1933. Est-ce qu'il aime le riz ?
+1934. Est-ce qu'il aime le pain ?
+1935. Est-ce qu'il aime le poisson ?
+1936. Est-ce que il aime la viande ?
+1937. Est-ce que il aime mon ami ?
+1938. Est-ce que il aime ma famille ?
+1939. Est-ce que elle aime le riz ?
+1940. Est-ce que elle aime le pain ?
+1941. Est-ce que elle aime le poisson ?
+1942. Est-ce que elle aime la viande ?
+1943. Est-ce que elle aime mon ami ?
+1944. Est-ce que elle aime ma famille ?
+1945. Est-ce que nous aimons le riz ?
+1946. Est-ce que nous aimons le pain ?
+1947. Est-ce que nous aimons le poisson ?
+1948. Est-ce que nous aimons la viande ?
+1949. Est-ce que nous aimons mon ami ?
+1950. Est-ce que nous aimons ma famille ?
+1951. Est-ce que vous aimez le riz ?
+1952. Est-ce que vous aimez le pain ?
+1953. Est-ce que vous aimez le poisson ?
+1954. Est-ce que vous aimez la viande ?
+1955. Est-ce que vous aimez mon ami ?
+1956. Est-ce que vous aimez ma famille ?
+1957. Est-ce qu'ils aiment le riz ?
+1958. Est-ce qu'ils aiment le pain ?
+1959. Est-ce qu'ils aiment le poisson ?
+1960. Est-ce qu'ils aiment la viande ?
+1961. Est-ce qu'ils aiment mon ami ?
+1962. Est-ce qu'ils aiment ma famille ?
+1963. Est-ce qu'elles aiment le riz ?
+1964. Est-ce qu'elles aiment le pain ?
+1965. Est-ce qu'elles aiment le poisson ?
+1966. Est-ce que elles aiment la viande ?
+1967. Est-ce que elles aiment mon ami ?
+1968. Est-ce que elles aiment ma famille ?
+1969. Est-ce que j'achète du riz ?
+1970. Est-ce que j'achète du pain ?
+1971. Est-ce que j'achète du poisson ?
+1972. Est-ce que j'achète de la viande ?
+1973. Est-ce que j'achète des fruits ?
+1974. Est-ce que j'achète un livre ?
+1975. Est-ce que tu achètes du riz ?
+1976. Est-ce que tu achètes du pain ?
+1977. Est-ce que tu achètes du poisson ?
+1978. Est-ce que tu achètes de la viande ?
+1979. Est-ce que tu achètes des fruits ?
+1980. Est-ce que tu achètes un livre ?
+1981. Est-ce que il achète du riz ?
+1982. Est-ce que il achète du pain ?
+1983. Est-ce que il achète du poisson ?
+1984. Est-ce que il achète de la viande ?
+1985. Est-ce que il achète des fruits ?
+1986. Est-ce que il achète un livre ?
+1987. Est-ce que elle achète du riz ?
+1988. Est-ce que elle achète du pain ?
+1989. Est-ce que elle achète du poisson ?
+1990. Est-ce que elle achète de la viande ?
+1991. Est-ce que elle achète des fruits ?
+1992. Est-ce que elle achète un livre ?
+1993. Est-ce que nous achetons du riz ?
+1994. Est-ce que nous achetons du pain ?
+1995. Est-ce que nous achetons du poisson ?
+1996. Est-ce que nous achetons de la viande ?
+1997. Est-ce que nous achetons des fruits ?
+1998. Est-ce que nous achetons un livre ?
+1999. Est-ce que vous achetez du riz ?
+2000. Est-ce que vous achetez du pain ?
+2001. Est-ce que vous achetez du poisson ?
+2002. Est-ce que vous achetez de la viande ?
+2003. Est-ce que vous achetez des fruits ?
+2004. Est-ce que vous achetez un livre ?
+2005. Est-ce qu'ils achètent du riz ?
+2006. Est-ce qu'ils achètent du pain ?
+2007. Est-ce qu'ils achètent du poisson ?
+2008. Est-ce qu'ils achètent de la viande ?
+2009. Est-ce qu'ils achètent des fruits ?
+2010. Est-ce qu'ils achètent un livre ?
+2011. Est-ce que elles achètent du riz ?
+2012. Est-ce que elles achètent du pain ?
+2013. Est-ce que elles achètent du poisson ?
+2014. Est-ce que elles achètent de la viande ?
+2015. Est-ce que elles achètent des fruits ?
+2016. Est-ce que elles achètent un livre ?
+2017. Est-ce que je cherche mon ami ?
+2018. Est-ce que je cherche le livre ?
+2019. Est-ce que je cherche le stylo ?
+2020. Est-ce que je cherche le travail ?
+2021. Est-ce que je cherche mon père ?
+2022. Est-ce que je cherche l'enfant ?
+2023. Est-ce que tu cherches mon ami ?
+2024. Est-ce que tu cherches le livre ?
+2025. Est-ce que tu cherches le stylo ?
+2026. Est-ce que tu cherches le travail ?
+2027. Est-ce que tu cherches mon père ?
+2028. Est-ce que tu cherches l'enfant ?
+2029. Est-ce que il cherche mon ami ?
+2030. Est-ce que il cherche le livre ?
+2031. Est-ce que il cherche le stylo ?
+2032. Est-ce que il cherche le travail ?
+2033. Est-ce que il cherche mon père ?
+2034. Est-ce que il cherche l'enfant ?
+2035. Est-ce que elle cherche mon ami ?
+2036. Est-ce que elle cherche le livre ?
+2037. Est-ce que elle cherche le stylo ?
+2038. Est-ce que elle cherche le travail ?
+2039. Est-ce que elle cherche mon père ?
+2040. Est-ce que elle cherche l'enfant ?
+2041. Est-ce que nous cherchons mon ami ?
+2042. Est-ce que nous cherchons le livre ?
+2043. Est-ce que nous cherchons le stylo ?
+2044. Est-ce que nous cherchons le travail ?
+2045. Est-ce que nous cherchons mon père ?
+2046. Est-ce que nous cherchons l'enfant ?
+2047. Est-ce que vous cherchez mon ami ?
+2048. Est-ce que vous cherchez le livre ?
+2049. Est-ce que vous cherchez le stylo ?
+2050. Est-ce que vous cherchez le travail ?
+2051. Est-ce que vous cherchez mon père ?
+2052. Est-ce que vous cherchez l'enfant ?
+2053. Est-ce qu'ils cherchent mon ami ?
+2054. Est-ce qu'ils cherchent le livre ?
+2055. Est-ce qu'ils cherchent le stylo ?
+2056. Est-ce que ils cherchent le travail ?
+2057. Est-ce que ils cherchent mon père ?
+2058. Est-ce que ils cherchent l'enfant ?
+2059. Est-ce que elles cherchent mon ami ?
+2060. Est-ce que elles cherchent le livre ?
+2061. Est-ce que elles cherchent le stylo ?
+2062. Est-ce que elles cherchent le travail ?
+2063. Est-ce que elles cherchent mon père ?
+2064. Est-ce que elles cherchent l'enfant ?
+2065. Est-ce que je trouve le livre ?
+2066. Est-ce que je trouve le stylo ?
+2067. Est-ce que je trouve mon ami ?
+2068. Est-ce que je trouve le travail ?
+2069. Est-ce que je trouve de l'argent ?
+2070. Est-ce que je trouve la maison ?
+2071. Est-ce que tu trouves le livre ?
+2072. Est-ce que tu trouves le stylo ?
+2073. Est-ce que tu trouves mon ami ?
+2074. Est-ce que tu trouves le travail ?
+2075. Est-ce que tu trouves de l'argent ?
+2076. Est-ce que tu trouves la maison ?
+2077. Est-ce que il trouve le livre ?
+2078. Est-ce que il trouve le stylo ?
+2079. Est-ce que il trouve mon ami ?
+2080. Est-ce que il trouve le travail ?
+2081. Est-ce que il trouve de l'argent ?
+2082. Est-ce que il trouve la maison ?
+2083. Est-ce que elle trouve le livre ?
+2084. Est-ce que elle trouve le stylo ?
+2085. Est-ce que elle trouve mon ami ?
+2086. Est-ce que elle trouve le travail ?
+2087. Est-ce que elle trouve de l'argent ?
+2088. Est-ce que elle trouve la maison ?
+2089. Est-ce que nous trouvons le livre ?
+2090. Est-ce que nous trouvons le stylo ?
+2091. Est-ce que nous trouvons mon ami ?
+2092. Est-ce que nous trouvons le travail ?
+2093. Est-ce que nous trouvons de l'argent ?
+2094. Est-ce que nous trouvons la maison ?
+2095. Est-ce que vous trouvez le livre ?
+2096. Est-ce que vous trouvez le stylo ?
+2097. Est-ce que vous trouvez mon ami ?
+2098. Est-ce que vous trouvez le travail ?
+2099. Est-ce que vous trouvez de l'argent ?
+2100. Est-ce que vous trouvez la maison ?
+2101. Est-ce que ils trouvent le livre ?
+2102. Est-ce que ils trouvent le stylo ?
+2103. Est-ce que ils trouvent mon ami ?
+2104. Est-ce que ils trouvent le travail ?
+2105. Est-ce que ils trouvent de l'argent ?
+2106. Est-ce que ils trouvent la maison ?
+2107. Est-ce que elles trouvent le livre ?
+2108. Est-ce que elles trouvent le stylo ?
+2109. Est-ce que elles trouvent mon ami ?
+2110. Est-ce que elles trouvent le travail ?
+2111. Est-ce que elles trouvent de l'argent ?
+2112. Est-ce que elles trouvent la maison ?
+2113. Est-ce que je parle français ?
+2114. Est-ce que je parle adja ?
+2115. Est-ce que je parle anglais ?
+2116. Est-ce que je parle avec mon ami ?
+2117. Est-ce que je parle avec le professeur ?
+2118. Est-ce que je parle avec ma mère ?
+2119. Est-ce que tu parles français ?
+2120. Est-ce que tu parles adja ?
+2121. Est-ce que tu parles anglais ?
+2122. Est-ce que tu parles avec mon ami ?
+2123. Est-ce que tu parles avec le professeur ?
+2124. Est-ce que tu parles avec ma mère ?
+2125. Est-ce que il parle français ?
+2126. Est-ce que il parle adja ?
+2127. Est-ce que il parle anglais ?
+2128. Est-ce que il parle avec mon ami ?
+2129. Est-ce que il parle avec le professeur ?
+2130. Est-ce que il parle avec ma mère ?
+2131. Est-ce que elle parle français ?
+2132. Est-ce que elle parle adja ?
+2133. Est-ce que elle parle anglais ?
+2134. Est-ce que elle parle avec mon ami ?
+2135. Est-ce que elle parle avec le professeur ?
+2136. Est-ce que elle parle avec ma mère ?
+2137. Est-ce que nous parlons français ?
+2138. Est-ce que nous parlons adja ?
+2139. Est-ce que nous parlons anglais ?
+2140. Est-ce que nous parlons avec mon ami ?
+2141. Est-ce que nous parlons avec le professeur ?
+2142. Est-ce que nous parlons avec ma mère ?
+2143. Est-ce que vous parlez français ?
+2144. Est-ce que vous parlez adja ?
+2145. Est-ce que vous parlez anglais ?
+2146. Est-ce que vous parlez avec mon ami ?
+2147. Est-ce que vous parlez avec le professeur ?
+2148. Est-ce que vous parlez avec ma mère ?
+2149. Est-ce qu'ils parlent français ?
+2150. Est-ce qu'ils parlent adja ?
+2151. Est-ce qu'ils parlent anglais ?
+2152. Est-ce qu'ils parlent avec mon ami ?
+2153. Est-ce qu'ils parlent avec le professeur ?
+2154. Est-ce qu'ils parlent avec ma mère ?
+2155. Est-ce qu'elles parlent français ?
+2156. Est-ce qu'elles parlent adja ?
+2157. Est-ce qu'elles parlent anglais ?
+2158. Est-ce qu'elles parlent avec mon ami ?
+2159. Est-ce qu'elles parlent avec le professeur ?
+2160. Est-ce qu'elles parlent avec ma mère ?
+2161. Quelle vérité sais-tu ?
+2162. Quelle réponse sais-tu ?
+2163. Quel chemin sais-tu ?
+2164. Comment sais-tu lire ?
+2165. Comment sais-tu écrire ?
+2166. Comment sais-tu parler français ?
+2167. Quelle vérité sait-il ?
+2168. Quelle réponse sait-il ?
+2169. Quel chemin sait-il ?
+2170. Que sait-il faire ?
+2171. Quelle langue sait-il parler ?
+2172. Quelle vérité sait-elle ?
+2173. Quelle réponse sait-elle ?
+2174. Quel chemin sait-elle ?
+2175. Que sait-elle faire ?
+2176. Quelle langue sait-elle parler ?
+2177. Quelle vérité savons-nous ?
+2178. Quelle réponse savons-nous ?
+2179. Quel chemin savons-nous ?
+2180. Que savons-nous faire ?
+2181. Quelle langue savons-nous parler ?
+2182. Quelle vérité savez-vous ?
+2183. Quelle réponse savez-vous ?
+2184. Quel chemin savez-vous ?
+2185. Comment savez-vous lire ?
+2186. Comment savez-vous écrire ?
+2187. Comment savez-vous parler français ?
+2188. Quelle vérité savent-ils ?
+2189. Quelle réponse savent-ils ?
+2190. Quel chemin savent-ils ?
+2191. Comment savent-ils lire ?
+2192. Comment savent-ils écrire ?
+2193. Comment savent-ils parler français ?
+2194. Quelle vérité savent-elles ?
+2195. Quelle réponse savent-elles ?
+2196. Quel chemin savent-elles ?
+2197. Que savent-elles faire ?
+2198. Que savent-elles écrire ?
+2199. Que savent-elles parler ?
+2200. Où mets-tu le livre ?
+2201. Où mets-tu le pain ?
+2202. Où mets-tu l'eau ?
+2203. Où mets-tu le stylo ?
+2204. Où mets-tu les vêtements ?
+2205. Où mets-tu le cadeau ?
+2206. Qu'est-ce qu'il met sur la table ?
+2207. Qu'est-ce qu'il met dans le sac ?
+2208. Qu'est-ce qu'il met dans le verre ?
+2209. Qu'est-ce qu'il met dans la maison ?
+2210. Qu'est-ce qu'elle met sur la table ?
+2211. Qu'est-ce qu'elle met dans le sac ?
+2212. Qu'est-ce qu'elle met dans le verre ?
+2213. Qu'est-ce qu'elle met dans la maison ?
+2214. Qu'est-ce que nous mettons sur la table ?
+2215. Qu'est-ce que nous mettons dans le sac ?
+2216. Qu'est-ce que nous mettons dans le verre ?
+2217. Qu'est-ce que nous mettons dans la maison ?
+2218. Qu'est-ce que vous mettez sur la table ?
+2219. Qu'est-ce que vous mettez dans le sac ?
+2220. Qu'est-ce que vous mettez dans le verre ?
+2221. Qu'est-ce que vous mettez dans la maison ?
+2222. Qu'est-ce qu'ils mettent sur la table ?
+2223. Qu'est-ce qu'ils mettent dans le sac ?
+2224. Qu'est-ce qu'ils mettent dans le verre ?
+2225. Qu'est-ce qu'ils mettent dans la maison ?
+2226. Qu'est-ce qu'elles mettent sur la table ?
+2227. Qu'est-ce qu'elles mettent dans le sac ?
+2228. Qu'est-ce qu'elles mettent dans le verre ?
+2229. Qu'est-ce qu'elles mettent dans la maison ?
+2230. Qu'est-ce que je laisse ?
+2231. Qui est-ce que je laisse ?
+2232. Qui est-ce que je laisse à la maison ?
+2233. Qu'est-ce que tu laisses ?
+2234. Qui est-ce que tu laisses ?
+2235. Qui est-ce que tu laisses à la maison ?
+2236. Qu'est-ce qu'il laisse ?
+2237. Qui laisse-t-il ?
+2238. Où laisse-t-il l'enfant ?
+2239. Qu'est-ce qu'elle laisse ?
+2240. Qui laisse-t-elle ?
+2241. Où laisse-t-elle l'enfant ?
+2242. Qu'est-ce que nous laissons ?
+2243. Qui laissons-nous ?
+2244. Où laissons-nous l'enfant ?
+2245. Qu'est-ce que vous laissez ?
+2246. Qui laissez-vous ?
+2247. Où laissez-vous l'enfant ?
+2248. Qu'est-ce qu'ils laissent ?
+2249. Qui laissent-ils ?
+2250. Où laissent-ils l'enfant ?
+2251. Où laissent-ils la maison ?
+2252. Qu'est-ce qu'elles laissent ?
+2253. Qui laissent-elles ?
+2254. Où laissent-elles l'enfant ?
+2255. Où laissent-elles la maison ?
+2256. Qu'est-ce que j'apporte ?
+2257. Qu'est-ce que tu apportes ?
+2258. Qu'est-ce qu'il apporte ?
+2259. Qu'est-ce qu'elle apporte ?
+2260. Qu'est-ce que nous apportons ?
+2261. Qu'est-ce que vous apportez ?
+2262. Qu'est-ce qu'ils apportent ?
+2263. Qu'est-ce qu'elles apportent ?
+2264. Qu'est-ce que je montre ?
+2265. Qui est-ce que je montre ?
+2266. Qu'est-ce que tu montres ?
+2267. Où montres-tu la maison ?
+2268. Qui est-ce que tu montres ?
+2269. Qu'est-ce que il montre ?
+2270. Où montre-t-il la maison ?
+2271. Qui est-ce que il montre ?
+2272. Que montre-t-elle ?
+2273. Qui montre-t-elle ?
+2274. Que montrons-nous ?
+2275. Qui montrons-nous ?
+2276. Que montrez-vous ?
+2277. Qui montrez-vous ?
+2278. Qu'est-ce que vous montrez ?
+2279. Qu'est-ce qu'ils montrent ?
+2280. Quel chemin montrent-ils ?
+2281. Qui montrent-ils ?
+2282. Qu'est-ce qu'elles montrent ?
+2283. Quel chemin montrent-elles ?
+2284. Qui montrent-elles ?
+
+

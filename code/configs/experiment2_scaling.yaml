@@ -1,0 +1,45 @@
+# Experiment 2: Scaling Curves
+# Inherits from base_config.yaml
+
+experiment:
+  name: exp2_scaling_curves
+  description: >
+    Plot learning curves for structured vs. random data at different sizes.
+    Test whether structured data has steeper BLEU-per-sentence.
+
+conditions:
+  # Structured-only scaling
+  - name: STRUCTURED-{size}
+    data:
+      sources: [structured_combined]
+      sampling: stratified
+    sizes: [200, 500, 1000, 2000, 3000, 4000]
+
+  # Random-only scaling
+  - name: RANDOM-{size}
+    data:
+      sources: [tatoeba_random]
+      sampling: random_subsample
+    sizes: [200, 500, 1000, 2000, 4000, 6000, 8000, 10000]
+
+  # Combined additive: 6K random + X structured
+  - name: RANDOM-6K_STRUCTURED-{size}
+    data:
+      sources: [tatoeba_random, structured_combined]
+      tatoeba_size: 6000
+      sampling: random_subsample
+    structured_sizes: [500, 1000, 2000, 4000]
+
+  # Combined replacement: (10K-X) random + X structured, always 10K total
+  - name: REPLACE-RANDOM-{random_size}_STRUCTURED-{struct_size}
+    data:
+      sources: [tatoeba_random, structured_combined]
+      total_size: 10000
+      sampling: random_subsample
+    replacement_splits:
+      - {random: 9500, structured: 500}
+      - {random: 9000, structured: 1000}
+      - {random: 8000, structured: 2000}
+      - {random: 6000, structured: 4000}
+
+seeds: [42, 123, 456, 789, 1024]

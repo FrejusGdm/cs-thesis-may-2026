@@ -1,0 +1,5951 @@
+ADJA TRANSLATION TEMPLATE
+============================================================
+Instructions: Write the Adja translation after the arrow (→)
+============================================================
+
+1. je mange du riz
+   → 
+
+2. je mange du pain
+   → 
+
+3. je mange du poisson
+   → 
+
+4. je mange de la viande
+   → 
+
+5. je mange des fruits
+   → 
+
+6. je mange des légumes
+   → 
+
+7. tu manges du riz
+   → 
+
+8. tu manges du pain
+   → 
+
+9. tu manges du poisson
+   → 
+
+10. tu manges de la viande
+   → 
+
+11. tu manges des fruits
+   → 
+
+12. tu manges des légumes
+   → 
+
+13. il mange du riz
+   → 
+
+14. il mange du pain
+   → 
+
+15. il mange du poisson
+   → 
+
+16. il mange de la viande
+   → 
+
+17. il mange des fruits
+   → 
+
+18. il mange des légumes
+   → 
+
+19. elle mange du riz
+   → 
+
+20. elle mange du pain
+   → 
+
+21. elle mange du poisson
+   → 
+
+22. elle mange de la viande
+   → 
+
+23. elle mange des fruits
+   → 
+
+24. elle mange des légumes
+   → 
+
+25. nous mangeons du riz
+   → 
+
+26. nous mangeons du pain
+   → 
+
+27. nous mangeons du poisson
+   → 
+
+28. nous mangeons de la viande
+   → 
+
+29. nous mangeons des fruits
+   → 
+
+30. nous mangeons des légumes
+   → 
+
+31. vous mangez du riz
+   → 
+
+32. vous mangez du pain
+   → 
+
+33. vous mangez du poisson
+   → 
+
+34. vous mangez de la viande
+   → 
+
+35. vous mangez des fruits
+   → 
+
+36. vous mangez des légumes
+   → 
+
+37. ils mangent du riz
+   → 
+
+38. ils mangent du pain
+   → 
+
+39. ils mangent du poisson
+   → 
+
+40. ils mangent de la viande
+   → 
+
+41. ils mangent des fruits
+   → 
+
+42. ils mangent des légumes
+   → 
+
+43. elles mangent du riz
+   → 
+
+44. elles mangent du pain
+   → 
+
+45. elles mangent du poisson
+   → 
+
+46. elles mangent de la viande
+   → 
+
+47. elles mangent des fruits
+   → 
+
+48. elles mangent des légumes
+   → 
+
+49. je bois de l'eau
+   → 
+
+50. je bois du lait
+   → 
+
+51. je bois du thé
+   → 
+
+52. je bois du café
+   → 
+
+53. je bois du jus
+   → 
+
+54. tu bois de l'eau
+   → 
+
+55. tu bois du lait
+   → 
+
+56. tu bois du thé
+   → 
+
+57. tu bois du café
+   → 
+
+58. tu bois du jus
+   → 
+
+59. il boit de l'eau
+   → 
+
+60. il boit du lait
+   → 
+
+61. il boit du thé
+   → 
+
+62. il boit du café
+   → 
+
+63. il boit du jus
+   → 
+
+64. elle boit de l'eau
+   → 
+
+65. elle boit du lait
+   → 
+
+66. elle boit du thé
+   → 
+
+67. elle boit du café
+   → 
+
+68. elle boit du jus
+   → 
+
+69. nous buvons de l'eau
+   → 
+
+70. nous buvons du lait
+   → 
+
+71. nous buvons du thé
+   → 
+
+72. nous buvons du café
+   → 
+
+73. nous buvons du jus
+   → 
+
+74. vous buvez de l'eau
+   → 
+
+75. vous buvez du lait
+   → 
+
+76. vous buvez du thé
+   → 
+
+77. vous buvez du café
+   → 
+
+78. vous buvez du jus
+   → 
+
+79. ils boivent de l'eau
+   → 
+
+80. ils boivent du lait
+   → 
+
+81. ils boivent du thé
+   → 
+
+82. ils boivent du café
+   → 
+
+83. ils boivent du jus
+   → 
+
+84. elles boivent de l'eau
+   → 
+
+85. elles boivent du lait
+   → 
+
+86. elles boivent du thé
+   → 
+
+87. elles boivent du café
+   → 
+
+88. elles boivent du jus
+   → 
+
+89. je vois mon ami
+   → 
+
+90. je vois ma mère
+   → 
+
+91. je vois mon père
+   → 
+
+92. je vois le professeur
+   → 
+
+93. je vois l'enfant
+   → 
+
+94. je vois le chien
+   → 
+
+95. tu vois mon ami
+   → 
+
+96. tu vois ma mère
+   → 
+
+97. tu vois mon père
+   → 
+
+98. tu vois le professeur
+   → 
+
+99. tu vois l'enfant
+   → 
+
+100. tu vois le chien
+   → 
+
+101. il voit mon ami
+   → 
+
+102. il voit ma mère
+   → 
+
+103. il voit mon père
+   → 
+
+104. il voit le professeur
+   → 
+
+105. il voit l'enfant
+   → 
+
+106. il voit le chien
+   → 
+
+107. elle voit mon ami
+   → 
+
+108. elle voit ma mère
+   → 
+
+109. elle voit mon père
+   → 
+
+110. elle voit le professeur
+   → 
+
+111. elle voit l'enfant
+   → 
+
+112. elle voit le chien
+   → 
+
+113. nous voyons mon ami
+   → 
+
+114. nous voyons ma mère
+   → 
+
+115. nous voyons mon père
+   → 
+
+116. nous voyons le professeur
+   → 
+
+117. nous voyons l'enfant
+   → 
+
+118. nous voyons le chien
+   → 
+
+119. vous voyez mon ami
+   → 
+
+120. vous voyez ma mère
+   → 
+
+121. vous voyez mon père
+   → 
+
+122. vous voyez le professeur
+   → 
+
+123. vous voyez l'enfant
+   → 
+
+124. vous voyez le chien
+   → 
+
+125. ils voient mon ami
+   → 
+
+126. ils voient ma mère
+   → 
+
+127. ils voient mon père
+   → 
+
+128. ils voient le professeur
+   → 
+
+129. ils voient l'enfant
+   → 
+
+130. ils voient le chien
+   → 
+
+131. elles voient mon ami
+   → 
+
+132. elles voient ma mère
+   → 
+
+133. elles voient mon père
+   → 
+
+134. elles voient le professeur
+   → 
+
+135. elles voient l'enfant
+   → 
+
+136. elles voient le chien
+   → 
+
+137. je vais à la maison
+   → 
+
+138. je vais à l'école
+   → 
+
+139. je vais au marché
+   → 
+
+140. je vais au village
+   → 
+
+141. je vais au travail
+   → 
+
+142. tu vas à la maison
+   → 
+
+143. tu vas à l'école
+   → 
+
+144. tu vas au marché
+   → 
+
+145. tu vas au village
+   → 
+
+146. tu vas au travail
+   → 
+
+147. il va à la maison
+   → 
+
+148. il va à l'école
+   → 
+
+149. il va au marché
+   → 
+
+150. il va au village
+   → 
+
+151. il va au travail
+   → 
+
+152. elle va à la maison
+   → 
+
+153. elle va à l'école
+   → 
+
+154. elle va au marché
+   → 
+
+155. elle va au village
+   → 
+
+156. elle va au travail
+   → 
+
+157. nous allons à la maison
+   → 
+
+158. nous allons à l'école
+   → 
+
+159. nous allons au marché
+   → 
+
+160. nous allons au village
+   → 
+
+161. nous allons au travail
+   → 
+
+162. vous allez à la maison
+   → 
+
+163. vous allez à l'école
+   → 
+
+164. vous allez au marché
+   → 
+
+165. vous allez au village
+   → 
+
+166. vous allez au travail
+   → 
+
+167. ils vont à la maison
+   → 
+
+168. ils vont à l'école
+   → 
+
+169. ils vont au marché
+   → 
+
+170. ils vont au village
+   → 
+
+171. ils vont au travail
+   → 
+
+172. elles vont à la maison
+   → 
+
+173. elles vont à l'école
+   → 
+
+174. elles vont au marché
+   → 
+
+175. elles vont au village
+   → 
+
+176. elles vont au travail
+   → 
+
+177. je viens de la maison
+   → 
+
+178. je viens de l'école
+   → 
+
+179. je viens du marché
+   → 
+
+180. je viens du village
+   → 
+
+181. je viens du travail
+   → 
+
+182. tu viens de la maison
+   → 
+
+183. tu viens de l'école
+   → 
+
+184. tu viens du marché
+   → 
+
+185. tu viens du village
+   → 
+
+186. tu viens du travail
+   → 
+
+187. il vient de la maison
+   → 
+
+188. il vient de l'école
+   → 
+
+189. il vient du marché
+   → 
+
+190. il vient du village
+   → 
+
+191. il vient du travail
+   → 
+
+192. elle vient de la maison
+   → 
+
+193. elle vient de l'école
+   → 
+
+194. elle vient du marché
+   → 
+
+195. elle vient du village
+   → 
+
+196. elle vient du travail
+   → 
+
+197. nous venons de la maison
+   → 
+
+198. nous venons de l'école
+   → 
+
+199. nous venons du marché
+   → 
+
+200. nous venons du village
+   → 
+
+201. nous venons du travail
+   → 
+
+202. vous venez de la maison
+   → 
+
+203. vous venez de l'école
+   → 
+
+204. vous venez du marché
+   → 
+
+205. vous venez du village
+   → 
+
+206. vous venez du travail
+   → 
+
+207. ils viennent de la maison
+   → 
+
+208. ils viennent de l'école
+   → 
+
+209. ils viennent du marché
+   → 
+
+210. ils viennent du village
+   → 
+
+211. ils viennent du travail
+   → 
+
+212. elles viennent de la maison
+   → 
+
+213. elles viennent de l'école
+   → 
+
+214. elles viennent du marché
+   → 
+
+215. elles viennent du village
+   → 
+
+216. elles viennent du travail
+   → 
+
+217. je fais le travail
+   → 
+
+218. je fais les devoirs
+   → 
+
+219. je fais la cuisine
+   → 
+
+220. je fais le ménage
+   → 
+
+221. je fais le lit
+   → 
+
+222. tu fais le travail
+   → 
+
+223. tu fais les devoirs
+   → 
+
+224. tu fais la cuisine
+   → 
+
+225. tu fais le ménage
+   → 
+
+226. tu fais le lit
+   → 
+
+227. il fait le travail
+   → 
+
+228. il fait les devoirs
+   → 
+
+229. il fait la cuisine
+   → 
+
+230. il fait le ménage
+   → 
+
+231. il fait le lit
+   → 
+
+232. elle fait le travail
+   → 
+
+233. elle fait les devoirs
+   → 
+
+234. elle fait la cuisine
+   → 
+
+235. elle fait le ménage
+   → 
+
+236. elle fait le lit
+   → 
+
+237. nous faisons le travail
+   → 
+
+238. nous faisons les devoirs
+   → 
+
+239. nous faisons la cuisine
+   → 
+
+240. nous faisons le ménage
+   → 
+
+241. nous faisons le lit
+   → 
+
+242. vous faites le travail
+   → 
+
+243. vous faites les devoirs
+   → 
+
+244. vous faites la cuisine
+   → 
+
+245. vous faites le ménage
+   → 
+
+246. vous faites le lit
+   → 
+
+247. ils font le travail
+   → 
+
+248. ils font les devoirs
+   → 
+
+249. ils font la cuisine
+   → 
+
+250. ils font le ménage
+   → 
+
+251. ils font le lit
+   → 
+
+252. elles font le travail
+   → 
+
+253. elles font les devoirs
+   → 
+
+254. elles font la cuisine
+   → 
+
+255. elles font le ménage
+   → 
+
+256. elles font le lit
+   → 
+
+257. j'ai un livre
+   → 
+
+258. j'ai une maison
+   → 
+
+259. j'ai un ami
+   → 
+
+260. j'ai une sœur
+   → 
+
+261. j'ai un frère
+   → 
+
+262. j'ai de l'argent
+   → 
+
+263. tu as un livre
+   → 
+
+264. tu as une maison
+   → 
+
+265. tu as un ami
+   → 
+
+266. tu as une sœur
+   → 
+
+267. tu as un frère
+   → 
+
+268. tu as de l'argent
+   → 
+
+269. il a un livre
+   → 
+
+270. il a une maison
+   → 
+
+271. il a un ami
+   → 
+
+272. il a une sœur
+   → 
+
+273. il a un frère
+   → 
+
+274. il a de l'argent
+   → 
+
+275. elle a un livre
+   → 
+
+276. elle a une maison
+   → 
+
+277. elle a un ami
+   → 
+
+278. elle a une sœur
+   → 
+
+279. elle a un frère
+   → 
+
+280. elle a de l'argent
+   → 
+
+281. nous avons un livre
+   → 
+
+282. nous avons une maison
+   → 
+
+283. nous avons un ami
+   → 
+
+284. nous avons une sœur
+   → 
+
+285. nous avons un frère
+   → 
+
+286. nous avons de l'argent
+   → 
+
+287. vous avez un livre
+   → 
+
+288. vous avez une maison
+   → 
+
+289. vous avez un ami
+   → 
+
+290. vous avez une sœur
+   → 
+
+291. vous avez un frère
+   → 
+
+292. vous avez de l'argent
+   → 
+
+293. ils ont un livre
+   → 
+
+294. ils ont une maison
+   → 
+
+295. ils ont un ami
+   → 
+
+296. ils ont une sœur
+   → 
+
+297. ils ont un frère
+   → 
+
+298. ils ont de l'argent
+   → 
+
+299. elles ont un livre
+   → 
+
+300. elles ont une maison
+   → 
+
+301. elles ont un ami
+   → 
+
+302. elles ont une sœur
+   → 
+
+303. elles ont un frère
+   → 
+
+304. elles ont de l'argent
+   → 
+
+305. je prends le livre
+   → 
+
+306. je prends l'eau
+   → 
+
+307. je prends le pain
+   → 
+
+308. je prends le bus
+   → 
+
+309. je prends le stylo
+   → 
+
+310. tu prends le livre
+   → 
+
+311. tu prends l'eau
+   → 
+
+312. tu prends le pain
+   → 
+
+313. tu prends le bus
+   → 
+
+314. tu prends le stylo
+   → 
+
+315. il prend le livre
+   → 
+
+316. il prend l'eau
+   → 
+
+317. il prend le pain
+   → 
+
+318. il prend le bus
+   → 
+
+319. il prend le stylo
+   → 
+
+320. elle prend le livre
+   → 
+
+321. elle prend l'eau
+   → 
+
+322. elle prend le pain
+   → 
+
+323. elle prend le bus
+   → 
+
+324. elle prend le stylo
+   → 
+
+325. nous prenons le livre
+   → 
+
+326. nous prenons l'eau
+   → 
+
+327. nous prenons le pain
+   → 
+
+328. nous prenons le bus
+   → 
+
+329. nous prenons le stylo
+   → 
+
+330. vous prenez le livre
+   → 
+
+331. vous prenez l'eau
+   → 
+
+332. vous prenez le pain
+   → 
+
+333. vous prenez le bus
+   → 
+
+334. vous prenez le stylo
+   → 
+
+335. ils prennent le livre
+   → 
+
+336. ils prennent l'eau
+   → 
+
+337. ils prennent le pain
+   → 
+
+338. ils prennent le bus
+   → 
+
+339. ils prennent le stylo
+   → 
+
+340. elles prennent le livre
+   → 
+
+341. elles prennent l'eau
+   → 
+
+342. elles prennent le pain
+   → 
+
+343. elles prennent le bus
+   → 
+
+344. elles prennent le stylo
+   → 
+
+345. je donne le livre
+   → 
+
+346. je donne de l'eau
+   → 
+
+347. je donne du pain
+   → 
+
+348. je donne de l'argent
+   → 
+
+349. je donne le cadeau
+   → 
+
+350. tu donnes le livre
+   → 
+
+351. tu donnes de l'eau
+   → 
+
+352. tu donnes du pain
+   → 
+
+353. tu donnes de l'argent
+   → 
+
+354. tu donnes le cadeau
+   → 
+
+355. il donne le livre
+   → 
+
+356. il donne de l'eau
+   → 
+
+357. il donne du pain
+   → 
+
+358. il donne de l'argent
+   → 
+
+359. il donne le cadeau
+   → 
+
+360. elle donne le livre
+   → 
+
+361. elle donne de l'eau
+   → 
+
+362. elle donne du pain
+   → 
+
+363. elle donne de l'argent
+   → 
+
+364. elle donne le cadeau
+   → 
+
+365. nous donnons le livre
+   → 
+
+366. nous donnons de l'eau
+   → 
+
+367. nous donnons du pain
+   → 
+
+368. nous donnons de l'argent
+   → 
+
+369. nous donnons le cadeau
+   → 
+
+370. vous donnez le livre
+   → 
+
+371. vous donnez de l'eau
+   → 
+
+372. vous donnez du pain
+   → 
+
+373. vous donnez de l'argent
+   → 
+
+374. vous donnez le cadeau
+   → 
+
+375. ils donnent le livre
+   → 
+
+376. ils donnent de l'eau
+   → 
+
+377. ils donnent du pain
+   → 
+
+378. ils donnent de l'argent
+   → 
+
+379. ils donnent le cadeau
+   → 
+
+380. elles donnent le livre
+   → 
+
+381. elles donnent de l'eau
+   → 
+
+382. elles donnent du pain
+   → 
+
+383. elles donnent de l'argent
+   → 
+
+384. elles donnent le cadeau
+   → 
+
+385. je veux du riz
+   → 
+
+386. je veux de l'eau
+   → 
+
+387. je veux le livre
+   → 
+
+388. je veux aller à la maison
+   → 
+
+389. je veux manger
+   → 
+
+390. tu veux du riz
+   → 
+
+391. tu veux de l'eau
+   → 
+
+392. tu veux le livre
+   → 
+
+393. tu veux aller à la maison
+   → 
+
+394. tu veux manger
+   → 
+
+395. il veut du riz
+   → 
+
+396. il veut de l'eau
+   → 
+
+397. il veut le livre
+   → 
+
+398. il veut aller à la maison
+   → 
+
+399. il veut manger
+   → 
+
+400. elle veut du riz
+   → 
+
+401. elle veut de l'eau
+   → 
+
+402. elle veut le livre
+   → 
+
+403. elle veut aller à la maison
+   → 
+
+404. elle veut manger
+   → 
+
+405. nous voulons du riz
+   → 
+
+406. nous voulons de l'eau
+   → 
+
+407. nous voulons le livre
+   → 
+
+408. nous voulons aller à la maison
+   → 
+
+409. nous voulons manger
+   → 
+
+410. vous voulez du riz
+   → 
+
+411. vous voulez de l'eau
+   → 
+
+412. vous voulez le livre
+   → 
+
+413. vous voulez aller à la maison
+   → 
+
+414. vous voulez manger
+   → 
+
+415. ils veulent du riz
+   → 
+
+416. ils veulent de l'eau
+   → 
+
+417. ils veulent le livre
+   → 
+
+418. ils veulent aller à la maison
+   → 
+
+419. ils veulent manger
+   → 
+
+420. elles veulent du riz
+   → 
+
+421. elles veulent de l'eau
+   → 
+
+422. elles veulent le livre
+   → 
+
+423. elles veulent aller à la maison
+   → 
+
+424. elles veulent manger
+   → 
+
+425. je ne mange pas du riz
+   → 
+
+426. je ne mange pas du pain
+   → 
+
+427. je ne mange pas du poisson
+   → 
+
+428. je ne mange pas de la viande
+   → 
+
+429. je ne mange pas des fruits
+   → 
+
+430. je ne mange pas des légumes
+   → 
+
+431. tu ne manges pas du riz
+   → 
+
+432. tu ne manges pas du pain
+   → 
+
+433. tu ne manges pas du poisson
+   → 
+
+434. tu ne manges pas de la viande
+   → 
+
+435. tu ne manges pas des fruits
+   → 
+
+436. tu ne manges pas des légumes
+   → 
+
+437. il ne mange pas du riz
+   → 
+
+438. il ne mange pas du pain
+   → 
+
+439. il ne mange pas du poisson
+   → 
+
+440. il ne mange pas de la viande
+   → 
+
+441. il ne mange pas des fruits
+   → 
+
+442. il ne mange pas des légumes
+   → 
+
+443. elle ne mange pas du riz
+   → 
+
+444. elle ne mange pas du pain
+   → 
+
+445. elle ne mange pas du poisson
+   → 
+
+446. elle ne mange pas de la viande
+   → 
+
+447. elle ne mange pas des fruits
+   → 
+
+448. elle ne mange pas des légumes
+   → 
+
+449. nous ne mangeons pas du riz
+   → 
+
+450. nous ne mangeons pas du pain
+   → 
+
+451. nous ne mangeons pas du poisson
+   → 
+
+452. nous ne mangeons pas de la viande
+   → 
+
+453. nous ne mangeons pas des fruits
+   → 
+
+454. nous ne mangeons pas des légumes
+   → 
+
+455. vous ne mangez pas du riz
+   → 
+
+456. vous ne mangez pas du pain
+   → 
+
+457. vous ne mangez pas du poisson
+   → 
+
+458. vous ne mangez pas de la viande
+   → 
+
+459. vous ne mangez pas des fruits
+   → 
+
+460. vous ne mangez pas des légumes
+   → 
+
+461. ils ne mangent pas du riz
+   → 
+
+462. ils ne mangent pas du pain
+   → 
+
+463. ils ne mangent pas du poisson
+   → 
+
+464. ils ne mangent pas de la viande
+   → 
+
+465. ils ne mangent pas des fruits
+   → 
+
+466. ils ne mangent pas des légumes
+   → 
+
+467. elles ne mangent pas du riz
+   → 
+
+468. elles ne mangent pas du pain
+   → 
+
+469. elles ne mangent pas du poisson
+   → 
+
+470. elles ne mangent pas de la viande
+   → 
+
+471. elles ne mangent pas des fruits
+   → 
+
+472. elles ne mangent pas des légumes
+   → 
+
+473. je ne bois pas de l'eau
+   → 
+
+474. je ne bois pas du lait
+   → 
+
+475. je ne bois pas du thé
+   → 
+
+476. je ne bois pas du café
+   → 
+
+477. je ne bois pas du jus
+   → 
+
+478. tu ne bois pas de l'eau
+   → 
+
+479. tu ne bois pas du lait
+   → 
+
+480. tu ne bois pas du thé
+   → 
+
+481. tu ne bois pas du café
+   → 
+
+482. tu ne bois pas du jus
+   → 
+
+483. il ne boit pas de l'eau
+   → 
+
+484. il ne boit pas du lait
+   → 
+
+485. il ne boit pas du thé
+   → 
+
+486. il ne boit pas du café
+   → 
+
+487. il ne boit pas du jus
+   → 
+
+488. elle ne boit pas de l'eau
+   → 
+
+489. elle ne boit pas du lait
+   → 
+
+490. elle ne boit pas du thé
+   → 
+
+491. elle ne boit pas du café
+   → 
+
+492. elle ne boit pas du jus
+   → 
+
+493. nous ne buvons pas de l'eau
+   → 
+
+494. nous ne buvons pas du lait
+   → 
+
+495. nous ne buvons pas du thé
+   → 
+
+496. nous ne buvons pas du café
+   → 
+
+497. nous ne buvons pas du jus
+   → 
+
+498. vous ne buvez pas de l'eau
+   → 
+
+499. vous ne buvez pas du lait
+   → 
+
+500. vous ne buvez pas du thé
+   → 
+
+501. vous ne buvez pas du café
+   → 
+
+502. vous ne buvez pas du jus
+   → 
+
+503. ils ne boivent pas de l'eau
+   → 
+
+504. ils ne boivent pas du lait
+   → 
+
+505. ils ne boivent pas du thé
+   → 
+
+506. ils ne boivent pas du café
+   → 
+
+507. ils ne boivent pas du jus
+   → 
+
+508. elles ne boivent pas de l'eau
+   → 
+
+509. elles ne boivent pas du lait
+   → 
+
+510. elles ne boivent pas du thé
+   → 
+
+511. elles ne boivent pas du café
+   → 
+
+512. elles ne boivent pas du jus
+   → 
+
+513. je ne vois pas mon ami
+   → 
+
+514. je ne vois pas ma mère
+   → 
+
+515. je ne vois pas mon père
+   → 
+
+516. je ne vois pas le professeur
+   → 
+
+517. je ne vois pas l'enfant
+   → 
+
+518. je ne vois pas le chien
+   → 
+
+519. tu ne vois pas mon ami
+   → 
+
+520. tu ne vois pas ma mère
+   → 
+
+521. tu ne vois pas mon père
+   → 
+
+522. tu ne vois pas le professeur
+   → 
+
+523. tu ne vois pas l'enfant
+   → 
+
+524. tu ne vois pas le chien
+   → 
+
+525. il ne voit pas mon ami
+   → 
+
+526. il ne voit pas ma mère
+   → 
+
+527. il ne voit pas mon père
+   → 
+
+528. il ne voit pas le professeur
+   → 
+
+529. il ne voit pas l'enfant
+   → 
+
+530. il ne voit pas le chien
+   → 
+
+531. elle ne voit pas mon ami
+   → 
+
+532. elle ne voit pas ma mère
+   → 
+
+533. elle ne voit pas mon père
+   → 
+
+534. elle ne voit pas le professeur
+   → 
+
+535. elle ne voit pas l'enfant
+   → 
+
+536. elle ne voit pas le chien
+   → 
+
+537. nous ne voyons pas mon ami
+   → 
+
+538. nous ne voyons pas ma mère
+   → 
+
+539. nous ne voyons pas mon père
+   → 
+
+540. nous ne voyons pas le professeur
+   → 
+
+541. nous ne voyons pas l'enfant
+   → 
+
+542. nous ne voyons pas le chien
+   → 
+
+543. vous ne voyez pas mon ami
+   → 
+
+544. vous ne voyez pas ma mère
+   → 
+
+545. vous ne voyez pas mon père
+   → 
+
+546. vous ne voyez pas le professeur
+   → 
+
+547. vous ne voyez pas l'enfant
+   → 
+
+548. vous ne voyez pas le chien
+   → 
+
+549. ils ne voient pas mon ami
+   → 
+
+550. ils ne voient pas ma mère
+   → 
+
+551. ils ne voient pas mon père
+   → 
+
+552. ils ne voient pas le professeur
+   → 
+
+553. ils ne voient pas l'enfant
+   → 
+
+554. ils ne voient pas le chien
+   → 
+
+555. elles ne voient pas mon ami
+   → 
+
+556. elles ne voient pas ma mère
+   → 
+
+557. elles ne voient pas mon père
+   → 
+
+558. elles ne voient pas le professeur
+   → 
+
+559. elles ne voient pas l'enfant
+   → 
+
+560. elles ne voient pas le chien
+   → 
+
+561. je ne vais pas à la maison
+   → 
+
+562. je ne vais pas à l'école
+   → 
+
+563. je ne vais pas au marché
+   → 
+
+564. je ne vais pas au village
+   → 
+
+565. je ne vais pas au travail
+   → 
+
+566. tu ne vas pas à la maison
+   → 
+
+567. tu ne vas pas à l'école
+   → 
+
+568. tu ne vas pas au marché
+   → 
+
+569. tu ne vas pas au village
+   → 
+
+570. tu ne vas pas au travail
+   → 
+
+571. il ne va pas à la maison
+   → 
+
+572. il ne va pas à l'école
+   → 
+
+573. il ne va pas au marché
+   → 
+
+574. il ne va pas au village
+   → 
+
+575. il ne va pas au travail
+   → 
+
+576. elle ne va pas à la maison
+   → 
+
+577. elle ne va pas à l'école
+   → 
+
+578. elle ne va pas au marché
+   → 
+
+579. elle ne va pas au village
+   → 
+
+580. elle ne va pas au travail
+   → 
+
+581. nous ne allons pas à la maison
+   → 
+
+582. nous ne allons pas à l'école
+   → 
+
+583. nous ne allons pas au marché
+   → 
+
+584. nous ne allons pas au village
+   → 
+
+585. nous ne allons pas au travail
+   → 
+
+586. vous ne allez pas à la maison
+   → 
+
+587. vous ne allez pas à l'école
+   → 
+
+588. vous ne allez pas au marché
+   → 
+
+589. vous ne allez pas au village
+   → 
+
+590. vous ne allez pas au travail
+   → 
+
+591. ils ne vont pas à la maison
+   → 
+
+592. ils ne vont pas à l'école
+   → 
+
+593. ils ne vont pas au marché
+   → 
+
+594. ils ne vont pas au village
+   → 
+
+595. ils ne vont pas au travail
+   → 
+
+596. elles ne vont pas à la maison
+   → 
+
+597. elles ne vont pas à l'école
+   → 
+
+598. elles ne vont pas au marché
+   → 
+
+599. elles ne vont pas au village
+   → 
+
+600. elles ne vont pas au travail
+   → 
+
+601. je ne viens pas de la maison
+   → 
+
+602. je ne viens pas de l'école
+   → 
+
+603. je ne viens pas du marché
+   → 
+
+604. je ne viens pas du village
+   → 
+
+605. je ne viens pas du travail
+   → 
+
+606. tu ne viens pas de la maison
+   → 
+
+607. tu ne viens pas de l'école
+   → 
+
+608. tu ne viens pas du marché
+   → 
+
+609. tu ne viens pas du village
+   → 
+
+610. tu ne viens pas du travail
+   → 
+
+611. il ne vient pas de la maison
+   → 
+
+612. il ne vient pas de l'école
+   → 
+
+613. il ne vient pas du marché
+   → 
+
+614. il ne vient pas du village
+   → 
+
+615. il ne vient pas du travail
+   → 
+
+616. elle ne vient pas de la maison
+   → 
+
+617. elle ne vient pas de l'école
+   → 
+
+618. elle ne vient pas du marché
+   → 
+
+619. elle ne vient pas du village
+   → 
+
+620. elle ne vient pas du travail
+   → 
+
+621. nous ne venons pas de la maison
+   → 
+
+622. nous ne venons pas de l'école
+   → 
+
+623. nous ne venons pas du marché
+   → 
+
+624. nous ne venons pas du village
+   → 
+
+625. nous ne venons pas du travail
+   → 
+
+626. vous ne venez pas de la maison
+   → 
+
+627. vous ne venez pas de l'école
+   → 
+
+628. vous ne venez pas du marché
+   → 
+
+629. vous ne venez pas du village
+   → 
+
+630. vous ne venez pas du travail
+   → 
+
+631. ils ne viennent pas de la maison
+   → 
+
+632. ils ne viennent pas de l'école
+   → 
+
+633. ils ne viennent pas du marché
+   → 
+
+634. ils ne viennent pas du village
+   → 
+
+635. ils ne viennent pas du travail
+   → 
+
+636. elles ne viennent pas de la maison
+   → 
+
+637. elles ne viennent pas de l'école
+   → 
+
+638. elles ne viennent pas du marché
+   → 
+
+639. elles ne viennent pas du village
+   → 
+
+640. elles ne viennent pas du travail
+   → 
+
+641. je ne fais pas le travail
+   → 
+
+642. je ne fais pas les devoirs
+   → 
+
+643. je ne fais pas la cuisine
+   → 
+
+644. je ne fais pas le ménage
+   → 
+
+645. je ne fais pas le lit
+   → 
+
+646. tu ne fais pas le travail
+   → 
+
+647. tu ne fais pas les devoirs
+   → 
+
+648. tu ne fais pas la cuisine
+   → 
+
+649. tu ne fais pas le ménage
+   → 
+
+650. tu ne fais pas le lit
+   → 
+
+651. il ne fait pas le travail
+   → 
+
+652. il ne fait pas les devoirs
+   → 
+
+653. il ne fait pas la cuisine
+   → 
+
+654. il ne fait pas le ménage
+   → 
+
+655. il ne fait pas le lit
+   → 
+
+656. elle ne fait pas le travail
+   → 
+
+657. elle ne fait pas les devoirs
+   → 
+
+658. elle ne fait pas la cuisine
+   → 
+
+659. elle ne fait pas le ménage
+   → 
+
+660. elle ne fait pas le lit
+   → 
+
+661. nous ne faisons pas le travail
+   → 
+
+662. nous ne faisons pas les devoirs
+   → 
+
+663. nous ne faisons pas la cuisine
+   → 
+
+664. nous ne faisons pas le ménage
+   → 
+
+665. nous ne faisons pas le lit
+   → 
+
+666. vous ne faites pas le travail
+   → 
+
+667. vous ne faites pas les devoirs
+   → 
+
+668. vous ne faites pas la cuisine
+   → 
+
+669. vous ne faites pas le ménage
+   → 
+
+670. vous ne faites pas le lit
+   → 
+
+671. ils ne font pas le travail
+   → 
+
+672. ils ne font pas les devoirs
+   → 
+
+673. ils ne font pas la cuisine
+   → 
+
+674. ils ne font pas le ménage
+   → 
+
+675. ils ne font pas le lit
+   → 
+
+676. elles ne font pas le travail
+   → 
+
+677. elles ne font pas les devoirs
+   → 
+
+678. elles ne font pas la cuisine
+   → 
+
+679. elles ne font pas le ménage
+   → 
+
+680. elles ne font pas le lit
+   → 
+
+681. je n'ai pas un livre
+   → 
+
+682. je n'ai pas une maison
+   → 
+
+683. je n'ai pas un ami
+   → 
+
+684. je n'ai pas une sœur
+   → 
+
+685. je n'ai pas un frère
+   → 
+
+686. je n'ai pas de l'argent
+   → 
+
+687. tu ne as pas un livre
+   → 
+
+688. tu ne as pas une maison
+   → 
+
+689. tu ne as pas un ami
+   → 
+
+690. tu ne as pas une sœur
+   → 
+
+691. tu ne as pas un frère
+   → 
+
+692. tu ne as pas de l'argent
+   → 
+
+693. il ne a pas un livre
+   → 
+
+694. il ne a pas une maison
+   → 
+
+695. il ne a pas un ami
+   → 
+
+696. il ne a pas une sœur
+   → 
+
+697. il ne a pas un frère
+   → 
+
+698. il ne a pas de l'argent
+   → 
+
+699. elle ne a pas un livre
+   → 
+
+700. elle ne a pas une maison
+   → 
+
+701. elle ne a pas un ami
+   → 
+
+702. elle ne a pas une sœur
+   → 
+
+703. elle ne a pas un frère
+   → 
+
+704. elle ne a pas de l'argent
+   → 
+
+705. nous ne avons pas un livre
+   → 
+
+706. nous ne avons pas une maison
+   → 
+
+707. nous ne avons pas un ami
+   → 
+
+708. nous ne avons pas une sœur
+   → 
+
+709. nous ne avons pas un frère
+   → 
+
+710. nous ne avons pas de l'argent
+   → 
+
+711. vous ne avez pas un livre
+   → 
+
+712. vous ne avez pas une maison
+   → 
+
+713. vous ne avez pas un ami
+   → 
+
+714. vous ne avez pas une sœur
+   → 
+
+715. vous ne avez pas un frère
+   → 
+
+716. vous ne avez pas de l'argent
+   → 
+
+717. ils ne ont pas un livre
+   → 
+
+718. ils ne ont pas une maison
+   → 
+
+719. ils ne ont pas un ami
+   → 
+
+720. ils ne ont pas une sœur
+   → 
+
+721. ils ne ont pas un frère
+   → 
+
+722. ils ne ont pas de l'argent
+   → 
+
+723. elles ne ont pas un livre
+   → 
+
+724. elles ne ont pas une maison
+   → 
+
+725. elles ne ont pas un ami
+   → 
+
+726. elles ne ont pas une sœur
+   → 
+
+727. elles ne ont pas un frère
+   → 
+
+728. elles ne ont pas de l'argent
+   → 
+
+729. je ne prends pas le livre
+   → 
+
+730. je ne prends pas l'eau
+   → 
+
+731. je ne prends pas le pain
+   → 
+
+732. je ne prends pas le bus
+   → 
+
+733. je ne prends pas le stylo
+   → 
+
+734. tu ne prends pas le livre
+   → 
+
+735. tu ne prends pas l'eau
+   → 
+
+736. tu ne prends pas le pain
+   → 
+
+737. tu ne prends pas le bus
+   → 
+
+738. tu ne prends pas le stylo
+   → 
+
+739. il ne prend pas le livre
+   → 
+
+740. il ne prend pas l'eau
+   → 
+
+741. il ne prend pas le pain
+   → 
+
+742. il ne prend pas le bus
+   → 
+
+743. il ne prend pas le stylo
+   → 
+
+744. elle ne prend pas le livre
+   → 
+
+745. elle ne prend pas l'eau
+   → 
+
+746. elle ne prend pas le pain
+   → 
+
+747. elle ne prend pas le bus
+   → 
+
+748. elle ne prend pas le stylo
+   → 
+
+749. nous ne prenons pas le livre
+   → 
+
+750. nous ne prenons pas l'eau
+   → 
+
+751. nous ne prenons pas le pain
+   → 
+
+752. nous ne prenons pas le bus
+   → 
+
+753. nous ne prenons pas le stylo
+   → 
+
+754. vous ne prenez pas le livre
+   → 
+
+755. vous ne prenez pas l'eau
+   → 
+
+756. vous ne prenez pas le pain
+   → 
+
+757. vous ne prenez pas le bus
+   → 
+
+758. vous ne prenez pas le stylo
+   → 
+
+759. ils ne prennent pas le livre
+   → 
+
+760. ils ne prennent pas l'eau
+   → 
+
+761. ils ne prennent pas le pain
+   → 
+
+762. ils ne prennent pas le bus
+   → 
+
+763. ils ne prennent pas le stylo
+   → 
+
+764. elles ne prennent pas le livre
+   → 
+
+765. elles ne prennent pas l'eau
+   → 
+
+766. elles ne prennent pas le pain
+   → 
+
+767. elles ne prennent pas le bus
+   → 
+
+768. elles ne prennent pas le stylo
+   → 
+
+769. je ne donne pas le livre
+   → 
+
+770. je ne donne pas de l'eau
+   → 
+
+771. je ne donne pas du pain
+   → 
+
+772. je ne donne pas de l'argent
+   → 
+
+773. je ne donne pas le cadeau
+   → 
+
+774. tu ne donnes pas le livre
+   → 
+
+775. tu ne donnes pas de l'eau
+   → 
+
+776. tu ne donnes pas du pain
+   → 
+
+777. tu ne donnes pas de l'argent
+   → 
+
+778. tu ne donnes pas le cadeau
+   → 
+
+779. il ne donne pas le livre
+   → 
+
+780. il ne donne pas de l'eau
+   → 
+
+781. il ne donne pas du pain
+   → 
+
+782. il ne donne pas de l'argent
+   → 
+
+783. il ne donne pas le cadeau
+   → 
+
+784. elle ne donne pas le livre
+   → 
+
+785. elle ne donne pas de l'eau
+   → 
+
+786. elle ne donne pas du pain
+   → 
+
+787. elle ne donne pas de l'argent
+   → 
+
+788. elle ne donne pas le cadeau
+   → 
+
+789. nous ne donnons pas le livre
+   → 
+
+790. nous ne donnons pas de l'eau
+   → 
+
+791. nous ne donnons pas du pain
+   → 
+
+792. nous ne donnons pas de l'argent
+   → 
+
+793. nous ne donnons pas le cadeau
+   → 
+
+794. vous ne donnez pas le livre
+   → 
+
+795. vous ne donnez pas de l'eau
+   → 
+
+796. vous ne donnez pas du pain
+   → 
+
+797. vous ne donnez pas de l'argent
+   → 
+
+798. vous ne donnez pas le cadeau
+   → 
+
+799. ils ne donnent pas le livre
+   → 
+
+800. ils ne donnent pas de l'eau
+   → 
+
+801. ils ne donnent pas du pain
+   → 
+
+802. ils ne donnent pas de l'argent
+   → 
+
+803. ils ne donnent pas le cadeau
+   → 
+
+804. elles ne donnent pas le livre
+   → 
+
+805. elles ne donnent pas de l'eau
+   → 
+
+806. elles ne donnent pas du pain
+   → 
+
+807. elles ne donnent pas de l'argent
+   → 
+
+808. elles ne donnent pas le cadeau
+   → 
+
+809. je ne veux pas du riz
+   → 
+
+810. je ne veux pas de l'eau
+   → 
+
+811. je ne veux pas le livre
+   → 
+
+812. je ne veux pas aller à la maison
+   → 
+
+813. je ne veux pas manger
+   → 
+
+814. tu ne veux pas du riz
+   → 
+
+815. tu ne veux pas de l'eau
+   → 
+
+816. tu ne veux pas le livre
+   → 
+
+817. tu ne veux pas aller à la maison
+   → 
+
+818. tu ne veux pas manger
+   → 
+
+819. il ne veut pas du riz
+   → 
+
+820. il ne veut pas de l'eau
+   → 
+
+821. il ne veut pas le livre
+   → 
+
+822. il ne veut pas aller à la maison
+   → 
+
+823. il ne veut pas manger
+   → 
+
+824. elle ne veut pas du riz
+   → 
+
+825. elle ne veut pas de l'eau
+   → 
+
+826. elle ne veut pas le livre
+   → 
+
+827. elle ne veut pas aller à la maison
+   → 
+
+828. elle ne veut pas manger
+   → 
+
+829. nous ne voulons pas du riz
+   → 
+
+830. nous ne voulons pas de l'eau
+   → 
+
+831. nous ne voulons pas le livre
+   → 
+
+832. nous ne voulons pas aller à la maison
+   → 
+
+833. nous ne voulons pas manger
+   → 
+
+834. vous ne voulez pas du riz
+   → 
+
+835. vous ne voulez pas de l'eau
+   → 
+
+836. vous ne voulez pas le livre
+   → 
+
+837. vous ne voulez pas aller à la maison
+   → 
+
+838. vous ne voulez pas manger
+   → 
+
+839. ils ne veulent pas du riz
+   → 
+
+840. ils ne veulent pas de l'eau
+   → 
+
+841. ils ne veulent pas le livre
+   → 
+
+842. ils ne veulent pas aller à la maison
+   → 
+
+843. ils ne veulent pas manger
+   → 
+
+844. elles ne veulent pas du riz
+   → 
+
+845. elles ne veulent pas de l'eau
+   → 
+
+846. elles ne veulent pas le livre
+   → 
+
+847. elles ne veulent pas aller à la maison
+   → 
+
+848. elles ne veulent pas manger
+   → 
+
+849. j'ai mangé du riz
+   → 
+
+850. j'ai mangé du pain
+   → 
+
+851. j'ai mangé du poisson
+   → 
+
+852. j'ai mangé de la viande
+   → 
+
+853. j'ai mangé des fruits
+   → 
+
+854. j'ai mangé des légumes
+   → 
+
+855. tu as mangé du riz
+   → 
+
+856. tu as mangé du pain
+   → 
+
+857. tu as mangé du poisson
+   → 
+
+858. tu as mangé de la viande
+   → 
+
+859. tu as mangé des fruits
+   → 
+
+860. tu as mangé des légumes
+   → 
+
+861. il a mangé du riz
+   → 
+
+862. il a mangé du pain
+   → 
+
+863. il a mangé du poisson
+   → 
+
+864. il a mangé de la viande
+   → 
+
+865. il a mangé des fruits
+   → 
+
+866. il a mangé des légumes
+   → 
+
+867. elle a mangé du riz
+   → 
+
+868. elle a mangé du pain
+   → 
+
+869. elle a mangé du poisson
+   → 
+
+870. elle a mangé de la viande
+   → 
+
+871. elle a mangé des fruits
+   → 
+
+872. elle a mangé des légumes
+   → 
+
+873. nous avons mangé du riz
+   → 
+
+874. nous avons mangé du pain
+   → 
+
+875. nous avons mangé du poisson
+   → 
+
+876. nous avons mangé de la viande
+   → 
+
+877. nous avons mangé des fruits
+   → 
+
+878. nous avons mangé des légumes
+   → 
+
+879. vous avez mangé du riz
+   → 
+
+880. vous avez mangé du pain
+   → 
+
+881. vous avez mangé du poisson
+   → 
+
+882. vous avez mangé de la viande
+   → 
+
+883. vous avez mangé des fruits
+   → 
+
+884. vous avez mangé des légumes
+   → 
+
+885. ils ont mangé du riz
+   → 
+
+886. ils ont mangé du pain
+   → 
+
+887. ils ont mangé du poisson
+   → 
+
+888. ils ont mangé de la viande
+   → 
+
+889. ils ont mangé des fruits
+   → 
+
+890. ils ont mangé des légumes
+   → 
+
+891. elles ont mangé du riz
+   → 
+
+892. elles ont mangé du pain
+   → 
+
+893. elles ont mangé du poisson
+   → 
+
+894. elles ont mangé de la viande
+   → 
+
+895. elles ont mangé des fruits
+   → 
+
+896. elles ont mangé des légumes
+   → 
+
+897. j'ai bu de l'eau
+   → 
+
+898. j'ai bu du lait
+   → 
+
+899. j'ai bu du thé
+   → 
+
+900. j'ai bu du café
+   → 
+
+901. j'ai bu du jus
+   → 
+
+902. tu as bu de l'eau
+   → 
+
+903. tu as bu du lait
+   → 
+
+904. tu as bu du thé
+   → 
+
+905. tu as bu du café
+   → 
+
+906. tu as bu du jus
+   → 
+
+907. il a bu de l'eau
+   → 
+
+908. il a bu du lait
+   → 
+
+909. il a bu du thé
+   → 
+
+910. il a bu du café
+   → 
+
+911. il a bu du jus
+   → 
+
+912. elle a bu de l'eau
+   → 
+
+913. elle a bu du lait
+   → 
+
+914. elle a bu du thé
+   → 
+
+915. elle a bu du café
+   → 
+
+916. elle a bu du jus
+   → 
+
+917. nous avons bu de l'eau
+   → 
+
+918. nous avons bu du lait
+   → 
+
+919. nous avons bu du thé
+   → 
+
+920. nous avons bu du café
+   → 
+
+921. nous avons bu du jus
+   → 
+
+922. vous avez bu de l'eau
+   → 
+
+923. vous avez bu du lait
+   → 
+
+924. vous avez bu du thé
+   → 
+
+925. vous avez bu du café
+   → 
+
+926. vous avez bu du jus
+   → 
+
+927. ils ont bu de l'eau
+   → 
+
+928. ils ont bu du lait
+   → 
+
+929. ils ont bu du thé
+   → 
+
+930. ils ont bu du café
+   → 
+
+931. ils ont bu du jus
+   → 
+
+932. elles ont bu de l'eau
+   → 
+
+933. elles ont bu du lait
+   → 
+
+934. elles ont bu du thé
+   → 
+
+935. elles ont bu du café
+   → 
+
+936. elles ont bu du jus
+   → 
+
+937. j'ai vu mon ami
+   → 
+
+938. j'ai vu ma mère
+   → 
+
+939. j'ai vu mon père
+   → 
+
+940. j'ai vu le professeur
+   → 
+
+941. j'ai vu l'enfant
+   → 
+
+942. j'ai vu le chien
+   → 
+
+943. tu as vu mon ami
+   → 
+
+944. tu as vu ma mère
+   → 
+
+945. tu as vu mon père
+   → 
+
+946. tu as vu le professeur
+   → 
+
+947. tu as vu l'enfant
+   → 
+
+948. tu as vu le chien
+   → 
+
+949. il a vu mon ami
+   → 
+
+950. il a vu ma mère
+   → 
+
+951. il a vu mon père
+   → 
+
+952. il a vu le professeur
+   → 
+
+953. il a vu l'enfant
+   → 
+
+954. il a vu le chien
+   → 
+
+955. elle a vu mon ami
+   → 
+
+956. elle a vu ma mère
+   → 
+
+957. elle a vu mon père
+   → 
+
+958. elle a vu le professeur
+   → 
+
+959. elle a vu l'enfant
+   → 
+
+960. elle a vu le chien
+   → 
+
+961. nous avons vu mon ami
+   → 
+
+962. nous avons vu ma mère
+   → 
+
+963. nous avons vu mon père
+   → 
+
+964. nous avons vu le professeur
+   → 
+
+965. nous avons vu l'enfant
+   → 
+
+966. nous avons vu le chien
+   → 
+
+967. vous avez vu mon ami
+   → 
+
+968. vous avez vu ma mère
+   → 
+
+969. vous avez vu mon père
+   → 
+
+970. vous avez vu le professeur
+   → 
+
+971. vous avez vu l'enfant
+   → 
+
+972. vous avez vu le chien
+   → 
+
+973. ils ont vu mon ami
+   → 
+
+974. ils ont vu ma mère
+   → 
+
+975. ils ont vu mon père
+   → 
+
+976. ils ont vu le professeur
+   → 
+
+977. ils ont vu l'enfant
+   → 
+
+978. ils ont vu le chien
+   → 
+
+979. elles ont vu mon ami
+   → 
+
+980. elles ont vu ma mère
+   → 
+
+981. elles ont vu mon père
+   → 
+
+982. elles ont vu le professeur
+   → 
+
+983. elles ont vu l'enfant
+   → 
+
+984. elles ont vu le chien
+   → 
+
+985. je suis allé(e) à la maison
+   → 
+
+986. je suis allé(e) à l'école
+   → 
+
+987. je suis allé(e) au marché
+   → 
+
+988. je suis allé(e) au village
+   → 
+
+989. je suis allé(e) au travail
+   → 
+
+990. tu es allé(e) à la maison
+   → 
+
+991. tu es allé(e) à l'école
+   → 
+
+992. tu es allé(e) au marché
+   → 
+
+993. tu es allé(e) au village
+   → 
+
+994. tu es allé(e) au travail
+   → 
+
+995. il est allé à la maison
+   → 
+
+996. il est allé à l'école
+   → 
+
+997. il est allé au marché
+   → 
+
+998. il est allé au village
+   → 
+
+999. il est allé au travail
+   → 
+
+1000. elle est allée à la maison
+   → 
+
+1001. elle est allée à l'école
+   → 
+
+1002. elle est allée au marché
+   → 
+
+1003. elle est allée au village
+   → 
+
+1004. elle est allée au travail
+   → 
+
+1005. nous sommes allés à la maison
+   → 
+
+1006. nous sommes allés à l'école
+   → 
+
+1007. nous sommes allés au marché
+   → 
+
+1008. nous sommes allés au village
+   → 
+
+1009. nous sommes allés au travail
+   → 
+
+1010. vous êtes allé(e)(s) à la maison
+   → 
+
+1011. vous êtes allé(e)(s) à l'école
+   → 
+
+1012. vous êtes allé(e)(s) au marché
+   → 
+
+1013. vous êtes allé(e)(s) au village
+   → 
+
+1014. vous êtes allé(e)(s) au travail
+   → 
+
+1015. ils sont allés à la maison
+   → 
+
+1016. ils sont allés à l'école
+   → 
+
+1017. ils sont allés au marché
+   → 
+
+1018. ils sont allés au village
+   → 
+
+1019. ils sont allés au travail
+   → 
+
+1020. elles sont allées à la maison
+   → 
+
+1021. elles sont allées à l'école
+   → 
+
+1022. elles sont allées au marché
+   → 
+
+1023. elles sont allées au village
+   → 
+
+1024. elles sont allées au travail
+   → 
+
+1025. je suis venu(e) de la maison
+   → 
+
+1026. je suis venu(e) de l'école
+   → 
+
+1027. je suis venu(e) du marché
+   → 
+
+1028. je suis venu(e) du village
+   → 
+
+1029. je suis venu du travail
+   → 
+
+1030. tu es venu de la maison
+   → 
+
+1031. tu es venu de l'école
+   → 
+
+1032. tu es venu du marché
+   → 
+
+1033. tu es venu du village
+   → 
+
+1034. tu es venu du travail
+   → 
+
+1035. il est venu de la maison
+   → 
+
+1036. il est venu de l'école
+   → 
+
+1037. il est venu du marché
+   → 
+
+1038. il est venu du village
+   → 
+
+1039. il est venu du travail
+   → 
+
+1040. elle est venue de la maison
+   → 
+
+1041. elle est venue de l'école
+   → 
+
+1042. elle est venue du marché
+   → 
+
+1043. elle est venue du village
+   → 
+
+1044. elle est venue du travail
+   → 
+
+1045. nous sommes venus de la maison
+   → 
+
+1046. nous sommes venus de l'école
+   → 
+
+1047. nous sommes venus du marché
+   → 
+
+1048. nous sommes venus du village
+   → 
+
+1049. nous sommes venus du travail
+   → 
+
+1050. vous êtes venus de la maison
+   → 
+
+1051. vous êtes venus de l'école
+   → 
+
+1052. vous êtes venus du marché
+   → 
+
+1053. vous êtes venus du village
+   → 
+
+1054. vous êtes venus du travail
+   → 
+
+1055. ils sont venus de la maison
+   → 
+
+1056. ils sont venus de l'école
+   → 
+
+1057. ils sont venus du marché
+   → 
+
+1058. ils sont venus du village
+   → 
+
+1059. ils sont venus du travail
+   → 
+
+1060. elles sont venues de la maison
+   → 
+
+1061. elles sont venues de l'école
+   → 
+
+1062. elles sont venues du marché
+   → 
+
+1063. elles sont venues du village
+   → 
+
+1064. elles sont venues du travail
+   → 
+
+1065. j'ai fait le travail
+   → 
+
+1066. j'ai fait les devoirs
+   → 
+
+1067. j'ai fait la cuisine
+   → 
+
+1068. j'ai fait le ménage
+   → 
+
+1069. j'ai fait le lit
+   → 
+
+1070. tu as fait le travail
+   → 
+
+1071. tu as fait les devoirs
+   → 
+
+1072. tu as fait la cuisine
+   → 
+
+1073. tu as fait le ménage
+   → 
+
+1074. tu as fait le lit
+   → 
+
+1075. il a fait le travail
+   → 
+
+1076. il a fait les devoirs
+   → 
+
+1077. il a fait la cuisine
+   → 
+
+1078. il a fait le ménage
+   → 
+
+1079. il a fait le lit
+   → 
+
+1080. elle a fait le travail
+   → 
+
+1081. elle a fait les devoirs
+   → 
+
+1082. elle a fait la cuisine
+   → 
+
+1083. elle a fait le ménage
+   → 
+
+1084. elle a fait le lit
+   → 
+
+1085. nous avons fait le travail
+   → 
+
+1086. nous avons fait les devoirs
+   → 
+
+1087. nous avons fait la cuisine
+   → 
+
+1088. nous avons fait le ménage
+   → 
+
+1089. nous avons fait le lit
+   → 
+
+1090. vous avez fait le travail
+   → 
+
+1091. vous avez fait les devoirs
+   → 
+
+1092. vous avez fait la cuisine
+   → 
+
+1093. vous avez fait le ménage
+   → 
+
+1094. vous avez fait le lit
+   → 
+
+1095. ils ont fait le travail
+   → 
+
+1096. ils ont fait les devoirs
+   → 
+
+1097. ils ont fait la cuisine
+   → 
+
+1098. ils ont fait le ménage
+   → 
+
+1099. ils ont fait le lit
+   → 
+
+1100. elles ont fait le travail
+   → 
+
+1101. elles ont fait les devoirs
+   → 
+
+1102. elles ont fait la cuisine
+   → 
+
+1103. elles ont fait le ménage
+   → 
+
+1104. elles ont fait le lit
+   → 
+
+1105. j'ai eu un livre
+   → 
+
+1106. j'ai eu une maison
+   → 
+
+1107. j'ai eu un ami
+   → 
+
+1108. j'ai eu une sœur
+   → 
+
+1109. j'ai eu un frère
+   → 
+
+1110. j'ai eu de l'argent
+   → 
+
+1111. tu as eu un livre
+   → 
+
+1112. tu as eu une maison
+   → 
+
+1113. tu as eu un ami
+   → 
+
+1114. tu as eu une sœur
+   → 
+
+1115. tu as eu un frère
+   → 
+
+1116. tu as eu de l'argent
+   → 
+
+1117. il a eu un livre
+   → 
+
+1118. il a eu une maison
+   → 
+
+1119. il a eu un ami
+   → 
+
+1120. il a eu une sœur
+   → 
+
+1121. il a eu un frère
+   → 
+
+1122. il a eu de l'argent
+   → 
+
+1123. elle a eu un livre
+   → 
+
+1124. elle a eu une maison
+   → 
+
+1125. elle a eu un ami
+   → 
+
+1126. elle a eu une sœur
+   → 
+
+1127. elle a eu un frère
+   → 
+
+1128. elle a eu de l'argent
+   → 
+
+1129. nous avons eu un livre
+   → 
+
+1130. nous avons eu une maison
+   → 
+
+1131. nous avons eu un ami
+   → 
+
+1132. nous avons eu une sœur
+   → 
+
+1133. nous avons eu un frère
+   → 
+
+1134. nous avons eu de l'argent
+   → 
+
+1135. vous avez eu un livre
+   → 
+
+1136. vous avez eu une maison
+   → 
+
+1137. vous avez eu un ami
+   → 
+
+1138. vous avez eu une sœur
+   → 
+
+1139. vous avez eu un frère
+   → 
+
+1140. vous avez eu de l'argent
+   → 
+
+1141. ils ont eu un livre
+   → 
+
+1142. ils ont eu une maison
+   → 
+
+1143. ils ont eu un ami
+   → 
+
+1144. ils ont eu une sœur
+   → 
+
+1145. ils ont eu un frère
+   → 
+
+1146. ils ont eu de l'argent
+   → 
+
+1147. elles ont eu un livre
+   → 
+
+1148. elles ont eu une maison
+   → 
+
+1149. elles ont eu un ami
+   → 
+
+1150. elles ont eu une sœur
+   → 
+
+1151. elles ont eu un frère
+   → 
+
+1152. elles ont eu de l'argent
+   → 
+
+1153. j'ai pris le livre
+   → 
+
+1154. j'ai pris l'eau
+   → 
+
+1155. j'ai pris le pain
+   → 
+
+1156. j'ai pris le bus
+   → 
+
+1157. j'ai pris le stylo
+   → 
+
+1158. tu as pris le livre
+   → 
+
+1159. tu as pris l'eau
+   → 
+
+1160. tu as pris le pain
+   → 
+
+1161. tu as pris le bus
+   → 
+
+1162. tu as pris le stylo
+   → 
+
+1163. il a pris le livre
+   → 
+
+1164. il a pris l'eau
+   → 
+
+1165. il a pris le pain
+   → 
+
+1166. il a pris le bus
+   → 
+
+1167. il a pris le stylo
+   → 
+
+1168. elle a pris le livre
+   → 
+
+1169. elle a pris l'eau
+   → 
+
+1170. elle a pris le pain
+   → 
+
+1171. elle a pris le bus
+   → 
+
+1172. elle a pris le stylo
+   → 
+
+1173. nous avons pris le livre
+   → 
+
+1174. nous avons pris l'eau
+   → 
+
+1175. nous avons pris le pain
+   → 
+
+1176. nous avons pris le bus
+   → 
+
+1177. nous avons pris le stylo
+   → 
+
+1178. vous avez pris le livre
+   → 
+
+1179. vous avez pris l'eau
+   → 
+
+1180. vous avez pris le pain
+   → 
+
+1181. vous avez pris le bus
+   → 
+
+1182. vous avez pris le stylo
+   → 
+
+1183. ils ont pris le livre
+   → 
+
+1184. ils ont pris l'eau
+   → 
+
+1185. ils ont pris le pain
+   → 
+
+1186. ils ont pris le bus
+   → 
+
+1187. ils ont pris le stylo
+   → 
+
+1188. elles ont pris le livre
+   → 
+
+1189. elles ont pris l'eau
+   → 
+
+1190. elles ont pris le pain
+   → 
+
+1191. elles ont pris le bus
+   → 
+
+1192. elles ont pris le stylo
+   → 
+
+1193. j'ai donné le livre
+   → 
+
+1194. j'ai donné de l'eau
+   → 
+
+1195. j'ai donné du pain
+   → 
+
+1196. j'ai donné de l'argent
+   → 
+
+1197. j'ai donné le cadeau
+   → 
+
+1198. tu as donné le livre
+   → 
+
+1199. tu as donné de l'eau
+   → 
+
+1200. tu as donné du pain
+   → 
+
+1201. tu as donné de l'argent
+   → 
+
+1202. tu as donné le cadeau
+   → 
+
+1203. il a donné le livre
+   → 
+
+1204. il a donné de l'eau
+   → 
+
+1205. il a donné du pain
+   → 
+
+1206. il a donné de l'argent
+   → 
+
+1207. il a donné le cadeau
+   → 
+
+1208. elle a donné le livre
+   → 
+
+1209. elle a donné de l'eau
+   → 
+
+1210. elle a donné du pain
+   → 
+
+1211. elle a donné de l'argent
+   → 
+
+1212. elle a donné le cadeau
+   → 
+
+1213. nous avons donné le livre
+   → 
+
+1214. nous avons donné de l'eau
+   → 
+
+1215. nous avons donné du pain
+   → 
+
+1216. nous avons donné de l'argent
+   → 
+
+1217. nous avons donné le cadeau
+   → 
+
+1218. vous avez donné le livre
+   → 
+
+1219. vous avez donné de l'eau
+   → 
+
+1220. vous avez donné du pain
+   → 
+
+1221. vous avez donné de l'argent
+   → 
+
+1222. vous avez donné le cadeau
+   → 
+
+1223. ils ont donné le livre
+   → 
+
+1224. ils ont donné de l'eau
+   → 
+
+1225. ils ont donné du pain
+   → 
+
+1226. ils ont donné de l'argent
+   → 
+
+1227. ils ont donné le cadeau
+   → 
+
+1228. elles ont donné le livre
+   → 
+
+1229. elles ont donné de l'eau
+   → 
+
+1230. elles ont donné du pain
+   → 
+
+1231. elles ont donné de l'argent
+   → 
+
+1232. elles ont donné le cadeau
+   → 
+
+1233. j'ai voulu du riz
+   → 
+
+1234. j'ai voulu de l'eau
+   → 
+
+1235. j'ai voulu le livre
+   → 
+
+1236. j'ai voulu aller à la maison
+   → 
+
+1237. j'ai voulu manger
+   → 
+
+1238. tu as voulu du riz
+   → 
+
+1239. tu as voulu de l'eau
+   → 
+
+1240. tu as voulu le livre
+   → 
+
+1241. tu as voulu aller à la maison
+   → 
+
+1242. tu as voulu manger
+   → 
+
+1243. il a voulu du riz
+   → 
+
+1244. il a voulu de l'eau
+   → 
+
+1245. il a voulu le livre
+   → 
+
+1246. il a voulu aller à la maison
+   → 
+
+1247. il a voulu manger
+   → 
+
+1248. elle a voulu du riz
+   → 
+
+1249. elle a voulu de l'eau
+   → 
+
+1250. elle a voulu le livre
+   → 
+
+1251. elle a voulu aller à la maison
+   → 
+
+1252. elle a voulu manger
+   → 
+
+1253. nous avons voulu du riz
+   → 
+
+1254. nous avons voulu de l'eau
+   → 
+
+1255. nous avons voulu le livre
+   → 
+
+1256. nous avons voulu aller à la maison
+   → 
+
+1257. nous avons voulu manger
+   → 
+
+1258. vous avez voulu du riz
+   → 
+
+1259. vous avez voulu de l'eau
+   → 
+
+1260. vous avez voulu le livre
+   → 
+
+1261. vous avez voulu aller à la maison
+   → 
+
+1262. vous avez voulu manger
+   → 
+
+1263. ils ont voulu du riz
+   → 
+
+1264. ils ont voulu de l'eau
+   → 
+
+1265. ils ont voulu le livre
+   → 
+
+1266. ils ont voulu aller à la maison
+   → 
+
+1267. ils ont voulu manger
+   → 
+
+1268. elles ont voulu du riz
+   → 
+
+1269. elles ont voulu de l'eau
+   → 
+
+1270. elles ont voulu le livre
+   → 
+
+1271. elles ont voulu aller à la maison
+   → 
+
+1272. elles ont voulu manger
+   → 
+
+1273. je vais manger du riz
+   → 
+
+1274. je vais manger du pain
+   → 
+
+1275. je vais manger du poisson
+   → 
+
+1276. je vais manger de la viande
+   → 
+
+1277. je vais manger des fruits
+   → 
+
+1278. je vais manger des légumes
+   → 
+
+1279. tu vas manger du riz
+   → 
+
+1280. tu vas manger du pain
+   → 
+
+1281. tu vas manger du poisson
+   → 
+
+1282. tu vas manger de la viande
+   → 
+
+1283. tu vas manger des fruits
+   → 
+
+1284. tu vas manger des légumes
+   → 
+
+1285. il va manger du riz
+   → 
+
+1286. il va manger du pain
+   → 
+
+1287. il va manger du poisson
+   → 
+
+1288. il va manger de la viande
+   → 
+
+1289. il va manger des fruits
+   → 
+
+1290. il va manger des légumes
+   → 
+
+1291. elle va manger du riz
+   → 
+
+1292. elle va manger du pain
+   → 
+
+1293. elle va manger du poisson
+   → 
+
+1294. elle va manger de la viande
+   → 
+
+1295. elle va manger des fruits
+   → 
+
+1296. elle va manger des légumes
+   → 
+
+1297. nous allons manger du riz
+   → 
+
+1298. nous allons manger du pain
+   → 
+
+1299. nous allons manger du poisson
+   → 
+
+1300. nous allons manger de la viande
+   → 
+
+1301. nous allons manger des fruits
+   → 
+
+1302. nous allons manger des légumes
+   → 
+
+1303. vous allez manger du riz
+   → 
+
+1304. vous allez manger du pain
+   → 
+
+1305. vous allez manger du poisson
+   → 
+
+1306. vous allez manger de la viande
+   → 
+
+1307. vous allez manger des fruits
+   → 
+
+1308. vous allez manger des légumes
+   → 
+
+1309. ils vont manger du riz
+   → 
+
+1310. ils vont manger du pain
+   → 
+
+1311. ils vont manger du poisson
+   → 
+
+1312. ils vont manger de la viande
+   → 
+
+1313. ils vont manger des fruits
+   → 
+
+1314. ils vont manger des légumes
+   → 
+
+1315. elles vont manger du riz
+   → 
+
+1316. elles vont manger du pain
+   → 
+
+1317. elles vont manger du poisson
+   → 
+
+1318. elles vont manger de la viande
+   → 
+
+1319. elles vont manger des fruits
+   → 
+
+1320. elles vont manger des légumes
+   → 
+
+1321. je vais boire de l'eau
+   → 
+
+1322. je vais boire du lait
+   → 
+
+1323. je vais boire du thé
+   → 
+
+1324. je vais boire du café
+   → 
+
+1325. je vais boire du jus
+   → 
+
+1326. tu vas boire de l'eau
+   → 
+
+1327. tu vas boire du lait
+   → 
+
+1328. tu vas boire du thé
+   → 
+
+1329. tu vas boire du café
+   → 
+
+1330. tu vas boire du jus
+   → 
+
+1331. il va boire de l'eau
+   → 
+
+1332. il va boire du lait
+   → 
+
+1333. il va boire du thé
+   → 
+
+1334. il va boire du café
+   → 
+
+1335. il va boire du jus
+   → 
+
+1336. elle va boire de l'eau
+   → 
+
+1337. elle va boire du lait
+   → 
+
+1338. elle va boire du thé
+   → 
+
+1339. elle va boire du café
+   → 
+
+1340. elle va boire du jus
+   → 
+
+1341. nous allons boire de l'eau
+   → 
+
+1342. nous allons boire du lait
+   → 
+
+1343. nous allons boire du thé
+   → 
+
+1344. nous allons boire du café
+   → 
+
+1345. nous allons boire du jus
+   → 
+
+1346. vous allez boire de l'eau
+   → 
+
+1347. vous allez boire du lait
+   → 
+
+1348. vous allez boire du thé
+   → 
+
+1349. vous allez boire du café
+   → 
+
+1350. vous allez boire du jus
+   → 
+
+1351. ils vont boire de l'eau
+   → 
+
+1352. ils vont boire du lait
+   → 
+
+1353. ils vont boire du thé
+   → 
+
+1354. ils vont boire du café
+   → 
+
+1355. ils vont boire du jus
+   → 
+
+1356. elles vont boire de l'eau
+   → 
+
+1357. elles vont boire du lait
+   → 
+
+1358. elles vont boire du thé
+   → 
+
+1359. elles vont boire du café
+   → 
+
+1360. elles vont boire du jus
+   → 
+
+1361. je vais voir mon ami
+   → 
+
+1362. je vais voir ma mère
+   → 
+
+1363. je vais voir mon père
+   → 
+
+1364. je vais voir le professeur
+   → 
+
+1365. je vais voir l'enfant
+   → 
+
+1366. je vais voir le chien
+   → 
+
+1367. tu vas voir mon ami
+   → 
+
+1368. tu vas voir ma mère
+   → 
+
+1369. tu vas voir mon père
+   → 
+
+1370. tu vas voir le professeur
+   → 
+
+1371. tu vas voir l'enfant
+   → 
+
+1372. tu vas voir le chien
+   → 
+
+1373. il va voir mon ami
+   → 
+
+1374. il va voir ma mère
+   → 
+
+1375. il va voir mon père
+   → 
+
+1376. il va voir le professeur
+   → 
+
+1377. il va voir l'enfant
+   → 
+
+1378. il va voir le chien
+   → 
+
+1379. elle va voir mon ami
+   → 
+
+1380. elle va voir ma mère
+   → 
+
+1381. elle va voir mon père
+   → 
+
+1382. elle va voir le professeur
+   → 
+
+1383. elle va voir l'enfant
+   → 
+
+1384. elle va voir le chien
+   → 
+
+1385. nous allons voir mon ami
+   → 
+
+1386. nous allons voir ma mère
+   → 
+
+1387. nous allons voir mon père
+   → 
+
+1388. nous allons voir le professeur
+   → 
+
+1389. nous allons voir l'enfant
+   → 
+
+1390. nous allons voir le chien
+   → 
+
+1391. vous allez voir mon ami
+   → 
+
+1392. vous allez voir ma mère
+   → 
+
+1393. vous allez voir mon père
+   → 
+
+1394. vous allez voir le professeur
+   → 
+
+1395. vous allez voir l'enfant
+   → 
+
+1396. vous allez voir le chien
+   → 
+
+1397. ils vont voir mon ami
+   → 
+
+1398. ils vont voir ma mère
+   → 
+
+1399. ils vont voir mon père
+   → 
+
+1400. ils vont voir le professeur
+   → 
+
+1401. ils vont voir l'enfant
+   → 
+
+1402. ils vont voir le chien
+   → 
+
+1403. elles vont voir mon ami
+   → 
+
+1404. elles vont voir ma mère
+   → 
+
+1405. elles vont voir mon père
+   → 
+
+1406. elles vont voir le professeur
+   → 
+
+1407. elles vont voir l'enfant
+   → 
+
+1408. elles vont voir le chien
+   → 
+
+1409. je vais aller à la maison
+   → 
+
+1410. je vais aller à l'école
+   → 
+
+1411. je vais aller au marché
+   → 
+
+1412. je vais aller au village
+   → 
+
+1413. je vais aller au travail
+   → 
+
+1414. tu vas aller à la maison
+   → 
+
+1415. tu vas aller à l'école
+   → 
+
+1416. tu vas aller au marché
+   → 
+
+1417. tu vas aller au village
+   → 
+
+1418. tu vas aller au travail
+   → 
+
+1419. il va aller à la maison
+   → 
+
+1420. il va aller à l'école
+   → 
+
+1421. il va aller au marché
+   → 
+
+1422. il va aller au village
+   → 
+
+1423. il va aller au travail
+   → 
+
+1424. elle va aller à la maison
+   → 
+
+1425. elle va aller à l'école
+   → 
+
+1426. elle va aller au marché
+   → 
+
+1427. elle va aller au village
+   → 
+
+1428. elle va aller au travail
+   → 
+
+1429. nous allons aller à la maison
+   → 
+
+1430. nous allons aller à l'école
+   → 
+
+1431. nous allons aller au marché
+   → 
+
+1432. nous allons aller au village
+   → 
+
+1433. nous allons aller au travail
+   → 
+
+1434. vous allez aller à la maison
+   → 
+
+1435. vous allez aller à l'école
+   → 
+
+1436. vous allez aller au marché
+   → 
+
+1437. vous allez aller au village
+   → 
+
+1438. vous allez aller au travail
+   → 
+
+1439. ils vont aller à la maison
+   → 
+
+1440. ils vont aller à l'école
+   → 
+
+1441. ils vont aller au marché
+   → 
+
+1442. ils vont aller au village
+   → 
+
+1443. ils vont aller au travail
+   → 
+
+1444. elles vont aller à la maison
+   → 
+
+1445. elles vont aller à l'école
+   → 
+
+1446. elles vont aller au marché
+   → 
+
+1447. elles vont aller au village
+   → 
+
+1448. elles vont aller au travail
+   → 
+
+1449. je vais venir de la maison
+   → 
+
+1450. je vais venir de l'école
+   → 
+
+1451. je vais venir du marché
+   → 
+
+1452. je vais venir du village
+   → 
+
+1453. je vais venir du travail
+   → 
+
+1454. tu vas venir de la maison
+   → 
+
+1455. tu vas venir de l'école
+   → 
+
+1456. tu vas venir du marché
+   → 
+
+1457. tu vas venir du village
+   → 
+
+1458. tu vas venir du travail
+   → 
+
+1459. il va venir de la maison
+   → 
+
+1460. il va venir de l'école
+   → 
+
+1461. il va venir du marché
+   → 
+
+1462. il va venir du village
+   → 
+
+1463. il va venir du travail
+   → 
+
+1464. elle va venir de la maison
+   → 
+
+1465. elle va venir de l'école
+   → 
+
+1466. elle va venir du marché
+   → 
+
+1467. elle va venir du village
+   → 
+
+1468. elle va venir du travail
+   → 
+
+1469. nous allons venir de la maison
+   → 
+
+1470. nous allons venir de l'école
+   → 
+
+1471. nous allons venir du marché
+   → 
+
+1472. nous allons venir du village
+   → 
+
+1473. nous allons venir du travail
+   → 
+
+1474. vous allez venir de la maison
+   → 
+
+1475. vous allez venir de l'école
+   → 
+
+1476. vous allez venir du marché
+   → 
+
+1477. vous allez venir du village
+   → 
+
+1478. vous allez venir du travail
+   → 
+
+1479. ils vont venir de la maison
+   → 
+
+1480. ils vont venir de l'école
+   → 
+
+1481. ils vont venir du marché
+   → 
+
+1482. ils vont venir du village
+   → 
+
+1483. ils vont venir du travail
+   → 
+
+1484. elles vont venir de la maison
+   → 
+
+1485. elles vont venir de l'école
+   → 
+
+1486. elles vont venir du marché
+   → 
+
+1487. elles vont venir du village
+   → 
+
+1488. elles vont venir du travail
+   → 
+
+1489. je vais faire le travail
+   → 
+
+1490. je vais faire les devoirs
+   → 
+
+1491. je vais faire la cuisine
+   → 
+
+1492. je vais faire le ménage
+   → 
+
+1493. je vais faire le lit
+   → 
+
+1494. tu vas faire le travail
+   → 
+
+1495. tu vas faire les devoirs
+   → 
+
+1496. tu vas faire la cuisine
+   → 
+
+1497. tu vas faire le ménage
+   → 
+
+1498. tu vas faire le lit
+   → 
+
+1499. il va faire le travail
+   → 
+
+1500. il va faire les devoirs
+   → 
+
+1501. il va faire la cuisine
+   → 
+
+1502. il va faire le ménage
+   → 
+
+1503. il va faire le lit
+   → 
+
+1504. elle va faire le travail
+   → 
+
+1505. elle va faire les devoirs
+   → 
+
+1506. elle va faire la cuisine
+   → 
+
+1507. elle va faire le ménage
+   → 
+
+1508. elle va faire le lit
+   → 
+
+1509. nous allons faire le travail
+   → 
+
+1510. nous allons faire les devoirs
+   → 
+
+1511. nous allons faire la cuisine
+   → 
+
+1512. nous allons faire le ménage
+   → 
+
+1513. nous allons faire le lit
+   → 
+
+1514. vous allez faire le travail
+   → 
+
+1515. vous allez faire les devoirs
+   → 
+
+1516. vous allez faire la cuisine
+   → 
+
+1517. vous allez faire le ménage
+   → 
+
+1518. vous allez faire le lit
+   → 
+
+1519. ils vont faire le travail
+   → 
+
+1520. ils vont faire les devoirs
+   → 
+
+1521. ils vont faire la cuisine
+   → 
+
+1522. ils vont faire le ménage
+   → 
+
+1523. ils vont faire le lit
+   → 
+
+1524. elles vont faire le travail
+   → 
+
+1525. elles vont faire les devoirs
+   → 
+
+1526. elles vont faire la cuisine
+   → 
+
+1527. elles vont faire le ménage
+   → 
+
+1528. elles vont faire le lit
+   → 
+
+1529. je vais avoir un livre
+   → 
+
+1530. je vais avoir une maison
+   → 
+
+1531. je vais avoir un ami
+   → 
+
+1532. je vais avoir une sœur
+   → 
+
+1533. je vais avoir un frère
+   → 
+
+1534. je vais avoir de l'argent
+   → 
+
+1535. tu vas avoir un livre
+   → 
+
+1536. tu vas avoir une maison
+   → 
+
+1537. tu vas avoir un ami
+   → 
+
+1538. tu vas avoir une sœur
+   → 
+
+1539. tu vas avoir un frère
+   → 
+
+1540. tu vas avoir de l'argent
+   → 
+
+1541. il va avoir un livre
+   → 
+
+1542. il va avoir une maison
+   → 
+
+1543. il va avoir un ami
+   → 
+
+1544. il va avoir une sœur
+   → 
+
+1545. il va avoir un frère
+   → 
+
+1546. il va avoir de l'argent
+   → 
+
+1547. elle va avoir un livre
+   → 
+
+1548. elle va avoir une maison
+   → 
+
+1549. elle va avoir un ami
+   → 
+
+1550. elle va avoir une sœur
+   → 
+
+1551. elle va avoir un frère
+   → 
+
+1552. elle va avoir de l'argent
+   → 
+
+1553. nous allons avoir un livre
+   → 
+
+1554. nous allons avoir une maison
+   → 
+
+1555. nous allons avoir un ami
+   → 
+
+1556. nous allons avoir une sœur
+   → 
+
+1557. nous allons avoir un frère
+   → 
+
+1558. nous allons avoir de l'argent
+   → 
+
+1559. vous allez avoir un livre
+   → 
+
+1560. vous allez avoir une maison
+   → 
+
+1561. vous allez avoir un ami
+   → 
+
+1562. vous allez avoir une sœur
+   → 
+
+1563. vous allez avoir un frère
+   → 
+
+1564. vous allez avoir de l'argent
+   → 
+
+1565. ils vont avoir un livre
+   → 
+
+1566. ils vont avoir une maison
+   → 
+
+1567. ils vont avoir un ami
+   → 
+
+1568. ils vont avoir une sœur
+   → 
+
+1569. ils vont avoir un frère
+   → 
+
+1570. ils vont avoir de l'argent
+   → 
+
+1571. elles vont avoir un livre
+   → 
+
+1572. elles vont avoir une maison
+   → 
+
+1573. elles vont avoir un ami
+   → 
+
+1574. elles vont avoir une sœur
+   → 
+
+1575. elles vont avoir un frère
+   → 
+
+1576. elles vont avoir de l'argent
+   → 
+
+1577. je vais prendre le livre
+   → 
+
+1578. je vais prendre l'eau
+   → 
+
+1579. je vais prendre le pain
+   → 
+
+1580. je vais prendre le bus
+   → 
+
+1581. je vais prendre le stylo
+   → 
+
+1582. tu vas prendre le livre
+   → 
+
+1583. tu vas prendre l'eau
+   → 
+
+1584. tu vas prendre le pain
+   → 
+
+1585. tu vas prendre le bus
+   → 
+
+1586. tu vas prendre le stylo
+   → 
+
+1587. il va prendre le livre
+   → 
+
+1588. il va prendre l'eau
+   → 
+
+1589. il va prendre le pain
+   → 
+
+1590. il va prendre le bus
+   → 
+
+1591. il va prendre le stylo
+   → 
+
+1592. elle va prendre le livre
+   → 
+
+1593. elle va prendre l'eau
+   → 
+
+1594. elle va prendre le pain
+   → 
+
+1595. elle va prendre le bus
+   → 
+
+1596. elle va prendre le stylo
+   → 
+
+1597. nous allons prendre le livre
+   → 
+
+1598. nous allons prendre l'eau
+   → 
+
+1599. nous allons prendre le pain
+   → 
+
+1600. nous allons prendre le bus
+   → 
+
+1601. nous allons prendre le stylo
+   → 
+
+1602. vous allez prendre le livre
+   → 
+
+1603. vous allez prendre l'eau
+   → 
+
+1604. vous allez prendre le pain
+   → 
+
+1605. vous allez prendre le bus
+   → 
+
+1606. vous allez prendre le stylo
+   → 
+
+1607. ils vont prendre le livre
+   → 
+
+1608. ils vont prendre l'eau
+   → 
+
+1609. ils vont prendre le pain
+   → 
+
+1610. ils vont prendre le bus
+   → 
+
+1611. ils vont prendre le stylo
+   → 
+
+1612. elles vont prendre le livre
+   → 
+
+1613. elles vont prendre l'eau
+   → 
+
+1614. elles vont prendre le pain
+   → 
+
+1615. elles vont prendre le bus
+   → 
+
+1616. elles vont prendre le stylo
+   → 
+
+1617. je vais donner le livre
+   → 
+
+1618. je vais donner de l'eau
+   → 
+
+1619. je vais donner du pain
+   → 
+
+1620. je vais donner de l'argent
+   → 
+
+1621. je vais donner le cadeau
+   → 
+
+1622. tu vas donner le livre
+   → 
+
+1623. tu vas donner de l'eau
+   → 
+
+1624. tu vas donner du pain
+   → 
+
+1625. tu vas donner de l'argent
+   → 
+
+1626. tu vas donner le cadeau
+   → 
+
+1627. il va donner le livre
+   → 
+
+1628. il va donner de l'eau
+   → 
+
+1629. il va donner du pain
+   → 
+
+1630. il va donner de l'argent
+   → 
+
+1631. il va donner le cadeau
+   → 
+
+1632. elle va donner le livre
+   → 
+
+1633. elle va donner de l'eau
+   → 
+
+1634. elle va donner du pain
+   → 
+
+1635. elle va donner de l'argent
+   → 
+
+1636. elle va donner le cadeau
+   → 
+
+1637. nous allons donner le livre
+   → 
+
+1638. nous allons donner de l'eau
+   → 
+
+1639. nous allons donner du pain
+   → 
+
+1640. nous allons donner de l'argent
+   → 
+
+1641. nous allons donner le cadeau
+   → 
+
+1642. vous allez donner le livre
+   → 
+
+1643. vous allez donner de l'eau
+   → 
+
+1644. vous allez donner du pain
+   → 
+
+1645. vous allez donner de l'argent
+   → 
+
+1646. vous allez donner le cadeau
+   → 
+
+1647. ils vont donner le livre
+   → 
+
+1648. ils vont donner de l'eau
+   → 
+
+1649. ils vont donner du pain
+   → 
+
+1650. ils vont donner de l'argent
+   → 
+
+1651. ils vont donner le cadeau
+   → 
+
+1652. elles vont donner le livre
+   → 
+
+1653. elles vont donner de l'eau
+   → 
+
+1654. elles vont donner du pain
+   → 
+
+1655. elles vont donner de l'argent
+   → 
+
+1656. elles vont donner le cadeau
+   → 
+
+1657. je vais vouloir du riz
+   → 
+
+1658. je vais vouloir de l'eau
+   → 
+
+1659. je vais vouloir le livre
+   → 
+
+1660. je vais vouloir aller à la maison
+   → 
+
+1661. je vais vouloir manger
+   → 
+
+1662. tu vas vouloir du riz
+   → 
+
+1663. tu vas vouloir de l'eau
+   → 
+
+1664. tu vas vouloir le livre
+   → 
+
+1665. tu vas vouloir aller à la maison
+   → 
+
+1666. tu vas vouloir manger
+   → 
+
+1667. il va vouloir du riz
+   → 
+
+1668. il va vouloir de l'eau
+   → 
+
+1669. il va vouloir le livre
+   → 
+
+1670. il va vouloir aller à la maison
+   → 
+
+1671. il va vouloir manger
+   → 
+
+1672. elle va vouloir du riz
+   → 
+
+1673. elle va vouloir de l'eau
+   → 
+
+1674. elle va vouloir le livre
+   → 
+
+1675. elle va vouloir aller à la maison
+   → 
+
+1676. elle va vouloir manger
+   → 
+
+1677. nous allons vouloir du riz
+   → 
+
+1678. nous allons vouloir de l'eau
+   → 
+
+1679. nous allons vouloir le livre
+   → 
+
+1680. nous allons vouloir aller à la maison
+   → 
+
+1681. nous allons vouloir manger
+   → 
+
+1682. vous allez vouloir du riz
+   → 
+
+1683. vous allez vouloir de l'eau
+   → 
+
+1684. vous allez vouloir le livre
+   → 
+
+1685. vous allez vouloir aller à la maison
+   → 
+
+1686. vous allez vouloir manger
+   → 
+
+1687. ils vont vouloir du riz
+   → 
+
+1688. ils vont vouloir de l'eau
+   → 
+
+1689. ils vont vouloir le livre
+   → 
+
+1690. ils vont vouloir aller à la maison
+   → 
+
+1691. ils vont vouloir manger
+   → 
+
+1692. elles vont vouloir du riz
+   → 
+
+1693. elles vont vouloir de l'eau
+   → 
+
+1694. elles vont vouloir le livre
+   → 
+
+1695. elles vont vouloir aller à la maison
+   → 
+
+1696. elles vont vouloir manger
+   → 
+
+1697. Est-ce que je mange du riz ?
+   → 
+
+1698. Est-ce que je mange du pain ?
+   → 
+
+1699. Est-ce que je mange du poisson ?
+   → 
+
+1700. Est-ce que je mange de la viande ?
+   → 
+
+1701. Est-ce que je mange des fruits ?
+   → 
+
+1702. Est-ce que je mange des légumes ?
+   → 
+
+1703. Est-ce que tu manges du riz ?
+   → 
+
+1704. Est-ce que tu manges du pain ?
+   → 
+
+1705. Est-ce que tu manges du poisson ?
+   → 
+
+1706. Est-ce que tu manges de la viande ?
+   → 
+
+1707. Est-ce que tu manges des fruits ?
+   → 
+
+1708. Est-ce que tu manges des légumes ?
+   → 
+
+1709. Est-ce que il mange du riz ?
+   → 
+
+1710. Est-ce que il mange du pain ?
+   → 
+
+1711. Est-ce que il mange du poisson ?
+   → 
+
+1712. Est-ce que il mange de la viande ?
+   → 
+
+1713. Est-ce que il mange des fruits ?
+   → 
+
+1714. Est-ce que il mange des légumes ?
+   → 
+
+1715. Est-ce que elle mange du riz ?
+   → 
+
+1716. Est-ce que elle mange du pain ?
+   → 
+
+1717. Est-ce que elle mange du poisson ?
+   → 
+
+1718. Est-ce que elle mange de la viande ?
+   → 
+
+1719. Est-ce que elle mange des fruits ?
+   → 
+
+1720. Est-ce que elle mange des légumes ?
+   → 
+
+1721. Est-ce que nous mangeons du riz ?
+   → 
+
+1722. Est-ce que nous mangeons du pain ?
+   → 
+
+1723. Est-ce que nous mangeons du poisson ?
+   → 
+
+1724. Est-ce que nous mangeons de la viande ?
+   → 
+
+1725. Est-ce que nous mangeons des fruits ?
+   → 
+
+1726. Est-ce que nous mangeons des légumes ?
+   → 
+
+1727. Est-ce que vous mangez du riz ?
+   → 
+
+1728. Est-ce que vous mangez du pain ?
+   → 
+
+1729. Est-ce que vous mangez du poisson ?
+   → 
+
+1730. Est-ce que vous mangez de la viande ?
+   → 
+
+1731. Est-ce que vous mangez des fruits ?
+   → 
+
+1732. Est-ce que vous mangez des légumes ?
+   → 
+
+1733. Est-ce que ils mangent du riz ?
+   → 
+
+1734. Est-ce que ils mangent du pain ?
+   → 
+
+1735. Est-ce que ils mangent du poisson ?
+   → 
+
+1736. Est-ce que ils mangent de la viande ?
+   → 
+
+1737. Est-ce que ils mangent des fruits ?
+   → 
+
+1738. Est-ce que ils mangent des légumes ?
+   → 
+
+1739. Est-ce que elles mangent du riz ?
+   → 
+
+1740. Est-ce que elles mangent du pain ?
+   → 
+
+1741. Est-ce que elles mangent du poisson ?
+   → 
+
+1742. Est-ce que elles mangent de la viande ?
+   → 
+
+1743. Est-ce que elles mangent des fruits ?
+   → 
+
+1744. Est-ce que elles mangent des légumes ?
+   → 
+
+1745. Est-ce que je bois de l'eau ?
+   → 
+
+1746. Est-ce que je bois du lait ?
+   → 
+
+1747. Est-ce que je bois du thé ?
+   → 
+
+1748. Est-ce que je bois du café ?
+   → 
+
+1749. Est-ce que je bois du jus ?
+   → 
+
+1750. Est-ce que tu bois de l'eau ?
+   → 
+
+1751. Est-ce que tu bois du lait ?
+   → 
+
+1752. Est-ce que tu bois du thé ?
+   → 
+
+1753. Est-ce que tu bois du café ?
+   → 
+
+1754. Est-ce que tu bois du jus ?
+   → 
+
+1755. Est-ce que il boit de l'eau ?
+   → 
+
+1756. Est-ce que il boit du lait ?
+   → 
+
+1757. Est-ce que il boit du thé ?
+   → 
+
+1758. Est-ce que il boit du café ?
+   → 
+
+1759. Est-ce que il boit du jus ?
+   → 
+
+1760. Est-ce que elle boit de l'eau ?
+   → 
+
+1761. Est-ce que elle boit du lait ?
+   → 
+
+1762. Est-ce que elle boit du thé ?
+   → 
+
+1763. Est-ce que elle boit du café ?
+   → 
+
+1764. Est-ce que elle boit du jus ?
+   → 
+
+1765. Est-ce que nous buvons de l'eau ?
+   → 
+
+1766. Est-ce que nous buvons du lait ?
+   → 
+
+1767. Est-ce que nous buvons du thé ?
+   → 
+
+1768. Est-ce que nous buvons du café ?
+   → 
+
+1769. Est-ce que nous buvons du jus ?
+   → 
+
+1770. Est-ce que vous buvez de l'eau ?
+   → 
+
+1771. Est-ce que vous buvez du lait ?
+   → 
+
+1772. Est-ce que vous buvez du thé ?
+   → 
+
+1773. Est-ce que vous buvez du café ?
+   → 
+
+1774. Est-ce que vous buvez du jus ?
+   → 
+
+1775. Est-ce que ils boivent de l'eau ?
+   → 
+
+1776. Est-ce que ils boivent du lait ?
+   → 
+
+1777. Est-ce que ils boivent du thé ?
+   → 
+
+1778. Est-ce que ils boivent du café ?
+   → 
+
+1779. Est-ce que ils boivent du jus ?
+   → 
+
+1780. Est-ce que elles boivent de l'eau ?
+   → 
+
+1781. Est-ce que elles boivent du lait ?
+   → 
+
+1782. Est-ce que elles boivent du thé ?
+   → 
+
+1783. Est-ce que elles boivent du café ?
+   → 
+
+1784. Est-ce que elles boivent du jus ?
+   → 
+
+1785. Est-ce que je vois mon ami ?
+   → 
+
+1786. Est-ce que je vois ma mère ?
+   → 
+
+1787. Est-ce que je vois mon père ?
+   → 
+
+1788. Est-ce que je vois le professeur ?
+   → 
+
+1789. Est-ce que je vois l'enfant ?
+   → 
+
+1790. Est-ce que je vois le chien ?
+   → 
+
+1791. Est-ce que tu vois mon ami ?
+   → 
+
+1792. Est-ce que tu vois ma mère ?
+   → 
+
+1793. Est-ce que tu vois mon père ?
+   → 
+
+1794. Est-ce que tu vois le professeur ?
+   → 
+
+1795. Est-ce que tu vois l'enfant ?
+   → 
+
+1796. Est-ce que tu vois le chien ?
+   → 
+
+1797. Est-ce que il voit mon ami ?
+   → 
+
+1798. Est-ce que il voit ma mère ?
+   → 
+
+1799. Est-ce que il voit mon père ?
+   → 
+
+1800. Est-ce que il voit le professeur ?
+   → 
+
+1801. Est-ce que il voit l'enfant ?
+   → 
+
+1802. Est-ce que il voit le chien ?
+   → 
+
+1803. Est-ce que elle voit mon ami ?
+   → 
+
+1804. Est-ce que elle voit ma mère ?
+   → 
+
+1805. Est-ce que elle voit mon père ?
+   → 
+
+1806. Est-ce que elle voit le professeur ?
+   → 
+
+1807. Est-ce que elle voit l'enfant ?
+   → 
+
+1808. Est-ce que elle voit le chien ?
+   → 
+
+1809. Est-ce que nous voyons mon ami ?
+   → 
+
+1810. Est-ce que nous voyons ma mère ?
+   → 
+
+1811. Est-ce que nous voyons mon père ?
+   → 
+
+1812. Est-ce que nous voyons le professeur ?
+   → 
+
+1813. Est-ce que nous voyons l'enfant ?
+   → 
+
+1814. Est-ce que nous voyons le chien ?
+   → 
+
+1815. Est-ce que vous voyez mon ami ?
+   → 
+
+1816. Est-ce que vous voyez ma mère ?
+   → 
+
+1817. Est-ce que vous voyez mon père ?
+   → 
+
+1818. Est-ce que vous voyez le professeur ?
+   → 
+
+1819. Est-ce que vous voyez l'enfant ?
+   → 
+
+1820. Est-ce que vous voyez le chien ?
+   → 
+
+1821. Est-ce que ils voient mon ami ?
+   → 
+
+1822. Est-ce que ils voient ma mère ?
+   → 
+
+1823. Est-ce que ils voient mon père ?
+   → 
+
+1824. Est-ce que ils voient le professeur ?
+   → 
+
+1825. Est-ce que ils voient l'enfant ?
+   → 
+
+1826. Est-ce que ils voient le chien ?
+   → 
+
+1827. Est-ce que elles voient mon ami ?
+   → 
+
+1828. Est-ce que elles voient ma mère ?
+   → 
+
+1829. Est-ce que elles voient mon père ?
+   → 
+
+1830. Est-ce que elles voient le professeur ?
+   → 
+
+1831. Est-ce que elles voient l'enfant ?
+   → 
+
+1832. Est-ce que elles voient le chien ?
+   → 
+
+1833. Est-ce que je vais à la maison ?
+   → 
+
+1834. Est-ce que je vais à l'école ?
+   → 
+
+1835. Est-ce que je vais au marché ?
+   → 
+
+1836. Est-ce que je vais au village ?
+   → 
+
+1837. Est-ce que je vais au travail ?
+   → 
+
+1838. Est-ce que tu vas à la maison ?
+   → 
+
+1839. Est-ce que tu vas à l'école ?
+   → 
+
+1840. Est-ce que tu vas au marché ?
+   → 
+
+1841. Est-ce que tu vas au village ?
+   → 
+
+1842. Est-ce que tu vas au travail ?
+   → 
+
+1843. Est-ce que il va à la maison ?
+   → 
+
+1844. Est-ce que il va à l'école ?
+   → 
+
+1845. Est-ce que il va au marché ?
+   → 
+
+1846. Est-ce que il va au village ?
+   → 
+
+1847. Est-ce que il va au travail ?
+   → 
+
+1848. Est-ce que elle va à la maison ?
+   → 
+
+1849. Est-ce que elle va à l'école ?
+   → 
+
+1850. Est-ce que elle va au marché ?
+   → 
+
+1851. Est-ce que elle va au village ?
+   → 
+
+1852. Est-ce que elle va au travail ?
+   → 
+
+1853. Est-ce que nous allons à la maison ?
+   → 
+
+1854. Est-ce que nous allons à l'école ?
+   → 
+
+1855. Est-ce que nous allons au marché ?
+   → 
+
+1856. Est-ce que nous allons au village ?
+   → 
+
+1857. Est-ce que nous allons au travail ?
+   → 
+
+1858. Est-ce que vous allez à la maison ?
+   → 
+
+1859. Est-ce que vous allez à l'école ?
+   → 
+
+1860. Est-ce que vous allez au marché ?
+   → 
+
+1861. Est-ce que vous allez au village ?
+   → 
+
+1862. Est-ce que vous allez au travail ?
+   → 
+
+1863. Est-ce que ils vont à la maison ?
+   → 
+
+1864. Est-ce que ils vont à l'école ?
+   → 
+
+1865. Est-ce que ils vont au marché ?
+   → 
+
+1866. Est-ce que ils vont au village ?
+   → 
+
+1867. Est-ce que ils vont au travail ?
+   → 
+
+1868. Est-ce que elles vont à la maison ?
+   → 
+
+1869. Est-ce que elles vont à l'école ?
+   → 
+
+1870. Est-ce que elles vont au marché ?
+   → 
+
+1871. Est-ce que elles vont au village ?
+   → 
+
+1872. Est-ce que elles vont au travail ?
+   → 
+
+1873. Est-ce que je viens de la maison ?
+   → 
+
+1874. Est-ce que je viens de l'école ?
+   → 
+
+1875. Est-ce que je viens du marché ?
+   → 
+
+1876. Est-ce que je viens du village ?
+   → 
+
+1877. Est-ce que je viens du travail ?
+   → 
+
+1878. Est-ce que tu viens de la maison ?
+   → 
+
+1879. Est-ce que tu viens de l'école ?
+   → 
+
+1880. Est-ce que tu viens du marché ?
+   → 
+
+1881. Est-ce que tu viens du village ?
+   → 
+
+1882. Est-ce que tu viens du travail ?
+   → 
+
+1883. Est-ce que il vient de la maison ?
+   → 
+
+1884. Est-ce que il vient de l'école ?
+   → 
+
+1885. Est-ce que il vient du marché ?
+   → 
+
+1886. Est-ce que il vient du village ?
+   → 
+
+1887. Est-ce que il vient du travail ?
+   → 
+
+1888. Est-ce que elle vient de la maison ?
+   → 
+
+1889. Est-ce que elle vient de l'école ?
+   → 
+
+1890. Est-ce que elle vient du marché ?
+   → 
+
+1891. Est-ce que elle vient du village ?
+   → 
+
+1892. Est-ce que elle vient du travail ?
+   → 
+
+1893. Est-ce que nous venons de la maison ?
+   → 
+
+1894. Est-ce que nous venons de l'école ?
+   → 
+
+1895. Est-ce que nous venons du marché ?
+   → 
+
+1896. Est-ce que nous venons du village ?
+   → 
+
+1897. Est-ce que nous venons du travail ?
+   → 
+
+1898. Est-ce que vous venez de la maison ?
+   → 
+
+1899. Est-ce que vous venez de l'école ?
+   → 
+
+1900. Est-ce que vous venez du marché ?
+   → 
+
+1901. Est-ce que vous venez du village ?
+   → 
+
+1902. Est-ce que vous venez du travail ?
+   → 
+
+1903. Est-ce que ils viennent de la maison ?
+   → 
+
+1904. Est-ce que ils viennent de l'école ?
+   → 
+
+1905. Est-ce que ils viennent du marché ?
+   → 
+
+1906. Est-ce que ils viennent du village ?
+   → 
+
+1907. Est-ce que ils viennent du travail ?
+   → 
+
+1908. Est-ce que elles viennent de la maison ?
+   → 
+
+1909. D'où viennent-elles ?
+   → 
+
+1910. Qu'est-ce que je fais ?
+   → 
+
+1911. Qu'est-ce que tu fais ?
+   → 
+
+1912. Qu'est-ce que il fait ?
+   → 
+
+1913. Que fait-il ?
+   → 
+
+1914. Que fait-elle ?
+   → 
+
+1915. Que faisons-nous ?
+   → 
+
+1916. Que faites-vous ?
+   → 
+
+1917. Que font-ils ?
+   → 
+
+1918. Que font-elles ?
+   → 
+
+1919. Qu'est-ce que j'ai ?
+   → 
+
+1920. Qu'est-ce que tu as ?
+   → 
+
+1921. Qui as-tu ?
+   → 
+
+1922. Où as-tu une maison ?
+   → 
+
+1923. Qu'est-ce qu'il a ?
+   → 
+
+1924. Où a-t-il une maison ?
+   → 
+
+1925. Qui a-t-il ?
+   → 
+
+1926. Qu'est-ce qu'elle a ?
+   → 
+
+1927. Qui a-t-elle ?
+   → 
+
+1928. Qu'est-ce que nous avons ?
+   → 
+
+1929. Qui avons-nous ?
+   → 
+
+1930. Qu'est-ce que vous avez ?
+   → 
+
+1931. Qui avez-vous ?
+   → 
+
+1932. Qu'est-ce qu'ils ont ?
+   → 
+
+1933. Qui ont-ils ?
+   → 
+
+1934. Qu'est-ce qu'elles ont ?
+   → 
+
+1935. Qui ont-elles ?
+   → 
+
+1936. Qu'est-ce que je prends ?
+   → 
+
+1937. Qu'est-ce que tu prends ?
+   → 
+
+1938. Qu'est-ce qu'il prend ?
+   → 
+
+1939. Quel moyen de transport prend-il ?
+   → 
+
+1940. Qu'est-ce qu'elle prend ?
+   → 
+
+1941. Quel moyen de transport prend-elle ?
+   → 
+
+1942. Qu'est-ce que nous prenons ?
+   → 
+
+1943. Quel moyen de transport prenons-nous ?
+   → 
+
+1944. Qu'est-ce que vous prenez ?
+   → 
+
+1945. Que prenez-vous ?
+   → 
+
+1946. Que prennent-ils ?
+   → 
+
+1947. Que prennent-elles ?
+   → 
+
+1948. Que donnez-vous ?
+   → 
+
+1949. Qu'est-ce que je donne ?
+   → 
+
+1950. Qu'est-ce que tu donnes ?
+   → 
+
+1951. Qu'est-ce que il donne ?
+   → 
+
+1952. Qu'est-ce que elle donne ?
+   → 
+
+1953. Qu'est-ce qu'elle donne ?
+   → 
+
+1954. Que donne-t-elle ?
+   → 
+
+1955. Que donnons-nous ?
+   → 
+
+1956. Qu'est-ce que nous donnons ?
+   → 
+
+1957. Qu'est-ce que vous donnez ?
+   → 
+
+1958. Que donnent-ils ?
+   → 
+
+1959. Qu'est-ce qu'ils donnent ?
+   → 
+
+1960. Qu'est-ce qu'elles donnent ?
+   → 
+
+1961. Qu'est-ce que je veux ?
+   → 
+
+1962. Où est-ce que je veux aller ?
+   → 
+
+1963. Comment est-ce que je veux manger ?
+   → 
+
+1964. Qu'est-ce que tu veux ?
+   → 
+
+1965. Où veux-tu aller ?
+   → 
+
+1966. Que veux-tu manger ?
+   → 
+
+1967. Que veut-il ?
+   → 
+
+1968. Où veut-il aller ?
+   → 
+
+1969. Que veut-il manger ?
+   → 
+
+1970. Que veut-elle ?
+   → 
+
+1971. Où veut-elle aller ?
+   → 
+
+1972. Que veut-elle manger ?
+   → 
+
+1973. Que voulons-nous ?
+   → 
+
+1974. Où voulez-vous aller ?
+   → 
+
+1975. Que voulez-vous manger ?
+   → 
+
+1976. Que voulez-vous ?
+   → 
+
+1977. Que veulent-ils ?
+   → 
+
+1978. Où veulent-ils aller ?
+   → 
+
+1979. Que veulent-ils manger ?
+   → 
+
+1980. Que veulent-elles ?
+   → 
+
+1981. Où veulent-elles aller ?
+   → 
+
+1982. Qu'est-ce qu'elles veulent manger ?
+   → 
+

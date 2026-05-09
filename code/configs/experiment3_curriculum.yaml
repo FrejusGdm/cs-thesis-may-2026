@@ -1,0 +1,42 @@
+# Experiment 3: Curriculum-Ordered vs. Shuffled Training
+# Inherits from base_config.yaml
+
+experiment:
+  name: exp3_curriculum_order
+  description: >
+    Test whether curriculum ordering at training time adds value
+    on top of curriculum-designed data.
+
+conditions:
+  - name: CURRICULUM
+    data:
+      sources: [structured_combined]
+    training_order: curriculum
+    # Present M1 (present tense) first, then progressively add:
+    # Phase 1 (epochs 1-10): M1 only
+    # Phase 2 (epochs 11-20): M1 + M2 (negation)
+    # Phase 3 (epochs 21-30): M1 + M2 + M3 (past)
+    # Phase 4 (epochs 31-40): M1 + M2 + M3 + M4 (future)
+    # Phase 5 (epochs 41-50): All modules
+    curriculum_phases:
+      - {epochs: [1, 10], modules: [1]}
+      - {epochs: [11, 20], modules: [1, 2]}
+      - {epochs: [21, 30], modules: [1, 2, 3]}
+      - {epochs: [31, 40], modules: [1, 2, 3, 4]}
+      - {epochs: [41, 50], modules: [1, 2, 3, 4, 5]}
+
+  - name: SHUFFLED
+    data:
+      sources: [structured_combined]
+    training_order: shuffled  # Standard random shuffling each epoch
+
+  - name: COMPETENCE
+    data:
+      sources: [structured_combined]
+    training_order: competence
+    # Platanios-style: sample probability based on "difficulty"
+    # Difficulty proxy: sentence length (shorter = easier)
+    competence_schedule: sqrt  # c(t) = min(1, sqrt(t * (1-c0^2)/T + c0^2))
+    initial_competence: 0.01
+
+seeds: [42, 123, 456, 789, 1024]

@@ -1,0 +1,23 @@
+Bootstrap: localimage
+From: pytorch-base.sif
+
+%labels
+    Author JosueG
+    Description NMT training container for French-Adja experiments (NLLB + mBART)
+
+%post
+    apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
+    pip install --no-cache-dir \
+        transformers==4.44.2 \
+        sentencepiece \
+        protobuf \
+        sacrebleu \
+        sacremoses \
+        accelerate \
+        huggingface-hub
+
+%environment
+    export PYTHONUNBUFFERED=1
+
+%runscript
+    exec python3 "$@"

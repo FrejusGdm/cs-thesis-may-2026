@@ -1,0 +1,49 @@
+# Experiment 1: Primary Hypothesis — Does Structured Data Drive the BLEU ~20?
+# Inherits from base_config.yaml
+
+experiment:
+  name: exp1_primary_hypothesis
+  description: >
+    Disentangle whether the BLEU ~20 gain comes from structured data composition
+    or simply from having more data (14K vs 10K).
+
+conditions:
+  - name: RANDOM-10K
+    data:
+      sources: [tatoeba_random]
+      size: 10000
+      sampling: null  # Use all
+
+  - name: RANDOM-6K_STRUCTURED-4K
+    data:
+      sources: [tatoeba_random, structured_combined]
+      tatoeba_size: 6000
+      structured_size: null  # Use all ~4,266
+      sampling: random_subsample
+
+  - name: RANDOM-10K_STRUCTURED-4K
+    data:
+      sources: [tatoeba_random, structured_combined]
+      tatoeba_size: 10000
+      structured_size: null
+      sampling: null
+
+  - name: STRUCTURED-4K-ONLY
+    data:
+      sources: [structured_combined]
+      size: null  # Use all ~4,266
+      sampling: null
+
+  - name: RANDOM-4K
+    data:
+      sources: [tatoeba_random]
+      size: 4000
+      sampling: random_subsample
+
+  - name: STRUCTURED-2K
+    data:
+      sources: [structured_combined]
+      size: 2000
+      sampling: stratified  # Balanced across modules
+
+seeds: [42, 123, 456, 789, 1024]

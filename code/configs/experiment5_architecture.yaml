@@ -1,0 +1,67 @@
+# Experiment 5: Fine-Tuning vs. From Scratch
+# Inherits from base_config.yaml for shared settings
+
+experiment:
+  name: exp5_architecture_comparison
+  description: >
+    Test whether pretraining compensates for having zero Adja in pretraining data.
+    Compare pretrained fine-tuning vs. from-scratch training.
+
+# Use the best data condition from Experiment 1 (likely RANDOM-6K+STRUCTURED-4K)
+data:
+  sources: [tatoeba_random, structured_combined]
+  tatoeba_size: 6000  # Adjust based on Exp 1 results
+
+conditions:
+  - name: NLLB-200-600M
+    model:
+      name: facebook/nllb-200-distilled-600M
+      params: 600M
+      type: pretrained_finetune
+
+  - name: NLLB-200-1.3B
+    model:
+      name: facebook/nllb-200-1.3B
+      params: 1.3B
+      type: pretrained_finetune
+    training:
+      batch_size: 8  # Smaller batch for larger model
+      gradient_accumulation_steps: 2
+
+  - name: MBART-50
+    model:
+      name: facebook/mbart-large-50-many-to-many-mmt
+      params: 600M
+      type: pretrained_finetune
+      source_lang: fr_XX
+      target_lang: fr_XX  # Will need custom lang code handling
+
+  - name: TRANSFORMER-BASE
+    model:
+      name: transformer_base
+      params: 65M
+      type: from_scratch
+      d_model: 512
+      n_heads: 8
+      n_layers: 6
+      d_ff: 2048
+    training:
+      learning_rate: 3.0e-4  # Higher LR for from-scratch
+      warmup_steps: 4000
+      max_epochs: 100  # More epochs for from-scratch
+
+  - name: TRANSFORMER-TINY
+    model:
+      name: transformer_tiny
+      params: 15M
+      type: from_scratch
+      d_model: 256
+      n_heads: 4
+      n_layers: 3
+      d_ff: 512
+    training:
+      learning_rate: 3.0e-4
+      warmup_steps: 2000
+      max_epochs: 100
+
+seeds: [42, 123, 456, 789, 1024]

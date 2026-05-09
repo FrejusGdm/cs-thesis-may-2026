@@ -1,0 +1,626 @@
+[
+  {
+    "dest": "code/preprocessing/reconstruct_metadata.py",
+    "source": "experiments/preprocessing/reconstruct_metadata.py"
+  },
+  {
+    "dest": "code/preprocessing/README.md",
+    "source": "experiments/preprocessing/README.md"
+  },
+  {
+    "dest": "code/preprocessing/punctuation_spacing_cleaner.py",
+    "source": "experiments/preprocessing/punctuation_spacing_cleaner.py"
+  },
+  {
+    "dest": "code/preprocessing/validation_comparison.py",
+    "source": "experiments/preprocessing/validation_comparison.py"
+  },
+  {
+    "dest": "code/preprocessing/unicode-normalization/normalize_unicode.py",
+    "source": "experiments/preprocessing/unicode-normalization/normalize_unicode.py"
+  },
+  {
+    "dest": "code/preprocessing/unicode-normalization/claude-output-explanation.txt",
+    "source": "experiments/preprocessing/unicode-normalization/claude-output-explanation.txt"
+  },
+  {
+    "dest": "code/preprocessing/unicode-normalization/README.md",
+    "source": "experiments/preprocessing/unicode-normalization/README.md"
+  },
+  {
+    "dest": "code/preprocessing/unicode-normalization/analyze_unicode_issues.py",
+    "source": "experiments/preprocessing/unicode-normalization/analyze_unicode_issues.py"
+  },
+  {
+    "dest": "code/evaluation/collect_results.py",
+    "source": "experiments/evaluation/collect_results.py"
+  },
+  {
+    "dest": "code/evaluation/collect_hf_results.py",
+    "source": "experiments/evaluation/collect_hf_results.py"
+  },
+  {
+    "dest": "code/evaluation/significance.py",
+    "source": "experiments/evaluation/significance.py"
+  },
+  {
+    "dest": "code/evaluation/evaluate.py",
+    "source": "experiments/evaluation/evaluate.py"
+  },
+  {
+    "dest": "code/analysis/check_test_contamination.py",
+    "source": "experiments/analysis/check_test_contamination.py"
+  },
+  {
+    "dest": "code/analysis/generate_robustness_figure.py",
+    "source": "experiments/analysis/generate_robustness_figure.py"
+  },
+  {
+    "dest": "code/analysis/compute_neural_metrics.py",
+    "source": "experiments/analysis/compute_neural_metrics.py"
+  },
+  {
+    "dest": "code/analysis/aggregate_subset_metrics.py",
+    "source": "experiments/analysis/aggregate_subset_metrics.py"
+  },
+  {
+    "dest": "code/analysis/compute_chrfpp_for_tables.py",
+    "source": "experiments/analysis/compute_chrfpp_for_tables.py"
+  },
+  {
+    "dest": "code/analysis/length_stats_train.py",
+    "source": "experiments/analysis/length_stats_train.py"
+  },
+  {
+    "dest": "code/analysis/generate_paper_figures.py",
+    "source": "experiments/analysis/generate_paper_figures.py"
+  },
+  {
+    "dest": "code/analysis/compare_contamination.py",
+    "source": "experiments/analysis/compare_contamination.py"
+  },
+  {
+    "dest": "code/analysis/build_qualitative_table.py",
+    "source": "experiments/analysis/build_qualitative_table.py"
+  },
+  {
+    "dest": "code/analysis/length_stats.py",
+    "source": "experiments/analysis/length_stats.py"
+  },
+  {
+    "dest": "code/analysis/data_statistics.py",
+    "source": "experiments/analysis/data_statistics.py"
+  },
+  {
+    "dest": "code/analysis/recompute_subset_metrics.py",
+    "source": "experiments/analysis/recompute_subset_metrics.py"
+  },
+  {
+    "dest": "code/analysis/generate_appendix_figure.py",
+    "source": "experiments/analysis/generate_appendix_figure.py"
+  },
+  {
+    "dest": "code/analysis/compare_april2026_vs_acl.py",
+    "source": "experiments/analysis/compare_april2026_vs_acl.py"
+  },
+  {
+    "dest": "code/analysis/compute_robustness_table.py",
+    "source": "experiments/analysis/compute_robustness_table.py"
+  },
+  {
+    "dest": "code/configs/experiment2_scaling.yaml",
+    "source": "experiments/configs/experiment2_scaling.yaml"
+  },
+  {
+    "dest": "code/configs/experiment1_primary.yaml",
+    "source": "experiments/configs/experiment1_primary.yaml"
+  },
+  {
+    "dest": "code/configs/experiment3_curriculum.yaml",
+    "source": "experiments/configs/experiment3_curriculum.yaml"
+  },
+  {
+    "dest": "code/configs/base_config.yaml",
+    "source": "experiments/configs/base_config.yaml"
+  },
+  {
+    "dest": "code/configs/experiment5_architecture.yaml",
+    "source": "experiments/configs/experiment5_architecture.yaml"
+  },
+  {
+    "dest": "code/configs/experiment4_crossverb.yaml",
+    "source": "experiments/configs/experiment4_crossverb.yaml"
+  },
+  {
+    "dest": "code/configs/baselines.yaml",
+    "source": "experiments/configs/baselines.yaml"
+  },
+  {
+    "dest": "code/configs/ablations.yaml",
+    "source": "experiments/configs/ablations.yaml"
+  },
+  {
+    "dest": "code/templates/experiment_card.md",
+    "source": "experiments/templates/experiment_card.md"
+  },
+  {
+    "dest": "code/templates/error_analysis_form.md",
+    "source": "experiments/templates/error_analysis_form.md"
+  },
+  {
+    "dest": "code/templates/results_table.md",
+    "source": "experiments/templates/results_table.md"
+  },
+  {
+    "dest": "code/templates/human_eval_form.md",
+    "source": "experiments/templates/human_eval_form.md"
+  },
+  {
+    "dest": "code/tools/export_thesis_decode_table.py",
+    "source": "experiments/tools/export_thesis_decode_table.py"
+  },
+  {
+    "dest": "code/data/prepare_new_experiments.py",
+    "source": "experiments/data/prepare_new_experiments.py"
+  },
+  {
+    "dest": "code/data/prepare_splits.py",
+    "source": "experiments/data/prepare_splits.py"
+  },
+  {
+    "dest": "code/data/prepare_april2026_splits.py",
+    "source": "experiments/data/prepare_april2026_splits.py"
+  },
+  {
+    "dest": "code/data/check_structured_source_target_repair.py",
+    "source": "experiments/data/check_structured_source_target_repair.py"
+  },
+  {
+    "dest": "code/data/decontaminate_splits.py",
+    "source": "experiments/data/decontaminate_splits.py"
+  },
+  {
+    "dest": "code/data/ingest_april2026.py",
+    "source": "experiments/data/ingest_april2026.py"
+  },
+  {
+    "dest": "code/data/repair_structured_source_target_contamination.py",
+    "source": "experiments/data/repair_structured_source_target_contamination.py"
+  },
+  {
+    "dest": "code/data/prepare_baselines.py",
+    "source": "experiments/data/prepare_baselines.py"
+  },
+  {
+    "dest": "code/data/audit_random.py",
+    "source": "experiments/data/audit_random.py"
+  },
+  {
+    "dest": "code/data/audit_april2026_language_mixups.py",
+    "source": "experiments/data/audit_april2026_language_mixups.py"
+  },
+  {
+    "dest": "code/data/prepare_ablations.py",
+    "source": "experiments/data/prepare_ablations.py"
+  },
+  {
+    "dest": "code/data/upload_decontaminated_ablations.py",
+    "source": "experiments/data/upload_decontaminated_ablations.py"
+  },
+  {
+    "dest": "code/training/eval_gemini_tuned.py",
+    "source": "experiments/training/eval_gemini_tuned.py"
+  },
+  {
+    "dest": "code/training/launch_api_finetune.sh",
+    "source": "experiments/training/launch_api_finetune.sh"
+  },
+  {
+    "dest": "code/training/gemini_finetune.py",
+    "source": "experiments/training/gemini_finetune.py"
+  },
+  {
+    "dest": "code/training/train_nllb.py",
+    "source": "experiments/training/train_nllb.py"
+  },
+  {
+    "dest": "code/training/openai_finetune.py",
+    "source": "experiments/training/openai_finetune.py"
+  },
+  {
+    "dest": "code/training/convert_to_finetune_format.py",
+    "source": "experiments/training/convert_to_finetune_format.py"
+  },
+  {
+    "dest": "code/training/launch_jobs.sh",
+    "source": "experiments/training/launch_jobs.sh"
+  },
+  {
+    "dest": "code/training/launch_new_experiments.sh",
+    "source": "experiments/training/launch_new_experiments.sh"
+  },
+  {
+    "dest": "code/training/zero_shot_baseline.py",
+    "source": "experiments/training/zero_shot_baseline.py"
+  },
+  {
+    "dest": "code/training/run_all_experiments.sh",
+    "source": "experiments/training/run_all_experiments.sh"
+  },
+  {
+    "dest": "code/training/upload_checkpoints_to_hf.py",
+    "source": "experiments/training/upload_checkpoints_to_hf.py"
+  },
+  {
+    "dest": "code/training/run_experiment.py",
+    "source": "experiments/training/run_experiment.py"
+  },
+  {
+    "dest": "code/training/hf_job_train.py",
+    "source": "experiments/training/hf_job_train.py"
+  },
+  {
+    "dest": "code/training/hpc/build_container.sh",
+    "source": "experiments/training/hpc/build_container.sh"
+  },
+  {
+    "dest": "code/training/hpc/hf_job_train_hpc.py",
+    "source": "experiments/training/hpc/hf_job_train_hpc.py"
+  },
+  {
+    "dest": "code/training/hpc/deploy_rebuttal_rerun.sh",
+    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_pipeline.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py"
+  },
+  {
+    "dest": "code/training/hpc/jobs_repaired_20260502.ranges.sh",
+    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_april2026.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py"
+  },
+  {
+    "dest": "code/training/hpc/HPC_GUIDE.md",
+    "source": "experiments/training/hpc/HPC_GUIDE.md"
+  },
+  {
+    "dest": "code/training/hpc/upload_results.sh",
+    "source": "experiments/training/hpc/upload_results.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv.py"
+  },
+  {
+    "dest": "code/training/hpc/fetch_results.sh",
+    "source": "experiments/training/hpc/fetch_results.sh"
+  },
+  {
+    "dest": "code/training/hpc/deploy_pipeline.sh",
+    "source": "experiments/training/hpc/deploy_pipeline.sh"
+  },
+  {
+    "dest": "code/training/hpc/retry_submit_repaired_chunks.sh",
+    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh"
+  },
+  {
+    "dest": "code/training/hpc/deploy_april2026.sh",
+    "source": "experiments/training/hpc/deploy_april2026.sh"
+  },
+  {
+    "dest": "code/training/hpc/download_models.sh",
+    "source": "experiments/training/hpc/download_models.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_rebuttal.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py"
+  },
+  {
+    "dest": "code/training/hpc/deploy_repaired_20260502.sh",
+    "source": "experiments/training/hpc/deploy_repaired_20260502.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_repaired_20260502.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py"
+  },
+  {
+    "dest": "code/training/hpc/submit_additive.sbatch",
+    "source": "experiments/training/hpc/submit_additive.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/build_container.sh",
+    "source": "experiments/training/hpc/build_container.sh"
+  },
+  {
+    "dest": "code/training/hpc/hf_job_train_hpc.py",
+    "source": "experiments/training/hpc/hf_job_train_hpc.py"
+  },
+  {
+    "dest": "code/training/hpc/deploy_rebuttal_rerun.sh",
+    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh"
+  },
+  {
+    "dest": "code/training/hpc/nmt-training.def",
+    "source": "experiments/training/hpc/nmt-training.def"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_pipeline.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py"
+  },
+  {
+    "dest": "code/training/hpc/jobs_repaired_20260502.ranges.sh",
+    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_april2026.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py"
+  },
+  {
+    "dest": "code/training/hpc/HPC_GUIDE.md",
+    "source": "experiments/training/hpc/HPC_GUIDE.md"
+  },
+  {
+    "dest": "code/training/hpc/upload_results.sh",
+    "source": "experiments/training/hpc/upload_results.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv.py"
+  },
+  {
+    "dest": "code/training/hpc/fetch_results.sh",
+    "source": "experiments/training/hpc/fetch_results.sh"
+  },
+  {
+    "dest": "code/training/hpc/submit_array.sbatch",
+    "source": "experiments/training/hpc/submit_array.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/deploy_pipeline.sh",
+    "source": "experiments/training/hpc/deploy_pipeline.sh"
+  },
+  {
+    "dest": "code/training/hpc/submit_april2026.sbatch",
+    "source": "experiments/training/hpc/submit_april2026.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/retry_submit_repaired_chunks.sh",
+    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh"
+  },
+  {
+    "dest": "code/training/hpc/deploy_april2026.sh",
+    "source": "experiments/training/hpc/deploy_april2026.sh"
+  },
+  {
+    "dest": "code/training/hpc/download_models.sh",
+    "source": "experiments/training/hpc/download_models.sh"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_rebuttal.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py"
+  },
+  {
+    "dest": "code/training/hpc/submit_pipeline.sbatch",
+    "source": "experiments/training/hpc/submit_pipeline.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/submit_rebuttal_rerun.sbatch",
+    "source": "experiments/training/hpc/submit_rebuttal_rerun.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/submit_table9.sbatch",
+    "source": "experiments/training/hpc/submit_table9.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/deploy_repaired_20260502.sh",
+    "source": "experiments/training/hpc/deploy_repaired_20260502.sh"
+  },
+  {
+    "dest": "code/training/hpc/submit_repaired_20260502.sbatch",
+    "source": "experiments/training/hpc/submit_repaired_20260502.sbatch"
+  },
+  {
+    "dest": "code/training/hpc/generate_jobs_tsv_repaired_20260502.py",
+    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/generation-2.py",
+    "source": "grammatical_dataset-generation/code-run-1/generation-2.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/generation-3.py",
+    "source": "grammatical_dataset-generation/code-run-1/generation-3.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/deduplicate_module5.py",
+    "source": "grammatical_dataset-generation/code-run-1/deduplicate_module5.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/combine_final_dataset.py",
+    "source": "grammatical_dataset-generation/code-run-1/combine_final_dataset.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/reformat_sentences.py",
+    "source": "grammatical_dataset-generation/code-run-1/reformat_sentences.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-1/generation-1.py",
+    "source": "grammatical_dataset-generation/code-run-1/generation-1.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/generation-2.py",
+    "source": "grammatical_dataset-generation/code-run-2/generation-2.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/generation-3.py",
+    "source": "grammatical_dataset-generation/code-run-2/generation-3.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/deduplicate_module5.py",
+    "source": "grammatical_dataset-generation/code-run-2/deduplicate_module5.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/combine_final_dataset.py",
+    "source": "grammatical_dataset-generation/code-run-2/combine_final_dataset.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/reformat_sentences.py",
+    "source": "grammatical_dataset-generation/code-run-2/reformat_sentences.py"
+  },
+  {
+    "dest": "code/dataset-generation/code-run-2/generation-1.py",
+    "source": "grammatical_dataset-generation/code-run-2/generation-1.py"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-1/ADJA_TRANSLATION_TEMPLATE.txt",
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_TRANSLATION_TEMPLATE.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-1/DATASET_README.txt",
+    "source": "grammatical_dataset-generation/final-output-run-1/DATASET_README.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES_paragraph.txt",
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_paragraph.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES.txt",
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_BY_MODULE.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-2/ADJA_TRANSLATION_TEMPLATE.txt",
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_TRANSLATION_TEMPLATE.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-2/DATASET_README.txt",
+    "source": "grammatical_dataset-generation/final-output-run-2/DATASET_README.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES_paragraph.txt",
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_paragraph.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES.txt",
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES.txt"
+  },
+  {
+    "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_BY_MODULE.txt"
+  },
+  {
+    "dest": "docs/explanations/06-experimental-design.md",
+    "source": "explanations/06-experimental-design.md"
+  },
+  {
+    "dest": "docs/explanations/03-evaluation-metrics.md",
+    "source": "explanations/03-evaluation-metrics.md"
+  },
+  {
+    "dest": "docs/explanations/01-the-data-pipeline.md",
+    "source": "explanations/01-the-data-pipeline.md"
+  },
+  {
+    "dest": "docs/explanations/04-ablation-experiments.md",
+    "source": "explanations/04-ablation-experiments.md"
+  },
+  {
+    "dest": "docs/explanations/07-reading-the-results.md",
+    "source": "explanations/07-reading-the-results.md"
+  },
+  {
+    "dest": "docs/explanations/README.md",
+    "source": "explanations/README.md"
+  },
+  {
+    "dest": "docs/explanations/05-model-and-training.md",
+    "source": "explanations/05-model-and-training.md"
+  },
+  {
+    "dest": "docs/explanations/02-data-selection-strategies.md",
+    "source": "explanations/02-data-selection-strategies.md"
+  },
+  {
+    "dest": "results/mt/summary/length_stats.csv",
+    "source": "experiments/results/summary/length_stats.csv"
+  },
+  {
+    "dest": "results/mt/summary/contamination_comparison.csv",
+    "source": "experiments/results/summary/contamination_comparison.csv"
+  },
+  {
+    "dest": "results/mt/summary/repaired_subset_metrics_multiref_partial.csv",
+    "source": "experiments/results/summary/repaired_subset_metrics_multiref_partial.csv"
+  },
+  {
+    "dest": "results/mt/summary/all_results_pre_decontamination.csv",
+    "source": "experiments/results/summary/all_results_pre_decontamination.csv"
+  },
+  {
+    "dest": "results/mt/summary/rebuttal_subset_bleu.csv",
+    "source": "experiments/results/summary/rebuttal_subset_bleu.csv"
+  },
+  {
+    "dest": "results/mt/summary/robustness_table.csv",
+    "source": "experiments/results/summary/robustness_table.csv"
+  },
+  {
+    "dest": "results/mt/summary/rebuttal_subset_bleu_aggregated.csv",
+    "source": "experiments/results/summary/rebuttal_subset_bleu_aggregated.csv"
+  },
+  {
+    "dest": "results/mt/summary/april2026_vs_acl.csv",
+    "source": "experiments/results/summary/april2026_vs_acl.csv"
+  },
+  {
+    "dest": "results/mt/summary/all_results.csv",
+    "source": "experiments/results/summary/all_results.csv"
+  },
+  {
+    "dest": "results/mt/summary/length_stats_train.csv",
+    "source": "experiments/results/summary/length_stats_train.csv"
+  },
+  {
+    "dest": "requirements.txt",
+    "source": "experiments/requirements.txt"
+  },
+  {
+    "dest": "docs/experiment-framework/README.md",
+    "source": "experiments/README.md"
+  },
+  {
+    "dest": "docs/experiment-framework/GUIDE.md",
+    "source": "experiments/GUIDE.md"
+  },
+  {
+    "dest": "docs/experiment-framework/BASELINES.md",
+    "source": "experiments/BASELINES.md"
+  },
+  {
+    "dest": "docs/experiment-framework/ABLATIONS.md",
+    "source": "experiments/ABLATIONS.md"
+  },
+  {
+    "dest": "docs/experiment-framework/EXPERIMENT_LOG.md",
+    "source": "experiments/EXPERIMENT_LOG.md"
+  },
+  {
+    "dest": "docs/experiment-framework/API_FINETUNING_STATUS.md",
+    "source": "experiments/API_FINETUNING_STATUS.md"
+  },
+  {
+    "dest": "docs/experiment-framework/REVIEWER_DEFENSE.md",
+    "source": "experiments/REVIEWER_DEFENSE.md"
+  },
+  {
+    "dest": "results/mt/README_thesis_qualitative_decode.md",
+    "source": "experiments/results/README_thesis_qualitative_decode.md"
+  }
+]

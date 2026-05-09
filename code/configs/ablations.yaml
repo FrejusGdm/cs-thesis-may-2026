@@ -1,0 +1,49 @@
+# Ablation study configurations
+# Inherits from base_config.yaml
+
+seeds_per_ablation: 3  # Fewer seeds for ablations (vs 5 for main experiments)
+seeds: [42, 123, 456]
+
+ablations:
+  module_leave_one_out:
+    description: Which modules contribute most to translation quality?
+    conditions:
+      - {name: FULL, modules: [1, 2, 3, 4, 5]}
+      - {name: "-NEGATION", modules: [1, 3, 4, 5]}
+      - {name: "-PAST", modules: [1, 2, 4, 5]}
+      - {name: "-FUTURE", modules: [1, 2, 3, 5]}
+      - {name: "-QUESTIONS", modules: [1, 2, 3, 4]}
+      - {name: BASE-ONLY, modules: [1]}
+
+  module_size_controlled:
+    description: Same as above but fixed at 1,000 total sentences
+    total_size: 1000
+    conditions:
+      - {name: FULL-1K, modules: [1, 2, 3, 4, 5], per_module: 200}
+      - {name: "-NEG-1K", modules: [1, 3, 4, 5], per_module: 250}
+      - {name: "-PAST-1K", modules: [1, 2, 4, 5], per_module: 250}
+      - {name: "-FUT-1K", modules: [1, 2, 3, 5], per_module: 250}
+      - {name: "-QUEST-1K", modules: [1, 2, 3, 4], per_module: 250}
+      - {name: BASE-1K, modules: [1], per_module: 1000}
+
+  pronoun_coverage:
+    description: How many pronoun forms are needed?
+    conditions:
+      - {name: ALL-8, pronouns: [je, tu, il, elle, nous, vous, ils, elles]}
+      - {name: REDUCED-4, pronouns: [je, tu, il, nous]}
+      - {name: SINGULAR-3, pronouns: [je, tu, il]}
+      - {name: MINIMAL-1, pronouns: [je]}
+
+  verb_diversity:
+    description: How many verb types are needed?
+    conditions:
+      - {name: 10-VERBS, verb_count: 10, subsets: 1}
+      - {name: 5-VERBS, verb_count: 5, subsets: 3}   # 3 random subsets
+      - {name: 3-VERBS, verb_count: 3, subsets: 3}
+      - {name: 1-VERB, verb_count: 1, verbs: [manger]}
+
+  minimal_pair_structure:
+    description: Does contrastive pairing matter?
+    conditions:
+      - {name: PAIRS-INTACT, shuffle: false}
+      - {name: PAIRS-BROKEN, shuffle: true}  # Shuffle M2-M5 independently

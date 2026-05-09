@@ -1,0 +1,99 @@
+{
+  "datasets": [
+    {
+      "notes": "Existing canonical French-Adja MT dataset.",
+      "release_policy": "reference_only_do_not_mutate",
+      "repo_id": "JosueG/french-adja-parallel-corpus",
+      "repo_type": "dataset",
+      "role": "canonical_mt_existing",
+      "status": "gated_public"
+    },
+    {
+      "notes": "Best current ASR/TTS speech source because it has train/dev/test splits.",
+      "release_policy": "duplicate_to_new_canonical_repo",
+      "repo_id": "JosueG/adja-tts-mms-ready",
+      "repo_type": "dataset",
+      "role": "speech_source_for_duplication",
+      "status": "private_source"
+    },
+    {
+      "notes": "Earlier speech dataset source used by existing model cards.",
+      "release_policy": "reference_only_do_not_mutate",
+      "repo_id": "JosueG/adja-tts-orpheus",
+      "repo_type": "dataset",
+      "role": "speech_provenance",
+      "status": "private_source"
+    }
+  ],
+  "generated_at": "2026-05-09T14:45:21.252837+00:00",
+  "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
+  "models": [
+    {
+      "notes": "French to Adja NLLB-600M candidate release model.",
+      "repo_id": "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42",
+      "status": "candidate_final_private",
+      "task": "machine_translation"
+    },
+    {
+      "notes": "Adja to French NLLB-600M candidate release model.",
+      "repo_id": "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42",
+      "status": "candidate_final_private",
+      "task": "machine_translation"
+    },
+    {
+      "notes": "Wav2Vec2 XLS-R Adja CTC ASR model.",
+      "repo_id": "JosueG/wav2vec2-xlsr-adja-c4v2",
+      "status": "public_candidate",
+      "task": "asr_stt"
+    },
+    {
+      "notes": "Whisper Ewe to Adja ASR transfer model.",
+      "repo_id": "JosueG/whisper-ewe-adja-e4v4",
+      "status": "public_candidate",
+      "task": "asr_stt"
+    },
+    {
+      "notes": "Spark TTS Adja candidate release model.",
+      "repo_id": "JosueG/spark-tts-adja-t3",
+      "status": "candidate_final_private",
+      "task": "tts"
+    }
+  ],
+  "results": [
+    {
+      "release_policy": "future_duplicate_or_export_to_canonical_asr_results",
+      "repo_id": "JosueG/adja-asr-results",
+      "repo_type": "model",
+      "role": "asr_results_source",
+      "status": "private_results_dump"
+    },
+    {
+      "release_policy": "future_duplicate_or_export_to_canonical_tts_results",
+      "repo_id": "JosueG/adja-tts-results",
+      "repo_type": "model",
+      "role": "tts_results_source_model_repo",
+      "status": "private_results_dump"
+    },
+    {
+      "release_policy": "future_duplicate_or_export_to_canonical_tts_results",
+      "repo_id": "JosueG/adja-tts-results",
+      "repo_type": "dataset",
+      "role": "tts_results_source_dataset_repo",
+      "status": "private_results_dump"
+    },
+    {
+      "release_policy": "future_duplicate_or_export_to_canonical_mt_results",
+      "repo_id": "JosueG/adja-mt-results-private",
+      "repo_type": "dataset",
+      "role": "mt_results_source",
+      "status": "private_results_dump"
+    }
+  ],
+  "source_revision": "337d8a9708b3c5cfba36caaccc30f47e1bef3fab",
+  "target_repos": {
+    "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
+    "dataset_bundle": "JosueG/cs-thesis-may-2026-data",
+    "hf_collection": "JosueG/cs-thesis-may-2026",
+    "tts_results": "JosueG/cs-thesis-may-2026-tts-results"
+  }
+}

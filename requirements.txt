@@ -1,0 +1,26 @@
+# Core training
+torch>=2.0
+transformers>=4.36
+sentencepiece
+protobuf
+
+# Data processing
+pandas
+numpy
+openpyxl
+scikit-learn
+
+# Evaluation metrics
+sacrebleu>=2.4
+unbabel-comet>=2.0
+bert-score>=0.3.13
+
+# Statistical testing
+scipy
+
+# Misc
+tqdm
+python-dotenv
+
+# Optional: COMET fine-tuning
+# krippendorff  # For inter-annotator agreement

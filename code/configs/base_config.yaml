@@ -1,0 +1,52 @@
+# Base configuration shared across all experiments
+# Override per-experiment settings in experiment-specific configs
+
+model:
+  name: facebook/nllb-200-distilled-600M
+  source_lang: fra_Latn
+  target_lang: fon_Latn  # Proxy for Adja (closest NLLB language code)
+  max_seq_length: 128
+
+training:
+  optimizer: adamw
+  learning_rate: 2.0e-5
+  lr_scheduler: linear
+  warmup_ratio: 0.1
+  batch_size: 16
+  max_epochs: 50
+  early_stopping_patience: 10
+  early_stopping_metric: eval_chrf
+  label_smoothing: 0.1
+  weight_decay: 0.01
+  fp16: true
+  gradient_accumulation_steps: 1
+  logging_steps: 50
+  eval_steps: 200
+  save_strategy: epoch
+
+generation:
+  num_beams: 5
+  length_penalty: 1.0
+  max_length: 128
+
+seeds: [42, 123, 456, 789, 1024]
+
+data:
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  test_set: from_data  # 80-10-10 split, grouped by base_sentence_id
+  split_strategy: group_aware  # Splits at base_sentence_id group level to prevent minimal-pair leakage
+
+evaluation:
+  metrics: [bleu, chrf, chrfpp, ter, comet, bertscore]
+  sacrebleu_signature: "BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a"
+  comet_model: Unbabel/wmt22-comet-da
+  bertscore_model: bert-base-multilingual-cased
+  bootstrap_samples: 1000
+  significance_level: 0.05
+
+paths:
+  data_dir: ../data  # Relative to experiments/ root
+  output_dir: ../results
+  checkpoint_dir: ../results/checkpoints

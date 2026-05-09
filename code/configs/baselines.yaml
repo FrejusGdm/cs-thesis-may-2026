@@ -1,0 +1,71 @@
+# Baseline configurations
+# Inherits from base_config.yaml
+
+baselines:
+  - name: RANDOM-FULL
+    description: All 10K Tatoeba random sentences
+    data:
+      source: tatoeba_random
+      size: 10000
+      construction: none
+    seeds: [42, 123, 456, 789, 1024]
+
+  - name: LENGTH-STRATIFIED
+    description: 2K from 10K, balanced by sentence length bins
+    data:
+      source: tatoeba_random
+      size: 2000
+      construction: length_stratified
+      bins:
+        short: [3, 5]   # 3-5 words
+        medium: [6, 9]   # 6-9 words
+        long: [10, null]  # 10+ words
+      per_bin: 667
+    seeds: [42, 123, 456, 789, 1024]
+
+  - name: VOCAB-MAXIMIZED
+    description: 2K from 10K via greedy set-cover for max vocabulary
+    data:
+      source: tatoeba_random
+      size: 2000
+      construction: vocab_greedy
+    seeds: [42, 123, 456, 789, 1024]
+
+  - name: TF-IDF-DIVERSE
+    description: 2K from 10K via k-means in TF-IDF space
+    data:
+      source: tatoeba_random
+      size: 2000
+      construction: tfidf_kmeans
+      n_clusters: 20
+      per_cluster: 100
+    seeds: [42, 123, 456, 789, 1024]
+
+  - name: ZERO-SHOT-NLLB
+    description: NLLB-200 on French->Adja with no fine-tuning (Fon proxy)
+    data:
+      source: none
+      size: 0
+      construction: none
+    model:
+      name: facebook/nllb-200-distilled-600M
+      target_lang: fon_Latn
+    seeds: [42]  # Deterministic, only need 1
+
+  - name: NLLB-FON-PROXY
+    description: NLLB-200 French->Fon, rated by Adja speakers
+    data:
+      source: none
+      size: 0
+      construction: none
+    evaluation: human_only  # No automatic metrics (different target language)
+    seeds: [42]
+
+  - name: COMMERCIAL-LLM
+    description: GPT-4 / Claude zero-shot French->Adja
+    data:
+      source: none
+      size: 0
+      construction: none
+    evaluation: automatic_and_human
+    seeds: [42]  # API is near-deterministic at temperature=0
