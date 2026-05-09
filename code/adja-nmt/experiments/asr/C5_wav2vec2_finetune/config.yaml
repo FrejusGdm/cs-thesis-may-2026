@@ -1,0 +1,51 @@
+# C5: wav2vec 2.0 (English-only pretraining) fine-tuned on Adja
+# --------------------------------------------------------------
+# Architecture : wav2vec 2.0 encoder + CTC head
+# Base model   : facebook/wav2vec2-large-960h (315M params, English-only SSL)
+# Run script   : scripts/hf_jobs/ctc_finetune.py
+# Purpose      : Control experiment — does multilingual SSL (XLS-R/MMS) beat English-only?
+#
+# Training outcome: CTC collapse (CER=100%, loss plateaued at ~3.5).
+# Not re-attempted because:
+#   - Lower priority than multilingual models (XLS-R/MMS) per plan review
+#   - English-only pretraining is likely too distant for Adja's phoneme set
+#
+# Hyperparameters below match C4v2 (same architecture, for fair comparison).
+
+model_name: facebook/wav2vec2-large-960h
+target_lang: ""
+
+# Training hyperparameters (identical to C4v2)
+learning_rate: 3.0e-5
+warmup_steps: 200
+max_epochs: 50
+batch_size: 8
+gradient_accumulation_steps: 4   # effective batch = 32
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_feature_encoder: true
+
+# Early stopping
+early_stopping_patience: 20
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10
+
+# Dependency pins
+dependencies:
+  transformers: "<4.50"
+  torch: "==2.5.1"
+  torchaudio: "==2.5.1"

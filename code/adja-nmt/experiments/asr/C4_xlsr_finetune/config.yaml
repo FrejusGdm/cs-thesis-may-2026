@@ -1,0 +1,52 @@
+# C4 / C4v2: XLS-R 300M fine-tuned on Adja
+# --------------------------------------------------------------
+# Architecture : wav2vec 2.0 encoder + CTC head (no language adapter)
+# Base model   : facebook/wav2vec2-xls-r-300m (300M params, 128 languages self-supervised)
+# Run script   : scripts/hf_jobs/ctc_finetune.py
+# CTC loss     : model.forward(labels=...) built-in
+#
+# Training outcomes:
+#   C4   (first attempt, manual CTC loss) : CER=100%, collapsed
+#   C4v2 (rerun, built-in CTC loss)       : CER=25.05%, WER=72.39%, best at epoch 48/50 — FINAL RESULT
+#
+# Hyperparameters below reflect the C4v2 configuration — the successful one.
+# C4v2 with char n-gram LM shallow fusion achieves CER=22.67%, WER=70.76% (normalized)
+# at α=0.67, β=-0.29 (Optuna-tuned). See D4_C4v2_lm_optuna in results/comparison.md.
+
+model_name: facebook/wav2vec2-xls-r-300m
+target_lang: ""             # No language adapter for XLS-R (unlike MMS)
+
+# Training hyperparameters
+learning_rate: 3.0e-5
+warmup_steps: 200
+max_epochs: 50
+batch_size: 8
+gradient_accumulation_steps: 4   # effective batch = 32
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_feature_encoder: true     # Freeze CNN feature extractor
+
+# Early stopping
+early_stopping_patience: 20
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10
+
+# Dependency pins
+dependencies:
+  transformers: "<4.50"
+  torch: "==2.5.1"
+  torchaudio: "==2.5.1"

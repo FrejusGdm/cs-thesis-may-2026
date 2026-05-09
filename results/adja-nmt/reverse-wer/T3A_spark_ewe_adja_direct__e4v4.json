@@ -1,0 +1,88 @@
+{
+  "run": "T3A_spark_ewe_adja_direct",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 517.24,
+    "cer_raw": 470.59,
+    "wer_norm": 569.23,
+    "cer_norm": 494.64,
+    "median_utt_wer_norm": 383.33,
+    "median_utt_cer_norm": 250.0,
+    "mean_utt_wer_norm": 662.81,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "T3_direct_sent00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " ŋu jesɛse, blaa",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 75.0,
+      "cer_raw": 83.33,
+      "cer_norm": 75.0,
+      "cached": true,
+      "error": null,
+      "duration_sec": 3.76
+    },
+    {
+      "file": "T3_direct_sent01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": "Nanakɔ̀tɔ anɔ nu a",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 85.71,
+      "wer_norm": 85.71,
+      "cer_raw": 75.0,
+      "cer_norm": 67.74,
+      "cached": true,
+      "error": null,
+      "duration_sec": 3.26
+    },
+    {
+      "file": "T3_direct_sent02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": "Eŋu cɛ ɖe wɔ anu aɖe ye se do ŋu eyi ŋu ŋu nyɛ nu ŋu de ŋu ŋu ee yi wo nɔ wo",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 328.57,
+      "wer_norm": 383.33,
+      "cer_raw": 252.0,
+      "cer_norm": 273.91,
+      "cached": true,
+      "error": null,
+      "duration_sec": 40.28
+    },
+    {
+      "file": "T3_direct_sent03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": "Tɛnni gbe yi ɖe yi va le ciŋu kpa yi ɖɛ ŋuɛ aɖe, eŋu aɖe ŋu enyɛ wo ɖɛ ɛ yi ɖɛ ɛ ɛ ɛ Eh",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 520.0,
+      "wer_norm": 520.0,
+      "cer_raw": 253.85,
+      "cer_norm": 250.0,
+      "cached": true,
+      "error": null,
+      "duration_sec": 40.28
+    },
+    {
+      "file": "T3_direct_sent04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": "Aa…obɔ ɖɛn ɔ ɖɔnɔ wo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo ɖɔnɔ efo �",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 1800.0,
+      "wer_norm": 2250.0,
+      "cer_raw": 2177.78,
+      "cer_norm": 2456.25,
+      "cached": true,
+      "error": null,
+      "duration_sec": 40.26
+    }
+  ]
+}

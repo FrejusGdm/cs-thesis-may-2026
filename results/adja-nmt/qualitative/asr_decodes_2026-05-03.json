@@ -1,0 +1,669 @@
+{
+  "generated_utc": "2026-05-03T05:29:15Z",
+  "dataset": "JosueG/adja-tts-orpheus",
+  "split": "test (10% of seed=42 train_test_split)",
+  "asr_labels": [
+    "c4v2",
+    "e4v4"
+  ],
+  "samples": [
+    {
+      "index": 0,
+      "ref": "Ŋu nya kpɔ́kpɔ a ?",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Mia kpɔ wa etu e",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 72.22,
+            "wer_norm": 125.0,
+            "cer_norm": 81.25
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 2.76,
+          "cached": true,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "WokpawoA",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 88.89,
+            "wer_norm": 100.0,
+            "cer_norm": 81.25
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.21,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 1,
+      "ref": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Mpɔuna vɔ lɔxulɔ kuɖe jiji lɛ lɔo",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 78.12,
+            "wer_norm": 100.0,
+            "cer_norm": 77.42
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.63,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Kɔŋju lɔ eʋuɖe ɖɔ kpɔ ɔ ɖe asasitɔe nu",
+          "metrics": {
+            "wer_raw": 128.57,
+            "cer_raw": 93.75,
+            "wer_norm": 114.29,
+            "cer_norm": 93.55
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 11.86,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 2,
+      "ref": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "decodes": {
+        "c4v2": {
+          "hyp": "No ɖayɛamo wanɛ ahan to",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 56.0,
+            "wer_norm": 100.0,
+            "cer_norm": 65.22
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.23,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Eda yiɔ nyi woa",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 76.0,
+            "wer_norm": 100.0,
+            "cer_norm": 73.91
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 7.74,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 3,
+      "ref": "Tɛnigbe ciyi vayi de ŋweba",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Nelɔ xu w mawu ɖo wɛba?",
+          "metrics": {
+            "wer_raw": 120.0,
+            "cer_raw": 73.08,
+            "wer_norm": 120.0,
+            "cer_norm": 65.38
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.74,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ɖeɖe ɖeciwo bá yi ɖe aɖa ɖaa.",
+          "metrics": {
+            "wer_raw": 140.0,
+            "cer_raw": 76.92,
+            "wer_norm": 140.0,
+            "cer_norm": 73.08
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.75,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 4,
+      "ref": "Ganɛni mɛ ayi ɔ̀ ?",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Manɛni mɛ ai ɛx",
+          "metrics": {
+            "wer_raw": 80.0,
+            "cer_raw": 33.33,
+            "wer_norm": 75.0,
+            "cer_norm": 25.0
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 1.84,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ɖeŋenɛ nyi nɛ ayi ɔ",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 55.56,
+            "wer_norm": 100.0,
+            "cer_norm": 50.0
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.75,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 5,
+      "ref": "Je agbla do ŋukeki alo azan nyui wo",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Eoeagbɛ gbɔ kpolodu alo ma aa nu ɔo ?",
+          "metrics": {
+            "wer_raw": 112.5,
+            "cer_raw": 65.71,
+            "wer_norm": 100.0,
+            "cer_norm": 60.0
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 4.34,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Jijiɛ abɔ gɔɛ gbe ŋukpokui alo azan nu wo.",
+          "metrics": {
+            "wer_raw": 87.5,
+            "cer_raw": 54.29,
+            "wer_norm": 75.0,
+            "cer_norm": 51.43
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.24,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 6,
+      "ref": "ŋdoalɔyi yi ekɔ edɔwaxu kplɔn lɔ",
+      "decodes": {
+        "c4v2": {
+          "hyp": "ŋugbolɔ lɔwuoyixɔ hogbɔ axwe yi mɔ lɔ",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 75.0,
+            "wer_norm": 100.0,
+            "cer_norm": 75.0
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.63,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ɖe ale wu etɔ ɔ aƒeshi mɔ lɔ",
+          "metrics": {
+            "wer_raw": 116.67,
+            "cer_raw": 62.5,
+            "wer_norm": 116.67,
+            "cer_norm": 62.5
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.02,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 7,
+      "ref": "Gbeta sɔsɔ ŋumɛɖekɛwo yɔ",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Etasɔ sɔgbɔ w ek weleo",
+          "metrics": {
+            "wer_raw": 125.0,
+            "cer_raw": 66.67,
+            "wer_norm": 125.0,
+            "cer_norm": 62.5
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 1.58,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "ŋuta sɔsɔ̀ ŋu nɔ ɖe kpewo",
+          "metrics": {
+            "wer_raw": 150.0,
+            "cer_raw": 58.33,
+            "wer_norm": 150.0,
+            "cer_norm": 58.33
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 9.84,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 8,
+      "ref": "Tom zɔnɔ afɔ iyi nɔ yidɔmɛ",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Tom zɔn nɔ asɔ e yayɔ mɛko",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 50.0,
+            "wer_norm": 100.0,
+            "cer_norm": 50.0
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.54,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Tom sɔ nɔ afɛnu ɖe nu",
+          "metrics": {
+            "wer_raw": 83.33,
+            "cer_raw": 57.69,
+            "wer_norm": 83.33,
+            "cer_norm": 57.69
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.88,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 9,
+      "ref": "Nɔ ewa ahan ɖe,esenɔ vevi",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Mɔ elɛ han ɖ eso mɔ goo",
+          "metrics": {
+            "wer_raw": 140.0,
+            "cer_raw": 52.0,
+            "wer_norm": 140.0,
+            "cer_norm": 50.0
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.07,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Nɔ eɔ hɛn le esi nɔ do",
+          "metrics": {
+            "wer_raw": 120.0,
+            "cer_raw": 48.0,
+            "wer_norm": 120.0,
+            "cer_norm": 50.0
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.8,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 10,
+      "ref": "E ŋlɔnɔbe enu diń",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Eirɔnu onui tumɛ",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 70.59,
+            "wer_norm": 100.0,
+            "cer_norm": 70.59
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.23,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 9370.59,
+            "wer_norm": 100.0,
+            "cer_norm": 9370.59
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 35.47,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 11,
+      "ref": "Mi nu fini è nɔnɔ̀ nɔ́ŋu",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Niimi iɖad wo nɔnɔ nɔ ŋo",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 54.17,
+            "wer_norm": 100.0,
+            "cer_norm": 54.17
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 4.98,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "ŋɔ̀̀",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 91.67,
+            "wer_norm": 100.0,
+            "cer_norm": 91.67
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.38,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 12,
+      "ref": "E hɛn agbe tamɛ mabutɔ vɛ ɛ",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Enɔ ekbetabɛ la wu ku mahe fɛ ?",
+          "metrics": {
+            "wer_raw": 114.29,
+            "cer_raw": 77.78,
+            "wer_norm": 100.0,
+            "cer_norm": 70.37
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.4,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Eʋu wɛ gbe ta be wɛ nɔ anyi mawo sɔ sɛɛ",
+          "metrics": {
+            "wer_raw": 157.14,
+            "cer_raw": 88.89,
+            "wer_norm": 157.14,
+            "cer_norm": 88.89
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.96,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 13,
+      "ref": "Asuɔ nɔnɔ Saint-Petersbourg le Russie",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Eso ɛhɛmɛ sayiitola o sui lɔŋusui ɖwo a b o",
+          "metrics": {
+            "wer_raw": 200.0,
+            "cer_raw": 94.59,
+            "wer_norm": 200.0,
+            "cer_norm": 91.89
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 4.2,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Aso enu amatsɛn enu seɔ le.",
+          "metrics": {
+            "wer_raw": 120.0,
+            "cer_raw": 70.27,
+            "wer_norm": 120.0,
+            "cer_norm": 67.57
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.84,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 14,
+      "ref": "Mi jiji ɛ ayi koɖo Tom a ?",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Mi anyali ayodoma ?",
+          "metrics": {
+            "wer_raw": 75.0,
+            "cer_raw": 53.85,
+            "wer_norm": 85.71,
+            "cer_norm": 58.33
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 1.89,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Eju yi ayi wo le emɔ nɔ",
+          "metrics": {
+            "wer_raw": 87.5,
+            "cer_raw": 69.23,
+            "wer_norm": 100.0,
+            "cer_norm": 70.83
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.59,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 15,
+      "ref": "ŋu bu buɔsamɔn miwo ɖe kpɔnɔ efimɛ kpɔnu o",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Eyi buɖu ɛsɔaŋlɛŋ eɛ mulolukpɛnɔŋu ma wepɛ su mɔ xkpɛ nɔ woo",
+          "metrics": {
+            "wer_raw": 133.33,
+            "cer_raw": 97.62,
+            "wer_norm": 133.33,
+            "cer_norm": 97.62
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 4.49,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ŋu ɖeɖeɖeɛ sa nɔ ŋu, miwo ɖe kpanɔ afi nɔ kpanɔ wo",
+          "metrics": {
+            "wer_raw": 111.11,
+            "cer_raw": 54.76,
+            "wer_norm": 100.0,
+            "cer_norm": 50.0
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 12.68,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 16,
+      "ref": "ŋ̀ gbe ta shi avu lɔ ló",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Ebo lɔ washi awolɛ eɔlɔwaɖa",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 78.26,
+            "wer_norm": 100.0,
+            "cer_norm": 78.26
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.03,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ɖe ta shia wo ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ wo ɛnɔ woɛ",
+          "metrics": {
+            "wer_raw": 942.86,
+            "cer_raw": 956.52,
+            "wer_norm": 942.86,
+            "cer_norm": 956.52
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 36.78,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 17,
+      "ref": "Ŋ dekukú, nanyɔ nɔ amɛ pleŋ u go ó",
+      "decodes": {
+        "c4v2": {
+          "hyp": "ŋboaxamɔmɔna nɛ xlo yi",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 76.47,
+            "wer_norm": 100.0,
+            "cer_norm": 75.76
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.67,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Nɔ ɖe kuku nɔ amagbɔ na ame srɛn ŋu go",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 61.76,
+            "wer_norm": 100.0,
+            "cer_norm": 60.61
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.35,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 18,
+      "ref": "Mi gbe kpɔtɔ le xuemɛ",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Mibekpɔtɔ loxo enɔ",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 42.86,
+            "wer_norm": 100.0,
+            "cer_norm": 42.86
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 1.84,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Ɖegbe kpɔtɔ le kpɔɖo",
+          "metrics": {
+            "wer_raw": 60.0,
+            "cer_raw": 38.1,
+            "wer_norm": 60.0,
+            "cer_norm": 38.1
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 8.96,
+          "cached": false,
+          "error": null
+        }
+      }
+    },
+    {
+      "index": 19,
+      "ref": "Eha jiji cɛ ɖonɔŋwi nyɔlunvi ɖeka wo nɔŋu",
+      "decodes": {
+        "c4v2": {
+          "hyp": "Ehan jiji ki elemɔi amɔ wo jiɖeka lo",
+          "metrics": {
+            "wer_raw": 87.5,
+            "cer_raw": 56.1,
+            "wer_norm": 87.5,
+            "cer_norm": 56.1
+          },
+          "asr_target": "https://lt1vri9jiv7tl5a3.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 3.33,
+          "cached": false,
+          "error": null
+        },
+        "e4v4": {
+          "hyp": "Fɛha jiji cɛ ɖe nu ŋu, ŋu nɔ nuji ɖeka wo",
+          "metrics": {
+            "wer_raw": 100.0,
+            "cer_raw": 51.22,
+            "wer_norm": 100.0,
+            "cer_norm": 48.78
+          },
+          "asr_target": "https://czb0f91gbsa0pcy0.us-east-1.aws.endpoints.huggingface.cloud",
+          "latency_sec": 10.64,
+          "cached": false,
+          "error": null
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "c4v2": {
+      "n": 20,
+      "wer_raw": 107.94,
+      "cer_raw": 68.35,
+      "wer_norm": 108.2,
+      "cer_norm": 67.53,
+      "errors": 0
+    },
+    "e4v4": {
+      "n": 20,
+      "wer_raw": 153.97,
+      "cer_raw": 388.97,
+      "wer_norm": 154.1,
+      "cer_norm": 393.91,
+      "errors": 0
+    }
+  }
+}

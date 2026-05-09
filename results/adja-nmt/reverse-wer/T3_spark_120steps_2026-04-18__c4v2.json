@@ -1,0 +1,88 @@
+{
+  "run": "T3_spark_120steps_2026-04-18",
+  "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "c4v2",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 95.45,
+    "cer_raw": 46.99,
+    "wer_norm": 95.45,
+    "cer_norm": 46.99,
+    "median_utt_wer_norm": 100.0,
+    "median_utt_cer_norm": 58.33,
+    "mean_utt_wer_norm": 96.0,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "spark_00.wav",
+      "text": "Tom trɔ yi kpanŋkɔ wezexu",
+      "hyp": "T<pad>o<pad>m<pad> <pad>trɔ <pad>yi <pad>fpan<pad>ŋu<pad>kpɔ <pad>nu <pad>se<pad> <pad>su<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 80.0,
+      "wer_norm": 80.0,
+      "cer_raw": 36.0,
+      "cer_norm": 36.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.5
+    },
+    {
+      "file": "spark_01.wav",
+      "text": "Ele lɔ awu ehoci lɔ sa",
+      "hyp": "E<pad>ɖe <pad>lɔn <pad>o<pad>wu <pad>e<pad>hu <pad>ci <pad>vɔ<pad> <pad>s<pad>a<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 27.27,
+      "cer_norm": 27.27,
+      "cached": false,
+      "error": null,
+      "duration_sec": 4.0
+    },
+    {
+      "file": "spark_02.wav",
+      "text": "Ɛ yi gbɛ̀",
+      "hyp": "E<pad>ge<pad> <pad>ɔ<pad>?",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 88.89,
+      "cer_norm": 88.89,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.28
+    },
+    {
+      "file": "spark_03.wav",
+      "text": "Mì ɖo alɔ ji",
+      "hyp": "M<pad>i<pad>ɖyo<pad>wo <pad>a<pad>lo<pad>ji<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 58.33,
+      "cer_norm": 58.33,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.06
+    },
+    {
+      "file": "spark_04.wav",
+      "text": "Nye ŋkɔ nyé Tom",
+      "hyp": "M<pad>a<pad>ŋu<pad>kpɔ <pad>nyɛ<pad> <pad>tTo<pad>m<pad>ɔ<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 60.0,
+      "cer_norm": 60.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 1.64
+    }
+  ]
+}

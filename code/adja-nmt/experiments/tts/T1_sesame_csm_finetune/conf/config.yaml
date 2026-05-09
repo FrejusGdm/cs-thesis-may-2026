@@ -1,0 +1,51 @@
+# T1: Sesame CSM (1B) Fine-tuning with Unsloth
+# Reference: https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning
+# Model: https://huggingface.co/unsloth/csm-1b
+# Paper: Sesame CSM — conversational speech model built on Llama 3.2-1B backbone
+
+model:
+  name: "unsloth/csm-1b"
+  max_seq_length: 2048
+  load_in_4bit: false       # Full 16-bit for best quality on A100
+  dtype: null               # Auto-detect (bfloat16 on A100)
+
+lora:
+  r: 16                     # LoRA rank — 16 is good balance for 1B model
+  lora_alpha: 32            # 2x rank for faster convergence (Unsloth recommendation)
+  lora_dropout: 0.0
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+  use_gradient_checkpointing: true       # CSM workaround: avoid the broken Unsloth patch path
+
+training:
+  num_epochs: 10
+  per_device_batch_size: 2
+  gradient_accumulation_steps: 4   # Effective batch = 8
+  learning_rate: 2.0e-4
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false
+  bf16: true                       # A100 supports bf16
+  save_strategy: "epoch"
+  eval_strategy: "epoch"
+  logging_steps: 10
+  seed: 42
+  report_to: "none"                # Set to "wandb" if tracking
+
+data:
+  target_sr: 24000                 # CSM uses Mimi codec at 24kHz
+  max_audio_length_sec: 30.0
+  dataset_name: "JosueG/adja-tts-orpheus"
+
+output:
+  dir: "./outputs/csm_adja_finetune"
+  save_adapter: true               # Save LoRA adapter separately
+  push_to_hub: false               # Set true to push to HF Hub

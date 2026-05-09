@@ -1,0 +1,51 @@
+# C3 / C3v3: MMS-1B with French adapter, fine-tuned on Adja
+# --------------------------------------------------------------
+# Architecture : wav2vec 2.0 encoder + CTC head
+# Base model   : facebook/mms-1b-all (1B parameters, 1100+ languages)
+# Adapter      : fra (French — closest high-resource language for Adja)
+# Run script   : scripts/hf_jobs/ctc_finetune.py
+# CTC loss     : model.forward(labels=...) built-in (NOT manual — manual collapses)
+#
+# Training outcomes:
+#   C3   (original, patience=5)  : CER=87.19%, killed early at epoch 6 (still improving)
+#   C3v3 (rerun, patience=20)    : CER=26.48%, WER=73.97%, best at epoch 44/50 — FINAL RESULT
+#
+# Hyperparameters below reflect the C3v3 configuration.
+
+model_name: facebook/mms-1b-all
+target_lang: fra          # MMS language adapter to load
+
+# Training hyperparameters
+learning_rate: 3.0e-5
+warmup_steps: 200
+max_epochs: 50
+batch_size: 8
+gradient_accumulation_steps: 4   # effective batch = 32
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_feature_encoder: true     # Freeze CNN feature extractor (standard for CTC fine-tune)
+
+# Early stopping
+early_stopping_patience: 20      # patience=5 killed original C3 at epoch 6
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10
+
+# Dependency pins
+dependencies:
+  transformers: "<4.50"           # >=4.50 requires torch>=2.6 (not available on HF Jobs A100)
+  torch: "==2.5.1"
+  torchaudio: "==2.5.1"

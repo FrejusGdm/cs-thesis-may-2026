@@ -1,0 +1,72 @@
+# =============================================================================
+# Qwen3-ASR Fine-tuning Configuration
+# =============================================================================
+
+# --- Model Selection ---
+model:
+  # Qwen3-ASR-1.7B: Best accuracy, needs 20+ GB VRAM
+  # Qwen3-ASR-0.6B: Good accuracy, 10+ GB VRAM
+  model_path: "Qwen/Qwen3-ASR-0.6B"
+
+  # Precision: bfloat16 for Ampere+ GPUs (A100, A6000, RTX 3090+)
+  # float16 for older GPUs (V100, T4)
+  dtype: "bfloat16"
+
+# --- Training Hyperparameters ---
+training:
+  # Batch size: ASR can handle larger batches than TTS because
+  # audio features are extracted by the encoder (not decoded token-by-token)
+  # Start with 32, reduce if OOM
+  batch_size: 32
+
+  # Gradient accumulation: effective batch = batch_size × grad_acc
+  # With batch_size=32, grad_acc=4: effective batch = 128
+  # ASR benefits from large effective batch sizes
+  gradient_accumulation_steps: 4
+
+  # Learning rate
+  learning_rate: 2.0e-5
+
+  # Weight decay
+  weight_decay: 0.01
+
+  # Epochs: ASR typically converges faster than TTS
+  # 1-3 epochs for most datasets
+  num_epochs: 1
+
+  # Warmup ratio
+  warmup_ratio: 0.02
+
+  # LR scheduler
+  lr_scheduler_type: "linear"
+
+  # Logging frequency (steps)
+  log_steps: 10
+
+# --- Data ---
+data:
+  # Paths to JSONL files
+  train_file: "data_workspace/splits/train.jsonl"
+  eval_file: "data_workspace/splits/val.jsonl"
+
+  # Audio sample rate (ASR expects 16kHz)
+  sample_rate: 16000
+
+# --- Checkpointing ---
+checkpointing:
+  output_dir: "./asr_output"
+  save_strategy: "steps"
+  save_steps: 200
+  save_total_limit: 5
+
+# --- DataLoader ---
+dataloader:
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 2
+
+# --- Distributed Training ---
+distributed:
+  # Number of GPUs (set >1 for multi-GPU with torchrun)
+  num_gpus: 1

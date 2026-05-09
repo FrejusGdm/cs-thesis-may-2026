@@ -1,0 +1,51 @@
+# C2: Whisper-small fine-tuned on Adja (greenfield — no Ewe)
+# --------------------------------------------------------------
+# Architecture : Encoder-decoder Transformer, cross-entropy loss
+# Base model   : openai/whisper-small (244M parameters)
+# Run script   : scripts/hf_jobs/whisper_finetune.py
+# Collator     : padding=True + manual pad to 3000 mel frames
+# EOS masking  : attention_mask-based (fix in docs/whisper-training-gotchas.md §0)
+#
+# Training outcome (frozen for the paper):
+#   Original C2 run  : CER=27.02%, WER=74.15% at epoch 47 (2026-04-16)
+#   C2_redo (broken) : hallucination loops; lost.
+#   Hyperparameters below reflect the ORIGINAL C2 run exactly.
+
+model_name: openai/whisper-small
+language: null            # Adja not in Whisper vocab → force transcribe without language hint
+task: transcribe
+
+# Training hyperparameters — these values produced the original CER=27.02% run
+learning_rate: 1.0e-5
+warmup_steps: 500
+max_epochs: 50
+batch_size: 8
+gradient_accumulation_steps: 4   # effective batch = 32
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_encoder: false
+
+# Early stopping
+early_stopping_patience: 20      # NOT 5 — patience=5 killed C3 too early
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10
+
+# Dependency pins (HF Jobs uv header equivalent)
+dependencies:
+  transformers: "==4.49.0"
+  torch: "==2.5.1"
+  torchaudio: "==2.5.1"

@@ -1,0 +1,102 @@
+{
+  "run": "T1",
+  "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "c4v2",
+  "aggregate": {
+    "n": 6,
+    "wer_raw": 111.11,
+    "cer_raw": 103.97,
+    "wer_norm": 121.21,
+    "cer_norm": 109.09,
+    "median_utt_wer_norm": 118.34,
+    "median_utt_cer_norm": 119.31,
+    "mean_utt_wer_norm": 126.95,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": "E<pad>i<pad>yɛ<pad>n<pad>a<pad>a<pad>i<pad> <pad>a<pad>a<pad>a<pad>s<pad>o<pad> <pad>shi<pad>a<pad> <pad>a<pad>e<pad> <pad>i<pad> <pad>ɔ<pad>o",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 120.0,
+      "wer_norm": 150.0,
+      "cer_raw": 116.67,
+      "cer_norm": 137.5,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": "E<pad>i<pad>i<pad>i<pad>y<pad>i<pad>i<pad>i<pad> <pad>na<pad>y<pad> <pad>sa<pad>te<pad>ŋ<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 90.62,
+      "cer_norm": 90.32,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": "M<pad>i<pad>nɔ<pad>n<pad>ɔ <pad>a<pad>a<pad>nu<pad>a<pad>x<pad>p<pad>ɛn <pad> <pad>ca<pad>a <pad>fi<pad>hɛ<pad> <pad>a<pad>f<pad>i<pad>ɛ<pad> <pad>sa<pad>i<pad>ni<pad> <pad>mɛ<pad>ŋ<pad>?",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 116.67,
+      "cer_raw": 124.0,
+      "cer_norm": 134.78,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": "M<pad>a<pad> <pad>m<pad>i <pad>h<pad>la<pad>zi<pad>yɔ<pad>le<pad> <pad>yi<pad>li<pad>nyɔ<pad> <pad>e<pad>x<pad>i<pad>i<pad>mɔ <pad>n<pad>ɛ<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 120.0,
+      "wer_norm": 120.0,
+      "cer_raw": 103.85,
+      "cer_norm": 103.85,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": "E<pad>ɔ<pad> <pad>e<pad>ŋu<pad>hi<pad>ɔ <pad>y<pad> <pad>a<pad>i<pad>i <pad>a<pad>zan<pad> <pad> <pad>ha<pad>ɖe<pad> <pad>ny<pad>ɔ<pad>ɔ<pad>m<pad>?",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 140.0,
+      "wer_norm": 175.0,
+      "cer_raw": 138.89,
+      "cer_norm": 156.25,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "conditioned.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": "ŋ<pad>i<pad>a<pad> <pad>a<pad>f<pad>i<pad>o<pad> <pad>yɛ<pad>ŋu<pad>i<pad> <pad>o<pad>n<pad>ɔ<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 75.0,
+      "cer_norm": 74.19,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}

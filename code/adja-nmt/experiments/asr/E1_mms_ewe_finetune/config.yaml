@@ -1,0 +1,36 @@
+# E1: MMS with Ewe Adapter Fine-Tuned on Adja ASR
+# Model: facebook/mms-1b-all with Ewe adapter (not French)
+# Architecture: wav2vec 2.0 encoder + CTC head
+# Purpose: Test if Ewe adapter (closest Gbe relative) outperforms French adapter (C3)
+
+model_name: facebook/mms-1b-all
+target_lang: ewe  # KEY DIFFERENCE from C3 which uses "fra"
+
+# Training hyperparameters (same as C3 for fair comparison)
+learning_rate: 3.0e-5
+warmup_steps: 200
+max_epochs: 30
+batch_size: 8
+gradient_accumulation_steps: 4
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_feature_encoder: true  # Freeze CNN feature extractor
+
+# Early stopping
+early_stopping_patience: 5
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10

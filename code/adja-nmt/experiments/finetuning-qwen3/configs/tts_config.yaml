@@ -1,0 +1,95 @@
+# =============================================================================
+# Qwen3-TTS Fine-tuning Configuration
+# =============================================================================
+# This file documents every hyperparameter with explanations of:
+# - What it does
+# - Why the default value was chosen
+# - What happens if you change it
+# =============================================================================
+
+# --- Model Selection ---
+model:
+  # Which base model to start from.
+  # 1.7B-Base: Best quality, needs 16+ GB VRAM for fine-tuning
+  # 0.6B-Base: Good quality, fits on 8 GB VRAM, faster iteration
+  # RECOMMENDATION: Start with 0.6B for prototyping, graduate to 1.7B
+  init_model_path: "Qwen/Qwen3-TTS-12Hz-0.6B-Base"
+
+  # The speech tokenizer (shared across all model sizes)
+  # This is FROZEN during fine-tuning — it just converts audio ↔ discrete tokens
+  tokenizer_path: "Qwen/Qwen3-TTS-Tokenizer-12Hz"
+
+  # Precision: bfloat16 recommended for A100/H100, float16 for V100/T4
+  # bfloat16 has larger dynamic range → more stable training
+  dtype: "bfloat16"
+
+  # Attention implementation: flash_attention_2 > sdpa > eager
+  # FlashAttention 2 is 2-3x faster and uses less memory
+  # Falls back to sdpa if flash-attn not installed
+  attn_implementation: "flash_attention_2"
+
+# --- Training Hyperparameters ---
+training:
+  # Batch size per GPU. TTS sequences are long, so keep this small.
+  # Increase if you have more VRAM. Decrease if OOM.
+  # Each sample is ~100-500 tokens (text) + ~150-4000 tokens (audio codes)
+  batch_size: 2
+
+  # Gradient accumulation: effective batch = batch_size × grad_acc
+  # With batch_size=2, grad_acc=4: effective batch = 8
+  # Larger effective batch → smoother gradients → more stable training
+  # But too large → slower convergence per compute
+  gradient_accumulation_steps: 4
+
+  # Learning rate: 2e-5 is the official recommendation
+  # LOWER (1e-5): Safer, slower convergence, less risk of forgetting
+  # HIGHER (5e-5): Faster learning, risk of catastrophic forgetting
+  # For small datasets (<1 hour): use 1e-5
+  # For larger datasets (5+ hours): 2e-5 is fine
+  learning_rate: 2.0e-5
+
+  # Weight decay: regularization to prevent overfitting
+  # 0.01 is standard for fine-tuning. Increase to 0.1 if overfitting
+  weight_decay: 0.01
+
+  # Number of epochs through the dataset
+  # For TTS fine-tuning, 3-5 epochs is typical
+  # FEWER (1-2): If dataset is large (10+ hours)
+  # MORE (5-10): If dataset is small (<1 hour), but watch for overfitting
+  num_epochs: 3
+
+  # Warmup: gradually increase LR from 0 to target over this fraction of steps
+  # Prevents large early gradients from destabilizing the model
+  warmup_ratio: 0.05
+
+  # LR scheduler: how learning rate decays after warmup
+  # "cosine" is generally best for fine-tuning (smooth decay to near-zero)
+  # "linear" also works but can be too aggressive at the end
+  lr_scheduler_type: "cosine"
+
+# --- Data ---
+data:
+  # Path to training JSONL (output of prepare_data.py with codes)
+  train_jsonl: "data_workspace/splits/train_with_codes.jsonl"
+
+  # Speaker name — used to identify the fine-tuned voice at inference time
+  speaker_name: "my_speaker"
+
+# --- Checkpointing ---
+checkpointing:
+  # Where to save model checkpoints
+  output_dir: "./tts_output"
+
+  # Save every N epochs (TTS script saves per-epoch, not per-step)
+  # All epoch checkpoints are saved: checkpoint-epoch-0, checkpoint-epoch-1, ...
+  # Pick the best one based on eval loss or subjective listening
+
+# --- Hardware ---
+hardware:
+  # GPU device
+  device: "cuda:0"
+
+  # Number of dataloader workers
+  # More workers = faster data loading, but more CPU/RAM usage
+  # Set to 0 for debugging (single-process loading)
+  num_workers: 4

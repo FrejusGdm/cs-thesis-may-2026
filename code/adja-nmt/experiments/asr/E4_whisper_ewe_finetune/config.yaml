@@ -1,0 +1,58 @@
+# E4 / E4v4: Whisper-small pre-tuned on Ewe, fine-tuned on Adja
+# --------------------------------------------------------------
+# Architecture : Encoder-decoder Transformer, cross-entropy loss
+# Base model   : dodziraynard/whisper-small-ee (Whisper-small already fine-tuned on Ewe)
+# Ewe model    : https://huggingface.co/dodziraynard/whisper-small-ee
+# Run script   : scripts/hf_jobs/whisper_finetune.py
+# Collator     : padding=True + manual pad to 3000 mel frames
+# EOS masking  : attention_mask-based (fix in docs/whisper-training-gotchas.md §0)
+# Purpose      : Test if Ewe cross-lingual transfer outperforms vanilla Whisper (C2)
+#
+# Training outcomes:
+#   E4 (original)              : CER=24.90%, WER=73.09% at epoch 50 — BEST ASR RESULT
+#                                 but full checkpoint lost (only metrics uploaded).
+#   E4v2/E4v3 (attempted reruns): broken by Whisper EOS-masking bug (hallucination loops)
+#   E4v4 (EOS fix applied)     : CER=37.18% at epoch 20 (overfits by epoch 25).
+#                                 Fix solves hallucination but needs stronger regularization.
+#
+# Hyperparameters below reflect the original E4 configuration (the 24.90% run).
+# Shared with C2 for fair comparison (only base model differs).
+
+model_name: dodziraynard/whisper-small-ee  # KEY DIFFERENCE from C2
+language: null
+task: transcribe
+
+# Training hyperparameters (identical to C2)
+learning_rate: 1.0e-5
+warmup_steps: 500
+max_epochs: 50
+batch_size: 8
+gradient_accumulation_steps: 4   # effective batch = 32
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+# Audio
+sampling_rate: 16000
+max_audio_length_sec: 30.0
+
+# Regularization
+freeze_encoder: false
+
+# Early stopping
+early_stopping_patience: 20
+eval_metric: cer
+
+# Evaluation
+num_decode_samples: 20
+
+# Reproducibility
+seed: 42
+
+# Logging
+log_every_n_steps: 10
+
+# Dependency pins
+dependencies:
+  transformers: "==4.49.0"
+  torch: "==2.5.1"
+  torchaudio: "==2.5.1"

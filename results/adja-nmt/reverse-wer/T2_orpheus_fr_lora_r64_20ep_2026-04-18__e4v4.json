@@ -1,0 +1,88 @@
+{
+  "run": "T2_orpheus_fr_lora_r64_20ep_2026-04-18",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 1993.1,
+    "cer_raw": 1599.16,
+    "wer_norm": 2211.54,
+    "cer_norm": 1695.54,
+    "median_utt_wer_norm": 100.0,
+    "median_utt_cer_norm": 100.0,
+    "mean_utt_wer_norm": 1875.71,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " e",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 4.78
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " Ŋutsu aɖe gbɔkpɔ kpɔ kplɔ́ gbɔkpuɖe wɔ ɖɔnɔ anyi ɖɔnɔ ɖɔnɔ ɖɔnɔ ɖɔnɔ gbe eɖewo le emɔ le eɖewo aŋu aɖe gbɔkpɔ ɖɔnɔ gbe eɖewo le eƒe ɖɔnɔ gbe eɖewo le eƒe ɖɔnɔ gbe eɖewo le eƒe ɖɔnɔ gbe eɖewo le eƒe ɖɔnɔ gbe eɖewo le eƒe ɖɔnɔ gbe eɖewo le eƒe ɖeɖe wɛ le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le eɖewo le e",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 1742.86,
+      "wer_norm": 1728.57,
+      "cer_raw": 1653.12,
+      "cer_norm": 1703.23,
+      "cached": false,
+      "error": null,
+      "duration_sec": 6.23
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " Adalawo ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le ma le",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 6300.0,
+      "wer_norm": 7350.0,
+      "cer_raw": 5268.0,
+      "cer_norm": 5730.43,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.39
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": " we had a lot of",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 80.77,
+      "cer_norm": 80.77,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.93
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": ".",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 5.03
+    }
+  ]
+}

@@ -1,591 +1,2373 @@
 [
   {
     "dest": "code/preprocessing/reconstruct_metadata.py",
-    "source": "experiments/preprocessing/reconstruct_metadata.py"
+    "source": "experiments/preprocessing/reconstruct_metadata.py",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/README.md",
-    "source": "experiments/preprocessing/README.md"
+    "source": "experiments/preprocessing/README.md",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/punctuation_spacing_cleaner.py",
-    "source": "experiments/preprocessing/punctuation_spacing_cleaner.py"
+    "source": "experiments/preprocessing/punctuation_spacing_cleaner.py",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/validation_comparison.py",
-    "source": "experiments/preprocessing/validation_comparison.py"
+    "source": "experiments/preprocessing/validation_comparison.py",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/unicode-normalization/normalize_unicode.py",
-    "source": "experiments/preprocessing/unicode-normalization/normalize_unicode.py"
+    "source": "experiments/preprocessing/unicode-normalization/normalize_unicode.py",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/unicode-normalization/claude-output-explanation.txt",
-    "source": "experiments/preprocessing/unicode-normalization/claude-output-explanation.txt"
+    "source": "experiments/preprocessing/unicode-normalization/claude-output-explanation.txt",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/unicode-normalization/README.md",
-    "source": "experiments/preprocessing/unicode-normalization/README.md"
+    "source": "experiments/preprocessing/unicode-normalization/README.md",
+    "source_root": "private"
   },
   {
     "dest": "code/preprocessing/unicode-normalization/analyze_unicode_issues.py",
-    "source": "experiments/preprocessing/unicode-normalization/analyze_unicode_issues.py"
+    "source": "experiments/preprocessing/unicode-normalization/analyze_unicode_issues.py",
+    "source_root": "private"
   },
   {
     "dest": "code/evaluation/collect_results.py",
-    "source": "experiments/evaluation/collect_results.py"
+    "source": "experiments/evaluation/collect_results.py",
+    "source_root": "private"
   },
   {
     "dest": "code/evaluation/collect_hf_results.py",
-    "source": "experiments/evaluation/collect_hf_results.py"
+    "source": "experiments/evaluation/collect_hf_results.py",
+    "source_root": "private"
   },
   {
     "dest": "code/evaluation/significance.py",
-    "source": "experiments/evaluation/significance.py"
+    "source": "experiments/evaluation/significance.py",
+    "source_root": "private"
   },
   {
     "dest": "code/evaluation/evaluate.py",
-    "source": "experiments/evaluation/evaluate.py"
+    "source": "experiments/evaluation/evaluate.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/check_test_contamination.py",
-    "source": "experiments/analysis/check_test_contamination.py"
+    "source": "experiments/analysis/check_test_contamination.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/generate_robustness_figure.py",
-    "source": "experiments/analysis/generate_robustness_figure.py"
+    "source": "experiments/analysis/generate_robustness_figure.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/compute_neural_metrics.py",
-    "source": "experiments/analysis/compute_neural_metrics.py"
+    "source": "experiments/analysis/compute_neural_metrics.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/aggregate_subset_metrics.py",
-    "source": "experiments/analysis/aggregate_subset_metrics.py"
+    "source": "experiments/analysis/aggregate_subset_metrics.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/compute_chrfpp_for_tables.py",
-    "source": "experiments/analysis/compute_chrfpp_for_tables.py"
+    "source": "experiments/analysis/compute_chrfpp_for_tables.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/length_stats_train.py",
-    "source": "experiments/analysis/length_stats_train.py"
+    "source": "experiments/analysis/length_stats_train.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/generate_paper_figures.py",
-    "source": "experiments/analysis/generate_paper_figures.py"
+    "source": "experiments/analysis/generate_paper_figures.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/compare_contamination.py",
-    "source": "experiments/analysis/compare_contamination.py"
+    "source": "experiments/analysis/compare_contamination.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/build_qualitative_table.py",
-    "source": "experiments/analysis/build_qualitative_table.py"
+    "source": "experiments/analysis/build_qualitative_table.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/length_stats.py",
-    "source": "experiments/analysis/length_stats.py"
+    "source": "experiments/analysis/length_stats.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/data_statistics.py",
-    "source": "experiments/analysis/data_statistics.py"
+    "source": "experiments/analysis/data_statistics.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/recompute_subset_metrics.py",
-    "source": "experiments/analysis/recompute_subset_metrics.py"
+    "source": "experiments/analysis/recompute_subset_metrics.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/generate_appendix_figure.py",
-    "source": "experiments/analysis/generate_appendix_figure.py"
+    "source": "experiments/analysis/generate_appendix_figure.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/compare_april2026_vs_acl.py",
-    "source": "experiments/analysis/compare_april2026_vs_acl.py"
+    "source": "experiments/analysis/compare_april2026_vs_acl.py",
+    "source_root": "private"
   },
   {
     "dest": "code/analysis/compute_robustness_table.py",
-    "source": "experiments/analysis/compute_robustness_table.py"
+    "source": "experiments/analysis/compute_robustness_table.py",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/experiment2_scaling.yaml",
-    "source": "experiments/configs/experiment2_scaling.yaml"
+    "source": "experiments/configs/experiment2_scaling.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/experiment1_primary.yaml",
-    "source": "experiments/configs/experiment1_primary.yaml"
+    "source": "experiments/configs/experiment1_primary.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/experiment3_curriculum.yaml",
-    "source": "experiments/configs/experiment3_curriculum.yaml"
+    "source": "experiments/configs/experiment3_curriculum.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/base_config.yaml",
-    "source": "experiments/configs/base_config.yaml"
+    "source": "experiments/configs/base_config.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/experiment5_architecture.yaml",
-    "source": "experiments/configs/experiment5_architecture.yaml"
+    "source": "experiments/configs/experiment5_architecture.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/experiment4_crossverb.yaml",
-    "source": "experiments/configs/experiment4_crossverb.yaml"
+    "source": "experiments/configs/experiment4_crossverb.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/baselines.yaml",
-    "source": "experiments/configs/baselines.yaml"
+    "source": "experiments/configs/baselines.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/configs/ablations.yaml",
-    "source": "experiments/configs/ablations.yaml"
+    "source": "experiments/configs/ablations.yaml",
+    "source_root": "private"
   },
   {
     "dest": "code/templates/experiment_card.md",
-    "source": "experiments/templates/experiment_card.md"
+    "source": "experiments/templates/experiment_card.md",
+    "source_root": "private"
   },
   {
     "dest": "code/templates/error_analysis_form.md",
-    "source": "experiments/templates/error_analysis_form.md"
+    "source": "experiments/templates/error_analysis_form.md",
+    "source_root": "private"
   },
   {
     "dest": "code/templates/results_table.md",
-    "source": "experiments/templates/results_table.md"
+    "source": "experiments/templates/results_table.md",
+    "source_root": "private"
   },
   {
     "dest": "code/templates/human_eval_form.md",
-    "source": "experiments/templates/human_eval_form.md"
+    "source": "experiments/templates/human_eval_form.md",
+    "source_root": "private"
   },
   {
     "dest": "code/tools/export_thesis_decode_table.py",
-    "source": "experiments/tools/export_thesis_decode_table.py"
+    "source": "experiments/tools/export_thesis_decode_table.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/prepare_new_experiments.py",
-    "source": "experiments/data/prepare_new_experiments.py"
+    "source": "experiments/data/prepare_new_experiments.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/prepare_splits.py",
-    "source": "experiments/data/prepare_splits.py"
+    "source": "experiments/data/prepare_splits.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/prepare_april2026_splits.py",
-    "source": "experiments/data/prepare_april2026_splits.py"
+    "source": "experiments/data/prepare_april2026_splits.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/check_structured_source_target_repair.py",
-    "source": "experiments/data/check_structured_source_target_repair.py"
+    "source": "experiments/data/check_structured_source_target_repair.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/decontaminate_splits.py",
-    "source": "experiments/data/decontaminate_splits.py"
+    "source": "experiments/data/decontaminate_splits.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/ingest_april2026.py",
-    "source": "experiments/data/ingest_april2026.py"
+    "source": "experiments/data/ingest_april2026.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/repair_structured_source_target_contamination.py",
-    "source": "experiments/data/repair_structured_source_target_contamination.py"
+    "source": "experiments/data/repair_structured_source_target_contamination.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/prepare_baselines.py",
-    "source": "experiments/data/prepare_baselines.py"
+    "source": "experiments/data/prepare_baselines.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/audit_random.py",
-    "source": "experiments/data/audit_random.py"
+    "source": "experiments/data/audit_random.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/audit_april2026_language_mixups.py",
-    "source": "experiments/data/audit_april2026_language_mixups.py"
+    "source": "experiments/data/audit_april2026_language_mixups.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/prepare_ablations.py",
-    "source": "experiments/data/prepare_ablations.py"
+    "source": "experiments/data/prepare_ablations.py",
+    "source_root": "private"
   },
   {
     "dest": "code/data/upload_decontaminated_ablations.py",
-    "source": "experiments/data/upload_decontaminated_ablations.py"
+    "source": "experiments/data/upload_decontaminated_ablations.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/eval_gemini_tuned.py",
-    "source": "experiments/training/eval_gemini_tuned.py"
+    "source": "experiments/training/eval_gemini_tuned.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/launch_api_finetune.sh",
-    "source": "experiments/training/launch_api_finetune.sh"
+    "source": "experiments/training/launch_api_finetune.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/gemini_finetune.py",
-    "source": "experiments/training/gemini_finetune.py"
+    "source": "experiments/training/gemini_finetune.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/train_nllb.py",
-    "source": "experiments/training/train_nllb.py"
+    "source": "experiments/training/train_nllb.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/openai_finetune.py",
-    "source": "experiments/training/openai_finetune.py"
+    "source": "experiments/training/openai_finetune.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/convert_to_finetune_format.py",
-    "source": "experiments/training/convert_to_finetune_format.py"
+    "source": "experiments/training/convert_to_finetune_format.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/launch_jobs.sh",
-    "source": "experiments/training/launch_jobs.sh"
+    "source": "experiments/training/launch_jobs.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/launch_new_experiments.sh",
-    "source": "experiments/training/launch_new_experiments.sh"
+    "source": "experiments/training/launch_new_experiments.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/zero_shot_baseline.py",
-    "source": "experiments/training/zero_shot_baseline.py"
+    "source": "experiments/training/zero_shot_baseline.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/run_all_experiments.sh",
-    "source": "experiments/training/run_all_experiments.sh"
+    "source": "experiments/training/run_all_experiments.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/upload_checkpoints_to_hf.py",
-    "source": "experiments/training/upload_checkpoints_to_hf.py"
+    "source": "experiments/training/upload_checkpoints_to_hf.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/run_experiment.py",
-    "source": "experiments/training/run_experiment.py"
+    "source": "experiments/training/run_experiment.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hf_job_train.py",
-    "source": "experiments/training/hf_job_train.py"
+    "source": "experiments/training/hf_job_train.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/build_container.sh",
-    "source": "experiments/training/hpc/build_container.sh"
+    "source": "experiments/training/hpc/build_container.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/hf_job_train_hpc.py",
-    "source": "experiments/training/hpc/hf_job_train_hpc.py"
+    "source": "experiments/training/hpc/hf_job_train_hpc.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_rebuttal_rerun.sh",
-    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh"
+    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_pipeline.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/jobs_repaired_20260502.ranges.sh",
-    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh"
+    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_april2026.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/HPC_GUIDE.md",
-    "source": "experiments/training/hpc/HPC_GUIDE.md"
+    "source": "experiments/training/hpc/HPC_GUIDE.md",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/upload_results.sh",
-    "source": "experiments/training/hpc/upload_results.sh"
+    "source": "experiments/training/hpc/upload_results.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/fetch_results.sh",
-    "source": "experiments/training/hpc/fetch_results.sh"
+    "source": "experiments/training/hpc/fetch_results.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_pipeline.sh",
-    "source": "experiments/training/hpc/deploy_pipeline.sh"
+    "source": "experiments/training/hpc/deploy_pipeline.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/retry_submit_repaired_chunks.sh",
-    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh"
+    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_april2026.sh",
-    "source": "experiments/training/hpc/deploy_april2026.sh"
+    "source": "experiments/training/hpc/deploy_april2026.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/download_models.sh",
-    "source": "experiments/training/hpc/download_models.sh"
+    "source": "experiments/training/hpc/download_models.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_rebuttal.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_repaired_20260502.sh",
-    "source": "experiments/training/hpc/deploy_repaired_20260502.sh"
+    "source": "experiments/training/hpc/deploy_repaired_20260502.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_repaired_20260502.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_additive.sbatch",
-    "source": "experiments/training/hpc/submit_additive.sbatch"
+    "source": "experiments/training/hpc/submit_additive.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/build_container.sh",
-    "source": "experiments/training/hpc/build_container.sh"
+    "source": "experiments/training/hpc/build_container.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/hf_job_train_hpc.py",
-    "source": "experiments/training/hpc/hf_job_train_hpc.py"
+    "source": "experiments/training/hpc/hf_job_train_hpc.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_rebuttal_rerun.sh",
-    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh"
+    "source": "experiments/training/hpc/deploy_rebuttal_rerun.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/nmt-training.def",
-    "source": "experiments/training/hpc/nmt-training.def"
+    "source": "experiments/training/hpc/nmt-training.def",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_pipeline.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_pipeline.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/jobs_repaired_20260502.ranges.sh",
-    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh"
+    "source": "experiments/training/hpc/jobs_repaired_20260502.ranges.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_april2026.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_april2026.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/HPC_GUIDE.md",
-    "source": "experiments/training/hpc/HPC_GUIDE.md"
+    "source": "experiments/training/hpc/HPC_GUIDE.md",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/upload_results.sh",
-    "source": "experiments/training/hpc/upload_results.sh"
+    "source": "experiments/training/hpc/upload_results.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/fetch_results.sh",
-    "source": "experiments/training/hpc/fetch_results.sh"
+    "source": "experiments/training/hpc/fetch_results.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_array.sbatch",
-    "source": "experiments/training/hpc/submit_array.sbatch"
+    "source": "experiments/training/hpc/submit_array.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_pipeline.sh",
-    "source": "experiments/training/hpc/deploy_pipeline.sh"
+    "source": "experiments/training/hpc/deploy_pipeline.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_april2026.sbatch",
-    "source": "experiments/training/hpc/submit_april2026.sbatch"
+    "source": "experiments/training/hpc/submit_april2026.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/retry_submit_repaired_chunks.sh",
-    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh"
+    "source": "experiments/training/hpc/retry_submit_repaired_chunks.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_april2026.sh",
-    "source": "experiments/training/hpc/deploy_april2026.sh"
+    "source": "experiments/training/hpc/deploy_april2026.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/download_models.sh",
-    "source": "experiments/training/hpc/download_models.sh"
+    "source": "experiments/training/hpc/download_models.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_rebuttal.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_rebuttal.py",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_pipeline.sbatch",
-    "source": "experiments/training/hpc/submit_pipeline.sbatch"
+    "source": "experiments/training/hpc/submit_pipeline.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_rebuttal_rerun.sbatch",
-    "source": "experiments/training/hpc/submit_rebuttal_rerun.sbatch"
+    "source": "experiments/training/hpc/submit_rebuttal_rerun.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_table9.sbatch",
-    "source": "experiments/training/hpc/submit_table9.sbatch"
+    "source": "experiments/training/hpc/submit_table9.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/deploy_repaired_20260502.sh",
-    "source": "experiments/training/hpc/deploy_repaired_20260502.sh"
+    "source": "experiments/training/hpc/deploy_repaired_20260502.sh",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/submit_repaired_20260502.sbatch",
-    "source": "experiments/training/hpc/submit_repaired_20260502.sbatch"
+    "source": "experiments/training/hpc/submit_repaired_20260502.sbatch",
+    "source_root": "private"
   },
   {
     "dest": "code/training/hpc/generate_jobs_tsv_repaired_20260502.py",
-    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py"
+    "source": "experiments/training/hpc/generate_jobs_tsv_repaired_20260502.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/generation-2.py",
-    "source": "grammatical_dataset-generation/code-run-1/generation-2.py"
+    "source": "grammatical_dataset-generation/code-run-1/generation-2.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/generation-3.py",
-    "source": "grammatical_dataset-generation/code-run-1/generation-3.py"
+    "source": "grammatical_dataset-generation/code-run-1/generation-3.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/deduplicate_module5.py",
-    "source": "grammatical_dataset-generation/code-run-1/deduplicate_module5.py"
+    "source": "grammatical_dataset-generation/code-run-1/deduplicate_module5.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/combine_final_dataset.py",
-    "source": "grammatical_dataset-generation/code-run-1/combine_final_dataset.py"
+    "source": "grammatical_dataset-generation/code-run-1/combine_final_dataset.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/reformat_sentences.py",
-    "source": "grammatical_dataset-generation/code-run-1/reformat_sentences.py"
+    "source": "grammatical_dataset-generation/code-run-1/reformat_sentences.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-1/generation-1.py",
-    "source": "grammatical_dataset-generation/code-run-1/generation-1.py"
+    "source": "grammatical_dataset-generation/code-run-1/generation-1.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/generation-2.py",
-    "source": "grammatical_dataset-generation/code-run-2/generation-2.py"
+    "source": "grammatical_dataset-generation/code-run-2/generation-2.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/generation-3.py",
-    "source": "grammatical_dataset-generation/code-run-2/generation-3.py"
+    "source": "grammatical_dataset-generation/code-run-2/generation-3.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/deduplicate_module5.py",
-    "source": "grammatical_dataset-generation/code-run-2/deduplicate_module5.py"
+    "source": "grammatical_dataset-generation/code-run-2/deduplicate_module5.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/combine_final_dataset.py",
-    "source": "grammatical_dataset-generation/code-run-2/combine_final_dataset.py"
+    "source": "grammatical_dataset-generation/code-run-2/combine_final_dataset.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/reformat_sentences.py",
-    "source": "grammatical_dataset-generation/code-run-2/reformat_sentences.py"
+    "source": "grammatical_dataset-generation/code-run-2/reformat_sentences.py",
+    "source_root": "private"
   },
   {
     "dest": "code/dataset-generation/code-run-2/generation-1.py",
-    "source": "grammatical_dataset-generation/code-run-2/generation-1.py"
+    "source": "grammatical_dataset-generation/code-run-2/generation-1.py",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-1/ADJA_TRANSLATION_TEMPLATE.txt",
-    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_TRANSLATION_TEMPLATE.txt"
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_TRANSLATION_TEMPLATE.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-1/DATASET_README.txt",
-    "source": "grammatical_dataset-generation/final-output-run-1/DATASET_README.txt"
+    "source": "grammatical_dataset-generation/final-output-run-1/DATASET_README.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES_paragraph.txt",
-    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_paragraph.txt"
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_paragraph.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES.txt",
-    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES.txt"
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-1/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
-    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_BY_MODULE.txt"
+    "source": "grammatical_dataset-generation/final-output-run-1/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-2/ADJA_TRANSLATION_TEMPLATE.txt",
-    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_TRANSLATION_TEMPLATE.txt"
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_TRANSLATION_TEMPLATE.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-2/DATASET_README.txt",
-    "source": "grammatical_dataset-generation/final-output-run-2/DATASET_README.txt"
+    "source": "grammatical_dataset-generation/final-output-run-2/DATASET_README.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES_paragraph.txt",
-    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_paragraph.txt"
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_paragraph.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES.txt",
-    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES.txt"
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES.txt",
+    "source_root": "private"
   },
   {
     "dest": "data/french-prompts/final-output-run-2/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
-    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_BY_MODULE.txt"
+    "source": "grammatical_dataset-generation/final-output-run-2/ADJA_FRENCH_SENTENCES_BY_MODULE.txt",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/06-experimental-design.md",
-    "source": "explanations/06-experimental-design.md"
+    "source": "explanations/06-experimental-design.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/03-evaluation-metrics.md",
-    "source": "explanations/03-evaluation-metrics.md"
+    "source": "explanations/03-evaluation-metrics.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/01-the-data-pipeline.md",
-    "source": "explanations/01-the-data-pipeline.md"
+    "source": "explanations/01-the-data-pipeline.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/04-ablation-experiments.md",
-    "source": "explanations/04-ablation-experiments.md"
+    "source": "explanations/04-ablation-experiments.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/07-reading-the-results.md",
-    "source": "explanations/07-reading-the-results.md"
+    "source": "explanations/07-reading-the-results.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/README.md",
-    "source": "explanations/README.md"
+    "source": "explanations/README.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/05-model-and-training.md",
-    "source": "explanations/05-model-and-training.md"
+    "source": "explanations/05-model-and-training.md",
+    "source_root": "private"
   },
   {
     "dest": "docs/explanations/02-data-selection-strategies.md",
-    "source": "explanations/02-data-selection-strategies.md"
+    "source": "explanations/02-data-selection-strategies.md",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/length_stats.csv",
-    "source": "experiments/results/summary/length_stats.csv"
+    "source": "experiments/results/summary/length_stats.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/contamination_comparison.csv",
-    "source": "experiments/results/summary/contamination_comparison.csv"
+    "source": "experiments/results/summary/contamination_comparison.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/repaired_subset_metrics_multiref_partial.csv",
-    "source": "experiments/results/summary/repaired_subset_metrics_multiref_partial.csv"
+    "source": "experiments/results/summary/repaired_subset_metrics_multiref_partial.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/all_results_pre_decontamination.csv",
-    "source": "experiments/results/summary/all_results_pre_decontamination.csv"
+    "source": "experiments/results/summary/all_results_pre_decontamination.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/rebuttal_subset_bleu.csv",
-    "source": "experiments/results/summary/rebuttal_subset_bleu.csv"
+    "source": "experiments/results/summary/rebuttal_subset_bleu.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/robustness_table.csv",
-    "source": "experiments/results/summary/robustness_table.csv"
+    "source": "experiments/results/summary/robustness_table.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/rebuttal_subset_bleu_aggregated.csv",
-    "source": "experiments/results/summary/rebuttal_subset_bleu_aggregated.csv"
+    "source": "experiments/results/summary/rebuttal_subset_bleu_aggregated.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/april2026_vs_acl.csv",
-    "source": "experiments/results/summary/april2026_vs_acl.csv"
+    "source": "experiments/results/summary/april2026_vs_acl.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/all_results.csv",
-    "source": "experiments/results/summary/all_results.csv"
+    "source": "experiments/results/summary/all_results.csv",
+    "source_root": "private"
   },
   {
     "dest": "results/mt/summary/length_stats_train.csv",
-    "source": "experiments/results/summary/length_stats_train.csv"
+    "source": "experiments/results/summary/length_stats_train.csv",
+    "source_root": "private"
+  },
+  {
+    "dest": "docs/adja-nmt/gbe-cascade-tts-settings-2026-04-22.md",
+    "source": "docs/gbe-cascade-tts-settings-2026-04-22.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/why-lm-barely-helped.md",
+    "source": "docs/why-lm-barely-helped.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/improving-adja-character-recognition.md",
+    "source": "docs/improving-adja-character-recognition.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/pipeline-handoff-2026-05-02.md",
+    "source": "docs/pipeline-handoff-2026-05-02.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/asr-reproducibility-2026-05-02.md",
+    "source": "docs/asr-reproducibility-2026-05-02.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/multilingual-speech-strategy-2026-04-18.md",
+    "source": "docs/multilingual-speech-strategy-2026-04-18.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/language-models-for-asr.md",
+    "source": "docs/language-models-for-asr.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/whisper-training-gotchas.md",
+    "source": "docs/whisper-training-gotchas.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/wave-3-fairness-and-recovery-2026-04-27.md",
+    "source": "docs/wave-3-fairness-and-recovery-2026-04-27.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/cer-wer-metrics-deep-dive.md",
+    "source": "docs/cer-wer-metrics-deep-dive.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/qwen3-hf-jobs-blog-draft.md",
+    "source": "docs/qwen3-hf-jobs-blog-draft.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/training-hyperparameters-guide.md",
+    "source": "docs/training-hyperparameters-guide.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/qwen3-documentation-map.md",
+    "source": "docs/qwen3-documentation-map.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/asr-learning-guide.md",
+    "source": "docs/asr-learning-guide.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/direct-s2st-feasibility-2026-05-04.md",
+    "source": "docs/direct-s2st-feasibility-2026-05-04.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/parakeet-tokenizer-retrain-adja.md",
+    "source": "docs/parakeet-tokenizer-retrain-adja.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/qwen3-hf-jobs-retrospective.md",
+    "source": "docs/qwen3-hf-jobs-retrospective.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/adja-corpus-design-2026-05-05.md",
+    "source": "docs/adja-corpus-design-2026-05-05.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/normalization-and-lm-explained.md",
+    "source": "docs/normalization-and-lm-explained.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/experiment-hypotheses-and-results.md",
+    "source": "docs/experiment-hypotheses-and-results.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/README.md",
+    "source": "learning/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/reading-order.md",
+    "source": "learning/reading-order.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/audio-lm-what-and-why.md",
+    "source": "learning/experiments-explained/audio-lm-what-and-why.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/T1-csm-why-it-failed.md",
+    "source": "learning/experiments-explained/T1-csm-why-it-failed.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/T3-spark-why-it-worked.md",
+    "source": "learning/experiments-explained/T3-spark-why-it-worked.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/E4-whisper-ewe-adja-bridge.md",
+    "source": "learning/experiments-explained/E4-whisper-ewe-adja-bridge.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/T2-orpheus-multilingual-variants.md",
+    "source": "learning/experiments-explained/T2-orpheus-multilingual-variants.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/experiments-explained/ssl-pretraining-on-unlabeled-ewe.md",
+    "source": "learning/experiments-explained/ssl-pretraining-on-unlabeled-ewe.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/papers/README.md",
+    "source": "learning/papers/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/05-ssl-pretraining-wav2vec.md",
+    "source": "learning/concepts/05-ssl-pretraining-wav2vec.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/03-three-layer-tts.md",
+    "source": "learning/concepts/03-three-layer-tts.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/01-what-is-a-tokenizer.md",
+    "source": "learning/concepts/01-what-is-a-tokenizer.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/02-what-is-an-audio-codec.md",
+    "source": "learning/concepts/02-what-is-an-audio-codec.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/07-tonal-languages-for-ML.md",
+    "source": "learning/concepts/07-tonal-languages-for-ML.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/06-lora-and-peft.md",
+    "source": "learning/concepts/06-lora-and-peft.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/08-low-resource-transfer.md",
+    "source": "learning/concepts/08-low-resource-transfer.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learning/concepts/04-ctc-vs-attention-vs-rnnt.md",
+    "source": "learning/concepts/04-ctc-vs-attention-vs-rnnt.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/nllb-tokenizer-for-tts-reading-list.md",
+    "source": "ideas/nllb-tokenizer-for-tts-reading-list.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/asr-improvements-roadmap.md",
+    "source": "ideas/asr-improvements-roadmap.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/tts-models-to-try.md",
+    "source": "ideas/tts-models-to-try.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/nllb-tokenizer-for-tts.md",
+    "source": "ideas/nllb-tokenizer-for-tts.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/tts-models-guide.md",
+    "source": "ideas/tts-models-guide.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/ideas/inworld-tts-deep-dive.md",
+    "source": "ideas/inworld-tts-deep-dive.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learnings-from-the-past/sagemaker-gotchas.md",
+    "source": "learnings-from-the-past/sagemaker-gotchas.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learnings-from-the-past/training-gotchas.md",
+    "source": "learnings-from-the-past/training-gotchas.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learnings-from-the-past/hf-jobs-gotchas.md",
+    "source": "learnings-from-the-past/hf-jobs-gotchas.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learnings-from-the-past/hpc-gotchas.md",
+    "source": "learnings-from-the-past/hpc-gotchas.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/learnings-from-the-past/key-findings.md",
+    "source": "learnings-from-the-past/key-findings.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/README.md",
+    "source": "best-TTS-African-Languages/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/RESEARCH-QUESTIONS.md",
+    "source": "best-TTS-African-Languages/RESEARCH-QUESTIONS.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/NFC-NORMALIZATION.md",
+    "source": "best-TTS-African-Languages/NFC-NORMALIZATION.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/MIMI-FINETUNE-GUIDE.md",
+    "source": "best-TTS-African-Languages/MIMI-FINETUNE-GUIDE.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/WHAT-WE-KNOW.md",
+    "source": "best-TTS-African-Languages/WHAT-WE-KNOW.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/experiments/mimi-experiments.md",
+    "source": "best-TTS-African-Languages/experiments/mimi-experiments.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/experiments/at1-audio-lm.md",
+    "source": "best-TTS-African-Languages/experiments/at1-audio-lm.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/experiments/cf-tk-experiments.md",
+    "source": "best-TTS-African-Languages/experiments/cf-tk-experiments.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/adja-nmt/best-tts-african-languages/setup/sagemaker-setup.md",
+    "source": "best-TTS-African-Languages/setup/sagemaker-setup.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C1_whisper_zeroshot/README.md",
+    "source": "experiments/asr/C1_whisper_zeroshot/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C1_whisper_zeroshot/infer.py",
+    "source": "experiments/asr/C1_whisper_zeroshot/infer.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C3_mms_finetune/config.yaml",
+    "source": "experiments/asr/C3_mms_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C3_mms_finetune/README.md",
+    "source": "experiments/asr/C3_mms_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C3_mms_finetune/train.py",
+    "source": "experiments/asr/C3_mms_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C5_wav2vec2_finetune/config.yaml",
+    "source": "experiments/asr/C5_wav2vec2_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C5_wav2vec2_finetune/README.md",
+    "source": "experiments/asr/C5_wav2vec2_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C5_wav2vec2_finetune/train.py",
+    "source": "experiments/asr/C5_wav2vec2_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/metrics.py",
+    "source": "experiments/asr/shared/metrics.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/normalize_text.py",
+    "source": "experiments/asr/shared/normalize_text.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/extract_extra_lm_text.py",
+    "source": "experiments/asr/shared/extract_extra_lm_text.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/data_prep.py",
+    "source": "experiments/asr/shared/data_prep.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/build_char_lm.py",
+    "source": "experiments/asr/shared/build_char_lm.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/preprocessing/normalize_unicode.py",
+    "source": "experiments/asr/shared/preprocessing/normalize_unicode.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/preprocessing/__init__.py",
+    "source": "experiments/asr/shared/preprocessing/__init__.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/shared/preprocessing/punctuation_spacing_cleaner.py",
+    "source": "experiments/asr/shared/preprocessing/punctuation_spacing_cleaner.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C2_whisper_finetune/config.yaml",
+    "source": "experiments/asr/C2_whisper_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C2_whisper_finetune/README.md",
+    "source": "experiments/asr/C2_whisper_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C2_whisper_finetune/train.py",
+    "source": "experiments/asr/C2_whisper_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C4_xlsr_finetune/config.yaml",
+    "source": "experiments/asr/C4_xlsr_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C4_xlsr_finetune/README.md",
+    "source": "experiments/asr/C4_xlsr_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/C4_xlsr_finetune/train.py",
+    "source": "experiments/asr/C4_xlsr_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/F1_omniasr_7b_finetune/README.md",
+    "source": "experiments/asr/F1_omniasr_7b_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/D5_parakeet_finetune/README.md",
+    "source": "experiments/asr/D5_parakeet_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/D5_parakeet_finetune/hpc/evaluate_parakeet.py",
+    "source": "experiments/asr/D5_parakeet_finetune/hpc/evaluate_parakeet.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/D5_parakeet_finetune/hpc/finetune_parakeet.py",
+    "source": "experiments/asr/D5_parakeet_finetune/hpc/finetune_parakeet.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/D5_parakeet_finetune/hpc/README.md",
+    "source": "experiments/asr/D5_parakeet_finetune/hpc/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/B1_bilstm_ctc/model.py",
+    "source": "experiments/asr/B1_bilstm_ctc/model.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/B1_bilstm_ctc/README.md",
+    "source": "experiments/asr/B1_bilstm_ctc/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/B1_bilstm_ctc/train.py",
+    "source": "experiments/asr/B1_bilstm_ctc/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/B1_bilstm_ctc/conf/train.yaml",
+    "source": "experiments/asr/B1_bilstm_ctc/conf/train.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E1_mms_ewe_finetune/config.yaml",
+    "source": "experiments/asr/E1_mms_ewe_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E1_mms_ewe_finetune/README.md",
+    "source": "experiments/asr/E1_mms_ewe_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E1_mms_ewe_finetune/train.py",
+    "source": "experiments/asr/E1_mms_ewe_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E4_whisper_ewe_finetune/config.yaml",
+    "source": "experiments/asr/E4_whisper_ewe_finetune/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E4_whisper_ewe_finetune/README.md",
+    "source": "experiments/asr/E4_whisper_ewe_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/E4_whisper_ewe_finetune/train.py",
+    "source": "experiments/asr/E4_whisper_ewe_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/asr/F2_omni_7b_recipe/README.md",
+    "source": "experiments/asr/F2_omni_7b_recipe/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/attempt-log.md",
+    "source": "experiments/tts/attempt-log.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/run_pipeline.sh",
+    "source": "experiments/tts/T1_sesame_csm_finetune/run_pipeline.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/UPSTREAM_NOTEBOOK_RUNBOOK.md",
+    "source": "experiments/tts/T1_sesame_csm_finetune/UPSTREAM_NOTEBOOK_RUNBOOK.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/generate.py",
+    "source": "experiments/tts/T1_sesame_csm_finetune/generate.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/README.md",
+    "source": "experiments/tts/T1_sesame_csm_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/data_prep.py",
+    "source": "experiments/tts/T1_sesame_csm_finetune/data_prep.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/train.py",
+    "source": "experiments/tts/T1_sesame_csm_finetune/train.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/mimi_reconstruction_test.py",
+    "source": "experiments/tts/T1_sesame_csm_finetune/mimi_reconstruction_test.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/RUN_ON_HPC.md",
+    "source": "experiments/tts/T1_sesame_csm_finetune/RUN_ON_HPC.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T1_sesame_csm_finetune/conf/config.yaml",
+    "source": "experiments/tts/T1_sesame_csm_finetune/conf/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T9_xtts_v2_finetune/README.md",
+    "source": "experiments/tts/T9_xtts_v2_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T2_orpheus_finetune/UPSTREAM_NOTEBOOK_RUNBOOK.md",
+    "source": "experiments/tts/T2_orpheus_finetune/UPSTREAM_NOTEBOOK_RUNBOOK.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T2_orpheus_finetune/README.md",
+    "source": "experiments/tts/T2_orpheus_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T2_orpheus_finetune/T2_adja_orpheus_finetune_reference.py",
+    "source": "experiments/tts/T2_orpheus_finetune/T2_adja_orpheus_finetune_reference.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T10_f5_e2_tts_finetune/README.md",
+    "source": "experiments/tts/T10_f5_e2_tts_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T8_ims_toucan_finetune/README.md",
+    "source": "experiments/tts/T8_ims_toucan_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T7_voxcpm_finetune/README.md",
+    "source": "experiments/tts/T7_voxcpm_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/eval/format_summary.py",
+    "source": "experiments/tts/eval/format_summary.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/eval/reverse_wer.py",
+    "source": "experiments/tts/eval/reverse_wer.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T4_inworld_tts_finetune/README.md",
+    "source": "experiments/tts/T4_inworld_tts_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T3_spark_tts_finetune/README.md",
+    "source": "experiments/tts/T3_spark_tts_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T6_mms_tts_ewe_finetune/README.md",
+    "source": "experiments/tts/T6_mms_tts_ewe_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/tts/T6_mms_tts_ewe_finetune/conf/config.yaml",
+    "source": "experiments/tts/T6_mms_tts_ewe_finetune/conf/config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/requirements.txt",
+    "source": "experiments/s2tt/P1_cascade_pipeline/requirements.txt",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/README.md",
+    "source": "experiments/s2tt/P1_cascade_pipeline/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/dry_run.sh",
+    "source": "experiments/s2tt/P1_cascade_pipeline/dry_run.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/pipeline.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/pipeline.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/stages/tts.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/stages/tts.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/stages/__init__.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/stages/__init__.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/stages/response.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/stages/response.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/stages/asr.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/stages/asr.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/stages/mt.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/stages/mt.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/configs/p1_config.yaml",
+    "source": "experiments/s2tt/P1_cascade_pipeline/configs/p1_config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/eval/write_pipeline_report.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/eval/write_pipeline_report.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/eval/__init__.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/eval/__init__.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/eval/accumulation.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/eval/accumulation.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/s2tt/P1_cascade_pipeline/eval/stage_metrics.py",
+    "source": "experiments/s2tt/P1_cascade_pipeline/eval/stage_metrics.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/README.md",
+    "source": "experiments/finetuning-qwen3/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/prepare_dataset.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/prepare_dataset.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/validate_dataset.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/validate_dataset.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/__init__.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/__init__.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/adja_hf_materialize.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/adja_hf_materialize.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/process_audio.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/process_audio.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/download_audio.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/download_audio.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/data_pipeline/process_text.py",
+    "source": "experiments/finetuning-qwen3/data_pipeline/process_text.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/training/hf/train_asr.py",
+    "source": "experiments/finetuning-qwen3/training/hf/train_asr.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/training/hf/train_tts.py",
+    "source": "experiments/finetuning-qwen3/training/hf/train_tts.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/docs/01_repository_forensics.md",
+    "source": "experiments/finetuning-qwen3/docs/01_repository_forensics.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/docs/02_infrastructure_decision_matrix.md",
+    "source": "experiments/finetuning-qwen3/docs/02_infrastructure_decision_matrix.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/docs/03_neural_tts_from_first_principles.md",
+    "source": "experiments/finetuning-qwen3/docs/03_neural_tts_from_first_principles.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/docs/adja_runbook.md",
+    "source": "experiments/finetuning-qwen3/docs/adja_runbook.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/configs/tts_config.yaml",
+    "source": "experiments/finetuning-qwen3/configs/tts_config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/configs/asr_config.yaml",
+    "source": "experiments/finetuning-qwen3/configs/asr_config.yaml",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/inference/test_tts.py",
+    "source": "experiments/finetuning-qwen3/inference/test_tts.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/inference/test_asr.py",
+    "source": "experiments/finetuning-qwen3/inference/test_asr.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/vendor/qwen3_tts_official/prepare_data.py",
+    "source": "experiments/finetuning-qwen3/vendor/qwen3_tts_official/prepare_data.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/vendor/qwen3_tts_official/dataset.py",
+    "source": "experiments/finetuning-qwen3/vendor/qwen3_tts_official/dataset.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/finetuning-qwen3/vendor/qwen3_tts_official/sft_12hz.py",
+    "source": "experiments/finetuning-qwen3/vendor/qwen3_tts_official/sft_12hz.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/run-ledger.md",
+    "source": "experiments/mt/run-ledger.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/MISSION.md",
+    "source": "experiments/mt/MISSION.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/train_nllb.py",
+    "source": "experiments/mt/train_nllb.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/MISSION-SUMMARY.md",
+    "source": "experiments/mt/MISSION-SUMMARY.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/MISSION-LOG.md",
+    "source": "experiments/mt/MISSION-LOG.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/train_nllb_job.py",
+    "source": "experiments/mt/train_nllb_job.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/registry.md",
+    "source": "experiments/mt/registry.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/fetch_results.sh",
+    "source": "experiments/mt/retraining-nllb-for-weights/fetch_results.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/prep_data.py",
+    "source": "experiments/mt/retraining-nllb-for-weights/prep_data.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/README.md",
+    "source": "experiments/mt/retraining-nllb-for-weights/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/deploy_to_discovery.sh",
+    "source": "experiments/mt/retraining-nllb-for-weights/deploy_to_discovery.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/train_nllb_hpc.py",
+    "source": "experiments/mt/retraining-nllb-for-weights/train_nllb_hpc.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/experiments/mt/retraining-nllb-for-weights/select_and_publish_best.py",
+    "source": "experiments/mt/retraining-nllb-for-weights/select_and_publish_best.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T3_spark_ewe_adja_stage2.py",
+    "source": "scripts/hf_jobs/T3_spark_ewe_adja_stage2.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/omni_asr_finetune.py",
+    "source": "scripts/hf_jobs/omni_asr_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/parakeet_finetune.py",
+    "source": "scripts/hf_jobs/parakeet_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T6_mms_tts_ewe_finetune.py",
+    "source": "scripts/hf_jobs/T6_mms_tts_ewe_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T3_spark_ewe_stage1.py",
+    "source": "scripts/hf_jobs/T3_spark_ewe_stage1.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_ewe_stage1_inference.py",
+    "source": "scripts/hf_jobs/T2_orpheus_ewe_stage1_inference.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T3_spark_ewe_stage1_inference.py",
+    "source": "scripts/hf_jobs/T3_spark_ewe_stage1_inference.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T3_spark_tts_finetune.py",
+    "source": "scripts/hf_jobs/T3_spark_tts_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_finetune.py",
+    "source": "scripts/hf_jobs/T2_orpheus_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_vanilla.py",
+    "source": "scripts/hf_jobs/T2_orpheus_vanilla.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/qwen3_tts_adja.py",
+    "source": "scripts/hf_jobs/qwen3_tts_adja.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/submit_qwen3_jobs.py",
+    "source": "scripts/hf_jobs/submit_qwen3_jobs.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/C1_whisper_zeroshot.py",
+    "source": "scripts/hf_jobs/C1_whisper_zeroshot.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_ewe_adja_stage2_mixed.py",
+    "source": "scripts/hf_jobs/T2_orpheus_ewe_adja_stage2_mixed.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/qwen3_asr_eval.py",
+    "source": "scripts/hf_jobs/qwen3_asr_eval.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/qwen3_asr_adja.py",
+    "source": "scripts/hf_jobs/qwen3_asr_adja.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_tokfix.py",
+    "source": "scripts/hf_jobs/T2_orpheus_tokfix.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_ewe_adja_stage2.py",
+    "source": "scripts/hf_jobs/T2_orpheus_ewe_adja_stage2.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T8_ims_toucan_finetune.py",
+    "source": "scripts/hf_jobs/T8_ims_toucan_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_ewe_stage1.py",
+    "source": "scripts/hf_jobs/T2_orpheus_ewe_stage1.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/whisper_finetune.py",
+    "source": "scripts/hf_jobs/whisper_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_csm_ewe_stage1.py",
+    "source": "scripts/hf_jobs/T1_csm_ewe_stage1.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/ctc_finetune.py",
+    "source": "scripts/hf_jobs/ctc_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/qwen3_job_utils.py",
+    "source": "scripts/hf_jobs/qwen3_job_utils.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/omni_asr_finetune_recipe.py",
+    "source": "scripts/hf_jobs/omni_asr_finetune_recipe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/decode_with_lm_optuna.py",
+    "source": "scripts/hf_jobs/decode_with_lm_optuna.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T10_f5_e2_tts_finetune.py",
+    "source": "scripts/hf_jobs/T10_f5_e2_tts_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T9_xtts_v2_finetune.py",
+    "source": "scripts/hf_jobs/T9_xtts_v2_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T2_orpheus_zh_adja.py",
+    "source": "scripts/hf_jobs/T2_orpheus_zh_adja.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_csm_tokfix.py",
+    "source": "scripts/hf_jobs/T1_csm_tokfix.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/omni_asr_zeroshot.py",
+    "source": "scripts/hf_jobs/omni_asr_zeroshot.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_csm_vanilla.py",
+    "source": "scripts/hf_jobs/T1_csm_vanilla.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/decode_with_lm.py",
+    "source": "scripts/hf_jobs/decode_with_lm.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_run.py",
+    "source": "scripts/hf_jobs/T1_run.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/omni_asr_icl.py",
+    "source": "scripts/hf_jobs/omni_asr_icl.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/E7_whisper_largev3_ewe_stage1.py",
+    "source": "scripts/hf_jobs/E7_whisper_largev3_ewe_stage1.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_sesame_csm_finetune.py",
+    "source": "scripts/hf_jobs/T1_sesame_csm_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T1_csm_ewe_adja_stage2.py",
+    "source": "scripts/hf_jobs/T1_csm_ewe_adja_stage2.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/submit_omni_jobs.py",
+    "source": "scripts/hf_jobs/submit_omni_jobs.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/T7_voxcpm_finetune.py",
+    "source": "scripts/hf_jobs/T7_voxcpm_finetune.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hf_jobs/E7_whisper_largev3_ewe_adja_stage2.py",
+    "source": "scripts/hf_jobs/E7_whisper_largev3_ewe_adja_stage2.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hub/publish_c4v2.py",
+    "source": "scripts/hub/publish_c4v2.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hub/spark_handler.py",
+    "source": "scripts/hub/spark_handler.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hub/publish_spark_t3.py",
+    "source": "scripts/hub/publish_spark_t3.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hub/manage_endpoints.py",
+    "source": "scripts/hub/manage_endpoints.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/hub/publish_e4v4.py",
+    "source": "scripts/hub/publish_e4v4.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/scripts/qualitative/regen_asr_decodes.py",
+    "source": "scripts/qualitative/regen_asr_decodes.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/README.md",
+    "source": "hpc/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/smoke/login_check.sh",
+    "source": "hpc/smoke/login_check.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/smoke/gpu_smoke.sh",
+    "source": "hpc/smoke/gpu_smoke.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/smoke/README.md",
+    "source": "hpc/smoke/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/smoke/login_check.py",
+    "source": "hpc/smoke/login_check.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/deploy/fetch_results.sh",
+    "source": "hpc/deploy/fetch_results.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/deploy/deploy_to_discovery.sh",
+    "source": "hpc/deploy/deploy_to_discovery.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/deploy/download_models.sh",
+    "source": "hpc/deploy/download_models.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/apptainer/build.sh",
+    "source": "hpc/apptainer/build.sh",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/large/whisper_largev3_ewe_hpc.py",
+    "source": "hpc/scripts/large/whisper_largev3_ewe_hpc.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/wav2vec2_ssl_ewe.py",
+    "source": "hpc/scripts/pretraining/wav2vec2_ssl_ewe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/audio_lm_csm_ewe.py",
+    "source": "hpc/scripts/pretraining/audio_lm_csm_ewe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/waxalnlp_loader.py",
+    "source": "hpc/scripts/pretraining/waxalnlp_loader.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/xlsr_ssl_ewe.py",
+    "source": "hpc/scripts/pretraining/xlsr_ssl_ewe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/mms_ssl_ewe.py",
+    "source": "hpc/scripts/pretraining/mms_ssl_ewe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/hpc/scripts/pretraining/audio_lm_orpheus_ewe.py",
+    "source": "hpc/scripts/pretraining/audio_lm_orpheus_ewe.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/finuting-omni-on-hpc/prepare_manifest.py",
+    "source": "finuting-omni-on-hpc/prepare_manifest.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/finuting-omni-on-hpc/README.md",
+    "source": "finuting-omni-on-hpc/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/finuting-omni-on-hpc/run_omni_finetune_hpc.py",
+    "source": "finuting-omni-on-hpc/run_omni_finetune_hpc.py",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/run-ledger.md",
+    "source": "results/run-ledger.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/comparison.md",
+    "source": "results/comparison.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/pipeline-comparison.md",
+    "source": "results/pipeline-comparison.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/professor-update-2026-04-17.md",
+    "source": "results/professor-update-2026-04-17.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/progress-report-2026-04-16.md",
+    "source": "results/progress-report-2026-04-16.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/tts-comparison.md",
+    "source": "results/tts-comparison.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer-summary.md",
+    "source": "results/reverse-wer-summary.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/D4_ctc_lm/conclusion.md",
+    "source": "results/D4_ctc_lm/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/D4_ctc_lm/README.md",
+    "source": "results/D4_ctc_lm/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/parakeet_hf_jobs/README.md",
+    "source": "results/parakeet_hf_jobs/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C1_whisper_zeroshot/conclusion.md",
+    "source": "results/C1_whisper_zeroshot/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C1_whisper_zeroshot/training_curve.md",
+    "source": "results/C1_whisper_zeroshot/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C1_whisper_zeroshot/README.md",
+    "source": "results/C1_whisper_zeroshot/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C1_whisper_zeroshot/decode_samples.md",
+    "source": "results/C1_whisper_zeroshot/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C3_mms_finetune/conclusion.md",
+    "source": "results/C3_mms_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C3_mms_finetune/training_curve.md",
+    "source": "results/C3_mms_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C3_mms_finetune/README.md",
+    "source": "results/C3_mms_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C3_mms_finetune/decode_samples.md",
+    "source": "results/C3_mms_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C5_wav2vec2_finetune/conclusion.md",
+    "source": "results/C5_wav2vec2_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C5_wav2vec2_finetune/training_curve.md",
+    "source": "results/C5_wav2vec2_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C5_wav2vec2_finetune/README.md",
+    "source": "results/C5_wav2vec2_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C5_wav2vec2_finetune/decode_samples.md",
+    "source": "results/C5_wav2vec2_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/omni_7b_recipe/README.md",
+    "source": "results/omni_7b_recipe/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/qwen3_hf_jobs/README.md",
+    "source": "results/qwen3_hf_jobs/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/CF1/metrics.json",
+    "source": "results/CF1/metrics.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/CF1/training_config.json",
+    "source": "results/CF1/training_config.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C2_whisper_finetune/conclusion.md",
+    "source": "results/C2_whisper_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C2_whisper_finetune/training_curve.md",
+    "source": "results/C2_whisper_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C2_whisper_finetune/README.md",
+    "source": "results/C2_whisper_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C2_whisper_finetune/decode_samples.md",
+    "source": "results/C2_whisper_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E4v4_whisper_ewe_fixed/conclusion.md",
+    "source": "results/E4v4_whisper_ewe_fixed/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C4_xlsr_finetune/conclusion.md",
+    "source": "results/C4_xlsr_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C4_xlsr_finetune/training_curve.md",
+    "source": "results/C4_xlsr_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C4_xlsr_finetune/README.md",
+    "source": "results/C4_xlsr_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/C4_xlsr_finetune/decode_samples.md",
+    "source": "results/C4_xlsr_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/omni_7b_finetune/README.md",
+    "source": "results/omni_7b_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/qualitative/asr_decodes_2026-05-03.json",
+    "source": "results/qualitative/asr_decodes_2026-05-03.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/qualitative/asr_decodes_2026-05-03.md",
+    "source": "results/qualitative/asr_decodes_2026-05-03.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E1_mms_ewe_finetune/conclusion.md",
+    "source": "results/E1_mms_ewe_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E1_mms_ewe_finetune/training_curve.md",
+    "source": "results/E1_mms_ewe_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E1_mms_ewe_finetune/README.md",
+    "source": "results/E1_mms_ewe_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E1_mms_ewe_finetune/decode_samples.md",
+    "source": "results/E1_mms_ewe_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/D4_whisper_lm/conclusion.md",
+    "source": "results/D4_whisper_lm/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/D4_whisper_lm/README.md",
+    "source": "results/D4_whisper_lm/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E4_whisper_ewe_finetune/conclusion.md",
+    "source": "results/E4_whisper_ewe_finetune/conclusion.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E4_whisper_ewe_finetune/training_curve.md",
+    "source": "results/E4_whisper_ewe_finetune/training_curve.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E4_whisper_ewe_finetune/README.md",
+    "source": "results/E4_whisper_ewe_finetune/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/E4_whisper_ewe_finetune/decode_samples.md",
+    "source": "results/E4_whisper_ewe_finetune/decode_samples.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_tokfix__e4v4.json",
+    "source": "results/reverse-wer/T1_csm_tokfix__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF3_frozen_backbone_stage2__e4v4.json",
+    "source": "results/reverse-wer/CF3_frozen_backbone_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1__c4v2.json",
+    "source": "results/reverse-wer/T1__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/summary.json",
+    "source": "results/reverse-wer/summary.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_ewe_adja_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF2_curriculum_stage2__e4v4.json",
+    "source": "results/reverse-wer/CF2_curriculum_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3__c4v2.json",
+    "source": "results/reverse-wer/T3__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_long_20ep_earlystop_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T1_long_20ep_earlystop_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_ewe_stage1__c4v2.json",
+    "source": "results/reverse-wer/T1_csm_ewe_stage1__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_diagnostic_2026-04-18_v2__e4v4.json",
+    "source": "results/reverse-wer/T2_diagnostic_2026-04-18_v2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3_spark_120steps_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T3_spark_120steps_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_ewe_adja_stage2__c4v2.json",
+    "source": "results/reverse-wer/T1_csm_ewe_adja_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3A_spark_ewe_adja_direct__e4v4.json",
+    "source": "results/reverse-wer/T3A_spark_ewe_adja_direct__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF1_ewc_stage2__c4v2.json",
+    "source": "results/reverse-wer/CF1_ewc_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF1_ewc_stage2__e4v4.json",
+    "source": "results/reverse-wer/CF1_ewc_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3A_spark_ewe_adja_direct__c4v2.json",
+    "source": "results/reverse-wer/T3A_spark_ewe_adja_direct__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_ewe_adja_stage2__e4v4.json",
+    "source": "results/reverse-wer/T1_csm_ewe_adja_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_diagnostic_2026-04-18_v2__c4v2.json",
+    "source": "results/reverse-wer/T2_diagnostic_2026-04-18_v2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3_spark_120steps_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T3_spark_120steps_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_ewe_stage1__e4v4.json",
+    "source": "results/reverse-wer/T1_csm_ewe_stage1__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_long_20ep_earlystop_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T1_long_20ep_earlystop_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3__e4v4.json",
+    "source": "results/reverse-wer/T3__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF2_curriculum_stage2__c4v2.json",
+    "source": "results/reverse-wer/CF2_curriculum_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_ewe_adja_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__c4v2.json",
+    "source": "results/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__e4v4.json",
+    "source": "results/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1__e4v4.json",
+    "source": "results/reverse-wer/T1__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/CF3_frozen_backbone_stage2__c4v2.json",
+    "source": "results/reverse-wer/CF3_frozen_backbone_stage2__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T1_csm_tokfix__c4v2.json",
+    "source": "results/reverse-wer/T1_csm_tokfix__c4v2.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__e4v4.json",
+    "source": "results/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__e4v4.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/CF2/metrics.json",
+    "source": "results/CF2/metrics.json",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "results/adja-nmt/CF2/training_config.json",
+    "source": "results/CF2/training_config.json",
+    "source_root": "adja-nmt"
   },
   {
     "dest": "requirements.txt",
@@ -622,5 +2404,35 @@
   {
     "dest": "results/mt/README_thesis_qualitative_decode.md",
     "source": "experiments/results/README_thesis_qualitative_decode.md"
+  },
+  {
+    "dest": "docs/source-repos/adja-nmt/README.md",
+    "source": "README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/source-repos/adja-nmt/data-README.md",
+    "source": "data/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/source-repos/adja-nmt/experiment-registry.md",
+    "source": "experiments/registry.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/source-repos/adja-nmt/asr-tts-getting-right-2026-04-21.md",
+    "source": "experiments/asr-tts-getting-right-2026-04-21.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "docs/source-repos/adja-nmt/adja-speech-architecture-exploration-plan.md",
+    "source": "adja-speech-architecture-exploration-plan.md",
+    "source_root": "adja-nmt"
+  },
+  {
+    "dest": "code/adja-nmt/train_nllb.py",
+    "source": "train_nllb.py",
+    "source_root": "adja-nmt"
   }
 ]

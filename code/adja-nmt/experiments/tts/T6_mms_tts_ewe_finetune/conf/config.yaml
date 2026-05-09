@@ -1,0 +1,49 @@
+# Created 2026-04-18, T6 MMS-TTS-Ewe fine-tune for Adja
+# Reference training recipe: https://github.com/ylacombe/finetune-hf-vits
+# Base model: https://huggingface.co/facebook/mms-tts-ewe
+# License: CC-BY-NC 4.0 (research use only — NOT for commercial deployment)
+
+model:
+  name: "facebook/mms-tts-ewe"
+  sampling_rate: 16000        # MMS-TTS was trained at 16 kHz. Verify in ylacombe README.
+  architecture: "vits"        # GAN-trained (generator + discriminator). Do NOT swap to vanilla Trainer.
+  uroman: false               # Ewe/Adja use Latin script with diacritics — no uroman romanization needed.
+
+data:
+  dataset_name: "JosueG/adja-tts-orpheus"
+  split_seed: 42              # Same 80/10/10 split as every other experiment in this repo.
+  text_column: "text"
+  audio_column: "audio"
+  normalize_nfc: true         # Critical for Adja tone marks (é, è) + special chars (ɛ, ɔ, ŋ, ɖ).
+  filter_over_length_sec: 20.0  # VITS is more tolerant than codec-LMs; keep most of the distribution.
+  filter_under_length_sec: 0.5
+  language_code: "ewe"        # MMS adapter/language code. Used when MMS variants need explicit lang id.
+
+training:
+  learning_rate: 2.0e-4
+  warmup_steps: 100
+  num_train_epochs: 20
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 4   # Effective batch = 16
+  eval_steps: 50
+  save_steps: 50                    # Save alongside eval so best checkpoint is on disk
+  save_total_limit: 3
+  early_stopping_patience: 5
+  lr_scheduler_type: "cosine"
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false
+  bf16: true                  # L40S supports bf16
+  seed: 42
+  report_to: "tensorboard"
+
+# VITS fine-tuning usually means: generator fully trainable, discriminator partially trainable.
+# Unless ylacombe's trainer exposes a LoRA mode, we do not use LoRA here.
+lora:
+  enabled: false
+
+output:
+  dir: "/tmp/mms_ewe_adja_full"
+  push_to_hub: false          # Set via CLI --push-to-hub in hf_jobs script
+  results_repo: "JosueG/adja-tts-results"
+  results_prefix: "T6_mms_ewe_20ep_2026-04-18"

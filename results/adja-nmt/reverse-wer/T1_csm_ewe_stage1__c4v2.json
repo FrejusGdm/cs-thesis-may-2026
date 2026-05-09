@@ -1,0 +1,88 @@
+{
+  "run": "T1_csm_ewe_stage1",
+  "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "c4v2",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 97.92,
+    "cer_raw": 58.8,
+    "wer_norm": 94.79,
+    "cer_norm": 56.03,
+    "median_utt_wer_norm": 93.75,
+    "median_utt_cer_norm": 38.78,
+    "mean_utt_wer_norm": 92.98,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "ewe_00.wav",
+      "text": "Agbadroƒe nenie le Pra tɔsisi la si? Agbadroƒe [240] alafa ene blaenee le Pra tɔsisi la si. Akpa kae Pra tɔsisi la le le Ghana dukɔme? Pra tɔsisi le ɣedzeƒe gome le Ghana. Eyae nye tɔsisi gātɔwo dometɔ ɖeka si de nu Amu tɔsisi la me le nyiehe gome.",
+      "hyp": "A<pad>gba <pad>dru <pad>pɛ<pad> <pad>nɛ<pad>nɛ <pad>lɛ <pad>p<pad>a<pad>tɔ<pad> <pad>si<pad>s<pad>i <pad>la<pad>si<pad> <pad>a<pad>gba <pad>dru <pad>kpɛ<pad> <pad>a<pad>nɛ<pad> <pad>lɛ<pad> <pad>a<pad>nɛ<pad>le <pad>pa<pad>tɔ <pad>si<pad>si<pad> <pad>la<pad>si<pad> <pad>a<pad>kpa<pad>ka<pad> <pad>yi <pad>pla<pad>tɔ<pad>se<pad>si <pad>la<pad> <pad>lɛ<pad> <pad>a<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 97.96,
+      "wer_norm": 97.96,
+      "cer_raw": 71.77,
+      "cer_norm": 68.88,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_01.wav",
+      "text": "Togo dukɔa medidi tso Ghana gbɔ o.",
+      "hyp": "T<pad>o<pad>gbɔ <pad>du<pad>kɔ <pad>a<pad>mɛ<pad>di<pad>i<pad> <pad>co <pad>ga<pad>na<pad> <pad>gbɔ<pad> <pad>wo<pad> <pad> <pad>o",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 85.71,
+      "cer_raw": 38.24,
+      "cer_norm": 36.36,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_02.wav",
+      "text": "Mɔfiafli si le aŋgbaɖiɖi ƒe amadede me la me keke xe nutata nogo la me o.",
+      "hyp": "M<pad>ɔ<pad> <pad>fi<pad>a<pad>fli<pad>si <pad>lɔ <pad>a<pad>ŋ<pad>u<pad>gba <pad>d<pad>i<pad>ji<pad> <pad>fɔ <pad>a<pad>ma<pad>dɛ <pad>dɛ<pad>mɛ <pad>la<pad>ma<pad> <pad>ka<pad>ka<pad>kɛ<pad> <pad>nyui<pad> <pad>ta<pad>ta<pad> <pad>nu <pad>go <pad>la <pad>mɛ <pad>o",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 93.75,
+      "cer_raw": 38.36,
+      "cer_norm": 37.5,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_03.wav",
+      "text": "Sukuyiyi vevietɔ le Dzoɖagbewo la vena Kɔdzo ŋutɔ.",
+      "hyp": "A<pad>u<pad>kpui<pad>y<pad>va<pad>vi<pad>ɛ<pad>tɔ <pad>lɛ<pad> <pad>jɔ<pad> <pad>ɖa<pad> <pad>gbo <pad>la<pad>vɛ<pad>n<pad>a <pad>ko<pad> <pad>jo <pad>ŋu<pad>tɔ<pad>",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 112.5,
+      "wer_norm": 100.0,
+      "cer_raw": 42.0,
+      "cer_norm": 38.78,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_04.wav",
+      "text": "[2] Eve mama ɖe [5] at̃ɔ dzi teƒeɖoɖo na [80] blaenyi ele [32] blaet̃ɔ vɔ eve.",
+      "hyp": "E<pad>v<pad>ɛ<pad>ma<pad>ma<pad> <pad>jɛ<pad>fɛ<pad> <pad>do<pad>do <pad>na<pad> <pad>b<pad>la<pad> <pad>nyi <pad>e<pad>lɛn <pad>b<pad>la<pad>tɔ <pad>vɔ <pad>?",
+      "asr_label": "c4v2",
+      "asr_repo": "https://cp6z6aubty4nl4ce.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 87.5,
+      "wer_norm": 87.5,
+      "cer_raw": 56.41,
+      "cer_norm": 52.17,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}

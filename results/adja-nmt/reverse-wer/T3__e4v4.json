@@ -1,0 +1,88 @@
+{
+  "run": "T3",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 59.09,
+    "cer_raw": 33.73,
+    "wer_norm": 59.09,
+    "cer_norm": 28.92,
+    "median_utt_wer_norm": 75.0,
+    "median_utt_cer_norm": 26.67,
+    "mean_utt_wer_norm": 61.0,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "spark_00.wav",
+      "text": "Tom trɔ yi kpanŋkɔ wezexu",
+      "hyp": "Tom trɔ yi kpɔ ŋukɔ weze kú",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 80.0,
+      "wer_norm": 80.0,
+      "cer_raw": 24.0,
+      "cer_norm": 24.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 4.4
+    },
+    {
+      "file": "spark_01.wav",
+      "text": "Ele lɔ awu ehoci lɔ sa",
+      "hyp": "Belɛ lɔ awu ɖɔroʒinɔ sa",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 50.0,
+      "wer_norm": 50.0,
+      "cer_raw": 40.91,
+      "cer_norm": 36.36,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.8
+    },
+    {
+      "file": "spark_02.wav",
+      "text": "Ɛ yi gbɛ̀",
+      "hyp": " Eyi, eyi, gbe.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 88.89,
+      "cer_norm": 66.67,
+      "cached": false,
+      "error": null,
+      "duration_sec": 1.5
+    },
+    {
+      "file": "spark_03.wav",
+      "text": "Mì ɖo alɔ ji",
+      "hyp": "Mì ɖo alɔ ji",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 0.0,
+      "wer_norm": 0.0,
+      "cer_raw": 0.0,
+      "cer_norm": 0.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.92
+    },
+    {
+      "file": "spark_04.wav",
+      "text": "Nye ŋkɔ nyé Tom",
+      "hyp": " Ya ŋukɔ nyi Tom",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 75.0,
+      "wer_norm": 75.0,
+      "cer_raw": 33.33,
+      "cer_norm": 26.67,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.58
+    }
+  ]
+}

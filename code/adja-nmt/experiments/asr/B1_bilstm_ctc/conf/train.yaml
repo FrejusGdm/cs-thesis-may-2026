@@ -1,0 +1,64 @@
+# B1 BiLSTM-CTC ASR Experiment Configuration
+# Adja language (Gbe family, tonal)
+#
+# Architecture: 80-dim log-mel -> 3-layer BiLSTM -> CTC
+# Reference: Graves et al. 2006 (CTC), Park et al. 2019 (SpecAugment)
+
+# --- Audio frontend ---
+audio:
+  sample_rate: 16000
+  n_fft: 400          # 25ms window at 16kHz
+  hop_length: 160     # 10ms hop at 16kHz
+  n_mels: 80
+  f_min: 20
+  f_max: 8000
+
+# --- Encoder ---
+encoder:
+  input_dim: 80       # must match n_mels
+  hidden_dim: 256
+  num_layers: 3
+  dropout: 0.3
+  bidirectional: true
+
+# --- Training ---
+training:
+  batch_size: 16
+  max_epochs: 100
+  learning_rate: 0.001
+  optimizer: adam       # adam or adafactor
+  weight_decay: 0.0001
+  grad_clip_norm: 5.0
+  seed: 42
+
+# --- Early stopping ---
+early_stopping:
+  patience: 10
+  metric: dev_cer      # stop on dev CER (lower is better)
+  mode: min
+
+# --- SpecAugment (Park et al. 2019) ---
+spec_augment:
+  enabled: true
+  freq_mask_param: 27    # F parameter: max frequency mask width
+  time_mask_param: 100   # T parameter: max time mask width
+  n_freq_masks: 2
+  n_time_masks: 2
+
+# --- Speed perturbation ---
+speed_perturb:
+  enabled: true
+  factors: [0.9, 1.0, 1.1]
+
+# --- CTC ---
+ctc:
+  blank_index: 0       # CTC blank is always index 0
+
+# --- Decoding ---
+decoding:
+  method: greedy       # greedy CTC decoding (argmax + collapse)
+
+# --- Logging ---
+logging:
+  log_interval: 10     # log every N batches
+  decode_samples: 10   # number of dev samples to decode and display each epoch

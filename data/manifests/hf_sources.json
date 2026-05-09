@@ -28,8 +28,22 @@
       "status": "private_source"
     }
   ],
-  "generated_at": "2026-05-09T14:45:21.252837+00:00",
+  "generated_at": "2026-05-09T15:02:38.979124+00:00",
   "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
+  "local_source_repos": [
+    {
+      "path_hint": "neurosymbolic-ai-paper-experiments",
+      "release_policy": "copy_publishable_subset_only",
+      "revision_at_release": "63c4ce98572512d3e84ff1704950a740337ee169",
+      "role": "mt_experiment_workspace"
+    },
+    {
+      "path_hint": "adja-nmt",
+      "release_policy": "copy_publishable_subset_only_do_not_mutate",
+      "revision_at_release": "324f4e082b86e9be9ae3e85ce16e7d8192c491d9",
+      "role": "speech_and_pipeline_workspace"
+    }
+  ],
   "models": [
     {
       "notes": "French to Adja NLLB-600M candidate release model.",
@@ -92,11 +106,10 @@
       "status": "private_results_dump"
     }
   ],
-  "source_revision": "337d8a9708b3c5cfba36caaccc30f47e1bef3fab",
+  "source_revision": "63c4ce98572512d3e84ff1704950a740337ee169",
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
     "dataset_bundle": "JosueG/cs-thesis-may-2026-data",
-    "dataset_bundle_revision_after_manifest_upload": "e57140df7fa58b5a44212c8404b5ab1909afeb91",
     "hf_collection": "JosueG/cs-thesis-may-2026",
     "tts_results": "JosueG/cs-thesis-may-2026-tts-results"
   }

@@ -1,0 +1,132 @@
+# P1 Cascade Pipeline — Configuration
+# Last updated: 2026-05-02
+#
+# Three input modes:
+#   Mode A  --input audio.wav           Adja speech in (canonical demo)
+#   Mode B  --input-text "question FR"  French text in (easiest to test)
+#   Mode C  --input audio.wav           French speech in (future, --input-lang fr)
+#
+# Endpoint URLs come from:
+#   python scripts/hub/manage_endpoints.py up JosueG/wav2vec2-xlsr-adja-c4v2 \
+#                                             JosueG/whisper-ewe-adja-e4v4
+# which prints "<label>=<url>" pairs ready to paste below.
+
+# ---------------------------------------------------------------------------
+# ASR — Stage 1 (Mode A only; skipped in Mode B)
+# ---------------------------------------------------------------------------
+# Two models run in parallel on every audio file:
+#   c4v2  XLS-R 300M + character CTC  — 25.05% CER (primary, no hallucination)
+#   e4v4  Whisper-small→Ewe→Adja      — 37.18% CER (backup, overfits past ep 20)
+# The deployable Whisper number is 37.18%, not the 24.90% logged during the
+# original run (that checkpoint was never uploaded — see results/comparison.md
+# lost-checkpoint correction block). Use c4v2 as primary: it's reproducible
+# and degrades gracefully on TTS codec artifacts where Whisper hallucinates.
+
+asr:
+  whisper:
+    mode: endpoint                # endpoint | local
+    endpoint_url: "https://pwrgcv1ycb8hfalv.us-east-1.aws.endpoints.huggingface.cloud"
+    model_id: "JosueG/whisper-ewe-adja-e4v4"   # used when mode: local
+
+  xlsr:
+    mode: endpoint                # endpoint | local
+    endpoint_url: "https://nk5kx1pt7b7d0087.us-east-1.aws.endpoints.huggingface.cloud"
+    model_id: "JosueG/wav2vec2-xlsr-adja-c4v2"
+    base_model: "facebook/wav2vec2-xls-r-300m"  # feature extractor source
+
+  # Which ASR result feeds MT (whisper | xlsr)
+  primary: "xlsr"
+
+# ---------------------------------------------------------------------------
+# ASR FR — Mode C only (--input-lang fr)
+# ---------------------------------------------------------------------------
+# Standard Whisper for French audio. No fine-tuning needed; French is
+# well-represented in Whisper's training data. whisper-small is fast enough
+# on CPU (~3s/clip); use whisper-large-v3 for better accuracy on GPU.
+# 2026-05-07: Added for Mode C (French speech → Adja speech).
+
+asr_fr:
+  model_id: "openai/whisper-small"
+
+# ---------------------------------------------------------------------------
+# MT — Stages 2 + 4 (MT Adja→FR and MT FR→Adja)
+# ---------------------------------------------------------------------------
+# 2026-05-06: Both directional NLLB checkpoints are live.
+# forward: Adja→FR  (Stage 2: ASR output → French for LLM)
+# reverse: FR→Adja  (Stage 4: LLM French response → Adja for TTS)
+# These are separate fine-tunes, NOT one bidirectional checkpoint.
+# The aj_Latn custom token is added via fix_tokenizer() + resize_token_embeddings()
+# inside stages/mt.py for each loaded instance.
+
+mt:
+  forward_checkpoint: "JosueG/adja-nmt-nllb-600m-forward-r10ks4k-seed42"
+  reverse_checkpoint: "JosueG/adja-nmt-nllb-600m-reverse-r10ks4k-seed42"
+  src_lang_adja: "aj_Latn"
+  tgt_lang_fr: "fra_Latn"
+  mode: "nllb"                   # nllb | stub | gemini
+  max_length: 256
+  num_beams: 4
+  # 2026-05-07: repetition controls — NLLB-600M enters token loops without these.
+  # Observed: reverse model output "gbea gbea gbea..." on 74-char French input.
+  # no_repeat_ngram_size=3 prevents any trigram repetition; repetition_penalty
+  # applies a multiplicative penalty on already-generated tokens during beam search.
+  no_repeat_ngram_size: 3
+  repetition_penalty: 1.2
+
+# ---------------------------------------------------------------------------
+# Response — Stage 3 (Q&A mode only; skipped in roundtrip mode)
+# ---------------------------------------------------------------------------
+# Why OpenRouter (2026-05-02):
+#   Single OpenAI-compatible API, any model slug, one env var.
+#   The question arrives in French so any capable LLM works.
+#   Model swap = config change only, no code change.
+#   Ref: https://openrouter.ai/docs
+#
+# Set OPENROUTER_API_KEY env var before running --mode qa.
+# Free tier available for testing; GPT-4o runs ~$0.01/question.
+
+response:
+  mode: "openrouter"             # openrouter | gemini | identity
+  model: "openai/gpt-4o"        # any OpenRouter model slug
+  system_prompt: "Tu es un assistant utile. Réponds en français de manière concise et directe."
+  # Fallback Gemini config (mode: gemini)
+  gemini_model: "gemini-2.0-flash"
+
+# ---------------------------------------------------------------------------
+# TTS — Stage 5
+# ---------------------------------------------------------------------------
+# Spark TTS 0.5B (canonical T3 run) is the only Adja TTS that produces
+# intelligible speech. Verified by native-speaker listening (2026-04-18) and
+# quantitatively confirmed by reverse-WER auto-eval: 36.14% CTC reverse-CER,
+# within ~11 points of C4v2's own test CER on real Adja (25.05%).
+# All other architectures (CSM, Orpheus, Orpheus-FR, F5, E2) score ≥100% CER.
+# Source: results/reverse-wer-summary.md (22 runs × 2 ASRs, 2026-04-29).
+#
+# Deploy Spark before switching mode to endpoint:
+#   python scripts/hub/publish_spark_t3.py --dry-run   # verify assembly from JosueG/adja-tts-results/T3/adapter
+#   python scripts/hub/publish_spark_t3.py             # push assembled endpoint repo
+#   python scripts/hub/manage_endpoints.py up \
+#       JosueG/spark-tts-adja-t3 --task custom --gpu   # NOTE: task=custom (not text-to-speech)
+# Then set mode: endpoint and paste the printed URL below.
+# 2026-05-07: endpoint live — see tts.endpoint_url above.
+
+tts:
+  # 2026-05-07: Spark endpoint live. Deployed from JosueG/adja-tts-results/T3/adapter
+  # via publish_spark_t3.py + manage_endpoints.py up --task custom --gpu (nvidia-l4 x1).
+  # LFS-stub fix applied to audio_tokenizer.py (see scripts/hub/publish_spark_t3.py).
+  mode: "endpoint"               # endpoint | local
+  endpoint_url: "https://sn1m01ssi8x1u8mv.us-east-1.aws.endpoints.huggingface.cloud"
+  checkpoint: "JosueG/adja-tts-results/T3/adapter"   # canonical T3 source adapter, lowest reverse-CER
+  base_model: "unsloth/Spark-TTS-0.5B"
+  max_new_tokens: 2048
+  temperature: 0.8
+  top_k: 50
+
+# ---------------------------------------------------------------------------
+# Audio
+# ---------------------------------------------------------------------------
+# All models expect 16 kHz mono input/output.
+# Resample mic input with: librosa.resample(y, orig_sr=48000, target_sr=16000)
+
+audio:
+  sample_rate: 16000
