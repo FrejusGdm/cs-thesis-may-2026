@@ -1,0 +1,41 @@
+{
+  "experiment_id": "CF2",
+  "hyperparameters": {
+    "stage1_checkpoint": "JosueG/adja-tts-checkpoints/T1_csm_ewe_stage1",
+    "ewe_dataset": "google/WaxalNLP",
+    "ewe_dataset_config": "ewe_tts",
+    "adja_dataset": "JosueG/adja-tts-orpheus",
+    "output_dir": "/opt/ml/output/data",
+    "seed": 42,
+    "num_epochs": 20,
+    "samples_per_epoch": 400,
+    "batch_size": 4,
+    "grad_accum": 4,
+    "learning_rate": 5e-05,
+    "lora_r": 32,
+    "full_finetune": false,
+    "early_stopping_patience": 5,
+    "push_to_hub": false,
+    "results_repo": "JosueG/adja-tts-results",
+    "results_prefix": "CF2_curriculum_stage2",
+    "smoke": false
+  },
+  "eval_adja_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "eval_ewe_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "torch_version": "2.5.1+cu124",
+  "python_version": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+  "cuda_available": true,
+  "gpu": "NVIDIA A10G"
+}

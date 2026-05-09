@@ -1,0 +1,182 @@
+{
+  "copied_files": [
+    {
+      "dest": "reports/professor-update-2026-04-17.md",
+      "source": "results/adja-nmt/professor-update-2026-04-17.md"
+    },
+    {
+      "dest": "reports/progress-report-2026-04-16.md",
+      "source": "results/adja-nmt/progress-report-2026-04-16.md"
+    },
+    {
+      "dest": "reports/comparison.md",
+      "source": "results/adja-nmt/comparison.md"
+    },
+    {
+      "dest": "reports/run-ledger.md",
+      "source": "results/adja-nmt/run-ledger.md"
+    },
+    {
+      "dest": "reports/pipeline-comparison.md",
+      "source": "results/adja-nmt/pipeline-comparison.md"
+    },
+    {
+      "dest": "reports/D4_ctc_lm_conclusion.md",
+      "source": "results/adja-nmt/D4_ctc_lm/conclusion.md"
+    },
+    {
+      "dest": "reports/D4_whisper_lm_conclusion.md",
+      "source": "results/adja-nmt/D4_whisper_lm/conclusion.md"
+    },
+    {
+      "dest": "reports/E4v4_whisper_ewe_fixed_conclusion.md",
+      "source": "results/adja-nmt/E4v4_whisper_ewe_fixed/conclusion.md"
+    },
+    {
+      "dest": "reports/omni_7b_recipe_README.md",
+      "source": "results/adja-nmt/omni_7b_recipe/README.md"
+    },
+    {
+      "dest": "reports/omni_7b_finetune_README.md",
+      "source": "results/adja-nmt/omni_7b_finetune/README.md"
+    },
+    {
+      "dest": "reports/omni_audiofix_20260509_README.md",
+      "source": "results/adja-nmt/omni_audiofix_20260509/README.md"
+    },
+    {
+      "dest": "reports/qwen3_hf_jobs_README.md",
+      "source": "results/adja-nmt/qwen3_hf_jobs/README.md"
+    },
+    {
+      "dest": "reports/parakeet_hf_jobs_README.md",
+      "source": "results/adja-nmt/parakeet_hf_jobs/README.md"
+    },
+    {
+      "dest": "predictions/asr_decodes_2026-05-03.md",
+      "source": "results/adja-nmt/qualitative/asr_decodes_2026-05-03.md"
+    },
+    {
+      "dest": "predictions/asr_decodes_2026-05-03.json",
+      "source": "results/adja-nmt/qualitative/asr_decodes_2026-05-03.json"
+    },
+    {
+      "dest": "reports/experiments/C1_whisper_zeroshot/conclusion.md",
+      "source": "results/adja-nmt/C1_whisper_zeroshot/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/C1_whisper_zeroshot/training_curve.md",
+      "source": "results/adja-nmt/C1_whisper_zeroshot/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/C1_whisper_zeroshot/README.md",
+      "source": "results/adja-nmt/C1_whisper_zeroshot/README.md"
+    },
+    {
+      "dest": "reports/experiments/C1_whisper_zeroshot/decode_samples.md",
+      "source": "results/adja-nmt/C1_whisper_zeroshot/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/C2_whisper_finetune/conclusion.md",
+      "source": "results/adja-nmt/C2_whisper_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/C2_whisper_finetune/training_curve.md",
+      "source": "results/adja-nmt/C2_whisper_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/C2_whisper_finetune/README.md",
+      "source": "results/adja-nmt/C2_whisper_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/C2_whisper_finetune/decode_samples.md",
+      "source": "results/adja-nmt/C2_whisper_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/C3_mms_finetune/conclusion.md",
+      "source": "results/adja-nmt/C3_mms_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/C3_mms_finetune/training_curve.md",
+      "source": "results/adja-nmt/C3_mms_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/C3_mms_finetune/README.md",
+      "source": "results/adja-nmt/C3_mms_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/C3_mms_finetune/decode_samples.md",
+      "source": "results/adja-nmt/C3_mms_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/C4_xlsr_finetune/conclusion.md",
+      "source": "results/adja-nmt/C4_xlsr_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/C4_xlsr_finetune/training_curve.md",
+      "source": "results/adja-nmt/C4_xlsr_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/C4_xlsr_finetune/README.md",
+      "source": "results/adja-nmt/C4_xlsr_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/C4_xlsr_finetune/decode_samples.md",
+      "source": "results/adja-nmt/C4_xlsr_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/C5_wav2vec2_finetune/conclusion.md",
+      "source": "results/adja-nmt/C5_wav2vec2_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/C5_wav2vec2_finetune/training_curve.md",
+      "source": "results/adja-nmt/C5_wav2vec2_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/C5_wav2vec2_finetune/README.md",
+      "source": "results/adja-nmt/C5_wav2vec2_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/C5_wav2vec2_finetune/decode_samples.md",
+      "source": "results/adja-nmt/C5_wav2vec2_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/E1_mms_ewe_finetune/conclusion.md",
+      "source": "results/adja-nmt/E1_mms_ewe_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/E1_mms_ewe_finetune/training_curve.md",
+      "source": "results/adja-nmt/E1_mms_ewe_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/E1_mms_ewe_finetune/README.md",
+      "source": "results/adja-nmt/E1_mms_ewe_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/E1_mms_ewe_finetune/decode_samples.md",
+      "source": "results/adja-nmt/E1_mms_ewe_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/experiments/E4_whisper_ewe_finetune/conclusion.md",
+      "source": "results/adja-nmt/E4_whisper_ewe_finetune/conclusion.md"
+    },
+    {
+      "dest": "reports/experiments/E4_whisper_ewe_finetune/training_curve.md",
+      "source": "results/adja-nmt/E4_whisper_ewe_finetune/training_curve.md"
+    },
+    {
+      "dest": "reports/experiments/E4_whisper_ewe_finetune/README.md",
+      "source": "results/adja-nmt/E4_whisper_ewe_finetune/README.md"
+    },
+    {
+      "dest": "reports/experiments/E4_whisper_ewe_finetune/decode_samples.md",
+      "source": "results/adja-nmt/E4_whisper_ewe_finetune/decode_samples.md"
+    }
+  ],
+  "export_policy": "reports_metrics_predictions_only_no_checkpoints_no_raw_private_audio",
+  "generated_from_github_release": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
+  "repo_id": "JosueG/cs-thesis-may-2026-asr-results",
+  "repo_type": "dataset",
+  "source_revision": "14dbf544197122da414e6ad3b2451d17f1b6c435",
+  "task": "automatic-speech-recognition"
+}

@@ -1,0 +1,88 @@
+{
+  "run": "T1_csm_ewe_adja_stage2",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 403.45,
+    "cer_raw": 447.9,
+    "wer_norm": 446.15,
+    "cer_norm": 470.54,
+    "median_utt_wer_norm": 150.0,
+    "median_utt_cer_norm": 113.04,
+    "mean_utt_wer_norm": 459.33,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "adja_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " Ɖeviwo ɖɔ wɔ ɖɔ́.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 83.33,
+      "cer_norm": 87.5,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "adja_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " AAAAAAAAA!",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 90.32,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "adja_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " ŋuvi seŋutɔ nu ɔ ŋlɔmɔ nu enu ɔ nɔ ŋu…",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 142.86,
+      "wer_norm": 166.67,
+      "cer_raw": 104.0,
+      "cer_norm": 113.04,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "adja_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": " Ɖeviwo le ekplɔ̀ aɖe. ŋuɖeviwo le ekplɔ̀ ŋuɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖevi ɖ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 1780.0,
+      "wer_norm": 1780.0,
+      "cer_raw": 1680.77,
+      "cer_norm": 1676.92,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "adja_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": " Lia ŋuɖe nu ŋuɖe nu amatɛlui",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 120.0,
+      "wer_norm": 150.0,
+      "cer_raw": 127.78,
+      "cer_norm": 143.75,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}

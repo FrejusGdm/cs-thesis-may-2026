@@ -2085,6 +2085,11 @@
     "source_root": "adja-nmt"
   },
   {
+    "dest": "results/adja-nmt/omni_audiofix_20260509/README.md",
+    "source": "results/omni_audiofix_20260509/README.md",
+    "source_root": "adja-nmt"
+  },
+  {
     "dest": "results/adja-nmt/E1_mms_ewe_finetune/conclusion.md",
     "source": "results/E1_mms_ewe_finetune/conclusion.md",
     "source_root": "adja-nmt"

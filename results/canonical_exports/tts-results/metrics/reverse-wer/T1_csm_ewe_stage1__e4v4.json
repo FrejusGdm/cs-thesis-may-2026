@@ -1,0 +1,88 @@
+{
+  "run": "T1_csm_ewe_stage1",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 87.5,
+    "cer_raw": 54.24,
+    "wer_norm": 81.25,
+    "cer_norm": 50.86,
+    "median_utt_wer_norm": 81.25,
+    "median_utt_cer_norm": 34.69,
+    "mean_utt_wer_norm": 82.7,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "ewe_00.wav",
+      "text": "Agbadroƒe nenie le Pra tɔsisi la si? Agbadroƒe [240] alafa ene blaenee le Pra tɔsisi la si. Akpa kae Pra tɔsisi la le le Ghana dukɔme? Pra tɔsisi le ɣedzeƒe gome le Ghana. Eyae nye tɔsisi gātɔwo dometɔ ɖeka si de nu Amu tɔsisi la me le nyiehe gome.",
+      "hyp": "Agbaɖuƒe nɛni le pra tɔsisi le asi, agbaɖuƒe anɛ le anɛ le pra tɔsisi le asi, akpa kaɖi pra tɔsisi le e…",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 83.67,
+      "wer_norm": 79.59,
+      "cer_raw": 67.34,
+      "cer_norm": 64.32,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_01.wav",
+      "text": "Togo dukɔa medidi tso Ghana gbɔ o.",
+      "hyp": "Togɔdukɔ amɛ ɖidzi so ganɔ gbɔ o",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 85.71,
+      "wer_norm": 71.43,
+      "cer_raw": 38.24,
+      "cer_norm": 33.33,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_02.wav",
+      "text": "Mɔfiafli si le aŋgbaɖiɖi ƒe amadede me la me keke xe nutata nogo la me o.",
+      "hyp": "Mɔfio afli si le aŋugba ɖiɖi ƒe amadedemɛ le amɛ keke nyutata nu go le amɛ o",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 87.5,
+      "wer_norm": 81.25,
+      "cer_raw": 26.03,
+      "cer_norm": 25.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_03.wav",
+      "text": "Sukuyiyi vevietɔ le Dzoɖagbewo la vena Kɔdzo ŋutɔ.",
+      "hyp": "Sukui yevietɔ le jɔɖa gbɔ le ave na kɔjɔ ŋutɔ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 112.5,
+      "wer_norm": 100.0,
+      "cer_raw": 38.0,
+      "cer_norm": 34.69,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "ewe_04.wav",
+      "text": "[2] Eve mama ɖe [5] at̃ɔ dzi teƒeɖoɖo na [80] blaenyi ele [32] blaet̃ɔ vɔ eve.",
+      "hyp": "Eve, mɛa mɛ ɖɛƒɛ ɖoɖo na bla anyi ele bla to vɔɔ.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 87.5,
+      "wer_norm": 81.25,
+      "cer_raw": 56.41,
+      "cer_norm": 50.72,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}

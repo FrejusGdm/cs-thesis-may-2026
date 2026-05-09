@@ -5,13 +5,36 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import math
 import wave
 from pathlib import Path
 from typing import Any
 
 import numpy as np
-from datasets import load_dataset
+from datasets import Audio, load_dataset
+
+
+def audio_from_wav_bytes(data: bytes) -> tuple[np.ndarray, int]:
+    with wave.open(io.BytesIO(data), "rb") as handle:
+        channels = handle.getnchannels()
+        sample_width = handle.getsampwidth()
+        sampling_rate = handle.getframerate()
+        frames = handle.readframes(handle.getnframes())
+
+    if sample_width == 1:
+        pcm = np.frombuffer(frames, dtype=np.uint8).astype(np.float32)
+        pcm = (pcm - 128.0) / 128.0
+    elif sample_width == 2:
+        pcm = np.frombuffer(frames, dtype="<i2").astype(np.float32) / 32768.0
+    elif sample_width == 4:
+        pcm = np.frombuffer(frames, dtype="<i4").astype(np.float32) / 2147483648.0
+    else:
+        raise SystemExit(f"Unsupported WAV sample width: {sample_width}")
+
+    if channels > 1:
+        pcm = pcm.reshape(-1, channels).mean(axis=1)
+    return pcm, sampling_rate
 
 
 def as_mono_float(audio: dict[str, Any]) -> tuple[np.ndarray, int]:
@@ -19,10 +42,13 @@ def as_mono_float(audio: dict[str, Any]) -> tuple[np.ndarray, int]:
         array = np.asarray(audio["array"])
         sampling_rate = int(audio["sampling_rate"])
     elif isinstance(audio, dict) and "bytes" in audio:
-        raise SystemExit(
-            "This row stores encoded audio bytes. Install a compatible datasets audio decoder "
-            "or materialize array/sampling_rate columns before running the audit."
-        )
+        if audio["bytes"] is None and audio.get("path"):
+            data = Path(audio["path"]).read_bytes()
+        else:
+            data = audio["bytes"]
+        array, sampling_rate = audio_from_wav_bytes(data)
+    elif isinstance(audio, dict) and "path" in audio:
+        array, sampling_rate = audio_from_wav_bytes(Path(audio["path"]).read_bytes())
     else:
         raise SystemExit(f"Unsupported audio payload type: {type(audio)!r}")
     if array.ndim == 2:
@@ -83,6 +109,8 @@ def export_dataset(repo: str, config: str | None, split: str, output_dir: Path, 
     if config:
         kwargs["name"] = config
     dataset = load_dataset(repo, split=split, **kwargs)
+    if "audio" in dataset.features and isinstance(dataset.features["audio"], Audio):
+        dataset = dataset.cast_column("audio", Audio(decode=False))
 
     rows = []
     selected = indices if indices else list(range(min(max_samples, len(dataset))))

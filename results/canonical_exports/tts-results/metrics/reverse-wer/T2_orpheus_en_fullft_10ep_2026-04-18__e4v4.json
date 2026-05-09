@@ -1,0 +1,88 @@
+{
+  "run": "T2_orpheus_en_fullft_10ep_2026-04-18",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 134.48,
+    "cer_raw": 120.17,
+    "wer_norm": 138.46,
+    "cer_norm": 120.54,
+    "median_utt_wer_norm": 100.0,
+    "median_utt_cer_norm": 92.31,
+    "mean_utt_wer_norm": 150.0,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " ŋuɖe gbe ɖaɖe ŋuɖe aɖe, amɔ mɔɖe yi ŋu na amɔ ɖɔmɛ le ɣɔ mɛ.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 300.0,
+      "wer_norm": 350.0,
+      "cer_raw": 288.89,
+      "cer_norm": 306.25,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.41
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " we",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 96.88,
+      "cer_norm": 96.77,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.75
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " I'm not.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 88.0,
+      "cer_norm": 86.96,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.99
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": " we",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 92.31,
+      "cer_norm": 92.31,
+      "cached": false,
+      "error": null,
+      "duration_sec": 5.29
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": " I am a kid.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 77.78,
+      "cer_norm": 75.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.9
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "run": "T2_orpheus_en_lora_r32_20ep_2026-04-18",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 862.07,
+    "cer_raw": 843.7,
+    "wer_norm": 953.85,
+    "cer_norm": 893.75,
+    "median_utt_wer_norm": 100.0,
+    "median_utt_cer_norm": 95.65,
+    "mean_utt_wer_norm": 749.29,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " be warned.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 88.89,
+      "cer_norm": 87.5,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.65
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " Agne gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe gbe",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 3171.43,
+      "wer_norm": 3171.43,
+      "cer_raw": 2746.88,
+      "cer_norm": 2835.48,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.65
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " we",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 96.0,
+      "cer_norm": 95.65,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.65
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": " we",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 92.31,
+      "cer_norm": 92.31,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.9
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": " eblɛtɔwo le eblɛtɔwo le eblɛtɔwo le eblɛtɔwo le eblɛtɔwo le eblɛtɔwo",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 220.0,
+      "wer_norm": 275.0,
+      "cer_raw": 338.89,
+      "cer_norm": 387.5,
+      "cached": false,
+      "error": null,
+      "duration_sec": 2.65
+    }
+  ]
+}

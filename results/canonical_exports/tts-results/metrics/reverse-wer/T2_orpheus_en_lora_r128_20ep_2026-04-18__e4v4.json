@@ -1,0 +1,88 @@
+{
+  "run": "T2_orpheus_en_lora_r128_20ep_2026-04-18",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 2075.86,
+    "cer_raw": 1916.81,
+    "wer_norm": 2307.69,
+    "cer_norm": 2033.04,
+    "median_utt_wer_norm": 600.0,
+    "median_utt_cer_norm": 526.92,
+    "mean_utt_wer_norm": 2947.14,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any any",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 8880.0,
+      "wer_norm": 11100.0,
+      "cer_raw": 9816.67,
+      "cer_norm": 11050.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 1.88
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " No, nyan.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 85.71,
+      "cer_raw": 81.25,
+      "cer_norm": 77.42,
+      "cached": false,
+      "error": null,
+      "duration_sec": 1.79
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " No.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 96.0,
+      "cer_norm": 91.3,
+      "cached": false,
+      "error": null,
+      "duration_sec": 1.28
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": "Ɖevi wo aɖe le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ le ekplɔn ɖɔmɛ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 600.0,
+      "wer_norm": 600.0,
+      "cer_raw": 526.92,
+      "cer_norm": 526.92,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.07
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": " Ɖeviwo ɖɔ wɔ ɖɔ wɔ ɖɔ nɔ wo aɖe, ŋuɖɔwo ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖɔ wɔ ɔ ɖ�",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 2280.0,
+      "wer_norm": 2850.0,
+      "cer_raw": 1816.67,
+      "cer_norm": 2043.75,
+      "cached": false,
+      "error": null,
+      "duration_sec": 3.67
+    }
+  ]
+}

@@ -145,8 +145,30 @@ def run_command(command: list[str], cwd: Path | None = None) -> None:
     subprocess.run(command, cwd=str(cwd) if cwd else None, check=True)
 
 
+def remove_secret_env_for_child_processes() -> None:
+    for name in ("HF_TOKEN", "UV_SCRIPT_HF_TOKEN"):
+        os.environ.pop(name, None)
+
+
 def normalize_text(text: str) -> str:
     return " ".join(unicodedata.normalize("NFC", text.strip()).split())
+
+
+def normalize_waveform_range(audio: np.ndarray) -> np.ndarray:
+    """Keep HF parquet audio in the float range expected by WAV writers."""
+    audio = np.asarray(audio, dtype=np.float32)
+    if audio.size == 0:
+        return audio
+    peak = float(np.nanmax(np.abs(audio)))
+    if not np.isfinite(peak) or peak == 0.0:
+        return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0)
+    if peak <= 1.0:
+        return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0)
+    if peak <= 65536.0:
+        audio = audio / 65536.0
+    else:
+        audio = audio * (0.98 / peak)
+    return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0).astype(np.float32, copy=False)
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -247,6 +269,7 @@ def materialize_manifest_dataset(
         for index in range(len(split_data)):
             sample = split_data[index]
             audio = np.asarray(sample["audio"]["array"], dtype=np.float32)
+            audio = normalize_waveform_range(audio)
             sampling_rate = int(sample["audio"]["sampling_rate"])
             if audio.ndim > 1:
                 audio = np.mean(audio, axis=-1)
@@ -480,6 +503,7 @@ def main() -> None:
         print(f"CUDA device count: {torch.cuda.device_count()}")
         for index in range(torch.cuda.device_count()):
             print(f"  GPU[{index}]: {torch.cuda.get_device_name(index)}")
+        remove_secret_env_for_child_processes()
 
         upstream_dir = ensure_upstream_repo(workspace_dir / "upstream" / "omnilingual-asr", upstream_ref)
         ensure_editable_install(upstream_dir)

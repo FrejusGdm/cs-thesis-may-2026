@@ -52,6 +52,11 @@ def run_cmd(cmd: list[str], cwd: Path | None = None) -> None:
     subprocess.run(cmd, cwd=str(cwd) if cwd else None, check=True)
 
 
+def remove_secret_env_for_child_processes() -> None:
+    for name in ("HF_TOKEN", "UV_SCRIPT_HF_TOKEN"):
+        os.environ.pop(name, None)
+
+
 def dump_torchrun_failure_logs(log_dir: Path) -> None:
     if not log_dir.exists():
         print(f"torchrun log dir not found: {log_dir}")
@@ -221,6 +226,23 @@ def install_omnilingual_editable(repo_dir: Path) -> None:
 
 def normalize_text(text: str) -> str:
     return " ".join(unicodedata.normalize("NFC", text.strip()).split())
+
+
+def normalize_waveform_range(audio: np.ndarray) -> np.ndarray:
+    """Keep HF parquet audio in the float range expected by WAV writers."""
+    audio = np.asarray(audio, dtype=np.float32)
+    if audio.size == 0:
+        return audio
+    peak = float(np.nanmax(np.abs(audio)))
+    if not np.isfinite(peak) or peak == 0.0:
+        return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0)
+    if peak <= 1.0:
+        return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0)
+    if peak <= 65536.0:
+        audio = audio / 65536.0
+    else:
+        audio = audio * (0.98 / peak)
+    return np.nan_to_num(audio, nan=0.0, posinf=0.0, neginf=0.0).astype(np.float32, copy=False)
 
 
 def edit_distance(ref: list[str], hyp: list[str]) -> int:
@@ -477,6 +499,7 @@ def main() -> None:
             for idx, sample in enumerate(split_data):
                 total_samples += 1
                 audio = np.asarray(sample["audio"]["array"], dtype=np.float32)
+                audio = normalize_waveform_range(audio)
                 sr = int(sample["audio"]["sampling_rate"])
                 text = normalize_text(sample["text"])
 
@@ -647,6 +670,7 @@ def main() -> None:
         print("Ensuring system dependency libsndfile1 is installed...")
         ensure_system_libsndfile()
         print("Starting Omni recipe training...")
+        remove_secret_env_for_child_processes()
         gpu_count = detect_visible_gpu_count()
         print(f"Detected {gpu_count} visible GPU(s) for training.")
         torchrun_log_dir = train_output_dir / "torchrun_logs"

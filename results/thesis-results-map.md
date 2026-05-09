@@ -41,14 +41,18 @@ choices:
 | MT models | two NLLB model repos listed above | existing best model repos remain weight locations |
 | ASR models | C4v2 and E4v4 model repos listed above | result dumps remain in `JosueG/adja-asr-results` |
 | TTS model | `JosueG/spark-tts-adja-t3` | source/checkpoint provenance in `JosueG/adja-tts-results` and `JosueG/adja-tts-checkpoints` |
-| ASR/TTS result dumps | this GitHub release summary for now | mixed private result/checkpoint repos |
+| ASR result archive | `JosueG/cs-thesis-may-2026-asr-results` | exported from this GitHub release; old mixed repo remains provenance |
+| TTS result archive | `JosueG/cs-thesis-may-2026-tts-results` | exported from this GitHub release; old mixed repos remain provenance |
 | Generated audio | selected reports only in this pass | future canonical TTS result repo should export reviewed examples |
 
 ## Next Cleanup Pass
 
-The next pass should create consistent public result archives without changing
-old experiment repos:
+This pass creates consistent public result archives without changing old
+experiment repos:
 
 - `JosueG/cs-thesis-may-2026-asr-results`
 - `JosueG/cs-thesis-may-2026-tts-results`
-- optional `JosueG/cs-thesis-may-2026-mt-results`
+
+Still optional for later:
+
+- `JosueG/cs-thesis-may-2026-mt-results`

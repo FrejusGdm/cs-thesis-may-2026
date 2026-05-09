@@ -22,14 +22,15 @@ where results live.
 - `JosueG/adja-tts-checkpoints`: TTS checkpoint provenance.
 - `JosueG/qwen3-adja-results`: Qwen ASR/MT experimental provenance.
 
-## Planned Canonical Result Repos
+## Canonical Result Repos
 
 - `JosueG/cs-thesis-may-2026-asr-results`
 - `JosueG/cs-thesis-may-2026-tts-results`
 - Optional: `JosueG/cs-thesis-may-2026-mt-results`
 
-These should be new repos created by export/duplication. Existing result repos
-must remain unchanged because active experiments may still depend on them.
+The ASR and TTS result repos are public reporting exports created from this
+GitHub release. Existing result repos must remain unchanged because active
+experiments may still depend on them.
 
 Recommended structure for each canonical result repo:
 
@@ -37,8 +38,8 @@ Recommended structure for each canonical result repo:
 - `reports/`: human-readable reports.
 - `metrics/`: JSON/CSV metrics with schemas.
 - `predictions/`: selected predictions or decode samples safe for release.
-- `artifacts/`: small non-sensitive generated examples.
+- `artifacts/`: small non-sensitive generated examples when reviewed.
 - `manifests/`: source repo IDs, revisions, checksums, export date.
 
-Until those exports exist, use `results/thesis-results-map.md` in this GitHub
-release as the public navigation layer.
+The exported source folders are also checked into this GitHub release under
+`results/canonical_exports/`.

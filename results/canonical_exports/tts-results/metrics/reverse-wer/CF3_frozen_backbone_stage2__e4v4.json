@@ -1,0 +1,88 @@
+{
+  "run": "CF3_frozen_backbone_stage2",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 5,
+    "wer_raw": 168.97,
+    "cer_raw": 152.1,
+    "wer_norm": 176.92,
+    "cer_norm": 155.36,
+    "median_utt_wer_norm": 100.0,
+    "median_utt_cer_norm": 100.0,
+    "mean_utt_wer_norm": 180.0,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "CF3_adja_sent00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "CF3_adja_sent01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "CF3_adja_sent02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": " ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "CF3_adja_sent03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": " ŋuɖe yi ɖe ashi maŋu ɖe yi ɖe yi ɖe yi ɖe yi gbɔ̀nɔ nɔnɔŋu ɖe yi gbɔ̀nɔ ŋuɖe yi gbɔ̀nɔ nɔnɔŋu ɖe yi gbɔ̀",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 500.0,
+      "wer_norm": 500.0,
+      "cer_raw": 342.31,
+      "cer_norm": 342.31,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "CF3_adja_sent04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": " Fukɔɖɔ.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 94.44,
+      "cer_norm": 93.75,
+      "cached": true,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}

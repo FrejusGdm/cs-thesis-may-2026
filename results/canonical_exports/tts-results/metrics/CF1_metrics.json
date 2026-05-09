@@ -1,0 +1,42 @@
+{
+  "experiment": "CF1_ewc_stage2",
+  "stage1_checkpoint": "JosueG/adja-tts-checkpoints/T1_csm_ewe_stage1",
+  "adja_dataset": "JosueG/adja-tts-orpheus",
+  "training_mode": "lora_r32",
+  "ewc_lambda": 1000.0,
+  "fisher_samples_requested": 500,
+  "fisher_params_tracked": 408,
+  "train_loss": 24.9618,
+  "best_eval_loss": 6.4941,
+  "training_time_min": 71.5,
+  "peak_vram_gb": 22.35,
+  "gpu": "NVIDIA A10G",
+  "generated": [
+    {
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "file": "CF1_adja_sent00.wav",
+      "duration_sec": 1.76
+    },
+    {
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "file": "CF1_adja_sent01.wav",
+      "duration_sec": 4.24
+    },
+    {
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "file": "CF1_adja_sent02.wav",
+      "duration_sec": 3.2
+    },
+    {
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "file": "CF1_adja_sent03.wav",
+      "duration_sec": 5.6
+    },
+    {
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "file": "CF1_adja_sent04.wav",
+      "duration_sec": 3.68
+    }
+  ],
+  "smoke": false
+}

@@ -1,0 +1,145 @@
+{
+  "experiment": "CF2_curriculum_stage2",
+  "stage1_checkpoint": "JosueG/adja-tts-checkpoints/T1_csm_ewe_stage1",
+  "training_mode": "lora_r32",
+  "num_epochs_run": 20,
+  "best_epoch": 19,
+  "best_dev_loss": 6.6203,
+  "training_time_min": 49.9,
+  "peak_vram_gb": 23.36,
+  "gpu": "NVIDIA A10G",
+  "generated": [
+    {
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "file": "CF2_adja_sent00.wav",
+      "duration_sec": 2.32
+    },
+    {
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "file": "CF2_adja_sent01.wav",
+      "duration_sec": 7.76
+    },
+    {
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "file": "CF2_adja_sent02.wav",
+      "duration_sec": 4.8
+    },
+    {
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "file": "CF2_adja_sent03.wav",
+      "duration_sec": 4.56
+    },
+    {
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "file": "CF2_adja_sent04.wav",
+      "duration_sec": 2.32
+    }
+  ],
+  "training_history": [
+    {
+      "epoch": 0,
+      "train_loss": 4.367931699752807,
+      "dev_loss": 7.494048058986664
+    },
+    {
+      "epoch": 1,
+      "train_loss": 4.305947661399841,
+      "dev_loss": 7.168760073184967
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.415537540912628,
+      "dev_loss": 7.0035433053970335
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.3692116975784305,
+      "dev_loss": 6.9188704013824465
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.470055210590362,
+      "dev_loss": 6.875815856456756
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.542705483436585,
+      "dev_loss": 6.83826425075531
+    },
+    {
+      "epoch": 6,
+      "train_loss": 4.643333477973938,
+      "dev_loss": 6.790845346450806
+    },
+    {
+      "epoch": 7,
+      "train_loss": 4.697176792621613,
+      "dev_loss": 6.754416358470917
+    },
+    {
+      "epoch": 8,
+      "train_loss": 4.761326613426209,
+      "dev_loss": 6.719443595409393
+    },
+    {
+      "epoch": 9,
+      "train_loss": 4.866301703453064,
+      "dev_loss": 6.7113110542297365
+    },
+    {
+      "epoch": 10,
+      "train_loss": 4.917869145870209,
+      "dev_loss": 6.685484683513641
+    },
+    {
+      "epoch": 11,
+      "train_loss": 5.012353715896606,
+      "dev_loss": 6.673053979873657
+    },
+    {
+      "epoch": 12,
+      "train_loss": 5.098710055351257,
+      "dev_loss": 6.652683138847351
+    },
+    {
+      "epoch": 13,
+      "train_loss": 5.194642431735993,
+      "dev_loss": 6.645954167842865
+    },
+    {
+      "epoch": 14,
+      "train_loss": 5.305947897434234,
+      "dev_loss": 6.636263155937195
+    },
+    {
+      "epoch": 15,
+      "train_loss": 5.3530974459648135,
+      "dev_loss": 6.627785813808441
+    },
+    {
+      "epoch": 16,
+      "train_loss": 5.449678390026093,
+      "dev_loss": 6.6241506218910216
+    },
+    {
+      "epoch": 17,
+      "train_loss": 5.661155767440796,
+      "dev_loss": 6.622529458999634
+    },
+    {
+      "epoch": 18,
+      "train_loss": 5.711733546257019,
+      "dev_loss": 6.620949923992157
+    },
+    {
+      "epoch": 19,
+      "train_loss": 5.850149774551392,
+      "dev_loss": 6.620336294174194
+    }
+  ],
+  "smoke": false,
+  "schedule": {
+    "epoch_0_ratio": "5:1 (Ewe:Adja)",
+    "epoch_19_ratio": "1:5 (Ewe:Adja)"
+  }
+}

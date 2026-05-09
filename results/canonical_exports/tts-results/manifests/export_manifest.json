@@ -1,0 +1,222 @@
+{
+  "copied_files": [
+    {
+      "dest": "reports/tts-comparison.md",
+      "source": "results/adja-nmt/tts-comparison.md"
+    },
+    {
+      "dest": "reports/reverse-wer-summary.md",
+      "source": "results/adja-nmt/reverse-wer-summary.md"
+    },
+    {
+      "dest": "reports/pipeline-comparison.md",
+      "source": "results/adja-nmt/pipeline-comparison.md"
+    },
+    {
+      "dest": "reports/run-ledger.md",
+      "source": "results/adja-nmt/run-ledger.md"
+    },
+    {
+      "dest": "metrics/CF1_metrics.json",
+      "source": "results/adja-nmt/CF1/metrics.json"
+    },
+    {
+      "dest": "metrics/CF1_training_config.json",
+      "source": "results/adja-nmt/CF1/training_config.json"
+    },
+    {
+      "dest": "metrics/CF2_metrics.json",
+      "source": "results/adja-nmt/CF2/metrics.json"
+    },
+    {
+      "dest": "metrics/CF2_training_config.json",
+      "source": "results/adja-nmt/CF2/training_config.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_tokfix__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_tokfix__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF3_frozen_backbone_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/CF3_frozen_backbone_stage2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/summary.json",
+      "source": "results/adja-nmt/reverse-wer/summary.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_ewe_adja_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF2_curriculum_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/CF2_curriculum_stage2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T3__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_long_20ep_earlystop_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1_long_20ep_earlystop_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_ewe_stage1__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_ewe_stage1__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_diagnostic_2026-04-18_v2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_diagnostic_2026-04-18_v2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3_spark_120steps_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T3_spark_120steps_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_ewe_adja_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_ewe_adja_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3A_spark_ewe_adja_direct__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T3A_spark_ewe_adja_direct__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF1_ewc_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/CF1_ewc_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r32_20ep_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF1_ewc_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/CF1_ewc_stage2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3A_spark_ewe_adja_direct__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T3A_spark_ewe_adja_direct__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_fr_lora_r64_20ep_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_ewe_adja_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_ewe_adja_stage2__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2_mixed__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_diagnostic_2026-04-18_v2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_diagnostic_2026-04-18_v2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3_spark_120steps_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T3_spark_120steps_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_ewe_stage1__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_ewe_stage1__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_long_20ep_earlystop_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1_long_20ep_earlystop_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T3__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r64_20ep_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF2_curriculum_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/CF2_curriculum_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_ewe_adja_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_ewe_adja_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_lora_r128_20ep_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1_full_ft_20ep_earlystop_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_en_fullft_10ep_2026-04-18__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T3_spark_20ep_earlystop_2026-04-18__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T1__e4v4.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/CF3_frozen_backbone_stage2__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/CF3_frozen_backbone_stage2__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T1_csm_tokfix__c4v2.json",
+      "source": "results/adja-nmt/reverse-wer/T1_csm_tokfix__c4v2.json"
+    },
+    {
+      "dest": "metrics/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__e4v4.json",
+      "source": "results/adja-nmt/reverse-wer/T2_orpheus_fr_ewe_adja_stage2__e4v4.json"
+    }
+  ],
+  "export_policy": "reports_metrics_predictions_only_no_checkpoints_no_raw_private_audio",
+  "generated_from_github_release": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
+  "repo_id": "JosueG/cs-thesis-may-2026-tts-results",
+  "repo_type": "dataset",
+  "source_revision": "14dbf544197122da414e6ad3b2451d17f1b6c435",
+  "task": "text-to-speech"
+}

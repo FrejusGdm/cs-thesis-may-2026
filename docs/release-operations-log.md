@@ -50,3 +50,14 @@ say what they actually are.
   codec reconstruction, or dataset materialization.
 - Created Hugging Face collection:
   `JosueG/cs-thesis-may-2026-69ff55e45e0d5b0eb7fa4344`.
+
+## 2026-05-09: Canonical Result Reporting Exports
+
+- Created ASR result export source under `results/canonical_exports/asr-results`.
+- Created TTS result export source under `results/canonical_exports/tts-results`.
+- Published the exports as Hugging Face dataset repos:
+  `JosueG/cs-thesis-may-2026-asr-results` and
+  `JosueG/cs-thesis-may-2026-tts-results`.
+- Added both result repos to the thesis Hugging Face collection.
+- Export policy: reports, metrics, selected predictions, and manifests only;
+  no checkpoints, raw private audio, or old mixed experiment dependency folders.

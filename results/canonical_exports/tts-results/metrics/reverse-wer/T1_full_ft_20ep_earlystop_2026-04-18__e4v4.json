@@ -1,0 +1,102 @@
+{
+  "run": "T1_full_ft_20ep_earlystop_2026-04-18",
+  "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+  "asr_label": "e4v4",
+  "aggregate": {
+    "n": 6,
+    "wer_raw": 419.44,
+    "cer_raw": 450.99,
+    "wer_norm": 454.55,
+    "cer_norm": 469.23,
+    "median_utt_wer_norm": 166.67,
+    "median_utt_cer_norm": 120.25,
+    "mean_utt_wer_norm": 395.56,
+    "errors": 0
+  },
+  "per_utterance": [
+    {
+      "file": "plain_00.wav",
+      "text": "Ŋu nya kpɔ́kpɔ a ?",
+      "hyp": " ",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 100.0,
+      "cer_norm": 100.0,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_01.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " Ɖeviwo le ekplɔ̀ aɖe. ŋuɖeviwo le ekplɔ̀ ŋuɖevi ɖeka le ekplɔ̀ ŋuɖevi ɖeka le ekplɔ̀ ŋuɖevi ɖeka le ekplɔ̀ ŋuɖevi ɖeka le ekplɔ̀ ŋuɖevi ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀ ɖeka le ekplɔ̀",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 1500.0,
+      "wer_norm": 1500.0,
+      "cer_raw": 1628.12,
+      "cer_norm": 1674.19,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_02.wav",
+      "text": "Ŋ nyanyɔ mɔ wo anu ahán !",
+      "hyp": "Aa, nuɔnuɛ ŋuɖe, du ɖui du ɔ ɔ ɛ, ŋu ŋu",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 157.14,
+      "wer_norm": 183.33,
+      "cer_raw": 120.0,
+      "cer_norm": 121.74,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_03.wav",
+      "text": "Tɛnigbe ciyi vayi de ŋweba",
+      "hyp": "Eliwo le nyɔnɔ le ŋuɖevi ci ŋuɖevi sɔɛnɔ nu ɖa nu. Ɖevi wo le ŋuɖevi ɖevi ɖa.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 340.0,
+      "wer_norm": 340.0,
+      "cer_raw": 238.46,
+      "cer_norm": 230.77,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "plain_04.wav",
+      "text": "Ganɛni mɛ ayi ɔ̀ ?",
+      "hyp": "Ɖe ɖa nu ŋuŋlunu awo ɖeo",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 120.0,
+      "wer_norm": 150.0,
+      "cer_raw": 111.11,
+      "cer_norm": 118.75,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    },
+    {
+      "file": "conditioned.wav",
+      "text": "ŋnyan go. Kpɔ ŋuɖejikɔ a nyan wo",
+      "hyp": " No.",
+      "asr_label": "e4v4",
+      "asr_repo": "https://u9zvleruu2deu1b3.us-east-1.aws.endpoints.huggingface.cloud",
+      "wer_raw": 100.0,
+      "wer_norm": 100.0,
+      "cer_raw": 93.75,
+      "cer_norm": 93.55,
+      "cached": false,
+      "error": null,
+      "duration_sec": 10.0
+    }
+  ]
+}
