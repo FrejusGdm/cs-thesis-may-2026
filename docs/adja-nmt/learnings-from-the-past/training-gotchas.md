@@ -2,6 +2,28 @@
 
 Learned during the neurosymbolic/ACL paper experiments (2025-2026).
 
+## TTS — Always Range-Normalize HF Audio Arrays Before Codec/Processor Input
+
+Do not assume `datasets.Audio` arrays or locally downloaded parquet audio arrays are already
+normalized to `[-1, 1]`. The Adja TTS parquet audit on 2026-05-09 found PCM-scale float arrays in
+`JosueG/adja-tts-orpheus`. Any TTS path that passes `example["audio"]["array"]` directly into a
+processor or codec can silently train on invalid waveform magnitudes.
+
+Affected historical paths: CSM direct/tokfix/Stage 2, Orpheus direct/tokfix/Stage 2/mixed Stage 2,
+and SageMaker CF1/CF2/CF3. Spark was not affected because it already had explicit audio
+normalization.
+
+Guardrail: before CSM `processor.apply_chat_template(...)`, Orpheus SNAC encoding, Mimi/SNAC
+preprocessing, or any custom WAV write, apply a waveform range guard:
+
+- Leave peaks `<= 2.0` unchanged.
+- Divide PCM-like peaks by `65536.0`.
+- Peak-scale anything larger.
+- Re-check after resampling.
+
+The May 2026 reruns and job IDs are documented in
+[`docs/tts-audio-range-normalization-reruns-2026-05-09.md`](../docs/tts-audio-range-normalization-reruns-2026-05-09.md).
+
 ## TTS — Codec vs Tokenizer Failure (Important Correction)
 
 Early analysis blamed CSM (Mimi codec) and Orpheus (SNAC codec) failures on the codecs being "English-centric." This was wrong.

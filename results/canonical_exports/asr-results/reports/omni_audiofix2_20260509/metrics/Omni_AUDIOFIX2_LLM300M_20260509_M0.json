@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 25.24,
+    "num_samples": 160,
+    "wer": 70.9
+  },
+  "folder": "Omni_AUDIOFIX2_LLM300M_20260509_M0_llm_1778343022",
+  "hardware": "h200",
+  "job_id": "69ff5bf9aff1cd33e8f31fe0",
+  "model": "omniASR_LLM_300M_v2",
+  "note": "Small LLM baseline after audio-range fix.",
+  "run": "Omni_AUDIOFIX2_LLM300M_20260509_M0",
+  "status": "completed",
+  "test": {
+    "cer": 24.78,
+    "num_samples": 160,
+    "wer": 73.44
+  }
+}

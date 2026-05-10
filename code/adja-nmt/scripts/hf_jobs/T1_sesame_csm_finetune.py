@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# /// script
+# dependencies = ["torch==2.5.1", "torchaudio==2.5.1", "transformers==4.52.3", "peft>=0.11.0,<0.16.0", "accelerate", "datasets>=3.4.1,<4.0.0", "soundfile", "librosa", "numpy", "scipy", "huggingface-hub>=0.34.0", "hf_transfer", "sentencepiece", "protobuf", "torchcodec", "bitsandbytes"]
+# ///
 from __future__ import annotations
 
 """
@@ -72,6 +75,8 @@ def pip_install(packages: list[str], no_deps: bool = False) -> None:
 
 
 def install_env() -> None:
+    print("Dependencies are resolved by uv from the inline PEP 723 metadata.")
+    return
     pip_install(
         [
             "transformers==4.52.3",
@@ -95,6 +100,39 @@ def install_env() -> None:
 def normalize_text(text: str) -> str:
     """NFC normalize — critical for Adja tone marks (ɛ, ɔ, ŋ, ɖ, é, è)."""
     return " ".join(unicodedata.normalize("NFC", text.strip()).split())
+
+
+def normalize_waveform_range(audio):
+    import numpy as np
+
+    wav = np.asarray(audio, dtype=np.float32)
+    if wav.ndim > 1:
+        wav = wav.mean(axis=-1)
+    if wav.size == 0:
+        return wav
+    max_abs = float(np.max(np.abs(wav)))
+    if max_abs > 2.0:
+        scale = 65536.0 if max_abs <= 65536.0 * 1.1 else max_abs
+        wav = wav / scale
+    return wav.astype(np.float32, copy=False)
+
+
+def prepare_audio_array(audio_info, target_sr=24000):
+    audio_array = normalize_waveform_range(audio_info["array"])
+    sampling_rate = int(audio_info.get("sampling_rate") or target_sr)
+    if sampling_rate != target_sr:
+        import torch
+        import torchaudio.functional as F
+
+        tensor = torch.from_numpy(audio_array).unsqueeze(0)
+        audio_array = F.resample(tensor, orig_freq=sampling_rate, new_freq=target_sr).squeeze(0).numpy()
+        audio_array = normalize_waveform_range(audio_array)
+    return audio_array
+
+
+def target_sample_count(audio_info, target_sr=24000):
+    sampling_rate = int(audio_info.get("sampling_rate") or target_sr)
+    return int(round(len(audio_info["array"]) * target_sr / sampling_rate))
 
 
 def main() -> None:
@@ -148,9 +186,9 @@ def main() -> None:
     # Same 80/10/10 protocol as ASR experiments (seed=42)
     split1 = ds.train_test_split(test_size=0.1, seed=args.seed)
     split2 = split1["train"].train_test_split(test_size=0.1 / 0.9, seed=args.seed)
-    train_ds = split2["train"].cast_column("audio", Audio(sampling_rate=24000))
-    dev_ds = split2["test"].cast_column("audio", Audio(sampling_rate=24000))
-    test_ds = split1["test"].cast_column("audio", Audio(sampling_rate=24000))
+    train_ds = split2["train"]
+    dev_ds = split2["test"]
+    test_ds = split1["test"]
     print(f"Train samples: {len(train_ds)}")
     print(f"Dev samples: {len(dev_ds)}")
     print(f"Test samples: {len(test_ds)}")
@@ -197,7 +235,7 @@ def main() -> None:
     def filter_by_length(ds, name: str):
         n_before = len(ds)
         ds_filtered = ds.filter(
-            lambda ex: len(ex["audio"]["array"]) <= MAX_AUDIO_SAMPLES,
+            lambda ex: target_sample_count(ex["audio"]) <= MAX_AUDIO_SAMPLES,
             desc=f"Filtering over-long {name} audio",
         )
         n_after = len(ds_filtered)
@@ -210,12 +248,13 @@ def main() -> None:
 
     def preprocess_example(example: dict) -> dict | None:
         text = normalize_text(example["text"])
+        audio_array = prepare_audio_array(example["audio"], target_sr=24000)
         conversation = [
             {
                 "role": "0",
                 "content": [
                     {"type": "text", "text": text},
-                    {"type": "audio", "path": example["audio"]["array"]},
+                    {"type": "audio", "path": audio_array},
                 ],
             }
         ]

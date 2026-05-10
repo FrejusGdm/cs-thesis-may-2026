@@ -101,6 +101,25 @@ All speech experiments for Adja. Updated after every submission and completion.
 
 All Stage 1 Ewe-pretraining jobs in this wave use `google/WaxalNLP` config **`ewe_tts`** (1,215 train + 152 val + 152 test = 1,519 clips), **not** the much larger `ewe_asr` config (15,054 train + 1,916 val + 1,891 test + 183,920 unlabeled). WaxalNLP separates the two because TTS needs cleaner, more prosodically consistent audio (fewer speakers, studio quality), while ASR benefits from diversity. The `ewe_asr` variant is logged as a planned ablation (does 12× more data help or hurt Stage 1 TTS quality?) — see `docs/gbe-cascade-tts-settings-2026-04-22.md` §2.2 and §7 for the paper-facing rationale.
 
+### Audio-range rerun wave (2026-05-09): CSM and Orpheus
+
+The April CSM/Orpheus Adja TTS results are now treated as potentially contaminated by audio-range handling: the Adja parquet can expose PCM-scale float arrays, and these paths did not explicitly scale before CSM processing or SNAC encoding. Spark is not included because its path already had explicit volume normalization. New reruns use fresh `*_AUDIOFIX_20260509` or `*_AUDIOFIX2_20260509` prefixes and do not overwrite prior result folders.
+
+| Exp ID / prefix | Model family | Runtime | Status | Job / run id | Notes |
+|-----------------|--------------|---------|--------|--------------|-------|
+| `T1_AUDIOFIX_20260509` | CSM direct Adja LoRA | HF Jobs | running | `69ff7b51317220dbbd1a7251` | Normalized waveform path before CSM processor. |
+| `T1_full_ft_AUDIOFIX_20260509` | CSM direct Adja full fine-tune | HF Jobs | submitted | `69ff7be4317220dbbd1a7265` | Same normalized data path, full FT control. |
+| `T1_csm_tokfix_AUDIOFIX2_20260509` | CSM tokfix direct Adja | HF Jobs | running | `69ff7d15aff1cd33e8f32171` | Replaces failed `69ff7b52aff1cd33e8f32156` missing `torchaudio`. |
+| `T1_csm_ewe_adja_stage2_AUDIOFIX2_20260509` | CSM Ewe → Adja Stage 2 | HF Jobs | running | `69ff7d1daff1cd33e8f32173` | Replaces failed `69ff7b50317220dbbd1a724d` missing `torchaudio`. |
+| `T2_orpheus_en_lora_{r32,r64,r128}_AUDIOFIX_20260509` | Orpheus EN direct Adja | HF Jobs | running | `69ff7bc6aff1cd33e8f32162`, `69ff7b51aff1cd33e8f3214e`, `69ff7bd5aff1cd33e8f32164` | Normalized before SNAC encode. |
+| `T2_orpheus_en_fullft_AUDIOFIX_20260509` | Orpheus EN full fine-tune | HF Jobs | submitted | `69ff7bd5317220dbbd1a7263` | Full-FT control. |
+| `T2_orpheus_fr_lora_r64_AUDIOFIX_20260509` | Orpheus FR direct Adja | HF Jobs | running | `69ff7bd5aff1cd33e8f32166` | Matched FR-base control. |
+| `T2_orpheus_tokfix_AUDIOFIX_20260509` | Orpheus tokfix direct Adja | HF Jobs | running | `69ff7be6317220dbbd1a7269` | Tokenizer-expanded direct-Adja rerun. |
+| `T2_orpheus_zh_AUDIOFIX_20260509` | Orpheus ZH direct Adja | HF Jobs | running | `69ff7be5317220dbbd1a7267` | ZH-base direct-Adja rerun. |
+| `T2_orpheus_{en,fr,zh}_ewe_adja_stage2_AUDIOFIX_20260509` | Orpheus Ewe → Adja Stage 2 | HF Jobs | running | `69ff7b51317220dbbd1a724f`, `69ff7bf4317220dbbd1a726b`, `69ff7bf4aff1cd33e8f32168` | ZH Stage 2 depends on the ZH Stage 1 checkpoint being present. |
+| `T2_orpheus_en_ewe_adja_stage2_mixed_AUDIOFIX_20260509` | Orpheus mixed Ewe+Adja Stage 2 | HF Jobs | running | `69ff7b50317220dbbd1a724b` | Anti-forgetting mixed-data rerun. |
+| `CF1/CF2/CF3_*_AUDIOFIX_20260509` | CSM SageMaker Stage 2 variants | SageMaker | training | `adja-cf1-audiofix-full-20260509-142331`, `adja-cf2-audiofix-full-20260509-142331`, `adja-cf3-audiofix-full-20260509-142331` | Original SageMaker recipes, now with explicit waveform normalization. |
+
 | Exp ID | Model | Status | Primary Runtime | Output Path | Notes |
 |--------|-------|--------|-----------------|-------------|-------|
 | T1-csm-colab | Sesame CSM (1B) + Unsloth | ready | Google Colab T4 | results/T1/seed42/ | Canonical first-success path. Start from the downloaded Unsloth notebook, then apply the Adja runbook and use `use_gradient_checkpointing=True` only if the known CSM patch issue appears. |

@@ -835,6 +835,11 @@
     "source_root": "adja-nmt"
   },
   {
+    "dest": "docs/adja-nmt/tts-audio-range-normalization-reruns-2026-05-09.md",
+    "source": "docs/tts-audio-range-normalization-reruns-2026-05-09.md",
+    "source_root": "adja-nmt"
+  },
+  {
     "dest": "docs/adja-nmt/learning/README.md",
     "source": "learning/README.md",
     "source_root": "adja-nmt"
@@ -1522,11 +1527,6 @@
   {
     "dest": "code/adja-nmt/experiments/mt/MISSION-LOG.md",
     "source": "experiments/mt/MISSION-LOG.md",
-    "source_root": "adja-nmt"
-  },
-  {
-    "dest": "code/adja-nmt/experiments/mt/train_nllb_job.py",
-    "source": "experiments/mt/train_nllb_job.py",
     "source_root": "adja-nmt"
   },
   {

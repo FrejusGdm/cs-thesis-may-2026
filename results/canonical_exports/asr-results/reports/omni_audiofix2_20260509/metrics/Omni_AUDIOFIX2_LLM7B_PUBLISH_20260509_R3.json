@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 20.67,
+    "num_samples": 160,
+    "wer": 63.98
+  },
+  "folder": "Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3_llm_1778370222",
+  "hardware": "h200x4",
+  "job_id": "not recorded in release notes",
+  "model": "omniASR_LLM_7B_v2",
+  "note": "Packaging/publish rerun found in the private result dump; slightly lower CER but higher WER than the main LLM7B result.",
+  "run": "Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3",
+  "status": "completed",
+  "test": {
+    "cer": 19.84,
+    "num_samples": 160,
+    "wer": 62.74
+  }
+}

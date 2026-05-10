@@ -1,0 +1,135 @@
+{
+  "best_main_run": "Omni_AUDIOFIX2_LLM7B_20260509_M0",
+  "best_main_test_cer": 19.86,
+  "best_main_test_wer": 62.28,
+  "release_policy": "metrics_only_no_checkpoints",
+  "runs": [
+    {
+      "dev": {
+        "cer": 20.76,
+        "num_samples": 160,
+        "wer": 63.8
+      },
+      "folder": "Omni_AUDIOFIX2_LLM7B_20260509_M0_llm_1778343264",
+      "hardware": "h200x4",
+      "job_id": "69ff5bfaaff1cd33e8f31fe8",
+      "model": "omniASR_LLM_7B_v2",
+      "note": "Best main AUDIOFIX2 run by test WER; best clean result named in thesis notes.",
+      "run": "Omni_AUDIOFIX2_LLM7B_20260509_M0",
+      "status": "completed",
+      "test": {
+        "cer": 19.86,
+        "num_samples": 160,
+        "wer": 62.28
+      }
+    },
+    {
+      "dev": {
+        "cer": 20.67,
+        "num_samples": 160,
+        "wer": 63.98
+      },
+      "folder": "Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3_llm_1778370222",
+      "hardware": "h200x4",
+      "job_id": "not recorded in release notes",
+      "model": "omniASR_LLM_7B_v2",
+      "note": "Packaging/publish rerun found in the private result dump; slightly lower CER but higher WER than the main LLM7B result.",
+      "run": "Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3",
+      "status": "completed",
+      "test": {
+        "cer": 19.84,
+        "num_samples": 160,
+        "wer": 62.74
+      }
+    },
+    {
+      "dev": {
+        "cer": 22.86,
+        "num_samples": 160,
+        "wer": 66.17
+      },
+      "folder": "Omni_AUDIOFIX2_LLM3B_20260509_M0_llm_1778343024",
+      "hardware": "h200",
+      "job_id": "69ff5bfaaff1cd33e8f31fe4",
+      "model": "omniASR_LLM_3B_v2",
+      "note": "Best 3B audio-fix run.",
+      "run": "Omni_AUDIOFIX2_LLM3B_20260509_M0",
+      "status": "completed",
+      "test": {
+        "cer": 22.91,
+        "num_samples": 160,
+        "wer": 69.08
+      }
+    },
+    {
+      "dev": {
+        "cer": 24.12,
+        "num_samples": 155,
+        "wer": 71.56
+      },
+      "folder": "Omni_AUDIOFIX2_CTC3B_20260509_M2_ctc_1778343030",
+      "hardware": "h200",
+      "job_id": "69ff5bfa317220dbbd1a71b5",
+      "model": "omniASR_CTC_3B_v2",
+      "note": "Best CTC-family audio-fix run.",
+      "run": "Omni_AUDIOFIX2_CTC3B_20260509_M2",
+      "status": "completed",
+      "test": {
+        "cer": 23.79,
+        "num_samples": 155,
+        "wer": 73.26
+      }
+    },
+    {
+      "dev": {
+        "cer": 25.24,
+        "num_samples": 160,
+        "wer": 70.9
+      },
+      "folder": "Omni_AUDIOFIX2_LLM300M_20260509_M0_llm_1778343022",
+      "hardware": "h200",
+      "job_id": "69ff5bf9aff1cd33e8f31fe0",
+      "model": "omniASR_LLM_300M_v2",
+      "note": "Small LLM baseline after audio-range fix.",
+      "run": "Omni_AUDIOFIX2_LLM300M_20260509_M0",
+      "status": "completed",
+      "test": {
+        "cer": 24.78,
+        "num_samples": 160,
+        "wer": 73.44
+      }
+    },
+    {
+      "dev": {
+        "cer": 27.78,
+        "num_samples": 155,
+        "wer": 79.96
+      },
+      "folder": "Omni_AUDIOFIX2_CTC300M_20260509_M2_ctc_1778343024",
+      "hardware": "h200",
+      "job_id": "69ff5bfaaff1cd33e8f31fe6",
+      "model": "omniASR_CTC_300M_v2",
+      "note": "Small CTC baseline after audio-range fix.",
+      "run": "Omni_AUDIOFIX2_CTC300M_20260509_M2",
+      "status": "completed",
+      "test": {
+        "cer": 26.98,
+        "num_samples": 155,
+        "wer": 77.9
+      }
+    },
+    {
+      "dev": null,
+      "folder": "not uploaded",
+      "hardware": "h200",
+      "job_id": "69ff5bfaaff1cd33e8f31fe2",
+      "model": "omniASR_CTC_7B_v2",
+      "note": "Failed on single H200 CUDA OOM; no result folder was uploaded.",
+      "run": "Omni_AUDIOFIX2_CTC7B_20260509_M2",
+      "status": "error_cuda_oom",
+      "test": null
+    }
+  ],
+  "source_repo": "JosueG/adja-asr-results",
+  "source_repo_type": "model"
+}

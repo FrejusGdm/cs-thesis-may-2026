@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # /// script
-# dependencies = ["torch==2.5.1", "transformers==4.52.3", "peft>=0.11.0,<0.16.0", "accelerate", "datasets>=3.4.1,<4.0.0", "soundfile", "librosa", "numpy", "scipy", "huggingface-hub>=0.34.0", "hf_transfer", "sentencepiece", "protobuf", "torchcodec", "bitsandbytes"]
+# dependencies = ["torch==2.5.1", "torchaudio==2.5.1", "transformers==4.52.3", "peft>=0.11.0,<0.16.0", "accelerate", "datasets>=3.4.1,<4.0.0", "soundfile", "librosa", "numpy", "scipy", "huggingface-hub>=0.34.0", "hf_transfer", "sentencepiece", "protobuf", "torchcodec", "bitsandbytes"]
 # ///
 from __future__ import annotations
 """
@@ -55,6 +55,39 @@ def normalize_text(text):
     return " ".join(unicodedata.normalize("NFC", text.strip()).split())
 
 
+def normalize_waveform_range(audio):
+    import numpy as np
+
+    wav = np.asarray(audio, dtype=np.float32)
+    if wav.ndim > 1:
+        wav = wav.mean(axis=-1)
+    if wav.size == 0:
+        return wav
+    max_abs = float(np.max(np.abs(wav)))
+    if max_abs > 2.0:
+        scale = 65536.0 if max_abs <= 65536.0 * 1.1 else max_abs
+        wav = wav / scale
+    return wav.astype(np.float32, copy=False)
+
+
+def prepare_audio_array(audio_info, target_sr=24000):
+    audio_array = normalize_waveform_range(audio_info["array"])
+    sampling_rate = int(audio_info.get("sampling_rate") or target_sr)
+    if sampling_rate != target_sr:
+        import torch
+        import torchaudio.functional as F
+
+        tensor = torch.from_numpy(audio_array).unsqueeze(0)
+        audio_array = F.resample(tensor, orig_freq=sampling_rate, new_freq=target_sr).squeeze(0).numpy()
+        audio_array = normalize_waveform_range(audio_array)
+    return audio_array
+
+
+def target_sample_count(audio_info, target_sr=24000):
+    sampling_rate = int(audio_info.get("sampling_rate") or target_sr)
+    return int(round(len(audio_info["array"]) * target_sr / sampling_rate))
+
+
 def main():
     args = parse_args()
     token = os.environ.get("HF_TOKEN")
@@ -86,9 +119,9 @@ def main():
     ds = load_dataset(args.dataset, token=token, split="train")
     split1 = ds.train_test_split(test_size=0.1, seed=args.seed)
     split2 = split1["train"].train_test_split(test_size=0.1 / 0.9, seed=args.seed)
-    train_ds = split2["train"].cast_column("audio", Audio(sampling_rate=24000))
-    dev_ds = split2["test"].cast_column("audio", Audio(sampling_rate=24000))
-    test_ds = split1["test"].cast_column("audio", Audio(sampling_rate=24000))
+    train_ds = split2["train"]
+    dev_ds = split2["test"]
+    test_ds = split1["test"]
     print(f"Train={len(train_ds)} Dev={len(dev_ds)} Test={len(test_ds)}\n")
 
     # ===== Load model from Stage 1 =====
@@ -119,7 +152,7 @@ def main():
 
     def filter_by_length(ds, name):
         n_before = len(ds)
-        ds_filtered = ds.filter(lambda ex: len(ex["audio"]["array"]) <= MAX_AUDIO_SAMPLES,
+        ds_filtered = ds.filter(lambda ex: target_sample_count(ex["audio"]) <= MAX_AUDIO_SAMPLES,
                                 desc=f"Filtering over-long {name}")
         if len(ds_filtered) < n_before:
             print(f"  {name}: dropped {n_before - len(ds_filtered)} clips > 10s")
@@ -130,11 +163,12 @@ def main():
 
     def preprocess_example(example):
         text = normalize_text(example["text"])
+        audio_array = prepare_audio_array(example["audio"], target_sr=24000)
         conversation = [{
             "role": "0",
             "content": [
                 {"type": "text", "text": text},
-                {"type": "audio", "path": example["audio"]["array"]},
+                {"type": "audio", "path": audio_array},
             ],
         }]
         try:

@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# /// script
+# dependencies = ["torch==2.6.0", "torchaudio==2.6.0", "transformers==4.56.2", "peft>=0.11.0,<0.16.0", "accelerate", "datasets>=3.4.1,<4.0.0", "huggingface-hub>=0.34.0", "hf_transfer", "soundfile", "librosa", "numpy", "scipy", "sentencepiece", "protobuf", "bitsandbytes", "snac", "trl==0.22.2"]
+# ///
 from __future__ import annotations
 
 """
@@ -106,6 +109,8 @@ def pip_install(packages: list[str], no_deps: bool = False) -> None:
 
 
 def install_env() -> None:
+    print("Dependencies are resolved by uv from the inline PEP 723 metadata.")
+    return
     # Core pins come from the upstream Unsloth Orpheus notebook. Kept as exact
     # versions because Orpheus's dtype/tokeniser assumptions move with
     # transformers releases.
@@ -150,10 +155,14 @@ def build_snac_codes(audio_array, snac_model, orig_sr: int, device: str) -> list
     import torch
     import torchaudio.transforms as T
 
-    if isinstance(audio_array, list):
-        waveform = np.asarray(audio_array, dtype=np.float32)
-    else:
-        waveform = np.asarray(audio_array, dtype=np.float32)
+    waveform = np.asarray(audio_array, dtype=np.float32)
+    if waveform.ndim > 1:
+        waveform = waveform.mean(axis=-1)
+    if waveform.size:
+        max_abs = float(np.max(np.abs(waveform)))
+        if max_abs > 2.0:
+            scale = 65536.0 if max_abs <= 65536.0 * 1.1 else max_abs
+            waveform = waveform / scale
 
     tensor = torch.from_numpy(waveform).unsqueeze(0).to(dtype=torch.float32)
     if orig_sr != 24000:

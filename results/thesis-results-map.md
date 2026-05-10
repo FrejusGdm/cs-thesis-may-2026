@@ -14,6 +14,13 @@ to look before the ASR/TTS result archives are consolidated.
 | ASR complementary | `JosueG/whisper-ewe-adja-e4v4` | deployable Whisper-Ewe -> Adja ASR | 37.18% dev CER; useful second judge with hallucination caveats |
 | TTS primary | `JosueG/spark-tts-adja-t3` | thesis-best Spark T3 Adja TTS | intelligible native-listening result; 36.14% C4v2 reverse-CER for canonical T3 |
 
+## Best Measured ASR Result
+
+The best measured ASR result is now `Omni_AUDIOFIX2_LLM7B_20260509_M0`:
+**test CER 19.86 / WER 62.28** after the audio-range fix. It lives in the ASR
+result archive as a report/metric export. It is not yet a standalone public
+model repo, so C4v2 remains the best public deployable ASR model artifact.
+
 ## Experiment Archive
 
 The release keeps negative and partial results because they explain the final
@@ -29,6 +36,8 @@ choices:
 - TTS trials: Orpheus, CSM, F5, and several direct LoRA attempts produced
   noise or non-Adja output; Spark T3 is the best surviving family.
 - Qwen/Omni pilots: operational but behind the XLS-R and Whisper-Ewe systems.
+- Audio-fixed Omni LLM7B: strongest measured ASR result so far, but still a
+  private checkpoint/provenance item until a clean model repo is published.
 
 ## Where Things Live
 
@@ -40,6 +49,7 @@ choices:
 | MMS-ready derivative | not canonical public source | `JosueG/adja-tts-mms-ready`, kept as provenance only |
 | MT models | two NLLB model repos listed above | existing best model repos remain weight locations |
 | ASR models | C4v2 and E4v4 model repos listed above | result dumps remain in `JosueG/adja-asr-results` |
+| Best ASR result | `Omni_AUDIOFIX2_LLM7B_20260509_M0` metrics in ASR result archive | checkpoint remains in private result provenance |
 | TTS model | `JosueG/spark-tts-adja-t3` | source/checkpoint provenance in `JosueG/adja-tts-results` and `JosueG/adja-tts-checkpoints` |
 | ASR result archive | `JosueG/cs-thesis-may-2026-asr-results` | exported from this GitHub release; old mixed repo remains provenance |
 | TTS result archive | `JosueG/cs-thesis-may-2026-tts-results` | exported from this GitHub release; old mixed repos remain provenance |

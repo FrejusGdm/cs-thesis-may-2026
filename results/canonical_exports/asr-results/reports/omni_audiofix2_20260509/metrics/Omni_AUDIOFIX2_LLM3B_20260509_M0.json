@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 22.86,
+    "num_samples": 160,
+    "wer": 66.17
+  },
+  "folder": "Omni_AUDIOFIX2_LLM3B_20260509_M0_llm_1778343024",
+  "hardware": "h200",
+  "job_id": "69ff5bfaaff1cd33e8f31fe4",
+  "model": "omniASR_LLM_3B_v2",
+  "note": "Best 3B audio-fix run.",
+  "run": "Omni_AUDIOFIX2_LLM3B_20260509_M0",
+  "status": "completed",
+  "test": {
+    "cer": 22.91,
+    "num_samples": 160,
+    "wer": 69.08
+  }
+}

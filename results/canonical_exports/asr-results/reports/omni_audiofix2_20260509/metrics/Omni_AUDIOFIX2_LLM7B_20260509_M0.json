@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 20.76,
+    "num_samples": 160,
+    "wer": 63.8
+  },
+  "folder": "Omni_AUDIOFIX2_LLM7B_20260509_M0_llm_1778343264",
+  "hardware": "h200x4",
+  "job_id": "69ff5bfaaff1cd33e8f31fe8",
+  "model": "omniASR_LLM_7B_v2",
+  "note": "Best main AUDIOFIX2 run by test WER; best clean result named in thesis notes.",
+  "run": "Omni_AUDIOFIX2_LLM7B_20260509_M0",
+  "status": "completed",
+  "test": {
+    "cer": 19.86,
+    "num_samples": 160,
+    "wer": 62.28
+  }
+}

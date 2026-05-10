@@ -61,3 +61,13 @@ say what they actually are.
 - Added both result repos to the thesis Hugging Face collection.
 - Export policy: reports, metrics, selected predictions, and manifests only;
   no checkpoints, raw private audio, or old mixed experiment dependency folders.
+
+## 2026-05-09: Omni AUDIOFIX2 Result Update
+
+- Added completed `Omni_AUDIOFIX2_*` metrics to the ASR result archive.
+- New best measured ASR result: `Omni_AUDIOFIX2_LLM7B_20260509_M0`, with test
+  CER `19.86` and test WER `62.28`.
+- Recorded `Omni_AUDIOFIX2_CTC7B_20260509_M2` as failed due to single-H200 CUDA
+  OOM, with no uploaded eval folder.
+- Kept C4v2 as the best public deployable ASR model repo until an Omni
+  checkpoint is published as a clean standalone model.

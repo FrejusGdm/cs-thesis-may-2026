@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 24.12,
+    "num_samples": 155,
+    "wer": 71.56
+  },
+  "folder": "Omni_AUDIOFIX2_CTC3B_20260509_M2_ctc_1778343030",
+  "hardware": "h200",
+  "job_id": "69ff5bfa317220dbbd1a71b5",
+  "model": "omniASR_CTC_3B_v2",
+  "note": "Best CTC-family audio-fix run.",
+  "run": "Omni_AUDIOFIX2_CTC3B_20260509_M2",
+  "status": "completed",
+  "test": {
+    "cer": 23.79,
+    "num_samples": 155,
+    "wer": 73.26
+  }
+}

@@ -355,6 +355,69 @@ def parse_bool_env(name: str, default: bool = False) -> bool:
     return raw.strip().lower() in {"1", "true", "yes", "y", "on"}
 
 
+def write_publish_readme(
+    *,
+    path: Path,
+    run_name: str,
+    ft_mode: str,
+    model_name: str,
+    dataset_id: str,
+    eval_metrics: dict[str, object] | None,
+) -> None:
+    metrics_block = json.dumps(eval_metrics, indent=2, ensure_ascii=False) if eval_metrics else "null"
+    path.write_text(
+        "\n".join(
+            [
+                "---",
+                "language:",
+                "- ajg",
+                "language_bcp47:",
+                "- ajg-Latn",
+                "license: other",
+                "tags:",
+                "- automatic-speech-recognition",
+                "- omnilingual-asr",
+                "- adja",
+                "- gbe",
+                "datasets:",
+                f"- {dataset_id}",
+                "metrics:",
+                "- wer",
+                "- cer",
+                "---",
+                "",
+                f"# {run_name}",
+                "",
+                "Fine-tuned Meta Omnilingual ASR checkpoint artifacts for Adja.",
+                "",
+                "## Source",
+                "",
+                f"- Fine-tune mode: `{ft_mode}`",
+                f"- Base model card: `{model_name}`",
+                f"- Dataset: `{dataset_id}`",
+                "- Checkpoint artifacts: `recipe_output/`",
+                "- Recipe config: `metadata/recipe_config.yaml`",
+                "- Run summary: `metadata/run_summary.json`",
+                "",
+                "## Evaluation",
+                "",
+                "```json",
+                metrics_block,
+                "```",
+                "",
+                "## Notes",
+                "",
+                "This repo is published from `scripts/hf_jobs/omni_asr_finetune_recipe.py`",
+                "with `PUBLISH_MODEL=1`. It preserves the fairseq2 recipe output so",
+                "the trained checkpoint can be reused by batch evaluators or wrapped",
+                "for a dedicated Hugging Face Inference Endpoint.",
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     hf_token = os.environ.get("HF_TOKEN")
     if not hf_token:
@@ -393,6 +456,9 @@ def main() -> None:
         save_model_only = "all_but_last"
     output_root = Path(os.environ.get("OUTPUT_ROOT", "/tmp/omni_finetune_outputs"))
     results_repo = os.environ.get("RESULTS_REPO", "JosueG/adja-asr-results")
+    output_repo = os.environ.get("OUTPUT_REPO", "").strip()
+    publish_model = parse_bool_env("PUBLISH_MODEL", False)
+    model_repo_private = parse_bool_env("MODEL_REPO_PRIVATE", True)
     experiment_prefix = os.environ.get("EXPERIMENT_PREFIX", "Omni_FT")
     repo_url = os.environ.get(
         "OMNI_REPO_URL", "https://github.com/facebookresearch/omnilingual-asr.git"
@@ -783,6 +849,117 @@ def main() -> None:
             token=hf_token,
         )
     print(f"Uploaded summary artifacts to {results_repo}/{run_name}/")
+
+    if publish_model:
+        if not output_repo:
+            raise RuntimeError("PUBLISH_MODEL=1 requires OUTPUT_REPO.")
+        if prep_only:
+            raise RuntimeError("PUBLISH_MODEL=1 cannot be used with PREP_ONLY=true.")
+        if not train_output_dir.exists():
+            raise FileNotFoundError(f"Training output dir not found: {train_output_dir}")
+
+        print(f"Publishing checkpoint artifacts to model repo {output_repo}...")
+        api.create_repo(
+            output_repo,
+            repo_type="model",
+            private=model_repo_private,
+            exist_ok=True,
+        )
+
+        publish_readme_path = work_dir / "README.publish.md"
+        write_publish_readme(
+            path=publish_readme_path,
+            run_name=run_name,
+            ft_mode=ft_mode,
+            model_name=mode_config["model_name"],
+            dataset_id=dataset_id,
+            eval_metrics=eval_metrics,
+        )
+        publish_manifest = {
+            "experiment": run_name,
+            "ft_mode": ft_mode,
+            "dataset_id": dataset_id,
+            "model_name": mode_config["model_name"],
+            "tokenizer_name": mode_config["tokenizer_name"],
+            "recipe_output_path": "recipe_output/",
+            "metadata_path": "metadata/",
+            "eval_metrics": eval_metrics,
+        }
+        publish_manifest_path = work_dir / "publish_manifest.json"
+        publish_manifest_path.write_text(
+            json.dumps(publish_manifest, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        requirements_path = work_dir / "requirements.txt"
+        requirements_path.write_text(
+            "\n".join(
+                [
+                    "torch==2.8.0",
+                    "torchaudio==2.8.0",
+                    "fairseq2==0.6.0",
+                    "omnilingual-asr @ git+https://github.com/facebookresearch/omnilingual-asr.git",
+                    "soundfile",
+                    "librosa",
+                    "numpy",
+                    "pyyaml",
+                    "",
+                ]
+            ),
+            encoding="utf-8",
+        )
+
+        api.upload_folder(
+            folder_path=str(train_output_dir),
+            path_in_repo="recipe_output",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+            commit_message=f"Publish OmniASR checkpoint artifacts for {run_name}",
+        )
+        api.upload_file(
+            path_or_fileobj=requirements_path.read_bytes(),
+            path_in_repo="requirements.txt",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+        )
+        api.upload_file(
+            path_or_fileobj=publish_manifest_path.read_bytes(),
+            path_in_repo="metadata/publish_manifest.json",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+        )
+        api.upload_file(
+            path_or_fileobj=run_summary_path.read_bytes(),
+            path_in_repo="metadata/run_summary.json",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+        )
+        api.upload_file(
+            path_or_fileobj=config_path.read_bytes(),
+            path_in_repo="metadata/recipe_config.yaml",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+        )
+        if eval_metrics is not None:
+            api.upload_file(
+                path_or_fileobj=eval_metrics_path.read_bytes(),
+                path_in_repo="metadata/eval_metrics.json",
+                repo_id=output_repo,
+                repo_type="model",
+                token=hf_token,
+            )
+        api.upload_file(
+            path_or_fileobj=publish_readme_path.read_bytes(),
+            path_in_repo="README.md",
+            repo_id=output_repo,
+            repo_type="model",
+            token=hf_token,
+        )
+        print(f"Published checkpoint artifacts to https://huggingface.co/{output_repo}")
 
 
 if __name__ == "__main__":

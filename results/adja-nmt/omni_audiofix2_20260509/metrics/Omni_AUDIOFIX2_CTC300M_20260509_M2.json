@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "cer": 27.78,
+    "num_samples": 155,
+    "wer": 79.96
+  },
+  "folder": "Omni_AUDIOFIX2_CTC300M_20260509_M2_ctc_1778343024",
+  "hardware": "h200",
+  "job_id": "69ff5bfaaff1cd33e8f31fe6",
+  "model": "omniASR_CTC_300M_v2",
+  "note": "Small CTC baseline after audio-range fix.",
+  "run": "Omni_AUDIOFIX2_CTC300M_20260509_M2",
+  "status": "completed",
+  "test": {
+    "cer": 26.98,
+    "num_samples": 155,
+    "wer": 77.9
+  }
+}

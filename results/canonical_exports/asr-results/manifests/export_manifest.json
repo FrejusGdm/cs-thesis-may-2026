@@ -171,12 +171,48 @@
     {
       "dest": "reports/experiments/E4_whisper_ewe_finetune/decode_samples.md",
       "source": "results/adja-nmt/E4_whisper_ewe_finetune/decode_samples.md"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/README.md",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/README.md"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/summary.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/summary.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM3B_20260509_M0.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM3B_20260509_M0.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM7B_20260509_M0.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM7B_20260509_M0.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM300M_20260509_M0.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM300M_20260509_M0.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_LLM7B_PUBLISH_20260509_R3.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC300M_20260509_M2.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC300M_20260509_M2.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC7B_20260509_M2.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC7B_20260509_M2.json"
+    },
+    {
+      "dest": "reports/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC3B_20260509_M2.json",
+      "source": "results/adja-nmt/omni_audiofix2_20260509/metrics/Omni_AUDIOFIX2_CTC3B_20260509_M2.json"
     }
   ],
   "export_policy": "reports_metrics_predictions_only_no_checkpoints_no_raw_private_audio",
   "generated_from_github_release": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
   "repo_id": "JosueG/cs-thesis-may-2026-asr-results",
   "repo_type": "dataset",
-  "source_revision": "14dbf544197122da414e6ad3b2451d17f1b6c435",
+  "source_revision": "0e6380f5b5484f9291dadcd691b6f878dd15fb93",
   "task": "automatic-speech-recognition"
 }

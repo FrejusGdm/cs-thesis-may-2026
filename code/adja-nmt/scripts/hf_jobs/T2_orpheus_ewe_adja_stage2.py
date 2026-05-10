@@ -70,7 +70,15 @@ def normalize_text(text):
 def build_snac_codes(audio_array, snac_model, orig_sr, device):
     import numpy as np, torch
     import torchaudio.transforms as T
-    waveform = torch.from_numpy(np.asarray(audio_array, dtype=np.float32)).unsqueeze(0)
+    audio = np.asarray(audio_array, dtype=np.float32)
+    if audio.ndim > 1:
+        audio = audio.mean(axis=-1)
+    if audio.size:
+        max_abs = float(np.max(np.abs(audio)))
+        if max_abs > 2.0:
+            scale = 65536.0 if max_abs <= 65536.0 * 1.1 else max_abs
+            audio = audio / scale
+    waveform = torch.from_numpy(audio.astype(np.float32, copy=False)).unsqueeze(0)
     if orig_sr != 24000:
         waveform = T.Resample(orig_freq=orig_sr, new_freq=24000)(waveform)
     with torch.inference_mode():

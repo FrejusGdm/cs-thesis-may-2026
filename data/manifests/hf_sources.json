@@ -28,13 +28,13 @@
       "status": "private_source"
     }
   ],
-  "generated_at": "2026-05-09T16:09:20.133363+00:00",
+  "generated_at": "2026-05-10T00:32:48.933484+00:00",
   "github_remote": "git@github.com:FrejusGdm/cs-thesis-may-2026.git",
   "local_source_repos": [
     {
       "path_hint": "neurosymbolic-ai-paper-experiments",
       "release_policy": "copy_publishable_subset_only",
-      "revision_at_release": "14dbf544197122da414e6ad3b2451d17f1b6c435",
+      "revision_at_release": "0e6380f5b5484f9291dadcd691b6f878dd15fb93",
       "role": "mt_experiment_workspace"
     },
     {
@@ -133,7 +133,7 @@
       "status": "private_results_dump"
     }
   ],
-  "source_revision": "14dbf544197122da414e6ad3b2451d17f1b6c435",
+  "source_revision": "0e6380f5b5484f9291dadcd691b6f878dd15fb93",
   "target_repos": {
     "asr_results": "JosueG/cs-thesis-may-2026-asr-results",
     "hf_collection_actual_slug": "JosueG/cs-thesis-may-2026-69ff55e45e0d5b0eb7fa4344",

@@ -2,7 +2,19 @@
 
 Tracks Adja speech synthesis runs. Keep this separate from the ASR leaderboard in `comparison.md`.
 
-Last updated: **2026-04-28** — added quantitative reverse-WER auto-eval (see [reverse-wer-summary.md](reverse-wer-summary.md)).
+Last updated: **2026-05-09** — added CSM/Orpheus audio-range caveat and rerun pointer.
+
+## May 2026 audio-range caveat
+
+A 2026-05-09 parquet audit found that `JosueG/adja-tts-orpheus` can expose PCM-scale float audio
+arrays. The April CSM and Orpheus Adja runs did not consistently apply explicit waveform
+range-normalization before CSM processing or SNAC encoding, so those negative results should be
+treated as **preliminary** until the normalized reruns finish and are listened to.
+
+Spark TTS is not affected by this caveat because its path already performed explicit audio
+normalization. The old CSM/Orpheus reverse-WER and listening rows are preserved below as historical
+observations, not deleted. The rerun matrix and job IDs are documented in
+[docs/tts-audio-range-normalization-reruns-2026-05-09.md](../docs/tts-audio-range-normalization-reruns-2026-05-09.md).
 
 ## Reverse-WER auto-eval (2026-04-29 — expanded run, 22 runs scored)
 

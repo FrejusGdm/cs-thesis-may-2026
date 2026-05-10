@@ -1,0 +1,11 @@
+{
+  "dev": null,
+  "folder": "not uploaded",
+  "hardware": "h200",
+  "job_id": "69ff5bfaaff1cd33e8f31fe2",
+  "model": "omniASR_CTC_7B_v2",
+  "note": "Failed on single H200 CUDA OOM; no result folder was uploaded.",
+  "run": "Omni_AUDIOFIX2_CTC7B_20260509_M2",
+  "status": "error_cuda_oom",
+  "test": null
+}

@@ -15,6 +15,14 @@ Companion docs:
 - [results/run-ledger.md](../results/run-ledger.md) — chronological per-run log
 - [session-logs/2026-04-22-tts-failure-modes-debug.md](../session-logs/2026-04-22-tts-failure-modes-debug.md) — infra failure-mode writeup
 - [research-paper-exploration/paper-one/why-spark-worked.md](../research-paper-exploration/paper-one/why-spark-worked.md) — prior tokenizer/codec analysis
+- [docs/tts-audio-range-normalization-reruns-2026-05-09.md](tts-audio-range-normalization-reruns-2026-05-09.md) — May 2026 CSM/Orpheus audio-range caveat and rerun matrix
+
+**May 2026 caveat:** a later parquet audit found that some CSM and Orpheus Adja paths may have
+consumed PCM-scale float arrays without explicit waveform normalization. Treat the April CSM and
+Orpheus Adja listening failures as preliminary until the reruns in
+[tts-audio-range-normalization-reruns-2026-05-09.md](tts-audio-range-normalization-reruns-2026-05-09.md)
+finish. Spark is not affected by this caveat because its path already performed explicit audio
+normalization.
 
 ## 1. Why a Gbe-family cascade at all
 

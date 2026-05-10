@@ -26,16 +26,56 @@ Chronological log of every run attempt — including failed and crashed runs.
 
 | Exp ID | Model | Job | Hardware | Key settings |
 |--------|-------|-----|----------|--------------|
-| `Omni_AUDIOFIX_CTC300M_20260509_M2` | `omniASR_CTC_300M_v2` | `69ff5af6317220dbbd1a71ab` | `h200` | full train/dev/test, `VALID_SPLITS=dev,test`, `MIN_AUDIO_LEN=32000`, 400 steps |
-| `Omni_AUDIOFIX_LLM300M_20260509_M0` | `omniASR_LLM_300M_v2` | `69ff5af6317220dbbd1a71ad` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, 200 steps |
-| `Omni_AUDIOFIX_CTC3B_20260509_M2` | `omniASR_CTC_3B_v2` | `69ff5af5317220dbbd1a71a9` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=32000`, `DATA_PARALLELISM=fsdp`, 390 steps |
-| `Omni_AUDIOFIX_LLM3B_20260509_M0` | `omniASR_LLM_3B_v2` | `69ff5af5aff1cd33e8f31fc8` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, 200 steps |
-| `Omni_AUDIOFIX_CTC7B_20260509_M2` | `omniASR_CTC_7B_v2` | `69ff5893aff1cd33e8f31fa7` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=32000`, 400 steps |
-| `Omni_AUDIOFIX_LLM7B_20260509_M0` | `omniASR_LLM_7B_v2` | `69ff598eaff1cd33e8f31fb2` | `h200x4` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, `DATA_PARALLELISM=fsdp`, 200 steps |
+| `Omni_AUDIOFIX2_CTC300M_20260509_M2` | `omniASR_CTC_300M_v2` | `69ff5bfaaff1cd33e8f31fe6` | `h200` | full train/dev/test, `VALID_SPLITS=dev,test`, `MIN_AUDIO_LEN=32000`, 400 steps |
+| `Omni_AUDIOFIX2_LLM300M_20260509_M0` | `omniASR_LLM_300M_v2` | `69ff5bf9aff1cd33e8f31fe0` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, 200 steps |
+| `Omni_AUDIOFIX2_CTC3B_20260509_M2` | `omniASR_CTC_3B_v2` | `69ff5bfa317220dbbd1a71b5` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=32000`, `DATA_PARALLELISM=fsdp`, 390 steps |
+| `Omni_AUDIOFIX2_LLM3B_20260509_M0` | `omniASR_LLM_3B_v2` | `69ff5bfaaff1cd33e8f31fe4` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, 200 steps |
+| `Omni_AUDIOFIX2_CTC7B_20260509_M2` | `omniASR_CTC_7B_v2` | `69ff5bfaaff1cd33e8f31fe2` | `h200` | full train/dev/test, `MIN_AUDIO_LEN=32000`, 400 steps |
+| `Omni_AUDIOFIX2_LLM7B_20260509_M0` | `omniASR_LLM_7B_v2` | `69ff5bfaaff1cd33e8f31fe8` | `h200x4` | full train/dev/test, `MIN_AUDIO_LEN=1600`, 8s cap, `DATA_PARALLELISM=fsdp`, 200 steps |
 
 - Immediate status:
-  - All six HF Jobs submissions accepted.
-  - The first CTC 7B submission was accidentally attached locally rather than detached, but the remote job is valid and running as `69ff5893aff1cd33e8f31fa7`.
+  - First submission wave (`Omni_AUDIOFIX_*`; jobs `69ff5893`, `69ff598e`, `69ff5af5`/`69ff5af6`) was canceled after noticing the trainer could print secret env vars in logs.
+  - Launcher now removes `HF_TOKEN` / `UV_SCRIPT_HF_TOKEN` from child-process environments before the fairseq trainer starts.
+  - Replacement `Omni_AUDIOFIX2_*` wave above was accepted and is running.
+
+## 2026-05-09 — TTS audio-range fixed CSM/Orpheus rerun wave [RUNNING]
+
+- Trigger:
+  - Parquet audit found `JosueG/adja-tts-orpheus` audio arrays can be stored as PCM-scale float arrays instead of normalized `[-1, 1]` waveforms.
+  - Spark is excluded from this rerun wave because its training path already performs explicit volume normalization. Whisper/ASR is tracked separately in the OmniASR section above.
+- Code fix:
+  - CSM HF scripts now keep raw Adja audio arrays, scale PCM-like values before processing, resample explicitly to 24 kHz, and pass normalized waveforms into `processor.apply_chat_template`.
+  - Orpheus scripts now normalize PCM-like values before SNAC encoding.
+  - SageMaker CF1/CF2/CF3 now avoid recasting Adja to `Audio(decode=False)` before normalization and normalize both direct-array and decoded-byte paths.
+- HF Jobs submitted with fresh output prefixes so April results remain untouched:
+
+| Exp ID / prefix | Scope | Job | Status note |
+|-----------------|-------|-----|-------------|
+| `T1_AUDIOFIX_20260509` | CSM direct Adja LoRA | `69ff7b51317220dbbd1a7251` | running |
+| `T1_full_ft_AUDIOFIX_20260509` | CSM direct Adja full fine-tune | `69ff7be4317220dbbd1a7265` | submitted |
+| `T1_csm_tokfix_AUDIOFIX_20260509` | CSM tokenizer-expanded direct Adja | `69ff7b52aff1cd33e8f32156` | failed fast: missing `torchaudio`; superseded |
+| `T1_csm_tokfix_AUDIOFIX2_20260509` | CSM tokenizer-expanded direct Adja | `69ff7d15aff1cd33e8f32171` | replacement running after dependency fix |
+| `T1_csm_ewe_adja_stage2_AUDIOFIX_20260509` | CSM Ewe Stage 1 → Adja Stage 2 | `69ff7b50317220dbbd1a724d` | failed fast: missing `torchaudio`; superseded |
+| `T1_csm_ewe_adja_stage2_AUDIOFIX2_20260509` | CSM Ewe Stage 1 → Adja Stage 2 | `69ff7d1daff1cd33e8f32173` | replacement running after dependency fix |
+| `T2_orpheus_en_lora_r32_AUDIOFIX_20260509` | Orpheus EN direct Adja LoRA r=32 | `69ff7bc6aff1cd33e8f32162` | running |
+| `T2_orpheus_en_lora_r64_AUDIOFIX_20260509` | Orpheus EN direct Adja LoRA r=64 | `69ff7b51aff1cd33e8f3214e` | running |
+| `T2_orpheus_en_lora_r128_AUDIOFIX_20260509` | Orpheus EN direct Adja LoRA r=128 | `69ff7bd5aff1cd33e8f32164` | running |
+| `T2_orpheus_en_fullft_AUDIOFIX_20260509` | Orpheus EN direct Adja full fine-tune | `69ff7bd5317220dbbd1a7263` | submitted |
+| `T2_orpheus_fr_lora_r64_AUDIOFIX_20260509` | Orpheus FR direct Adja LoRA r=64 | `69ff7bd5aff1cd33e8f32166` | running |
+| `T2_orpheus_tokfix_AUDIOFIX_20260509` | Orpheus tokenizer-expanded direct Adja | `69ff7be6317220dbbd1a7269` | running |
+| `T2_orpheus_zh_AUDIOFIX_20260509` | Orpheus ZH direct Adja | `69ff7be5317220dbbd1a7267` | running |
+| `T2_orpheus_en_ewe_adja_stage2_AUDIOFIX_20260509` | Orpheus EN Ewe Stage 1 → Adja Stage 2 | `69ff7b51317220dbbd1a724f` | running |
+| `T2_orpheus_en_ewe_adja_stage2_mixed_AUDIOFIX_20260509` | Orpheus EN mixed Ewe+Adja Stage 2 | `69ff7b50317220dbbd1a724b` | running |
+| `T2_orpheus_fr_ewe_adja_stage2_AUDIOFIX_20260509` | Orpheus FR Ewe Stage 1 → Adja Stage 2 | `69ff7bf4317220dbbd1a726b` | running |
+| `T2_orpheus_zh_ewe_adja_stage2_AUDIOFIX_20260509` | Orpheus ZH Ewe Stage 1 → Adja Stage 2 | `69ff7bf4aff1cd33e8f32168` | running; depends on ZH Stage 1 checkpoint availability |
+
+- SageMaker CF reruns submitted on the original SageMaker path:
+
+| Exp ID / prefix | Job name | Instance | Status note |
+|-----------------|----------|----------|-------------|
+| `CF1_ewc_stage2_AUDIOFIX_20260509` | `adja-cf1-audiofix-full-20260509-142331` | `ml.g5.2xlarge` | in training |
+| `CF2_curriculum_stage2_AUDIOFIX_20260509` | `adja-cf2-audiofix-full-20260509-142331` | `ml.g5.2xlarge` | in training |
+| `CF3_frozen_backbone_stage2_AUDIOFIX_20260509` | `adja-cf3-audiofix-full-20260509-142331` | `ml.g5.2xlarge` | in training |
 
 ## 2026-05-07 — P1 extended testing: Mode C implementation + cultural Q&A battery
 

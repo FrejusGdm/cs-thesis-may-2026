@@ -33,6 +33,9 @@ active experiment dependency folders.
 
 - Primary ASR model: `JosueG/wav2vec2-xlsr-adja-c4v2`
 - Complementary ASR model: `JosueG/whisper-ewe-adja-e4v4`
+- Best measured ASR result: `Omni_AUDIOFIX2_LLM7B_20260509_M0`, test
+  CER `19.86`, test WER `62.28`, exported under
+  `reports/omni_audiofix2_20260509/`
 - Canonical speech dataset: `JosueG/adja-speech-asr-tts`
 - GitHub release: `FrejusGdm/cs-thesis-may-2026`
 
